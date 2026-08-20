@@ -18,7 +18,7 @@
 
 | Проект | Репозиторий | Что делаем | Файл плана | Статус |
 |---|---|---|---|---|
-| aichat | `aichat` | локальный мульти-провайдер AI-клиент (свой ключ) | `DEMO_ROADMAP.md` → aichat | 🔴 запланирован |
+| aichat | `aichat` | локальный мульти-провайдер AI-клиент (свой ключ) | `DEMO_ROADMAP.md` → aichat | ✅ завершён — v1.2.1: онбординг ключа, README EN/RU, community-файлы, health 100%, релиз v1.2.0, og-превью |
 | alfred | `alfred` | продукт «запись к специалисту»: Telegram/MAX/VK mini-app, MIT, free + кастомизации | `DEMO_ROADMAP.md` → alfred | 🔴 запланирован |
 | AXIIOM-демки | `primary`, `cashier`, `logistics`, `mvno`, `hrmodule`, `padl`, `qbik`, `booking`, `ambar` | конвейер апгрейда до уровня paffo | `DEMO_ROADMAP.md` | 🟡 в очереди |
 | minigames | `minigames` | хаб-лендинг + единая дизайн-система для 10 игр | `DEMO_ROADMAP.md` | 🟡 в очереди |
