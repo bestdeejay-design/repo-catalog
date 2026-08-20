@@ -1,0 +1,104 @@
+# Дорожная карта: демо-лендинги → «технологический прорыв»
+
+> Цель: каждая демка выглядит как технологический прорыв уровня **paffo**.
+> Рейтинг проработанности (0–100) посчитан скриптом `analyze_demos.py` по 10 критериям:
+> README, SEO-мета, семантика HTML, CSS-токены/адаптив/анимации, JS, PWA/манифест,
+> изображения (webp/OG), доступность (a11y), инфраструктура (sitemap/robots/security.txt),
+> структура проекта. Эталон — **paffo** (73 балла, но по коду — лучший; балл занижен
+> из-за однострочного README и отсутствия PWA — это и есть план его апгрейда).
+
+---
+
+## Рейтинг проработанности (от лучшего к худшему)
+
+| # | Репозиторий | Баллы | Статус | Что главное подтянуть |
+|---|---|---|---|---|
+| 1 | mobiap | 85 | 🟢 эталон+ | почти готов; README/OG-полировка |
+| 2 | neo-consulting | 81 | 🟢 эталон+ | почти готов; PWA |
+| 3 | arental_2 | 77.5 | 🟢 эталон+ | почти готов; PWA |
+| 4 | **paffo** | 73 | 🟢 **ЭТАЛОН** | README (1 строка!), PWA, OG-скриншоты в README |
+| 5 | axiiom_landing | 69 | 🟢 хорошо | README, PWA |
+| 6 | dajet | 68.5 | 🟢 хорошо | README, инфраструктура |
+| 7 | univerid | 66.5 | 🟢 хорошо | README, семантика, PWA |
+| 8 | platforma | 66 | 🟢 хорошо | SEO, инфраструктура |
+| 9 | foodie | 62.5 | 🟡 средне | README есть, семантика, PWA |
+| 10 | arental-rental | 62 | 🟡 средне | README, PWA |
+| 11 | blog | 60.5 | 🟡 средне | SEO, инфраструктура |
+| 12 | pizza | 60 | 🟡 средне | SEO, семантика |
+| 13 | ishotgirls | 58 | 🟡 средне | README, PWA |
+| 14 | napolipizza | 54.5 | 🟡 средне | SEO, PWA, изображения |
+| 15 | app | 53.5 | 🟡 средне | SEO, изображения, a11y |
+| 16 | hype | 51 | 🟡 средне | JS, PWA |
+| 17 | agents | 50.5 | 🟡 средне | README, изображения |
+| 18 | ambar | 48.5 | 🟠 слабо | README, PWA, изображения |
+| 19 | arbat38 | 48.5 | 🟠 слабо | консолидация прототипов → единая демка |
+| 20 | aotochka.ru | 48 | 🟠 слабо | README, SEO, изображения |
+| 21 | kodstudy | 48 | 🟠 слабо | семантика, a11y |
+| 22 | qbik | 47 | 🟠 слабо | README, семантика, a11y |
+| 23 | primary | 46 | 🟠 слабо | README, семантика, a11y |
+| 24 | univerid_demo | 46 | 🟠 слабо | SEO, изображения, PWA |
+| 25 | joer | 45.5 | 🟠 слабо | README, SEO, a11y |
+| 26 | logistics | 45 | 🟠 слабо | README, семантика, a11y |
+| 27 | cashier | 44 | 🟠 слабо | README, семантика, a11y |
+| 28 | hrmodule | 44 | 🟠 слабо | README, семантика, a11y |
+| 29 | mvno | 44 | 🟠 слабо | README, семантика, a11y |
+| 30 | padl | 44 | 🟠 слабо | README, семантика, a11y |
+| 31 | arental | 43.5 | 🟠 слабо | README, SEO, изображения |
+| 32 | minigames | 42.5 | 🔴 критично | README, SEO, дизайн-система |
+| 33 | alfred | 42 | 🔴 критично | README, семантика, a11y |
+| 34 | booking | 39 | 🔴 критично | React-шаблон Vite → README, брендинг |
+| 35 | aichat | 39 | 🔴 критично | README, SEO, дизайн |
+
+---
+
+## Приоритеты работ (чем хуже — тем раньше)
+
+### 🔴 P0 — Критично (делаем первыми): 35, 34, 33, 32, 31
+**aichat, booking, alfred, minigames, arental** — нет README, нет дизайн-системы, шаблонный вид.
+
+### 🟠 P1 — Слабо (вторая волна): 30–22
+**padl, mvno, hrmodule, cashier, logistics, joer, univerid_demo, primary, qbik, kodstudy, aotochka.ru, arbat38, ambar** — однотипные AXIIOM-демки на одном шаблоне (`index.html + css/app.css + js/app.js`): можно приводить в порядок **серийно**, по одному процессу.
+
+### 🟡 P2 — Средне (третья волна): 21–15
+**agents, hype, app, napolipizza, ishotgirls, pizza, blog, arental-rental, foodie** — есть база, нужна полировка до эталона.
+
+### 🟢 P3 — Хорошо (финальная полировка): 14–5
+**platforma, univerid, dajet, axiiom_landing, paffo** — довести до 85+.
+
+### 🏆 P4 — Эталоны (не трогаем, кроме мелочей): 4–1
+**paffo, arental_2, neo-consulting, mobiap** — служат образцом. Единственное исключение: **paffo README** (сейчас одна строка) — дописать, чтобы эталон был эталоном и на GitHub.
+
+---
+
+## Чек-лист «технологический прорыв» (по образцу paffo)
+
+Каждая демка после апгрейда должна пройти:
+
+1. **README.md** — что это, скриншоты (2–4), стек, запуск, ссылка на GitHub Pages. *(у paffo: 1 строка → переписать)*
+2. **Дизайн-токены** — `:root { --color-*, --space-*, --font-* }`, ни одного «сырого» hex вне токенов.
+3. **Семантика** — header/main/footer/nav/section/article, один h1, иерархия заголовков.
+4. **SEO-мета** — title, description, canonical, OG (title/description/image), twitter:card, favicon, `lang`.
+5. **Адаптив** — @media + clamp(), mobile-first.
+6. **Анимации** — @keyframes, transition, prefers-color-scheme (тёмная тема), scroll-behavior.
+7. **Изображения** — webp (не jpg/png), `loading="lazy"`, `width/height`, OG-картинка 1200×630.
+8. **Доступность** — alt у всех img, aria-атрибуты, :focus-visible, label для форм, контраст WCAG AA.
+9. **Инфраструктура** — sitemap.xml, robots.txt, `.well-known/security.txt`, CNAME (если свой домен), 404.html.
+10. **PWA** — manifest.json + иконки (можно без service worker для лендингов).
+11. **GitHub** — описание, topics (сделано), GitHub Pages включён, скриншот в README.
+
+---
+
+## Пометки по группам
+
+- **AXIIOM-демки (primary, cashier, alfred, logistics, mvno, hrmodule, padl, qbik, booking, ambar)** — все на одном шаблоне: один и тот же процесс апгрейда ×10, экономия на конвейере.
+- **arbat38** — набор несвязанных прототипов (касса, админка, мобильные, схема БД): сначала решить судьбу — консолидировать в одну демку или разнести.
+- **minigames** — 10 игр (billiards, fps3d, platformer, race, roulette и др.): нужен общий хаб-лендинг с единой дизайн-системой.
+- **booking** — React + Vite (шаблонный README от Vite): заменить README, добавить брендинг, собрать production-версию.
+- **paffo** — эталон кода: 60KB single-file, 201 CSS-переменная, 13 lazy-webp, sitemap/robots/security. Апгрейд = README + PWA + OG в README.
+
+## Как пересчитать рейтинг
+
+```bash
+# локальные копии демок лежат в /tmp/demo_eval (git clone --depth 1)
+python3 /tmp/demo_eval/analyze_demos.py
+```
