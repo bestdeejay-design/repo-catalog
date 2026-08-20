@@ -1,6 +1,6 @@
 # Каталог репозиториев — bestdeejay-design
 
-Всего репозиториев: **72**. Сгенерировано скриптом `generate_catalog.py` — запускай `python3 generate_catalog.py`, чтобы обновить.
+Всего репозиториев: **73**. Сгенерировано скриптом `generate_catalog.py` — запускай `python3 generate_catalog.py`, чтобы обновить.
 
 Легенда: 🔓 публичный · 🔒 приватный · 🌐 ссылка на сайт · локальная папка в `~/Projects`
 
@@ -12,7 +12,7 @@
 | [`lovii`](https://github.com/bestdeejay-design/lovii) [🌐](https://lovii.ru/) | LOVII — white-label SaaS-платформа локальных маркетплейсов районов города. Доставка 15–30 мин. Wh… | HTML | 🔓 | lovii | 2026-08-09 |
 | [`lovii_demo`](https://github.com/bestdeejay-design/lovii_demo) | LOVII — демо-версия white-label платформы локальных маркетплейсов: интерфейс, дизайн, скриншоты. | HTML | 🔓 | lovii_demo | 2026-08-20 |
 | [`lovii_docs`](https://github.com/bestdeejay-design/lovii_docs) | LOVII — документы, спецификации, исследования | TypeScript | 🔒 | lovii_docs | 2026-08-04 |
-| [`lovii_presentation`](https://github.com/bestdeejay-design/lovii_presentation) | презентация сервиса | HTML | 🔓 | lovii_presentation | 2026-07-19 |
+| [`lovii_presentation`](https://github.com/bestdeejay-design/lovii_presentation) | LOVII — презентация для инвесторов: цифровая инфраструктура локальной экономики, юнит-экономика п… | HTML | 🔓 | lovii_presentation | 2026-08-20 |
 | [`personal-os`](https://github.com/bestdeejay-design/personal-os) | Личный операционный центр: заметки, канбан, календарь, файлы, профили, RAG-агент. Бесплатно (Olla… | TypeScript | 🔓 | — | 2026-08-19 |
 | [`pmos`](https://github.com/bestdeejay-design/pmos) | PMOS — Personal Management Operating System. Event-driven microservice monorepo: 16 CRUD Fastify… | TypeScript | 🔓 | — | 2026-08-07 |
 | [`voice-assistant`](https://github.com/bestdeejay-design/voice-assistant) | Бесплатный голосовой RAG-ассистент: Whisper (STT) + локальная база знаний + macOS say (TTS). Лока… | TypeScript | 🔓 | — | 2026-07-20 |
@@ -21,9 +21,9 @@
 
 | Репозиторий | Описание | Язык | Доступ | Локально | Обновлён |
 |---|---|---|---|---|---|
-| [`agents`](https://github.com/bestdeejay-design/agents) | Правила работы с AI | HTML | 🔓 | — | 2026-06-12 |
-| [`aichat`](https://github.com/bestdeejay-design/aichat) | AI Chat — мульти-провайдер клиент для общения с AI моделями | JavaScript | 🔓 | — | 2026-06-08 |
-| [`ambar`](https://github.com/bestdeejay-design/ambar) | фут тех проект с кухней и ит инфраструктурой | HTML | 🔓 | — | 2026-06-12 |
+| [`agents`](https://github.com/bestdeejay-design/agents) | AXIIOM — технологическая группа: цифровая трансформация, финтех, платёжные интеграции, кибербезоп… | HTML | 🔓 | — | 2026-08-20 |
+| [`aichat`](https://github.com/bestdeejay-design/aichat) | AI Chat — мульти-провайдер клиент для общения с AI-моделями. | JavaScript | 🔓 | — | 2026-08-20 |
+| [`ambar`](https://github.com/bestdeejay-design/ambar) | AMBAR — инвестиционный лендинг фуд-хаба с кухней и IT-инфраструктурой (демо, AXIIOM). | HTML | 🔓 | — | 2026-08-20 |
 | [`aotochka.ru`](https://github.com/bestdeejay-design/aotochka.ru) | AO TOCHKA Landing | JavaScript | 🔓 | — | 2026-06-06 |
 | [`archive-spbgti`](https://github.com/bestdeejay-design/archive-spbgti) [🌐](https://archive.ti200.ru) | Исторический архив СПбГТИ — Directus CMS + галерея | HTML | 🔒 | — | 2026-08-20 |
 | [`arental`](https://github.com/bestdeejay-design/arental) | атмосфера лэндинг | HTML | 🔓 | — | 2026-06-15 |
@@ -31,23 +31,23 @@
 | [`arental_2`](https://github.com/bestdeejay-design/arental_2) [🌐](https://arental.ru/) | АТМОСФЕРА — лендинг digital-агентства полного цикла: лидогенерация, интеграции, автоматизация рек… | HTML | 🔓 | arenteral_2 | 2026-08-12 |
 | [`axiiom`](https://github.com/bestdeejay-design/axiiom) [🌐](https://axiiom.ru) | AXIIOM — разработка сайтов, мобильных приложений, UI/UX дизайн, финтех-решения | HTML | 🔓 | axiiom_github, mobiap-v2 | 2026-08-19 |
 | [`axiiom_landing`](https://github.com/bestdeejay-design/axiiom_landing) | axiiom landing | HTML | 🔓 | — | 2026-06-13 |
-| [`blog`](https://github.com/bestdeejay-design/blog) [🌐](https://blog-three-opal-85.vercel.app) | лента новостей | HTML | 🔓 | — | 2026-06-06 |
-| [`booking`](https://github.com/bestdeejay-design/booking) | система бронирования | JavaScript | 🔓 | — | 2026-06-12 |
-| [`hype`](https://github.com/bestdeejay-design/hype) | Маркетплейс для блогеров и рекламодателей | HTML | 🔓 | — | 2026-06-12 |
-| [`ishotgirls`](https://github.com/bestdeejay-design/ishotgirls) | ishotgirls landing | HTML | 🔓 | ishotgirls | 2026-08-15 |
-| [`joer`](https://github.com/bestdeejay-design/joer) | joer landing | JavaScript | 🔓 | — | 2026-06-06 |
+| [`blog`](https://github.com/bestdeejay-design/blog) [🌐](https://blog-three-opal-85.vercel.app) | Лента новостей — блог-лендинг с публикациями. | HTML | 🔓 | — | 2026-08-20 |
+| [`booking`](https://github.com/bestdeejay-design/booking) | Grand Hotel — система бронирования номеров (демо, AXIIOM): календарь, онлайн-оплата, управление. | JavaScript | 🔓 | — | 2026-08-20 |
+| [`hype`](https://github.com/bestdeejay-design/hype) | Hype — маркетплейс для блогеров и рекламодателей: размещение и закупка рекламы. | HTML | 🔓 | — | 2026-08-20 |
+| [`ishotgirls`](https://github.com/bestdeejay-design/ishotgirls) | ISHOT — The Training Journal: журнал реальных тренировок (стрики, PR, экипировка). Демо-лендинг. | HTML | 🔓 | ishotgirls | 2026-08-20 |
+| [`joer`](https://github.com/bestdeejay-design/joer) | After Dark — электронный музыкальный портал (демо, AXIIOM). HTML/CSS/JS. | JavaScript | 🔓 | — | 2026-08-20 |
 | [`kodstudy`](https://github.com/bestdeejay-design/kodstudy) | KodStudy — обучающая платформа/лендинг для изучения программирования. | HTML | 🔓 | — | 2026-08-20 |
 | [`minigames`](https://github.com/bestdeejay-design/minigames) | Коллекция мини-игр для браузера | JavaScript | 🔓 | — | 2026-06-21 |
-| [`mobiap`](https://github.com/bestdeejay-design/mobiap) | axiiom en landing mobiap | HTML | 🔓 | mobiap-repo, mobiap | 2026-07-20 |
+| [`mobiap`](https://github.com/bestdeejay-design/mobiap) | MOBIAP — англоязычный лендинг финтех-платформ: loyalty-системы, платёжные решения, PCI DSS. | HTML | 🔓 | mobiap-repo, mobiap | 2026-08-20 |
 | [`napolipizza`](https://github.com/bestdeejay-design/napolipizza) | сайт пиццерии | HTML | 🔓 | — | 2026-06-06 |
 | [`neo-consulting`](https://github.com/bestdeejay-design/neo-consulting) [🌐](https://bestdeejay-design.github.io/neo-consulting/) | Static landing for «НЕО КОНСАЛТИНГ» — accounting outsourcing in Saint Petersburg. 16 sections, se… | HTML | 🔓 | buhtest | 2026-08-16 |
-| [`paffo`](https://github.com/bestdeejay-design/paffo) | paffo landing | HTML | 🔓 | paffo | 2026-08-19 |
+| [`paffo`](https://github.com/bestdeejay-design/paffo) | Ателье PAFFO — лендинг: пальто из итальянской шерсти, кашемир и кожа. Две примерки, пошив 21 день. | HTML | 🔓 | paffo | 2026-08-20 |
 | [`pizza`](https://github.com/bestdeejay-design/pizza) | сайт пиццерии | JavaScript | 🔓 | pizza | 2026-07-09 |
 | [`pizzaloviiru`](https://github.com/bestdeejay-design/pizzaloviiru) | Пиццерия LOVII — лендинг с меню (JSON), конвертер WebP→JPG, GitHub Pages. | JavaScript | 🔒 | — | 2026-08-20 |
-| [`platforma`](https://github.com/bestdeejay-design/platforma) | АО Платформа | HTML | 🔓 | — | 2026-06-10 |
+| [`platforma`](https://github.com/bestdeejay-design/platforma) | LOVII — White Paper: платформа локальных маркетплейсов, концепция и модель. | HTML | 🔓 | — | 2026-08-20 |
 | [`spbgti`](https://github.com/bestdeejay-design/spbgti) | СПбГТИ — сайт «Техноложка» на Eleventy (11ty): история университета, факультеты, абитуриентам. Ne… | HTML | 🔓 | Technolozka | 2026-08-20 |
 | [`static-site`](https://github.com/bestdeejay-design/static-site) | Статичный сайт фонда | JavaScript | 🔓 | — | 2026-06-30 |
-| [`univerid`](https://github.com/bestdeejay-design/univerid) | univerid landing | JavaScript | 🔓 | — | 2026-08-19 |
+| [`univerid`](https://github.com/bestdeejay-design/univerid) | UniverID — цифровая экосистема университета (демо, AXIIOM): зачётка, расписание, чат с деканатом. | JavaScript | 🔓 | — | 2026-08-20 |
 | [`univerid_demo`](https://github.com/bestdeejay-design/univerid_demo) | UniverID — демо-версия: лендинг и страницы платформы для вузов. HTML/CSS/JS + GitHub Pages. | HTML | 🔓 | — | 2026-08-20 |
 | [`wordpress`](https://github.com/bestdeejay-design/wordpress) | WordPress сайт фонда | PHP | 🔓 | — | 2026-07-07 |
 
@@ -55,18 +55,18 @@
 
 | Репозиторий | Описание | Язык | Доступ | Локально | Обновлён |
 |---|---|---|---|---|---|
-| [`alfred`](https://github.com/bestdeejay-design/alfred) | Alfred — Сервис для онлайн-записи. SPA | JavaScript | 🔓 | — | 2026-06-12 |
+| [`alfred`](https://github.com/bestdeejay-design/alfred) | Alfred — онлайн-запись (демо, AXIIOM): расписание, клиенты, уведомления, аналитика. | JavaScript | 🔓 | — | 2026-08-20 |
 | [`app`](https://github.com/bestdeejay-design/app) | Демо-приложение (AXIIOM): шаблон мобильного приложения на HTML/CSS/JS + GitHub Pages. | JavaScript | 🔓 | app | 2026-08-20 |
 | [`arbat38`](https://github.com/bestdeejay-design/arbat38) | Арбат 38 — прототипы приложений ресторанной сети: касса, админка ресторана, мобильные версии, схе… | HTML | 🔓 | — | 2026-08-20 |
 | [`cashier`](https://github.com/bestdeejay-design/cashier) | Мобильная касса (AXIIOM) — демо POS-терминала и аналитики для кафе и ресторанов. Статический прот… | JavaScript | 🔓 | — | 2026-08-20 |
-| [`dajet`](https://github.com/bestdeejay-design/dajet) | dajet exp | JavaScript | 🔓 | — | 2026-07-14 |
+| [`dajet`](https://github.com/bestdeejay-design/dajet) | DAJET — creative memory gallery: музыкальная галерея с AI-треками (Riffusion). | JavaScript | 🔓 | — | 2026-08-20 |
 | [`foodie`](https://github.com/bestdeejay-design/foodie) | Foodie — демо поиска и бронирования ресторанов: 12 кухонь, 8 ресторанов с меню, избранное, чат, т… | JavaScript | 🔓 | foodie | 2026-08-20 |
-| [`hrmodule`](https://github.com/bestdeejay-design/hrmodule) | HR Motivation — bonus system, gamification, leaderboards SPA | JavaScript | 🔓 | — | 2026-06-12 |
-| [`logistics`](https://github.com/bestdeejay-design/logistics) | Logistics SPA — Picker & Courier apps in one | JavaScript | 🔓 | — | 2026-06-12 |
-| [`mvno`](https://github.com/bestdeejay-design/mvno) | eSIM Travel — MVNO travel companion SPA | JavaScript | 🔓 | — | 2026-06-12 |
-| [`padl`](https://github.com/bestdeejay-design/padl) | padl saas | JavaScript | 🔓 | — | 2026-06-12 |
+| [`hrmodule`](https://github.com/bestdeejay-design/hrmodule) | HR Motivation — корпоративная мотивация (демо, AXIIOM): баллы, уровни, бейджи, топы. | JavaScript | 🔓 | — | 2026-08-20 |
+| [`logistics`](https://github.com/bestdeejay-design/logistics) | AXIIOM Logistics — сборка и доставка (демо): приложения сборщика и курьера. | JavaScript | 🔓 | — | 2026-08-20 |
+| [`mvno`](https://github.com/bestdeejay-design/mvno) | eSIM Travel — MVNO-компаньон путешественника (демо, AXIIOM): eSIM, туры, отели, авиабилеты. | JavaScript | 🔓 | — | 2026-08-20 |
+| [`padl`](https://github.com/bestdeejay-design/padl) | PadelPro — управление падел-клубом (демо, AXIIOM): бронирование кортов, клиенты, расписание, анал… | JavaScript | 🔓 | — | 2026-08-20 |
 | [`primary`](https://github.com/bestdeejay-design/primary) | Primary — демо премиум-такси (AXIIOM): заказ, трекинг, классы авто. Статический прототип HTML/CSS… | CSS | 🔓 | — | 2026-08-20 |
-| [`qbik`](https://github.com/bestdeejay-design/qbik) | Qbik — генератор глянцевых журналов. SPA | JavaScript | 🔓 | — | 2026-06-12 |
+| [`qbik`](https://github.com/bestdeejay-design/qbik) | Qbik — генератор глянцевых журналов (демо, AXIIOM): редактор, шаблоны, экспорт PDF. | JavaScript | 🔓 | — | 2026-08-20 |
 
 ## Данные и аналитика (3)
 
@@ -113,13 +113,14 @@
 | [`extension1`](https://github.com/bestdeejay-design/extension1) | Экспериментальный черновик (пустой репозиторий). | — | 🔓 | — | 2026-08-20 |
 | [`mag`](https://github.com/bestdeejay-design/mag) | WIP-черновик проекта (репозиторий пока пустой). | — | 🔓 | — | 2026-08-20 |
 
-## Прочее (3)
+## Прочее (4)
 
 | Репозиторий | Описание | Язык | Доступ | Локально | Обновлён |
 |---|---|---|---|---|---|
 | [`bestdeejay-design`](https://github.com/bestdeejay-design/bestdeejay-design) [🌐](https://axiiom.ru) | GitHub profile of Sergey Kuzyukov — Founder / CDTO / CTO / CPO · 20+ years in IT. FinTech archite… | Python | 🔓 | — | 2026-08-20 |
 | [`dj1`](https://github.com/bestdeejay-design/dj1) [🌐](https://dj1.ru) | DJ1.RU — music player & gallery (creative memory gallery). AI-generated tracks by Riffusion. Vani… | JavaScript | 🔓 | dj1 | 2026-08-19 |
 | [`ksu`](https://github.com/bestdeejay-design/ksu) [🌐](https://bestdeejay-design.github.io/ksu/) | Портфолио Ксения — графический дизайнер: айдентика, брендинг, типографика, UI/UX, иллюстрация, пл… | JavaScript | 🔓 | ksu | 2026-08-10 |
+| [`repo-catalog`](https://github.com/bestdeejay-design/repo-catalog) | Каталог репозиториев bestdeejay-design: 72 проекта с описаниями, категориями и привязкой локальны… | — | 🔓 | — | 2026-08-20 |
 
 ---
 
