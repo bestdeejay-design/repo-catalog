@@ -47,7 +47,7 @@
 | 31 | arental | 43.5 | 🟠 слабо | README, SEO, изображения |
 | 32 | minigames | 42.5 | 🔴 критично | README, SEO, дизайн-система |
 | 33 | alfred | 42 | 🔴 критично | README, семантика, a11y |
-| 34 | booking | 39 | 🔴 критично | React-шаблон Vite → README, брендинг |
+| 34 | booking | 39 | ✅ выполнено (2026-08-22) | PWA, webp, a11y, README, инфраструктура |
 | 35 | aichat | 39 | 🔴 критично | README, SEO, дизайн |
 
 ---
@@ -55,7 +55,7 @@
 ## Приоритеты работ (чем хуже — тем раньше)
 
 ### 🔴 P0 — Критично (делаем первыми): 35, 34, 33, 32, 31
-**aichat, booking, alfred, minigames, arental** — нет README, нет дизайн-системы, шаблонный вид.
+**aichat** (✅ завершён 2026-08-21), **booking** (✅ завершён 2026-08-22), **alfred, minigames, arental** — нет README, нет дизайн-системы, шаблонный вид.
 
 ### 🟠 P1 — Слабо (вторая волна): 30–22
 **padl, mvno, hrmodule, cashier, logistics, joer, univerid_demo, primary, qbik, kodstudy, aotochka.ru, arbat38, ambar** — однотипные AXIIOM-демки на одном шаблоне (`index.html + css/app.css + js/app.js`): можно приводить в порядок **серийно**, по одному процессу.
@@ -120,6 +120,17 @@ python3 /tmp/demo_eval/analyze_demos.py
 - без бэкенда — всё на клиенте (ключ не покидает машину).
 **Результат**: самораспространяющийся инструмент «поставь локально, общайся со своим ключом».
 **Статус**: ✅ выполнено (2026-08-21) — v1.2.1: онбординг ключа, README EN/RU, community-файлы, health 100%, релиз v1.2.0, og-превью. См. SESSIONS.md.
+
+### booking — демка → «технологический прорыв» уровня paffo
+Текущее состояние: рабочее SPA (React 19 + Vite + Firebase + Stripe + Tailwind 4), шаблонный README от Vite, изображения в jpg/jpeg, без PWA/инфраструктуры.
+**Решение**: подтянуть до уровня эталона по чек-листу paffo (без переработки самого сайта — он уже неплох):
+- README переписан под брендинг Grand Hotel (стек, запуск, скриншоты, ссылка на Pages);
+- 16 изображений `jpg/jpeg` → `webp`, `alt` у картинок заполнен;
+- `a11y`: `aria-label`/`aria-expanded` у бургер-меню;
+- SEO: `og:image` перенесён с внешнего `axiiom.ru` на локальный `/booking/og-image.webp`;
+- PWA: `manifest.webmanifest` + иконки (192/512/maskable/apple-touch);
+- инфраструктура: `sitemap.xml`, `robots.txt`, `404.html`, `.well-known/security.txt`.
+**Статус**: ✅ выполнено (2026-08-22). См. SESSIONS.md.
 
 ### alfred — демка → продукт «запись к специалисту» (free + кастомизации)
 Текущее состояние: SPA с дизайном, онлайн-запись (расписание, клиенты, уведомления, аналитика).
