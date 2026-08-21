@@ -20,7 +20,7 @@
 |---|---|---|---|---|
 | aichat | `aichat` | локальный мульти-провайдер AI-клиент (свой ключ) | `DEMO_ROADMAP.md` → aichat | ✅ завершён — v1.2.1: онбординг ключа, README EN/RU, community-файлы, health 100%, релиз v1.2.0, og-превью |
 | booking | `booking` | подтянуть до уровня эталона paffo: PWA, webp, a11y, README, инфраструктура | `DEMO_ROADMAP.md` → booking | ✅ завершён — 2026-08-22: README, PWA+иконки, webp-изображения, a11y, sitemap/robots/404/security.txt, локальный og:image |
-| alfred | `alfred` | продукт «запись к специалисту»: Telegram/MAX/VK mini-app, MIT, free + кастомизации | `DEMO_ROADMAP.md` → alfred | 🔴 запланирован |
+| alfred | `alfred` | продукт «запись к специалисту»: Telegram/MAX/VK mini-app, MIT, free + кастомизации | `DEMO_ROADMAP.md` → alfred | ✅ завершён (этап1 2026-08-22) — open-source core; mini-app — следующий этап |
 | AXIIOM-демки | `primary`, `cashier`, `logistics`, `mvno`, `hrmodule`, `padl`, `qbik`, `booking`, `ambar` | конвейер апгрейда до уровня paffo | `DEMO_ROADMAP.md` | 🟡 в очереди |
 | minigames | `minigames` | хаб-лендинг + единая дизайн-система для 10 игр | `DEMO_ROADMAP.md` | 🟡 в очереди |
 | arbat38 | `arbat38` | консолидация прототипов в одну демку | `DEMO_ROADMAP.md` | 🟡 в очереди |
