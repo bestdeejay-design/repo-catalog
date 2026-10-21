@@ -132,6 +132,10 @@ def build_md(repos):
     lines.append("")
     lines.append("Легенда: 🔓 публичный · 🔒 приватный · 🌐 ссылка на сайт · локальная папка в `~/Projects`")
     lines.append("")
+    lines.append("См. также: **[STARS.md](./STARS.md)** — каталог внешних репозиториев из моих ⭐ · "
+                 "**[STARS-REVIEW.md](./STARS-REVIEW.md)** — разбор ключевых · "
+                 "**[IDEAS.md](./IDEAS.md)** — идеи и полезные исходники.")
+    lines.append("")
 
     for cat, names in CATEGORIES.items():
         present = [(n, repos[n]) for n in names if n in repos]
