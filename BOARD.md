@@ -1,6 +1,6 @@
 # Канбан каталога
 
-> Собрано автоматически: 2026-10-21 16:06. Руками не править — перезапишется.
+> Собрано автоматически: 2026-10-21 22:33. Руками не править — перезапишется.
 > Карточка = репозиторий. Колонка = стадия. Источник правды — `TASKS.md`
 > (приоритеты), `OPTIONS.md` (кандидаты), `STARS-ARCHIVE.md` (архив).
 
@@ -8,7 +8,7 @@
 `P2` — референс, `P3` — полка. Ставишь звезду новому репозиторию — его подхватит
 плановая сверка и положит в нужную колонку.
 
-## 🚀 Беру в работу (P1) — 23
+## 🚀 Беру в работу (P1) — 25
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -35,9 +35,11 @@
 | [`lovii-tech/lovii-app`](https://github.com/lovii-tech/lovii-app) | 1 | LOVII CRM | Своё клиентское приложение (Vue) |
 | [`lovii-tech/lovii-admin`](https://github.com/lovii-tech/lovii-admin) | 1 | LOVII CRM | Своя админка |
 | [`lovii-tech/lovii-b2b`](https://github.com/lovii-tech/lovii-b2b) | 1 | LOVII CRM | Своя B2B-часть |
+| [`bestdeejay-design/alien-cosmic`](https://github.com/bestdeejay-design/alien-cosmic) | 6 | Игры | Основной проект: кампания 15 миссий, две расы, авто-режимы. Здесь задаём архитектуру |
+| [`bestdeejay-design/alien-cosmic-dist`](https://github.com/bestdeejay-design/alien-cosmic-dist) | 1 | Игры | Приватный дом разработки: исходники, история, ресерчи, симы |
 
 
-## 📚 Референс (P2) — 35
+## 📚 Референс (P2) — 36
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -76,9 +78,10 @@
 | [`rucorp/accounts`](https://github.com/rucorp/accounts) | 1 | LOVII CRM | Карта аккаунтов, почт, SSH — операционная гигиена |
 | [`koda-dernet/Side-Step`](https://github.com/koda-dernet/Side-Step) | 159 | Прочее | Обучение/инференс ACE-Step 1.5: своя генерация музыки для `dajet` и `joer` |
 | [`laravel/laravel`](https://github.com/laravel/laravel) | 85k | Прочее | Заготовка под PHP-проекты (`basedata`, `lovii-tech`) |
+| [`bestdeejay-design/terran-rts`](https://github.com/bestdeejay-design/terran-rts) | 0 | Игры | Полигон стиля StarCraft: чистый JS + Canvas + Web Audio, без зависимостей |
 
 
-## 🗂 На полке (P3) — 27
+## 🗂 На полке (P3) — 28
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -109,6 +112,7 @@
 | [`bestdeejay-design/bestdeejay-design`](https://github.com/bestdeejay-design/bestdeejay-design) | 4 | Прочее | Профиль GitHub |
 | [`axiiom-ru/axiiom-ru`](https://github.com/axiiom-ru/axiiom-ru) | 1 | Прочее | Профиль AXIIOM |
 | [`rucorp/arental`](https://github.com/rucorp/arental) | 1 | Прочее | Лендинг digital-агентства |
+| [`bestdeejay-design/minigames`](https://github.com/bestdeejay-design/minigames) | 0 | Игры | Мини-игры: проверка идей на маленьком объёме |
 
 
 ## 🧪 Кандидаты, ещё не в звёздах — 17
@@ -153,4 +157,4 @@ _пусто_
 
 ---
 
-Всего в каталоге: **85** · кандидатов: **17** · в архиве: **0**
+Всего в каталоге: **89** · кандидатов: **17** · в архиве: **0**

@@ -20,7 +20,7 @@ OPTIONS = "OPTIONS.md"
 ARCHIVE = "STARS-ARCHIVE.md"
 OUT = "BOARD.md"
 
-TRACKS = {"A": "Центр агентов", "B": "macOS", "C": "LOVII CRM", "D": "Прочее"}
+TRACKS = {"A": "Центр агентов", "B": "macOS", "C": "LOVII CRM", "D": "Прочее", "E": "Игры"}
 
 ROW = re.compile(r"^\|\s*\[`?([^`\]]+)`?\]\((https://github\.com/[^)]+)\)\s*\|(.*)$")
 ARCH = re.compile(r"^-\s*\[([^\]]+)\]\((https://github\.com/[^)]+)\)\s*—\s*(.*)$")
@@ -34,7 +34,7 @@ def parse_tasks():
     """Возвращает список карточек: repo, url, stars, prio, track, note."""
     cards, track = [], None
     for line in open(TASKS, encoding="utf-8"):
-        m = re.match(r"^## ([ABCD])\.", line)
+        m = re.match(r"^## ([A-E])\.", line)
         if m:
             track = m.group(1)
             continue
