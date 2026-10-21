@@ -135,7 +135,7 @@ def build_md(repos):
     lines.append("См. также: **[STARS.md](./STARS.md)** — каталог внешних репозиториев из моих ⭐ · "
                  "**[STARS-REVIEW.md](./STARS-REVIEW.md)** — разбор ключевых · "
                  "**[TASKS.md](./TASKS.md)** — звёзды под три текущие задачи · "
-                 "**[IDEAS.md](./IDEAS.md)** — идеи и полезные исходники · "
+                 "**[IDEAS.md](./IDEAS.md)** — идеи и полезные исходники · **[OPTIONS.md](./OPTIONS.md)** — идеи с топ-3 вариантами · "
                  "**[STARS-ARCHIVE.md](./STARS-ARCHIVE.md)** — снятые звёзды (история).")
     lines.append("")
 
