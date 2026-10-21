@@ -13,7 +13,7 @@ import re
 import subprocess
 import sys
 
-STARS_FILE = "STARS.md"
+FILES = ("STARS.md", "TASKS.md")
 LINK_RE = re.compile(r"https://github\.com/([\w.-]+/[\w.-]+)\)")
 
 
@@ -27,17 +27,21 @@ def fetch_starred():
 
 def main():
     starred = fetch_starred()
-    try:
-        text = open(STARS_FILE, encoding="utf-8").read()
-    except FileNotFoundError:
-        sys.exit(f"{STARS_FILE} не найден — запускай из корня репозитория")
-
-    listed = {m.lower() for m in LINK_RE.findall(text)}
+    listed, per_file = set(), {}
+    for name in FILES:
+        try:
+            text = open(name, encoding="utf-8").read()
+        except FileNotFoundError:
+            sys.exit(f"{name} не найден — запускай из корня репозитория")
+        per_file[name] = {m.lower() for m in LINK_RE.findall(text)}
+        listed |= per_file[name]
 
     new = sorted(starred - listed)
     gone = sorted(listed - starred - {"bestdeejay-design/repo-catalog"})
 
-    print(f"В звёздах: {len(starred)} · в {STARS_FILE}: {len(listed)}")
+    print(f"В звёздах: {len(starred)} · в каталоге: {len(listed)}")
+    for name, found in per_file.items():
+        print(f"  {name}: {len(found)} ссылок")
     if new:
         print(f"\nНовые звёзды, которых нет в каталоге ({len(new)}):")
         for name in new:
