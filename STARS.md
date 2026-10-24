@@ -132,7 +132,7 @@
 | [`ashleve/lightning-hydra-template`](https://github.com/ashleve/lightning-hydra-template) | 5.4k | Python | Шаблон ML-экспериментов (PyTorch Lightning + Hydra) | 🟡 Если понадобится обучение моделей — структура конфигов сразу правильная |
 | [`obsproject/obs-studio`](https://github.com/obsproject/obs-studio) | 78k | C | OBS Studio | ⚪ Справочник по захвату экрана/стримингу |
 
-## 10. Свои и смежные организации (в звёздах у меня) (21)
+## 10. Свои и смежные организации (в звёздах у меня) (19)
 
 | Репозиторий | ★ | Стек | Что это |
 |---|---|---|---|
@@ -155,6 +155,9 @@
 | [`lovii-tech/lovii-admin`](https://github.com/lovii-tech/lovii-admin) | 1 | PHP | Админка LOVII |
 | [`lovii-tech/lovii-app`](https://github.com/lovii-tech/lovii-app) | 1 | Vue | Клиентское приложение LOVII |
 | [`dajetbro/dajetbro`](https://github.com/dajetbro/dajetbro) | 1 | — | Профиль Dajet |
+
+Ещё одна своя звезда — `bestdeejay-design/alien-cosmic` (P1) — живёт только в [TASKS.md](./TASKS.md),
+трек E: это рабочая игра, а не карточка каталога. Поэтому 93 строки здесь + он = 94 звезды.
 
 ## 11. На разбор / непонятное (3)
 
