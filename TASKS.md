@@ -15,7 +15,7 @@
 Приоритеты: **P1** — брать в работу сейчас · **P2** — референс, когда дойдут руки ·
 **P3** — полка (знать, что есть).
 
-Полные описания всех 88 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
+Полные описания всех 94 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
 
 **Доска каталога:** [BOARD.md](./BOARD.md) — те же репозитории, но по стадиям.
 
@@ -58,6 +58,7 @@ CLI, браузер. Модели — любые, с ротацией и учё�
 | [`bestdeejay-design/opencode-setup`](https://github.com/bestdeejay-design/opencode-setup) | 1 | **P1** | Своя среда: конфиги, MCP-серверы, сервис обслуживания |
 | [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) | 97k | **P1** | Реестр MCP: сначала искать готовый сервер, потом писать свой |
 | [`thesysdev/openui`](https://github.com/thesysdev/openui) | 13k | **P1** | Язык генерации UI (−67% токенов) + стриминговый рендер. Интерфейс для агента |
+| [`nick-vels/skills`](https://github.com/nick-vels/skills) | 530 | **P1** | Autopilot: спека → задачи → сборка → приёмка по брифу. Брать схему стадий и «вопрос только в точке развилки» для очереди центра |
 | [`vercel-labs/agent-browser`](https://github.com/vercel-labs/agent-browser) | 44k | **P1** | Браузерный инструмент агента: snapshot → действие → проверка. Замена Playwright-скриптов |
 | [`larashero3-dotcom/lieflat-charts`](https://github.com/larashero3-dotcom/lieflat-charts) | 6.3k | P2 | Скилл, который отдаёт готовый HTML-график вместо зависимости в проекте |
 | [`pascalorg/editor`](https://github.com/pascalorg/editor) | 25k | P2 | Упаковка «продукт + CLI + MCP» в одном репозитории |
@@ -160,6 +161,7 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`bestdeejay-design/lovii-demo`](https://github.com/bestdeejay-design/lovii-demo) | 3 | P3 | Демо для клиентов |
 | [`axiiom-ru/lovii`](https://github.com/axiiom-ru/lovii) | 1 | P3 | Документы для публикации |
 | [`rucorp/accounts`](https://github.com/rucorp/accounts) | 1 | P2 | Карта аккаунтов, почт, SSH — операционная гигиена |
+| [`ModernRelay/omnigraph`](https://github.com/ModernRelay/omnigraph) | 1.7k | P2 | Ветка на агента + three-way merge + политика на каждую запись: подтверждение встроено в сами данные, а не в UI |
 
 ---
 
@@ -172,6 +174,8 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`zai-org/GLM-Image`](https://github.com/zai-org/GLM-Image) | 1.1k | P3 | Авторегрессионная генерация изображений — архитектурно интересно |
 | [`XiaomiMiMo/MiMo-V2-Flash`](https://github.com/XiaomiMiMo/MiMo-V2-Flash) | 1.4k | P3 | Дешёвая reasoning-модель под агентные циклы |
 | [`Tencent-Hunyuan/Hy3`](https://github.com/Tencent-Hunyuan/Hy3) | 671 | P3 | Экономика инференса 295B MoE |
+| [`OpenBMB/MiniCPM-V`](https://github.com/OpenBMB/MiniCPM-V) | 27k | P2 | On-device зрение/речь: 35B-A3B MoE и 1B, 3 ГБ памяти на телефоне. Локальный «глаз» приложения без облака |
+| [`rohit267/net-merge`](https://github.com/rohit267/net-merge) | 2k | P3 | Агрегация каналов (Wi-Fi + LTE). К трём задачам не относится — на полке |
 | [`BEPb/image_to_prompt`](https://github.com/BEPb/image_to_prompt) | 49 | P3 | Картинка → промпт (2023, учебный) |
 | [`BEPb/Image_Colorization`](https://github.com/BEPb/Image_Colorization) | 53 | P3 | Раскрашивание ч/б (2023, учебный) |
 | [`delbeke/vectorizer`](https://github.com/delbeke/vectorizer) | 4 | P3 | Растр → SVG, простой пример |
@@ -263,6 +267,12 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`excaliburjs/Excalibur`](https://github.com/excaliburjs/Excalibur) | 2.4k | BSD-2 | То же: альтернатива своему циклу, а не дополнение |
 | [`kaplayjs/kaplay`](https://github.com/kaplayjs/kaplay) | 1.8k | MIT | Для быстрых прототипов мини-игр, не для RTS |
 | [`boardgameio/boardgame.io`](https://github.com/boardgameio/boardgame.io) | 12k | MIT | Не подходит: пошаговые игры, а не RTS в реальном времени |
+
+**Движок-референс из звёзд** (единственный игровой репозиторий, который я зазвездил)
+
+| Репозиторий | ★ | P | Что взять |
+|---|---|---|---|
+| [`ihhub/fheroes2`](https://github.com/ihhub/fheroes2) | 3.5k | P3 | Пошаговый движок целиком: детерминированный цикл, ИИ на карте, сохранения. GPL-2.0 — только чтение ради идей |
 
 ---
 

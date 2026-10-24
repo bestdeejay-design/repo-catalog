@@ -119,7 +119,12 @@ def main():
         listed |= {m.lower() for m in LINK_RE.findall(text)}
 
     new = sorted(set(starred) - listed)
-    gone = sorted(listed - set(starred) - {"bestdeejay-design/repo-catalog"})
+    # «Снятая звезда» = репозиторий, который был в прошлом слепке и остался в каталоге,
+    # но пропал из звёзд. Ссылки, которых в слепке не было, снятыми не считаются:
+    # это свои репозитории (GitHub не даёт звездить свои) и кандидаты вроде трека E.
+    # Иначе --apply вычищал бы из TASKS.md живые разделы при каждой сверке.
+    gone = sorted((listed & set(snapshot)) - set(starred))
+    never_starred = sorted(listed - set(starred) - set(snapshot) - {"bestdeejay-design/repo-catalog"})
 
     report = {
         "date": DATE,
@@ -129,6 +134,7 @@ def main():
         "removed": [snapshot.get(n) or {"full_name": n, "url": f"https://github.com/{n}",
                                         "stars": 0, "language": "—", "description": ""}
                     for n in gone],
+        "listed_not_starred": never_starred,
         "applied": False,
     }
 
@@ -149,6 +155,8 @@ def main():
         return
 
     print(f"В звёздах: {report['starred_count']} · в каталоге: {report['listed_count']}")
+    if report["listed_not_starred"]:
+        print(f"  без звезды (свои + кандидаты, не трогаем): {len(report['listed_not_starred'])}")
     for name in FILES:
         print(f"  {name}: {len({m.lower() for m in LINK_RE.findall(texts[name])})} ссылок")
     if report["added"]:

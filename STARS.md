@@ -3,7 +3,7 @@
 Что это: каталог чужих репозиториев, которым я поставил ⭐, с описанием на русском —
 что это на самом деле, чем полезно и что из него можно забрать в свои проекты.
 
-- Всего в звёздах: **88** (сверено через `gh api user/starred`, 2026-10-21)
+- Всего в звёздах: **94** (сверено через `gh api user/starred`, 2026-10-24)
 - Свои репозитории здесь не дублируются полностью — только те, что я лайкнул (раздел «Свои»).
 - Каталог **моих** репозиториев — в [README.md](./README.md).
 - Подробный разбор девятки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
@@ -11,8 +11,8 @@
 - Идеи и «что читать руками» — в [IDEAS.md](./IDEAS.md).
 - **Идеи с вариантами: [OPTIONS.md](./OPTIONS.md)** — 11 идей, у каждой формулировка и топ-3 репозитория.
 - Снятые звёзды не пропадают: они уходят в [STARS-ARCHIVE.md](./STARS-ARCHIVE.md) (история).
-- **Игры:** отдельный трек E в [TASKS.md](./TASKS.md) — в звёздах игровых репозиториев пока нет,
-  раздел ведётся там (свои проекты + кандидаты на разбор).
+- **Игры:** отдельный трек E в [TASKS.md](./TASKS.md) — в звёздах из игрового один движок-референс
+  (`fheroes2`, раздел 13), остальное ведётся там (свои проекты + кандидаты на разбор).
 - Когда была последняя проверка — в [STARS-STATUS.md](./STARS-STATUS.md).
 
 Легенда: ★ — звёзды на момент снятия слепка · 🟢 брать в работу · 🟡 полезно как справочник · ⚪ просто на полке.
@@ -35,10 +35,11 @@
 | [`ANDRETRIPOL/OpenGhost`](https://github.com/ANDRETRIPOL/OpenGhost) | 266 | JS | Десктопный AI-агент для Win/macOS/Linux с собственным движком | 🟡 Как устроен «агент на компьютере»: свой engine, инструменты ОС, локальные разрешения |
 | [`jgouviergmail/LIA-Assistant`](https://github.com/jgouviergmail/LIA-Assistant) | 75 | Python | Мульти-агентный ассистент на LangGraph с Human-in-the-Loop | 🟡 Готовая схема «человек подтверждает шаг» в LangGraph-графе |
 
-## 2. Промпты, скиллы, паттерны (9)
+## 2. Промпты, скиллы, паттерны (10)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
+| [`nick-vels/skills`](https://github.com/nick-vels/skills) | 530 | HTML | Скилл Autopilot: идея → спека → нарезка на задачи → сборка → приёмка по исходному брифу | 🟢 Эталон «спека вместо чата»: агент спрашивает только в точках развилки и сам открывает дашборд прогресса. Забирать схему стадий, а не текст |
 | [`danielmiessler/Fabric`](https://github.com/danielmiessler/Fabric) | 44k | Go | CLI + библиотека «паттернов» — **266** промпт-шаблонов в `data/patterns` | 🟢 Лучшая в мире коллекция прикладных промптов: саммари, разбор статей, письмо в своём голосе. Каждый паттерн — отдельная папка с `system.md` |
 | [`Jeffallan/claude-skills`](https://github.com/Jeffallan/claude-skills) | 12k | Python | 67 навыков для full-stack разработчика | 🟢 Набор рабочих skill-файлов: смотреть структуру `SKILL.md` + assets, а не текст |
 | [`alirezarezvani/claude-skills`](https://github.com/alirezarezvani/claude-skills) | 28k | Python | 380+ навыков, 30+ агентов, 70+ команд | 🟡 Крупнейшая свалка скиллов — как источник идей и как антипример «много, но без системы» |
@@ -82,20 +83,22 @@
 | [`gluonfield/enchanted`](https://github.com/gluonfield/enchanted) | 6k | Swift | iOS/macOS-клиент к приватным self-hosted LLM (Ollama) | 🟡 Нативный клиент к локальным моделям — UI-референс |
 | [`PurpleDoubleD/locally-uncensored`](https://github.com/PurpleDoubleD/locally-uncensored) | 2.4k | TS | Локальная AI-студия: чат, картинки, видео, кодовый агент | 🟡 Как собрать «всё в одном» на локальных моделях |
 
-## 6. Модели и генерация медиа (5)
+## 6. Модели и генерация медиа (6)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
+| [`OpenBMB/MiniCPM-V`](https://github.com/OpenBMB/MiniCPM-V) | 27k | Python | On-device мультимодальная серия: MiniCPM-V 4.7 (35B-A3B MoE и 1B), MiniCPM-o 4.5 со зрением и речью | 🟡 Локальное зрение на своём железе: 3 ГБ памяти на телефоне, GGUF/llama.cpp-ветки. Кандидат в «AI внутри приложения» без облака |
 | [`QwenLM/Qwen-Image`](https://github.com/QwenLM/Qwen-Image) | 8.4k | Python | Модель генерации изображений с сильным рендером текста | 🟡 Картинки с надписями — под баннеры/обложки |
 | [`zai-org/GLM-Image`](https://github.com/zai-org/GLM-Image) | 1.1k | Python | Авторегрессионная генерация изображений | ⚪ Альтернатива диффузии, интересна архитектурно |
 | [`XiaomiMiMo/MiMo-V2-Flash`](https://github.com/XiaomiMiMo/MiMo-V2-Flash) | 1.4k | — | Компактная reasoning/agent-модель | ⚪ Дешёвая модель под агентные циклы |
 | [`Tencent-Hunyuan/Hy3`](https://github.com/Tencent-Hunyuan/Hy3) | 671 | Python | 295B MoE (21B активных), ставка на стоимость инференса | ⚪ Смотреть на экономику, не на размер |
 | [`koda-dernet/Side-Step`](https://github.com/koda-dernet/Side-Step) | 159 | Python | Скрипты обучения/файнтюна для ACE-Step 1.5 (генерация музыки) с CLI и TUI | 🟡 Под музыкальные проекты (`dajet`, `joer`): как делать свои модели, а не только API |
 
-## 7. Инфраструктура, браузер, self-hosted, безопасность (6)
+## 7. Инфраструктура, браузер, self-hosted, безопасность (7)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
+| [`ModernRelay/omnigraph`](https://github.com/ModernRelay/omnigraph) | 1.7k | Rust | Графовая БД поверх объектного хранилища: типизированная онтология, ветки как в git, единый поиск (граф + вектор + BM25) | 🟢 Референс под lovii-crm: ветка на агента, three-way merge и политика на каждую запись — подтверждение встроено в данные, а не в интерфейс |
 | [`vercel-labs/agent-browser`](https://github.com/vercel-labs/agent-browser) | 44k | Rust | CLI-автоматизация браузера, сделанная для агентов: семантические локаторы, snapshot страницы, проверка состояния | 🟢 Замена самодельных Playwright-скриптов: агент «смотрит» страницу текстом, а не селекторами |
 | [`caddyserver/caddy`](https://github.com/caddyserver/caddy) | 78k | Go | Веб-сервер с автоматическим HTTPS | 🟢 Стандарт для self-hosted: один бинарь, сертификаты сами |
 | [`oauth2-proxy/oauth2-proxy`](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | Go | Реверс-прокси с аутентификацией (Google, OIDC, Azure) | 🟢 Как закрыть внутренние сервисы логином без написания auth |
@@ -161,13 +164,22 @@
 | [`1Crazymoney/agency-agents`](https://github.com/1Crazymoney/agency-agents) | 2 | — | Копия `msitarzewski/agency-agents` — держать не нужно |
 | [`1Crazymoney/mythos-agent`](https://github.com/1Crazymoney/mythos-agent) | 2 | — | «AI security agent, который охраняет код» — проверить, живой ли |
 
-## 12. Прочее (3)
+## 12. Прочее (4)
 
 | Репозиторий | ★ | Стек | Что это |
 |---|---|---|---|
+| [`rohit267/net-merge`](https://github.com/rohit267/net-merge) | 2k | Go | Складывает несколько интернет-каналов в один: Wi-Fi + Ethernet + телефонный хотспот |
 | [`BEPb/image_to_prompt`](https://github.com/BEPb/image_to_prompt) | 49 | Python | Картинка → промпт (2023, учебный) |
 | [`BEPb/Image_Colorization`](https://github.com/BEPb/Image_Colorization) | 53 | Python | Раскрашивание ч/б изображений (2023, учебный) |
 | [`delbeke/vectorizer`](https://github.com/delbeke/vectorizer) | 4 | JS | Растр → SVG, простой пример |
+
+---
+
+## 13. Игры (1)
+
+| Репозиторий | ★ | Стек | Что это | Чем полезен |
+|---|---|---|---|---|
+| [`ihhub/fheroes2`](https://github.com/ihhub/fheroes2) | 3.5k | C++ | Переписанный с нуля движок Heroes of Might and Magic II: своя карта, бои, ИИ, сохранения, высокое разрешение | ⚪ Референс для трека E: детерминированный пошаговый цикл, ИИ на карте, формат сохранений. GPL-2.0 — смотреть, код не втаскивать |
 
 ---
 

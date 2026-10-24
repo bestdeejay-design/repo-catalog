@@ -1,6 +1,6 @@
 # Канбан каталога
 
-> Собрано автоматически: 2026-10-23 11:43. Руками не править — перезапишется.
+> Собрано автоматически: 2026-10-24 13:43. Руками не править — перезапишется.
 > Карточка = репозиторий. Колонка = стадия. Источник правды — `TASKS.md`
 > (приоритеты), `OPTIONS.md` (кандидаты), `STARS-ARCHIVE.md` (архив).
 
@@ -8,7 +8,7 @@
 `P2` — референс, `P3` — полка. Ставишь звезду новому репозиторию — его подхватит
 плановая сверка и положит в нужную колонку.
 
-## 🚀 Беру в работу (P1) — 25
+## 🚀 Беру в работу (P1) — 26
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -20,6 +20,7 @@
 | [`bestdeejay-design/opencode-setup`](https://github.com/bestdeejay-design/opencode-setup) | 1 | Центр агентов | Своя среда: конфиги, MCP-серверы, сервис обслуживания |
 | [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) | 97k | Центр агентов | Реестр MCP: сначала искать готовый сервер, потом писать свой |
 | [`thesysdev/openui`](https://github.com/thesysdev/openui) | 13k | Центр агентов | Язык генерации UI (−67% токенов) + стриминговый рендер. Интерфейс для агента |
+| [`nick-vels/skills`](https://github.com/nick-vels/skills) | 530 | Центр агентов | Autopilot: спека → задачи → сборка → приёмка по брифу. Брать схему стадий и «вопрос тольк… |
 | [`vercel-labs/agent-browser`](https://github.com/vercel-labs/agent-browser) | 44k | Центр агентов | Браузерный инструмент агента: snapshot → действие → проверка. Замена Playwright-скриптов |
 | [`signerless/llm-checker`](https://github.com/signerless/llm-checker) | 3k | Центр агентов | CLI сканирует железо и говорит, какие модели потянет. Не гадать — померить |
 | [`NirDiamant/agents-towards-production`](https://github.com/NirDiamant/agents-towards-production) | 22k | Центр агентов | Курс до прода: память, observability, guardrails — ровно то, чего не хватает центру |
@@ -39,7 +40,7 @@
 | [`bestdeejay-design/alien-cosmic-dist`](https://github.com/bestdeejay-design/alien-cosmic-dist) | 1 | Игры | Приватный дом разработки: исходники, история, ресерчи, симы |
 
 
-## 📚 Референс (P2) — 36
+## 📚 Референс (P2) — 38
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -76,12 +77,14 @@
 | [`thedaviddias/Front-End-Checklist`](https://github.com/thedaviddias/Front-End-Checklist) | 75k | LOVII CRM | Приёмочный чек-лист интерфейсов: встроить в ревью lovii-crm и лендингов AXIIOM |
 | [`bestdeejay-design/lovii`](https://github.com/bestdeejay-design/lovii) | 4 | LOVII CRM | Публичный фасад платформы |
 | [`rucorp/accounts`](https://github.com/rucorp/accounts) | 1 | LOVII CRM | Карта аккаунтов, почт, SSH — операционная гигиена |
+| [`ModernRelay/omnigraph`](https://github.com/ModernRelay/omnigraph) | 1.7k | LOVII CRM | Ветка на агента + three-way merge + политика на каждую запись: подтверждение встроено в с… |
 | [`koda-dernet/Side-Step`](https://github.com/koda-dernet/Side-Step) | 159 | Прочее | Обучение/инференс ACE-Step 1.5: своя генерация музыки для `dajet` и `joer` |
+| [`OpenBMB/MiniCPM-V`](https://github.com/OpenBMB/MiniCPM-V) | 27k | Прочее | On-device зрение/речь: 35B-A3B MoE и 1B, 3 ГБ памяти на телефоне. Локальный «глаз» прилож… |
 | [`laravel/laravel`](https://github.com/laravel/laravel) | 85k | Прочее | Заготовка под PHP-проекты (`basedata`, `lovii-tech`) |
 | [`bestdeejay-design/terran-rts`](https://github.com/bestdeejay-design/terran-rts) | 0 | Игры | Отдельный полигон стиля StarCraft на Canvas — не часть alien-cosmic |
 
 
-## 🗂 На полке (P3) — 28
+## 🗂 На полке (P3) — 30
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -101,6 +104,7 @@
 | [`zai-org/GLM-Image`](https://github.com/zai-org/GLM-Image) | 1.1k | Прочее | Авторегрессионная генерация изображений — архитектурно интересно |
 | [`XiaomiMiMo/MiMo-V2-Flash`](https://github.com/XiaomiMiMo/MiMo-V2-Flash) | 1.4k | Прочее | Дешёвая reasoning-модель под агентные циклы |
 | [`Tencent-Hunyuan/Hy3`](https://github.com/Tencent-Hunyuan/Hy3) | 671 | Прочее | Экономика инференса 295B MoE |
+| [`rohit267/net-merge`](https://github.com/rohit267/net-merge) | 2k | Прочее | Агрегация каналов (Wi-Fi + LTE). К трём задачам не относится — на полке |
 | [`BEPb/image_to_prompt`](https://github.com/BEPb/image_to_prompt) | 49 | Прочее | Картинка → промпт (2023, учебный) |
 | [`BEPb/Image_Colorization`](https://github.com/BEPb/Image_Colorization) | 53 | Прочее | Раскрашивание ч/б (2023, учебный) |
 | [`delbeke/vectorizer`](https://github.com/delbeke/vectorizer) | 4 | Прочее | Растр → SVG, простой пример |
@@ -113,6 +117,7 @@
 | [`axiiom-ru/axiiom-ru`](https://github.com/axiiom-ru/axiiom-ru) | 1 | Прочее | Профиль AXIIOM |
 | [`rucorp/arental`](https://github.com/rucorp/arental) | 1 | Прочее | Лендинг digital-агентства |
 | [`bestdeejay-design/minigames`](https://github.com/bestdeejay-design/minigames) | 0 | Игры | Мини-игры для проверки механик на малом объёме |
+| [`ihhub/fheroes2`](https://github.com/ihhub/fheroes2) | 3.5k | Игры | Пошаговый движок целиком: детерминированный цикл, ИИ на карте, сохранения. GPL-2.0 — толь… |
 
 
 ## 🧪 Кандидаты, ещё не в звёздах — 17
@@ -157,4 +162,4 @@ _пусто_
 
 ---
 
-Всего в каталоге: **89** · кандидатов: **17** · в архиве: **0**
+Всего в каталоге: **94** · кандидатов: **17** · в архиве: **0**
