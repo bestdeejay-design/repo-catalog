@@ -1,6 +1,6 @@
 # Канбан каталога
 
-> Собрано автоматически: 2026-10-26 13:09. Руками не править — перезапишется.
+> Собрано автоматически: 2026-10-26 16:41. Руками не править — перезапишется.
 > Карточка = репозиторий. Колонка = стадия. Источник правды — `TASKS.md`
 > (приоритеты), `OPTIONS.md` (кандидаты), `STARS-ARCHIVE.md` (архив).
 
@@ -40,7 +40,7 @@
 | [`bestdeejay-design/alien-cosmic-dist`](https://github.com/bestdeejay-design/alien-cosmic-dist) | 1 | Игры | Приватный дом разработки: исходники, история, ресерчи, симы |
 
 
-## 📚 Референс (P2) — 38
+## 📚 Референс (P2) — 43
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -66,9 +66,11 @@
 | [`bestdeejay-design/awesome-ai-handbook`](https://github.com/bestdeejay-design/awesome-ai-handbook) | 48 | Центр агентов | Свой справочник: от локальной модели до своих агентов |
 | [`bestdeejay-design/chronos`](https://github.com/bestdeejay-design/chronos) | 1 | Центр агентов | 5 агентов для документации — готовый пример мульти-агентной схемы |
 | [`mazze93/stratum`](https://github.com/mazze93/stratum) | 2 | Центр агентов + LOVII CRM | Append-only леджер решений с гейтами доверия — концепция «доказательство вместо увереннос… |
+| [`leepokai/Codync`](https://github.com/leepokai/Codync) | 901 | Центр агентов | Агенты как боты в мессенджере: Claude Code, Codex, Gemini CLI, Cursor и 40+ со своей подп… |
 | [`gluonfield/enchanted`](https://github.com/gluonfield/enchanted) | 6k | macOS | Нативный клиент к локальным моделям: UI-референс для «AI внутри приложения» |
 | [`clash-verge-rev/clash-verge-rev`](https://github.com/clash-verge-rev/clash-verge-rev) | 153k | macOS | Tauri-панель + системный трей + профили: референс, если понадобится кроссплатформенность |
 | [`t8y2/dbx`](https://github.com/t8y2/dbx) | 27k | macOS | «Маленький нативный клиент» на Rust: 25 МБ против гигантов |
+| [`veloxbase/veloxdb`](https://github.com/veloxbase/veloxdb) | 828 | macOS | Та же ниша, что dbx, но Rust + Tauri 2: 13 СУБД, дерево подключений, SQL-редактор, грид. … |
 | [`bestdeejay-design/sweet-no-sleep`](https://github.com/bestdeejay-design/sweet-no-sleep) | 7 | macOS | Свой menu bar pet — база для будущих утилит в трее |
 | [`reconurge/flowsint`](https://github.com/reconurge/flowsint) | 9.9k | LOVII CRM | Граф связей и визуальное расследование — антифрод, связи заведений/клиентов |
 | [`presenton/presenton`](https://github.com/presenton/presenton) | 11k | LOVII CRM | Документ → презентация, self-hosted, с API. КП и отчёты для клиентов |
@@ -81,10 +83,13 @@
 | [`koda-dernet/Side-Step`](https://github.com/koda-dernet/Side-Step) | 159 | Прочее | Обучение/инференс ACE-Step 1.5: своя генерация музыки для `dajet` и `joer` |
 | [`OpenBMB/MiniCPM-V`](https://github.com/OpenBMB/MiniCPM-V) | 27k | Прочее | On-device зрение/речь: 35B-A3B MoE и 1B, 3 ГБ памяти на телефоне. Локальный «глаз» прилож… |
 | [`laravel/laravel`](https://github.com/laravel/laravel) | 85k | Прочее | Заготовка под PHP-проекты (`basedata`, `lovii-tech`) |
+| [`hexgrad/kokoro`](https://github.com/hexgrad/kokoro) | 9.7k | Прочее | 82M TTS на CPU, веса Apache, `pip install` — самый дешёвый офлайн-голос в приложении |
+| [`resemble-ai/chatterbox`](https://github.com/resemble-ai/chatterbox) | 27k | Прочее | Nano 110M: 3× реального времени на 8 ядрах CPU, теги `[laugh]`/`[cough]`. Голос агента бе… |
+| [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech) | 33k | Прочее | Клон голоса (S1/S2) + Docker: свой TTS-сервер для медиа вместо API с биллингом |
 | [`bestdeejay-design/terran-rts`](https://github.com/bestdeejay-design/terran-rts) | 0 | Игры | Отдельный полигон стиля StarCraft на Canvas — не часть alien-cosmic |
 
 
-## 🗂 На полке (P3) — 30
+## 🗂 На полке (P3) — 33
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -116,6 +121,9 @@
 | [`bestdeejay-design/bestdeejay-design`](https://github.com/bestdeejay-design/bestdeejay-design) | 4 | Прочее | Профиль GitHub |
 | [`axiiom-ru/axiiom-ru`](https://github.com/axiiom-ru/axiiom-ru) | 1 | Прочее | Профиль AXIIOM |
 | [`rucorp/arental`](https://github.com/rucorp/arental) | 1 | Прочее | Лендинг digital-агентства |
+| [`2noise/ChatTTS`](https://github.com/2noise/ChatTTS) | 40k | Прочее | Просодия как параметр (смех, паузы) — идея; только англ. и кит. |
+| [`myshell-ai/OpenVoice`](https://github.com/myshell-ai/OpenVoice) | 38k | Прочее | Zero-shot клонирование тембра + управление стилем; шесть языков, русского нет |
+| [`SWivid/F5-TTS`](https://github.com/SWivid/F5-TTS) | 15k | Прочее | Flow matching вместо авторегрессии + Sway Sampling — архитектурный референс |
 | [`bestdeejay-design/minigames`](https://github.com/bestdeejay-design/minigames) | 0 | Игры | Мини-игры для проверки механик на малом объёме |
 | [`ihhub/fheroes2`](https://github.com/ihhub/fheroes2) | 3.5k | Игры | Пошаговый движок целиком: детерминированный цикл, ИИ на карте, сохранения. GPL-2.0 — толь… |
 
@@ -162,4 +170,4 @@ _пусто_
 
 ---
 
-Всего в каталоге: **94** · кандидатов: **17** · в архиве: **0**
+Всего в каталоге: **102** · кандидатов: **17** · в архиве: **0**

@@ -15,7 +15,7 @@
 Приоритеты: **P1** — брать в работу сейчас · **P2** — референс, когда дойдут руки ·
 **P3** — полка (знать, что есть).
 
-Полные описания всех 94 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
+Полные описания всех 102 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
 
 **Доска каталога:** [BOARD.md](./BOARD.md) — те же репозитории, но по стадиям.
 
@@ -83,6 +83,7 @@ CLI, браузер. Модели — любые, с ротацией и учё�
 | [`bestdeejay-design/awesome-ai-handbook`](https://github.com/bestdeejay-design/awesome-ai-handbook) | 48 | P2 | Свой справочник: от локальной модели до своих агентов |
 | [`bestdeejay-design/chronos`](https://github.com/bestdeejay-design/chronos) | 1 | P2 | 5 агентов для документации — готовый пример мульти-агентной схемы |
 | [`mazze93/stratum`](https://github.com/mazze93/stratum) | 2 | P2 | Эпистемический леджер решений: тот же приём, что в crm, но в чистом виде |
+| [`leepokai/Codync`](https://github.com/leepokai/Codync) | 901 | P2 | Агенты как боты в мессенджере: Claude Code, Codex, Gemini CLI, Cursor и 40+ со своей подпиской, писать с телефона. Хост на Rust, iOS на SwiftUI — референс мобильного доступа к центру |
 
 **Чего в звёздах нет, а для центра нужно:** брокер очередей с приоритетами, хранилище сессий
 агентов, слой секретов и политик. Это писать самому — донора нет.
@@ -117,6 +118,7 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`PurpleDoubleD/locally-uncensored`](https://github.com/PurpleDoubleD/locally-uncensored) | 2.4k | P2 | Локальная AI-студия: как собрать чат + генерацию в одном приложении |
 | [`clash-verge-rev/clash-verge-rev`](https://github.com/clash-verge-rev/clash-verge-rev) | 153k | P2 | Tauri-панель + системный трей + профили: референс, если понадобится кроссплатформенность |
 | [`t8y2/dbx`](https://github.com/t8y2/dbx) | 27k | P2 | «Маленький нативный клиент» на Rust: 25 МБ против гигантов |
+| [`veloxbase/veloxdb`](https://github.com/veloxbase/veloxdb) | 828 | P2 | Та же ниша, что dbx, но Rust + Tauri 2: 13 СУБД, дерево подключений, SQL-редактор, грид. Референс десктопа к данным без облака и телеметрии |
 | [`bestdeejay-design/sweet-no-sleep`](https://github.com/bestdeejay-design/sweet-no-sleep) | 7 | P2 | Свой menu bar pet — база для будущих утилит в трее |
 | [`obsproject/obs-studio`](https://github.com/obsproject/obs-studio) | 78k | P3 | Захват экрана/стриминг: справочник, если понадобится запись |
 | [`dajetbro/dajetbro`](https://github.com/dajetbro/dajetbro) | 1 | P3 | Свой профиль бренда Dajet |
@@ -188,6 +190,12 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`bestdeejay-design/bestdeejay-design`](https://github.com/bestdeejay-design/bestdeejay-design) | 4 | P3 | Профиль GitHub |
 | [`axiiom-ru/axiiom-ru`](https://github.com/axiiom-ru/axiiom-ru) | 1 | P3 | Профиль AXIIOM |
 | [`rucorp/arental`](https://github.com/rucorp/arental) | 1 | P3 | Лендинг digital-агентства |
+| [`hexgrad/kokoro`](https://github.com/hexgrad/kokoro) | 9.7k | P2 | 82M TTS на CPU, веса Apache, `pip install` — самый дешёвый офлайн-голос в приложении |
+| [`resemble-ai/chatterbox`](https://github.com/resemble-ai/chatterbox) | 27k | P2 | Nano 110M: 3× реального времени на 8 ядрах CPU, теги `[laugh]`/`[cough]`. Голос агента без GPU |
+| [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech) | 33k | P2 | Клон голоса (S1/S2) + Docker: свой TTS-сервер для медиа вместо API с биллингом |
+| [`2noise/ChatTTS`](https://github.com/2noise/ChatTTS) | 40k | P3 | Просодия как параметр (смех, паузы) — идея; только англ. и кит. |
+| [`myshell-ai/OpenVoice`](https://github.com/myshell-ai/OpenVoice) | 38k | P3 | Zero-shot клонирование тембра + управление стилем; шесть языков, русского нет |
+| [`SWivid/F5-TTS`](https://github.com/SWivid/F5-TTS) | 15k | P3 | Flow matching вместо авторегрессии + Sway Sampling — архитектурный референс |
 
 **Снять звезду / не тратить время:**
 

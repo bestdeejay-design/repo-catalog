@@ -17,13 +17,22 @@
   "stars": 2,
   "url": "https://github.com/1Crazymoney/mythos-agent"
  },
+ "2noise/chattts": {
+  "archived": false,
+  "description": "A generative speech model for daily dialogue.",
+  "full_name": "2noise/ChatTTS",
+  "language": "Python",
+  "pushed_at": "2026-04-10",
+  "stars": 39943,
+  "url": "https://github.com/2noise/ChatTTS"
+ },
  "alirezarezvani/claude-skills": {
   "archived": false,
   "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
   "full_name": "alirezarezvani/claude-skills",
   "language": "Python",
-  "pushed_at": "2026-10-21",
-  "stars": 28485,
+  "pushed_at": "2026-10-26",
+  "stars": 28748,
   "url": "https://github.com/alirezarezvani/claude-skills"
  },
  "andretripol/openghost": {
@@ -31,8 +40,8 @@
   "description": "Open desktop AI agent for Windows, macOS and Linux, written from scratch: its own agent engine, its own browser tooling and its own drawing engine that shows what it explains.",
   "full_name": "ANDRETRIPOL/OpenGhost",
   "language": "JavaScript",
-  "pushed_at": "2026-10-16",
-  "stars": 266,
+  "pushed_at": "2026-10-22",
+  "stars": 276,
   "url": "https://github.com/ANDRETRIPOL/OpenGhost"
  },
  "arahim3/digup": {
@@ -40,8 +49,8 @@
   "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
   "full_name": "ARahim3/DigUp",
   "language": "Swift",
-  "pushed_at": "2026-10-18",
-  "stars": 5299,
+  "pushed_at": "2026-10-22",
+  "stars": 5834,
   "url": "https://github.com/ARahim3/DigUp"
  },
  "arnabbagxd/brand-building-skills": {
@@ -50,7 +59,7 @@
   "full_name": "arnabbagxd/Brand-building-skills",
   "language": "Shell",
   "pushed_at": "2026-06-13",
-  "stars": 770,
+  "stars": 789,
   "url": "https://github.com/arnabbagxd/Brand-building-skills"
  },
  "arthurpanhku/docsentinel": {
@@ -58,7 +67,7 @@
   "description": "MCP server for AI agent for cybersecurity: automate assessment of documents, questionnaires & reports. Multi-format parsing, RAG knowledge base,Risks, compliance gaps, remediations.",
   "full_name": "arthurpanhku/DocSentinel",
   "language": "Python",
-  "pushed_at": "2026-10-14",
+  "pushed_at": "2026-10-22",
   "stars": 88,
   "url": "https://github.com/arthurpanhku/DocSentinel"
  },
@@ -67,8 +76,8 @@
   "description": "See when Claude Code, Codex, OpenCode or pi need you, and answer from the Mac notch. Free, open source, local-only.",
   "full_name": "asafofer/perch",
   "language": "Swift",
-  "pushed_at": "2026-10-21",
-  "stars": 21,
+  "pushed_at": "2026-10-24",
+  "stars": 23,
   "url": "https://github.com/asafofer/perch"
  },
  "ashleve/lightning-hydra-template": {
@@ -77,7 +86,7 @@
   "full_name": "ashleve/lightning-hydra-template",
   "language": "Python",
   "pushed_at": "2026-06-11",
-  "stars": 5369,
+  "stars": 5373,
   "url": "https://github.com/ashleve/lightning-hydra-template"
  },
  "axiiom-ru/axiiom-ru": {
@@ -124,6 +133,15 @@
   "pushed_at": "2026-09-11",
   "stars": 5,
   "url": "https://github.com/bestdeejay-design/agent-skills"
+ },
+ "bestdeejay-design/alien-cosmic": {
+  "archived": false,
+  "description": "A classic real-time strategy in your browser: human colonists vs the alien Kharid hive on distant planets. 15-mission campaign, 3 factions, base building, fog of war, AI opponent. Pure JavaScript — no build, no dependencies, just open and play.",
+  "full_name": "bestdeejay-design/alien-cosmic",
+  "language": "JavaScript",
+  "pushed_at": "2026-10-26",
+  "stars": 6,
+  "url": "https://github.com/bestdeejay-design/alien-cosmic"
  },
  "bestdeejay-design/awesome-ai-handbook": {
   "archived": false,
@@ -221,7 +239,7 @@
   "full_name": "bestdeejay-design/sweet-no-sleep",
   "language": "Swift",
   "pushed_at": "2026-10-16",
-  "stars": 7,
+  "stars": 6,
   "url": "https://github.com/bestdeejay-design/sweet-no-sleep"
  },
  "bloopai/vibe-kanban": {
@@ -229,8 +247,8 @@
   "description": "Get 10X more out of Claude Code, Codex or any coding agent",
   "full_name": "BloopAI/vibe-kanban",
   "language": "Rust",
-  "pushed_at": "2026-09-19",
-  "stars": 28419,
+  "pushed_at": "2026-10-26",
+  "stars": 28462,
   "url": "https://github.com/BloopAI/vibe-kanban"
  },
  "caddyserver/caddy": {
@@ -238,8 +256,8 @@
   "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
   "full_name": "caddyserver/caddy",
   "language": "Go",
-  "pushed_at": "2026-10-21",
-  "stars": 78221,
+  "pushed_at": "2026-10-26",
+  "stars": 78425,
   "url": "https://github.com/caddyserver/caddy"
  },
  "caramaschihg/awesome-ai-agents-2026": {
@@ -248,7 +266,7 @@
   "full_name": "caramaschiHG/awesome-ai-agents-2026",
   "language": "—",
   "pushed_at": "2026-06-10",
-  "stars": 1963,
+  "stars": 2036,
   "url": "https://github.com/caramaschiHG/awesome-ai-agents-2026"
  },
  "clash-verge-rev/clash-verge-rev": {
@@ -256,8 +274,8 @@
   "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
   "full_name": "clash-verge-rev/clash-verge-rev",
   "language": "Rust",
-  "pushed_at": "2026-10-21",
-  "stars": 152913,
+  "pushed_at": "2026-10-26",
+  "stars": 154026,
   "url": "https://github.com/clash-verge-rev/clash-verge-rev"
  },
  "code-yeongyu/oh-my-openagent": {
@@ -265,8 +283,8 @@
   "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
   "full_name": "code-yeongyu/oh-my-openagent",
   "language": "TypeScript",
-  "pushed_at": "2026-10-21",
-  "stars": 70241,
+  "pushed_at": "2026-10-26",
+  "stars": 70349,
   "url": "https://github.com/code-yeongyu/oh-my-openagent"
  },
  "croffasia/itsaplan": {
@@ -274,8 +292,8 @@
   "description": "⭐️⭐️⭐️ Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
   "full_name": "croffasia/itsaplan",
   "language": "TypeScript",
-  "pushed_at": "2026-10-21",
-  "stars": 1697,
+  "pushed_at": "2026-10-26",
+  "stars": 1987,
   "url": "https://github.com/croffasia/itsaplan"
  },
  "dajetbro/dajetbro": {
@@ -292,8 +310,8 @@
   "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
   "full_name": "danielmiessler/Fabric",
   "language": "Go",
-  "pushed_at": "2026-10-21",
-  "stars": 44385,
+  "pushed_at": "2026-10-25",
+  "stars": 44438,
   "url": "https://github.com/danielmiessler/Fabric"
  },
  "deepseek-ai/deepseek-harness": {
@@ -301,8 +319,8 @@
   "description": "DeepSeek Harness: Everything is a Plugin.",
   "full_name": "deepseek-ai/deepseek-harness",
   "language": "TypeScript",
-  "pushed_at": "2026-10-17",
-  "stars": 256624,
+  "pushed_at": "2026-10-23",
+  "stars": 262237,
   "url": "https://github.com/deepseek-ai/deepseek-harness"
  },
  "delbeke/vectorizer": {
@@ -319,9 +337,18 @@
   "description": "A small, fast WebKit browser for macOS, by Office Commun.",
   "full_name": "driceroland/Search",
   "language": "Swift",
-  "pushed_at": "2026-10-20",
-  "stars": 2578,
+  "pushed_at": "2026-10-26",
+  "stars": 2705,
   "url": "https://github.com/driceroland/Search"
+ },
+ "fishaudio/fish-speech": {
+  "archived": false,
+  "description": "SOTA Open Source TTS",
+  "full_name": "fishaudio/fish-speech",
+  "language": "Python",
+  "pushed_at": "2026-10-14",
+  "stars": 33409,
+  "url": "https://github.com/fishaudio/fish-speech"
  },
  "gluonfield/enchanted": {
   "archived": false,
@@ -329,16 +356,34 @@
   "full_name": "gluonfield/enchanted",
   "language": "Swift",
   "pushed_at": "2026-07-07",
-  "stars": 6014,
+  "stars": 6016,
   "url": "https://github.com/gluonfield/enchanted"
+ },
+ "hexgrad/kokoro": {
+  "archived": false,
+  "description": "https://hf.co/hexgrad/Kokoro-82M",
+  "full_name": "hexgrad/kokoro",
+  "language": "JavaScript",
+  "pushed_at": "2025-08-06",
+  "stars": 9679,
+  "url": "https://github.com/hexgrad/kokoro"
+ },
+ "ihhub/fheroes2": {
+  "archived": false,
+  "description": "fheroes2 is a recreation of Heroes of Might and Magic II game engine",
+  "full_name": "ihhub/fheroes2",
+  "language": "C++",
+  "pushed_at": "2026-10-23",
+  "stars": 3682,
+  "url": "https://github.com/ihhub/fheroes2"
  },
  "jaywcjlove/awesome-swift-macos-apps": {
   "archived": false,
   "description": "A curated collection of open-source macOS applications built with Swift",
   "full_name": "jaywcjlove/awesome-swift-macos-apps",
   "language": "Swift",
-  "pushed_at": "2026-10-21",
-  "stars": 1763,
+  "pushed_at": "2026-10-26",
+  "stars": 1773,
   "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps"
  },
  "jeffallan/claude-skills": {
@@ -346,8 +391,8 @@
   "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
   "full_name": "Jeffallan/claude-skills",
   "language": "Python",
-  "pushed_at": "2026-10-21",
-  "stars": 11975,
+  "pushed_at": "2026-10-26",
+  "stars": 12071,
   "url": "https://github.com/Jeffallan/claude-skills"
  },
  "jgouviergmail/lia-assistant": {
@@ -355,8 +400,8 @@
   "description": "Smart multi-agent conversational assistant with LangGraph orchestration, Human-in-the-Loop, enterprise-grade observability, and full i18n support (6 languages)",
   "full_name": "jgouviergmail/LIA-Assistant",
   "language": "Python",
-  "pushed_at": "2026-10-19",
-  "stars": 75,
+  "pushed_at": "2026-10-26",
+  "stars": 76,
   "url": "https://github.com/jgouviergmail/LIA-Assistant"
  },
  "koda-dernet/side-step": {
@@ -365,7 +410,7 @@
   "full_name": "koda-dernet/Side-Step",
   "language": "Python",
   "pushed_at": "2026-09-01",
-  "stars": 159,
+  "stars": 161,
   "url": "https://github.com/koda-dernet/Side-Step"
  },
  "kriptong/litca-ru": {
@@ -382,8 +427,8 @@
   "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
   "full_name": "langgenius/dify",
   "language": "Python",
-  "pushed_at": "2026-10-21",
-  "stars": 159125,
+  "pushed_at": "2026-10-26",
+  "stars": 159590,
   "url": "https://github.com/langgenius/dify"
  },
  "larashero3-dotcom/lieflat-charts": {
@@ -392,7 +437,7 @@
   "full_name": "larashero3-dotcom/lieflat-charts",
   "language": "HTML",
   "pushed_at": "2026-10-15",
-  "stars": 6344,
+  "stars": 6433,
   "url": "https://github.com/larashero3-dotcom/lieflat-charts"
  },
  "laravel/laravel": {
@@ -401,16 +446,25 @@
   "full_name": "laravel/laravel",
   "language": "Blade",
   "pushed_at": "2026-10-14",
-  "stars": 85227,
+  "stars": 85269,
   "url": "https://github.com/laravel/laravel"
+ },
+ "leepokai/codync": {
+  "archived": false,
+  "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
+  "full_name": "leepokai/Codync",
+  "language": "Rust",
+  "pushed_at": "2026-10-26",
+  "stars": 901,
+  "url": "https://github.com/leepokai/Codync"
  },
  "lidge-jun/opencodex": {
   "archived": false,
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "full_name": "lidge-jun/opencodex",
   "language": "TypeScript",
-  "pushed_at": "2026-10-21",
-  "stars": 17724,
+  "pushed_at": "2026-10-26",
+  "stars": 17920,
   "url": "https://github.com/lidge-jun/opencodex"
  },
  "lovii-tech/lovii-admin": {
@@ -418,7 +472,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-admin",
   "language": "PHP",
-  "pushed_at": "2026-10-20",
+  "pushed_at": "2026-10-24",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-admin"
  },
@@ -427,7 +481,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-app",
   "language": "Vue",
-  "pushed_at": "2026-10-21",
+  "pushed_at": "2026-10-23",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-app"
  },
@@ -436,7 +490,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-b2b",
   "language": "PHP",
-  "pushed_at": "2026-10-21",
+  "pushed_at": "2026-10-24",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-b2b"
  },
@@ -445,7 +499,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-core",
   "language": "PHP",
-  "pushed_at": "2026-10-21",
+  "pushed_at": "2026-10-24",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-core"
  },
@@ -463,8 +517,8 @@
   "description": "18 Lessons to Get Started Building AI Agents",
   "full_name": "microsoft/ai-agents-for-beginners",
   "language": "Jupyter Notebook",
-  "pushed_at": "2026-10-21",
-  "stars": 77601,
+  "pushed_at": "2026-10-24",
+  "stars": 77914,
   "url": "https://github.com/microsoft/ai-agents-for-beginners"
  },
  "mnfst/awesome-free-llm-apis": {
@@ -472,26 +526,53 @@
   "description": "List of Permanent Free LLM API  (API Keys)",
   "full_name": "mnfst/awesome-free-llm-apis",
   "language": "JavaScript",
-  "pushed_at": "2026-10-21",
-  "stars": 10875,
+  "pushed_at": "2026-10-26",
+  "stars": 11323,
   "url": "https://github.com/mnfst/awesome-free-llm-apis"
+ },
+ "modernrelay/omnigraph": {
+  "archived": false,
+  "description": "Object-storage native graph database with branching and typed ontology",
+  "full_name": "ModernRelay/omnigraph",
+  "language": "Rust",
+  "pushed_at": "2026-10-26",
+  "stars": 1771,
+  "url": "https://github.com/ModernRelay/omnigraph"
  },
  "msitarzewski/agency-agents": {
   "archived": false,
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
   "full_name": "msitarzewski/agency-agents",
   "language": "Shell",
-  "pushed_at": "2026-10-19",
-  "stars": 162752,
+  "pushed_at": "2026-10-25",
+  "stars": 164139,
   "url": "https://github.com/msitarzewski/agency-agents"
+ },
+ "myshell-ai/openvoice": {
+  "archived": false,
+  "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
+  "full_name": "myshell-ai/OpenVoice",
+  "language": "Python",
+  "pushed_at": "2025-04-19",
+  "stars": 38076,
+  "url": "https://github.com/myshell-ai/OpenVoice"
+ },
+ "nick-vels/skills": {
+  "archived": false,
+  "description": "Describe what you want built — get a finished project. An agent skill for Claude Code, Cursor and Codex: asks only where your idea forks, then writes the spec, splits it into tasks, builds it and checks the result against your original brief. Live progress on a dashboard that opens by itself.",
+  "full_name": "nick-vels/skills",
+  "language": "HTML",
+  "pushed_at": "2026-10-21",
+  "stars": 549,
+  "url": "https://github.com/nick-vels/skills"
  },
  "nirdiamant/agents-towards-production": {
   "archived": false,
   "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
   "full_name": "NirDiamant/agents-towards-production",
   "language": "Jupyter Notebook",
-  "pushed_at": "2026-10-17",
-  "stars": 21738,
+  "pushed_at": "2026-10-26",
+  "stars": 21774,
   "url": "https://github.com/NirDiamant/agents-towards-production"
  },
  "nirdiamant/rag_techniques": {
@@ -499,8 +580,8 @@
   "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
   "full_name": "NirDiamant/RAG_Techniques",
   "language": "Jupyter Notebook",
-  "pushed_at": "2026-10-20",
-  "stars": 29947,
+  "pushed_at": "2026-10-26",
+  "stars": 30010,
   "url": "https://github.com/NirDiamant/RAG_Techniques"
  },
  "oauth2-proxy/oauth2-proxy": {
@@ -508,8 +589,8 @@
   "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
   "full_name": "oauth2-proxy/oauth2-proxy",
   "language": "Go",
-  "pushed_at": "2026-10-20",
-  "stars": 15222,
+  "pushed_at": "2026-10-25",
+  "stars": 15270,
   "url": "https://github.com/oauth2-proxy/oauth2-proxy"
  },
  "obsproject/obs-studio": {
@@ -517,17 +598,26 @@
   "description": "OBS Studio - Free and open source software for live streaming and screen recording",
   "full_name": "obsproject/obs-studio",
   "language": "C",
-  "pushed_at": "2026-10-20",
-  "stars": 77874,
+  "pushed_at": "2026-10-23",
+  "stars": 78259,
   "url": "https://github.com/obsproject/obs-studio"
+ },
+ "openbmb/minicpm-v": {
+  "archived": false,
+  "description": "See, hear, and interact on your local devices.",
+  "full_name": "OpenBMB/MiniCPM-V",
+  "language": "Python",
+  "pushed_at": "2026-10-25",
+  "stars": 26978,
+  "url": "https://github.com/OpenBMB/MiniCPM-V"
  },
  "pascalorg/editor": {
   "archived": false,
   "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
   "full_name": "pascalorg/editor",
   "language": "TypeScript",
-  "pushed_at": "2026-10-21",
-  "stars": 25026,
+  "pushed_at": "2026-10-26",
+  "stars": 25122,
   "url": "https://github.com/pascalorg/editor"
  },
  "patchy631/ai-engineering-hub": {
@@ -536,7 +626,7 @@
   "full_name": "patchy631/ai-engineering-hub",
   "language": "Jupyter Notebook",
   "pushed_at": "2026-10-12",
-  "stars": 38402,
+  "stars": 38440,
   "url": "https://github.com/patchy631/ai-engineering-hub"
  },
  "pawelmalak/flame": {
@@ -545,7 +635,7 @@
   "full_name": "pawelmalak/flame",
   "language": "TypeScript",
   "pushed_at": "2026-06-25",
-  "stars": 6634,
+  "stars": 6649,
   "url": "https://github.com/pawelmalak/flame"
  },
  "presenton/presenton": {
@@ -553,8 +643,8 @@
   "description": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
   "full_name": "presenton/presenton",
   "language": "TypeScript",
-  "pushed_at": "2026-10-19",
-  "stars": 11251,
+  "pushed_at": "2026-10-26",
+  "stars": 11371,
   "url": "https://github.com/presenton/presenton"
  },
  "punkpeye/awesome-mcp-servers": {
@@ -562,8 +652,8 @@
   "description": "A collection of MCP servers.",
   "full_name": "punkpeye/awesome-mcp-servers",
   "language": "—",
-  "pushed_at": "2026-10-18",
-  "stars": 96693,
+  "pushed_at": "2026-10-23",
+  "stars": 96888,
   "url": "https://github.com/punkpeye/awesome-mcp-servers"
  },
  "purpledoubled/locally-uncensored": {
@@ -571,8 +661,8 @@
   "description": "The all-in-one local AI studio for your desktop: chat, image and video generation and a coding agent in one free, open source app. Windows and Linux. No Docker, no terminal, no cloud required.",
   "full_name": "PurpleDoubleD/locally-uncensored",
   "language": "TypeScript",
-  "pushed_at": "2026-10-20",
-  "stars": 2446,
+  "pushed_at": "2026-10-24",
+  "stars": 2577,
   "url": "https://github.com/PurpleDoubleD/locally-uncensored"
  },
  "qwenlm/qwen-image": {
@@ -581,7 +671,7 @@
   "full_name": "QwenLM/Qwen-Image",
   "language": "Python",
   "pushed_at": "2026-02-10",
-  "stars": 8423,
+  "stars": 8429,
   "url": "https://github.com/QwenLM/Qwen-Image"
  },
  "razzant/claudexor": {
@@ -589,8 +679,8 @@
   "description": "Multi-harness control plane for Claude Code, Codex, Cursor, and OpenCode: quota-aware rotation across multiple Claude/Codex subscriptions, shared thread context, and cross-model review.",
   "full_name": "razzant/claudexor",
   "language": "TypeScript",
-  "pushed_at": "2026-10-21",
-  "stars": 516,
+  "pushed_at": "2026-10-26",
+  "stars": 518,
   "url": "https://github.com/razzant/claudexor"
  },
  "reconurge/flowsint": {
@@ -599,15 +689,33 @@
   "full_name": "reconurge/flowsint",
   "language": "TypeScript",
   "pushed_at": "2026-10-18",
-  "stars": 9878,
+  "stars": 9948,
   "url": "https://github.com/reconurge/flowsint"
+ },
+ "resemble-ai/chatterbox": {
+  "archived": false,
+  "description": "SoTA open-source TTS",
+  "full_name": "resemble-ai/chatterbox",
+  "language": "Python",
+  "pushed_at": "2026-07-21",
+  "stars": 27270,
+  "url": "https://github.com/resemble-ai/chatterbox"
+ },
+ "rohit267/net-merge": {
+  "archived": false,
+  "description": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+  "full_name": "rohit267/net-merge",
+  "language": "Go",
+  "pushed_at": "2026-10-26",
+  "stars": 2299,
+  "url": "https://github.com/rohit267/net-merge"
  },
  "rucorp/accounts": {
   "archived": false,
   "description": "Связка профилей: GitHub-аккаунты, почты-хабы, SSH, орг rucorp",
   "full_name": "rucorp/accounts",
   "language": "—",
-  "pushed_at": "2026-10-07",
+  "pushed_at": "2026-10-25",
   "stars": 1,
   "url": "https://github.com/rucorp/accounts"
  },
@@ -625,7 +733,7 @@
   "description": "Mock bank acquiring & fiscal (OFD) services to test payment integrations against official provider protocols — T-Bank, YooKassa, ATOL, Alfa-Bank, Sber, VTB, OFD Ferma, Perviy OFD, Kontur.OFD, Taxcom. Zero-dependency Node, OpenAPI 3.1, multi-tenant sandboxes.",
   "full_name": "rucorp/mock-services",
   "language": "JavaScript",
-  "pushed_at": "2026-10-17",
+  "pushed_at": "2026-10-22",
   "stars": 6,
   "url": "https://github.com/rucorp/mock-services"
  },
@@ -635,7 +743,7 @@
   "full_name": "ShaikhWarsi/free-ai-tools",
   "language": "TypeScript",
   "pushed_at": "2026-10-11",
-  "stars": 1009,
+  "stars": 1036,
   "url": "https://github.com/ShaikhWarsi/free-ai-tools"
  },
  "shubhamsaboo/awesome-llm-apps": {
@@ -643,8 +751,8 @@
   "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
   "full_name": "Shubhamsaboo/awesome-llm-apps",
   "language": "Python",
-  "pushed_at": "2026-10-18",
-  "stars": 142490,
+  "pushed_at": "2026-10-22",
+  "stars": 143113,
   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
  },
  "signerless/llm-checker": {
@@ -653,7 +761,7 @@
   "full_name": "signerless/llm-checker",
   "language": "JavaScript",
   "pushed_at": "2026-10-19",
-  "stars": 3038,
+  "stars": 3039,
   "url": "https://github.com/signerless/llm-checker"
  },
  "slavakurilyak/awesome-ai-agents": {
@@ -662,16 +770,25 @@
   "full_name": "slavakurilyak/awesome-ai-agents",
   "language": "Go",
   "pushed_at": "2026-10-04",
-  "stars": 2487,
+  "stars": 2715,
   "url": "https://github.com/slavakurilyak/awesome-ai-agents"
+ },
+ "swivid/f5-tts": {
+  "archived": false,
+  "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
+  "full_name": "SWivid/F5-TTS",
+  "language": "Python",
+  "pushed_at": "2026-10-23",
+  "stars": 15458,
+  "url": "https://github.com/SWivid/F5-TTS"
  },
  "t8y2/dbx": {
   "archived": false,
   "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
   "full_name": "t8y2/dbx",
   "language": "Rust",
-  "pushed_at": "2026-10-21",
-  "stars": 27447,
+  "pushed_at": "2026-10-26",
+  "stars": 27803,
   "url": "https://github.com/t8y2/dbx"
  },
  "tencent-hunyuan/hy3": {
@@ -689,7 +806,7 @@
   "full_name": "thedaviddias/Front-End-Checklist",
   "language": "MDX",
   "pushed_at": "2026-10-06",
-  "stars": 74534,
+  "stars": 74568,
   "url": "https://github.com/thedaviddias/Front-End-Checklist"
  },
  "thesysdev/openui": {
@@ -697,8 +814,8 @@
   "description": "The Open Standard for Generative UI",
   "full_name": "thesysdev/openui",
   "language": "TypeScript",
-  "pushed_at": "2026-10-19",
-  "stars": 12820,
+  "pushed_at": "2026-10-26",
+  "stars": 14117,
   "url": "https://github.com/thesysdev/openui"
  },
  "tonyl1u/nano-ai": {
@@ -707,7 +824,7 @@
   "full_name": "TonyL1u/nano-ai",
   "language": "TypeScript",
   "pushed_at": "2026-04-29",
-  "stars": 172,
+  "stars": 177,
   "url": "https://github.com/TonyL1u/nano-ai"
  },
  "trycompai/crm": {
@@ -715,8 +832,8 @@
   "description": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
   "full_name": "trycompai/crm",
   "language": "TypeScript",
-  "pushed_at": "2026-10-20",
-  "stars": 11575,
+  "pushed_at": "2026-10-23",
+  "stars": 11687,
   "url": "https://github.com/trycompai/crm"
  },
  "tw93/mole": {
@@ -724,8 +841,8 @@
   "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
   "full_name": "tw93/Mole",
   "language": "Shell",
-  "pushed_at": "2026-10-21",
-  "stars": 72086,
+  "pushed_at": "2026-10-26",
+  "stars": 72941,
   "url": "https://github.com/tw93/Mole"
  },
  "vava-nessa/free-coding-models": {
@@ -734,16 +851,25 @@
   "full_name": "vava-nessa/free-coding-models",
   "language": "HTML",
   "pushed_at": "2026-10-19",
-  "stars": 2830,
+  "stars": 2841,
   "url": "https://github.com/vava-nessa/free-coding-models"
+ },
+ "veloxbase/veloxdb": {
+  "archived": false,
+  "description": "Database management, built for developers",
+  "full_name": "veloxbase/veloxdb",
+  "language": "TypeScript",
+  "pushed_at": "2026-10-18",
+  "stars": 828,
+  "url": "https://github.com/veloxbase/veloxdb"
  },
  "vercel-labs/agent-browser": {
   "archived": false,
   "description": "Browser automation CLI for AI agents",
   "full_name": "vercel-labs/agent-browser",
   "language": "Rust",
-  "pushed_at": "2026-10-21",
-  "stars": 44369,
+  "pushed_at": "2026-10-26",
+  "stars": 44619,
   "url": "https://github.com/vercel-labs/agent-browser"
  },
  "xiaomimimo/mimo-code": {
@@ -751,8 +877,8 @@
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "full_name": "XiaomiMiMo/MiMo-Code",
   "language": "TypeScript",
-  "pushed_at": "2026-10-21",
-  "stars": 13696,
+  "pushed_at": "2026-10-26",
+  "stars": 13725,
   "url": "https://github.com/XiaomiMiMo/MiMo-Code"
  },
  "xiaomimimo/mimo-v2-flash": {
@@ -761,7 +887,7 @@
   "full_name": "XiaomiMiMo/MiMo-V2-Flash",
   "language": "—",
   "pushed_at": "2026-01-08",
-  "stars": 1399,
+  "stars": 1400,
   "url": "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
  },
  "youmind-openlab/ai-image-prompts-skill": {
@@ -769,8 +895,8 @@
   "description": "AI Image Prompts — 10,000+ curated prompts for any model. Works with Nano Banana Pro, Nano Banana 2, Seedream 5.0, GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and more.",
   "full_name": "YouMind-OpenLab/ai-image-prompts-skill",
   "language": "TypeScript",
-  "pushed_at": "2026-10-21",
-  "stars": 1318,
+  "pushed_at": "2026-10-26",
+  "stars": 1338,
   "url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill"
  },
  "zai-org/glm-image": {
@@ -779,7 +905,7 @@
   "full_name": "zai-org/GLM-Image",
   "language": "Python",
   "pushed_at": "2026-03-20",
-  "stars": 1067,
+  "stars": 1066,
   "url": "https://github.com/zai-org/GLM-Image"
  },
  "zai-org/glm-skills": {
@@ -788,7 +914,7 @@
   "full_name": "zai-org/GLM-skills",
   "language": "Python",
   "pushed_at": "2026-04-15",
-  "stars": 476,
+  "stars": 475,
   "url": "https://github.com/zai-org/GLM-skills"
  }
 }

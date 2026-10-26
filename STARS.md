@@ -3,7 +3,7 @@
 Что это: каталог чужих репозиториев, которым я поставил ⭐, с описанием на русском —
 что это на самом деле, чем полезно и что из него можно забрать в свои проекты.
 
-- Всего в звёздах: **94** (сверено через `gh api user/starred`, 2026-10-24)
+- Всего в звёздах: **102** (сверено через `gh api user/starred`, 2026-10-26)
 - Свои репозитории здесь не дублируются полностью — только те, что я лайкнул (раздел «Свои»).
 - Каталог **моих** репозиториев — в [README.md](./README.md).
 - Подробный разбор девятки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
@@ -21,7 +21,7 @@
 
 ---
 
-## 1. Агенты и обвязка вокруг них (9)
+## 1. Агенты и обвязка вокруг них (10)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@
 | [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex) | 18k | TS | Прокси-слой: один формат API для Claude/Gemini/Grok/DeepSeek под Codex и Claude Code | 🟢 Практичная вещь: держать одного клиента и менять провайдера без переписывания |
 | [`razzant/claudexor`](https://github.com/razzant/claudexor) | 516 | TS | Control plane над несколькими харнессами (Claude Code, Codex, Cursor, OpenCode) с учётом квот и ротацией | 🟡 Как жить с лимитами: квоты, ротация аккаунтов, единый диспетчер запусков |
 | [`BloopAI/vibe-kanban`](https://github.com/BloopAI/vibe-kanban) | 28k | Rust | Канбан-доска поверх coding-агентов | 🟡 Приём «очередь задач → параллельные агенты»: человек не сидит в чате, а разбирает результат |
+| [`leepokai/Codync`](https://github.com/leepokai/Codync) | 901 | Rust | Опенсорсная замена Grok Bot: свои подписки Claude Code, Codex, Gemini CLI, Cursor и ещё 40+ агентов как боты, которым пишешь с телефона | 🟡 Прямой референс к центру агентов: хост на Rust, iOS-приложение на SwiftUI, Electron на десктопе. Смотреть, как устроен мост «мессенджер ↔ локальный агент» и как агент живёт вне терминала |
 | [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) | 163k | Shell | «Агентство» из ролевых агентов (фронтенд, SMM, исследования) | ⚪ Огромный сборник ролей-промптов; брать как идеи ролевых инструкций, не как код |
 | [`ANDRETRIPOL/OpenGhost`](https://github.com/ANDRETRIPOL/OpenGhost) | 266 | JS | Десктопный AI-агент для Win/macOS/Linux с собственным движком | 🟡 Как устроен «агент на компьютере»: свой engine, инструменты ОС, локальные разрешения |
 | [`jgouviergmail/LIA-Assistant`](https://github.com/jgouviergmail/LIA-Assistant) | 75 | Python | Мульти-агентный ассистент на LangGraph с Human-in-the-Loop | 🟡 Готовая схема «человек подтверждает шаг» в LangGraph-графе |
@@ -83,7 +84,7 @@
 | [`gluonfield/enchanted`](https://github.com/gluonfield/enchanted) | 6k | Swift | iOS/macOS-клиент к приватным self-hosted LLM (Ollama) | 🟡 Нативный клиент к локальным моделям — UI-референс |
 | [`PurpleDoubleD/locally-uncensored`](https://github.com/PurpleDoubleD/locally-uncensored) | 2.4k | TS | Локальная AI-студия: чат, картинки, видео, кодовый агент | 🟡 Как собрать «всё в одном» на локальных моделях |
 
-## 6. Модели и генерация медиа (6)
+## 6. Модели и генерация медиа (12)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -93,6 +94,20 @@
 | [`XiaomiMiMo/MiMo-V2-Flash`](https://github.com/XiaomiMiMo/MiMo-V2-Flash) | 1.4k | — | Компактная reasoning/agent-модель | ⚪ Дешёвая модель под агентные циклы |
 | [`Tencent-Hunyuan/Hy3`](https://github.com/Tencent-Hunyuan/Hy3) | 671 | Python | 295B MoE (21B активных), ставка на стоимость инференса | ⚪ Смотреть на экономику, не на размер |
 | [`koda-dernet/Side-Step`](https://github.com/koda-dernet/Side-Step) | 159 | Python | Скрипты обучения/файнтюна для ACE-Step 1.5 (генерация музыки) с CLI и TUI | 🟡 Под музыкальные проекты (`dajet`, `joer`): как делать свои модели, а не только API |
+
+### Речь и голос (TTS)
+
+Отдельной группой: синтез речи — другой класс задач, чем картинки и музыка. Критерий здесь
+простой — работает ли локально на CPU и есть ли русский.
+
+| Репозиторий | ★ | Стек | Что это | Чем полезен |
+|---|---|---|---|---|
+| [`hexgrad/kokoro`](https://github.com/hexgrad/kokoro) | 9.7k | Python | Kokoro-82M: TTS на 82 млн параметров, веса под Apache, библиотека ставится через pip | 🟡 Самый лёгкий офлайн-голос из всей шестёрки: идёт на CPU, зависимость — `pip install kokoro` + espeak-ng. Реальный кандидат на озвучку внутри приложения |
+| [`resemble-ai/chatterbox`](https://github.com/resemble-ai/chatterbox) | 27k | Python | Семейство TTS от Resemble AI: Multilingual V3 (0.5B), Turbo 350M для голосовых агентов, Nano 110M | 🟡 Nano даёт 3× реального времени на 8 ядрах CPU и понимает теги `[laugh]`/`[cough]` — голос локального агента без GPU |
+| [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech) | 33k | Python | Открытый TTS с клонированием голоса (линейки S1/S2, Drama), Docker-образ, многоязычность | 🟡 Свой TTS-сервер для медиа-проектов: клон голоса у себя, без биллинга за символы |
+| [`2noise/ChatTTS`](https://github.com/2noise/ChatTTS) | 40k | Python | Диалоговый TTS: просодия управляется как параметр — смех, паузы, вставки; пока только английский и китайский | ⚪ Идея «эмоция — это параметр синтеза, а не отдельная модель». Русского нет, поэтому только референс |
+| [`myshell-ai/OpenVoice`](https://github.com/myshell-ai/OpenVoice) | 38k | Python | Клонирование тембра голоса + управление стилем (эмоция, темп, акцент), V2 — шесть языков, zero-shot | ⚪ Академический эталон клонирования тембра и переноса стиля. В списке языков русского нет — смотреть архитектуру, не внедрять |
+| [`SWivid/F5-TTS`](https://github.com/SWivid/F5-TTS) | 15k | Python | TTS на flow matching: Diffusion Transformer + ConvNeXt V2 и трюк Sway Sampling | ⚪ Архитектурный референс: как flow matching заменяет авторегрессию в синтезе речи и почему Sway Sampling улучшает качество без переобучения |
 
 ## 7. Инфраструктура, браузер, self-hosted, безопасность (7)
 
@@ -122,11 +137,12 @@
 | [`vava-nessa/free-coding-models`](https://github.com/vava-nessa/free-coding-models) | 2.8k | HTML | 170+ бесплатных кодовых моделей с бенчмарками и установкой в CLI | 🟢 Практичный список «чем кодить бесплатно» |
 | [`signerless/llm-checker`](https://github.com/signerless/llm-checker) | 3k | JS | CLI: сканирует железо и говорит, какие модели потянет | 🟡 Не гадать, а померить перед запуском локальной модели |
 
-## 9. Разработка и утилиты (5)
+## 9. Разработка и утилиты (6)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
 | [`t8y2/dbx`](https://github.com/t8y2/dbx) | 27k | Rust | 25 МБ клиент к 100+ базам данных | 🟡 Как сделать «маленький нативный клиент»: Rust + минимализм |
+| [`veloxbase/veloxdb`](https://github.com/veloxbase/veloxdb) | 828 | TS | Desktop-клиент к 13 СУБД (PostgreSQL, MySQL, SQLite, DuckDB, Mongo, Redis, ClickHouse, Cassandra и др.) на Rust + Tauri 2, без облака и телеметрии | 🟡 Та же ниша, что `dbx`, но с другой стороны: Tauri 2 вместо чистого Rust, дерево подключений + SQL-редактор + грид. Референс нативного десктопа к данным и заодно рабочий инструмент смотреть базу `lovii-crm` |
 | [`pascalorg/editor`](https://github.com/pascalorg/editor) | 25k | TS | Открытый 3D-редактор архитектуры + локальный CLI + MCP | 🟡 Реальный пример «продукт + MCP + CLI» в одном репозитории |
 | [`laravel/laravel`](https://github.com/laravel/laravel) | 85k | Blade | PHP-фреймворк | ⚪ Заготовка, держу для PHP-проектов (`basedata`, `lovii-tech`) |
 | [`ashleve/lightning-hydra-template`](https://github.com/ashleve/lightning-hydra-template) | 5.4k | Python | Шаблон ML-экспериментов (PyTorch Lightning + Hydra) | 🟡 Если понадобится обучение моделей — структура конфигов сразу правильная |
@@ -157,7 +173,7 @@
 | [`dajetbro/dajetbro`](https://github.com/dajetbro/dajetbro) | 1 | — | Профиль Dajet |
 
 Ещё одна своя звезда — `bestdeejay-design/alien-cosmic` (P1) — живёт только в [TASKS.md](./TASKS.md),
-трек E: это рабочая игра, а не карточка каталога. Поэтому 93 строки здесь + он = 94 звезды.
+трек E: это рабочая игра, а не карточка каталога. Поэтому 101 строка здесь + он = 102 звезды.
 
 ## 11. На разбор / непонятное (3)
 
