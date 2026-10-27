@@ -4,7 +4,7 @@
 > Собрано 27.10.2026 из **137** репозиториев трёх аккаунтов (`bestdeejay-design`, `rucorp`, `lovii-tech`): **58** публичных со ссылкой, **17** приватных — только название и описание.
 > Обновление пока ручное; автоматизация — следующим шагом (скрипт-сборщик + триггер на новые репозитории).
 
-58 public repositories with open source and 17 private ones shown by name — a selection from 137 repos across three accounts. Forks, archived projects, empty drafts and one-off sandboxes are left out. 🔒 marks repositories whose source stays closed.
+58 public repositories with open source and 17 private ones shown by name — a selection from 137 repos across three accounts. Forks, archived projects, empty drafts and one-off sandboxes are left out. 🔒 marks repositories whose source stays closed: the name and what it does, no link.
 
 ---
 
@@ -12,7 +12,14 @@
 
 White-label SaaS for launching local marketplaces: a district, a food court, a shopping mall or a city area gets its own audience, catalog and courier network — all running on one shared core. Merchants list goods and services, customers see **what is actually in stock nearby and how many minutes it is on foot**, delivery lands in 15–30 minutes. Status: MVP, mini-pilot completed in Saint Petersburg.
 
-Nine repositories cover the whole product: storefront, commerce core, partner cabinet, admin panel, mobile app, design system, documentation corpus, restaurant CRM/ERP and the public white paper.
+Eleven repositories cover the product end to end: the public white paper and a working storefront demo, the investor site, the commerce core, partner cabinet, admin panel, customer app, design system, documentation corpus, restaurant CRM/ERP and the operating company's site.
+
+<details>
+<summary><b>11 repositories — 3 public, 8 internal</b></summary>
+
+<br>
+
+**Public face**
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -20,10 +27,7 @@ Nine repositories cover the whole product: storefront, commerce core, partner ca
 | [**lovii-demo**](https://github.com/bestdeejay-design/lovii-demo) · [live](https://lovii.mobiap.com/) | Working storefront demo on static hosting: 14 shops and 39 products, stock availability, walking distance in minutes, roles of shop, ambassador and investor, light and dark themes. | JavaScript · GitHub Pages |
 | [**lovii-invest**](https://github.com/bestdeejay-design/lovii-invest) | Investor site: loyalty programme, payments, marketplace of local offers, unit economics; funding model — equity, not digital assets. | HTML · CSS |
 
-<details>
-<summary><b>Внутренние проекты платформы (8)</b></summary>
-
-<br>
+**Internal projects**
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -61,7 +65,12 @@ Turns call recordings into structured data: 100% coverage instead of the usual 3
 
 ### 🖥 macOS apps — the Dajet family
 
-Native Swift apps built around one idea: software that stays quiet.
+Native Swift apps built around one idea: software that stays quiet. Five repositories: a music player, a browser, a text editor, the shared UI kit that keeps them looking like one family, and a menu-bar pet that keeps the Mac awake. Three are public with source, two stay closed.
+
+<details>
+<summary><b>5 repositories — 3 public, 2 internal</b></summary>
+
+<br>
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -71,9 +80,18 @@ Native Swift apps built around one idea: software that stays quiet.
 | 🔒 **dajet-ui** | Shared native UI kit for the whole app family: one visual language, system materials. | Swift · SwiftUI |
 | [**sweet-no-sleep**](https://github.com/bestdeejay-design/sweet-no-sleep) | Menu-bar desktop pet Kiwi that keeps your Mac awake — 6★. | Swift · AppKit |
 
+</details>
+
 ---
 
 ### 🎮 Games, music & interactive
+
+Things built for the joy of it, and a reminder that a browser needs no build step to run a game. Eight projects: two real-time strategies on pure Canvas, a collection of mini-games, an interactive philosophical saga in two books, two music galleries, an internet radio with adaptive visuals and a glossy magazine generator.
+
+<details>
+<summary><b>8 repositories</b></summary>
+
+<br>
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -86,9 +104,18 @@ Native Swift apps built around one idea: software that stays quiet.
 | [**joer**](https://github.com/bestdeejay-design/joer) · [live](https://joer.ru) | JOER — internet radio with an adaptive visual atmosphere. | JavaScript · CSS |
 | [**qbik**](https://github.com/bestdeejay-design/qbik) | Glossy magazine generator: editor, templates, PDF export. | JavaScript |
 
+</details>
+
 ---
 
 ### 🤖 AI & developer tooling
+
+The part of the work that builds the tools I then work with: local models, agents and the hygiene around them. Twelve repositories — a practical AI handbook that gathered 48 stars, a set of 59 skills for coding agents, a documentation timekeeper, a GitHub-based bus for agent tasks, RAG services on local models, browser utilities for images and SVG, and this catalog itself.
+
+<details>
+<summary><b>12 repositories — 11 public, 1 internal</b></summary>
+
+<br>
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -105,9 +132,18 @@ Native Swift apps built around one idea: software that stays quiet.
 | [**svg-readme-header-footer**](https://github.com/bestdeejay-design/svg-readme-header-footer) | Single-file editor for animated SVG banners for GitHub READMEs, with live preview. | HTML · JavaScript |
 | [**resume**](https://github.com/bestdeejay-design/resume) · [live](https://bestdeejay-design.github.io/resume/) | My resume in CTO / CDTO / CPO versions: master file, build rules, published site. | HTML · Python |
 
+</details>
+
 ---
 
 ### 🏗 Websites & client work
+
+Sites that are live in production rather than sitting in a folder: the AXIIOM corporate site, ATMOSFERA agency, three client domains, a designer's portfolio, two SPbGTI projects — the university site and the historical archive, and several landings. Eleven repositories, most of them static HTML with no build step.
+
+<details>
+<summary><b>11 repositories — 10 public, 1 internal</b></summary>
+
+<br>
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -123,9 +159,18 @@ Native Swift apps built around one idea: software that stays quiet.
 | 🔒 **archive-spbgti** | Historical archive of SPbGTI: Directus CMS plus gallery — archive.ti200.ru. | HTML · Directus |
 | [**univerid**](https://github.com/bestdeejay-design/univerid) | UniverID — digital ecosystem for universities: gradebook, schedule, dean's office chat. 2★ | HTML |
 
+</details>
+
 ---
 
 ### ⚙️ Infrastructure, security & engineering practice
+
+What holds the products up and what keeps the decisions written down: an Ansible bootstrap for fresh servers, the security contour with its access matrix, a working inbound mail setup on own domains, domain discovery, a 4,240-line SRS for a delivery aggregator and the venue-category dataset behind the catalogs. Six repositories.
+
+<details>
+<summary><b>6 repositories — 5 internal, 1 public</b></summary>
+
+<br>
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -136,12 +181,16 @@ Native Swift apps built around one idea: software that stays quiet.
 | 🔒 **docs** | Software requirements specification for a grocery-delivery aggregator: 4,240+ lines, 2 volumes, 14 business processes, 7 ADRs. | Markdown |
 | [**catalog**](https://github.com/bestdeejay-design/catalog) | Venue categories dataset — hierarchy, icons, ordering — plus validation and analysis scripts. | JavaScript · JSON |
 
+</details>
+
 ---
 
 ### 🧪 Prototypes & demos
 
+Interface prototypes built to prove a flow end-to-end before any backend exists: hotel booking, restaurant search, padel courts, a POS terminal, HR motivation, delivery logistics, an eSIM companion, a food-hub investment landing, a training journal and a pizzeria. Eleven static prototypes, each one openable in a browser.
+
 <details>
-<summary><b>Interface prototypes built to prove a flow end-to-end (11)</b></summary>
+<summary><b>11 repositories</b></summary>
 
 <br>
 
@@ -166,21 +215,16 @@ Native Swift apps built around one idea: software that stays quiet.
 ### 📦 Остальное
 
 <details>
-<summary><b>Проекты второго плана (8)</b></summary>
+<summary><b>8 repositories</b></summary>
 
 <br>
 
-**BRIIX — AI marketer.** Reads a company's site, builds a Brand DNA profile, generates a content plan and on-brand posts, publishes on schedule and reports analytics — zero effort on input.
+Projects that matter less than the ones above, kept for completeness: BRIIX and its private workspace, two attempts at a personal operating system, the working environment for coding agents, and three sites.
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
-| [**briix**](https://github.com/rucorp/briix) | Public product site: landing, 20-slide presentation, investor section, unit-economics calculator. | HTML · GitHub Pages |
-| 🔒 **briix-internal** | Private workspace: canonical business document, full technical specification, financial model, architecture, risks. | Markdown |
-
-**Прочие проекты.**
-
-| Repository | What it is | Stack |
-|:--|:--|:--|
+| [**briix**](https://github.com/rucorp/briix) | BRIIX — AI marketer: reads a company's site, builds a Brand DNA profile, generates a content plan and on-brand posts, publishes on schedule and reports analytics. Public product site with a 20-slide presentation and unit-economics calculator. | HTML · GitHub Pages |
+| 🔒 **briix-internal** | Private workspace of BRIIX: canonical business document, full technical specification, financial model, architecture, risks. | Markdown |
 | [**personal-os**](https://github.com/bestdeejay-design/personal-os) | Personal operations centre: notes, kanban, calendar, files, profiles, RAG agent — all local. | TypeScript |
 | [**pmos**](https://github.com/bestdeejay-design/pmos) | Event-driven microservice monorepo: 16 CRUD services, NATS JetStream, schema-per-service, 5 sagas, strict TypeScript. | TypeScript · NATS · PostgreSQL |
 | [**opencode-setup**](https://github.com/bestdeejay-design/opencode-setup) | Working environment for AI coding agents: configs, MCP servers, skills and a maintenance service. | Shell |
