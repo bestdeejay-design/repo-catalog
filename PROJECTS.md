@@ -1,12 +1,6 @@
-# Projects
+## Projects
 
-> Заготовка раздела «Projects» для README профиля `bestdeejay-design` — тексты английские, как пойдут в публикацию.
-> Собрано 27.10.2026 из **137** репозиториев трёх аккаунтов (`bestdeejay-design`, `rucorp`, `lovii-tech`): **58** публичных со ссылкой, **17** приватных — только название и описание.
-> Обновление пока ручное; автоматизация — следующим шагом (скрипт-сборщик + триггер на новые репозитории).
-
-58 public repositories with open source and 17 private ones shown by name — a selection from 137 repos across three accounts. Forks, archived projects, empty drafts and one-off sandboxes are left out. 🔒 marks repositories whose source stays closed: the name and what it does, no link.
-
----
+58 public repositories with source and 17 private ones shown by name. 🔒 marks repositories whose source stays closed: the name and what it does, no link.
 
 ### 🛍 LOVII — platform for neighbourhood marketplaces
 
@@ -212,14 +206,14 @@ Interface prototypes built to prove a flow end-to-end before any backend exists:
 
 ---
 
-### 📦 Остальное
+### 📦 More projects
+
+Beyond the main line: BRIIX and its private workspace, two takes on a personal operating system, the working environment for coding agents, and three more sites.
 
 <details>
 <summary><b>8 repositories</b></summary>
 
 <br>
-
-Projects that matter less than the ones above, kept for completeness: BRIIX and its private workspace, two attempts at a personal operating system, the working environment for coding agents, and three sites.
 
 | Repository | What it is | Stack |
 |:--|:--|:--|
@@ -233,11 +227,3 @@ Projects that matter less than the ones above, kept for completeness: BRIIX and 
 | [**agents**](https://github.com/bestdeejay-design/agents) | AXIIOM technology group: digital transformation, fintech, payment integrations, cybersecurity. | HTML |
 
 </details>
-
----
-
-### Что не вошло
-
-Отсеяно 62 репозитория: форки (`atom`, `DigUp`, `flowsint`, `awesome-local-llm`, `awesome-local-ai`), архивы (`arental_3`, `static-site`, `napolipizza`, `arental-rental`), пустые (`mag`, `extension1`, `lovii-app-pages-shots`, `lovii-pay`), служебные (`accounts`, `companies`, `.github`, `demo-repository`), разовые песочницы и клоны под аудит (`test`, `lovii-app-arena`, `archive-gallery-arena`, `alien-cosmic-dist`, `ace`, `razbor-project-alpha`), дампы чатов (`chats`, `chats-audit`, `chats-job`, `qwen-chats`, `deepseek-chats`) и слабые однотипные демо.
-
-Если что-то из этого нужно вернуть в список — скажите, добавлю.
