@@ -177,7 +177,7 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`XiaomiMiMo/MiMo-V2-Flash`](https://github.com/XiaomiMiMo/MiMo-V2-Flash) | 1.4k | P3 | Дешёвая reasoning-модель под агентные циклы |
 | [`Tencent-Hunyuan/Hy3`](https://github.com/Tencent-Hunyuan/Hy3) | 671 | P3 | Экономика инференса 295B MoE |
 | [`OpenBMB/MiniCPM-V`](https://github.com/OpenBMB/MiniCPM-V) | 27k | P2 | On-device зрение/речь: 35B-A3B MoE и 1B, 3 ГБ памяти на телефоне. Локальный «глаз» приложения без облака |
-| [`rohit267/net-merge`](https://github.com/rohit267/net-merge) | 2k | P3 | Агрегация каналов (Wi-Fi + LTE). К трём задачам не относится — на полке |
+| [`net-merge/net-merge`](https://github.com/net-merge/net-merge) | 2.6k | P3 | Агрегация каналов (Wi-Fi + LTE). К трём задачам не относится — на полке |
 | [`BEPb/image_to_prompt`](https://github.com/BEPb/image_to_prompt) | 49 | P3 | Картинка → промпт (2023, учебный) |
 | [`BEPb/Image_Colorization`](https://github.com/BEPb/Image_Colorization) | 53 | P3 | Раскрашивание ч/б (2023, учебный) |
 | [`delbeke/vectorizer`](https://github.com/delbeke/vectorizer) | 4 | P3 | Растр → SVG, простой пример |

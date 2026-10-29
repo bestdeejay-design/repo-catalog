@@ -3,7 +3,7 @@
 Что это: каталог чужих репозиториев, которым я поставил ⭐, с описанием на русском —
 что это на самом деле, чем полезно и что из него можно забрать в свои проекты.
 
-- Всего в звёздах: **102** (сверено через `gh api user/starred`, 2026-10-26)
+- Всего в звёздах: **104** (сверено через `gh api user/starred`, 2026-10-29)
 - Свои репозитории здесь не дублируются полностью — только те, что я лайкнул (раздел «Свои»).
 - Каталог **моих** репозиториев — в [README.md](./README.md).
 - Подробный разбор девятки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
@@ -21,7 +21,7 @@
 
 ---
 
-## 1. Агенты и обвязка вокруг них (10)
+## 1. Агенты и обвязка вокруг них (11)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -30,13 +30,14 @@
 | [`XiaomiMiMo/MiMo-Code`](https://github.com/XiaomiMiMo/MiMo-Code) | 14k | TS | Кодовый агент, где модель и агент ко-эволюционируют | 🟡 Пример, как продуктовый агент связан с конкретной моделью и её ограничениями |
 | [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex) | 18k | TS | Прокси-слой: один формат API для Claude/Gemini/Grok/DeepSeek под Codex и Claude Code | 🟢 Практичная вещь: держать одного клиента и менять провайдера без переписывания |
 | [`razzant/claudexor`](https://github.com/razzant/claudexor) | 516 | TS | Control plane над несколькими харнессами (Claude Code, Codex, Cursor, OpenCode) с учётом квот и ротацией | 🟡 Как жить с лимитами: квоты, ротация аккаунтов, единый диспетчер запусков |
+| [`Alishahryar1/free-claude-code`](https://github.com/Alishahryar1/free-claude-code) | 64k | Python | Мульти-харнесс: Claude Code, Codex, Antigravity, VSCode, Pi и OpenCode через один вход | 🟢 Референс к центру агентов: как несколько CLI-агентов жить под общим интерфейсом без переписывания |
 | [`BloopAI/vibe-kanban`](https://github.com/BloopAI/vibe-kanban) | 28k | Rust | Канбан-доска поверх coding-агентов | 🟡 Приём «очередь задач → параллельные агенты»: человек не сидит в чате, а разбирает результат |
 | [`leepokai/Codync`](https://github.com/leepokai/Codync) | 901 | Rust | Опенсорсная замена Grok Bot: свои подписки Claude Code, Codex, Gemini CLI, Cursor и ещё 40+ агентов как боты, которым пишешь с телефона | 🟡 Прямой референс к центру агентов: хост на Rust, iOS-приложение на SwiftUI, Electron на десктопе. Смотреть, как устроен мост «мессенджер ↔ локальный агент» и как агент живёт вне терминала |
 | [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents) | 163k | Shell | «Агентство» из ролевых агентов (фронтенд, SMM, исследования) | ⚪ Огромный сборник ролей-промптов; брать как идеи ролевых инструкций, не как код |
 | [`ANDRETRIPOL/OpenGhost`](https://github.com/ANDRETRIPOL/OpenGhost) | 266 | JS | Десктопный AI-агент для Win/macOS/Linux с собственным движком | 🟡 Как устроен «агент на компьютере»: свой engine, инструменты ОС, локальные разрешения |
 | [`jgouviergmail/LIA-Assistant`](https://github.com/jgouviergmail/LIA-Assistant) | 75 | Python | Мульти-агентный ассистент на LangGraph с Human-in-the-Loop | 🟡 Готовая схема «человек подтверждает шаг» в LangGraph-графе |
 
-## 2. Промпты, скиллы, паттерны (10)
+## 2. Промпты, скиллы, паттерны (11)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -50,6 +51,8 @@
 | [`larashero3-dotcom/lieflat-charts`](https://github.com/larashero3-dotcom/lieflat-charts) | 6.3k | HTML | Навык, который превращает данные в интерактивные HTML-графики | 🟢 Идея «скилл вместо библиотеки»: результат — готовый HTML, а не зависимость в проекте |
 | [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) | 97k | — | Каталог MCP-серверов | 🟢 Главный справочник по MCP: искать готовый сервер раньше, чем писать свой |
 | [`bestdeejay-design/agent-skills`](https://github.com/bestdeejay-design/agent-skills) | 5 | Python | Мой набор из 59 скиллов | ⚪ Своё — точка сборки личных скиллов |
+
+| [`Nutlope/hallmark`](https://github.com/Nutlope/hallmark) | 41k | CSS | Анти-«AI-slop» скилл для дизайна: правила, как не выглядеть шаблонно | 🟡 Забрать приёмы в свои дизайн-скиллы и в проверку вёрстки перед сдачей |
 
 ## 3. Готовые продукты, у которых учатся архитектуре (8)
 
@@ -187,7 +190,7 @@
 
 | Репозиторий | ★ | Стек | Что это |
 |---|---|---|---|
-| [`rohit267/net-merge`](https://github.com/rohit267/net-merge) | 2k | Go | Складывает несколько интернет-каналов в один: Wi-Fi + Ethernet + телефонный хотспот |
+| [`net-merge/net-merge`](https://github.com/net-merge/net-merge) | 2.6k | Go | Складывает несколько интернет-каналов в один: Wi-Fi + Ethernet + телефонный хотспот |
 | [`BEPb/image_to_prompt`](https://github.com/BEPb/image_to_prompt) | 49 | Python | Картинка → промпт (2023, учебный) |
 | [`BEPb/Image_Colorization`](https://github.com/BEPb/Image_Colorization) | 53 | Python | Раскрашивание ч/б изображений (2023, учебный) |
 | [`delbeke/vectorizer`](https://github.com/delbeke/vectorizer) | 4 | JS | Растр → SVG, простой пример |
