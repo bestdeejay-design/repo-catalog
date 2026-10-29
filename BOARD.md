@@ -1,6 +1,6 @@
 # Канбан каталога
 
-> Собрано автоматически: 2026-10-29 13:07. Руками не править — перезапишется.
+> Собрано автоматически: 2026-10-29 16:50. Руками не править — перезапишется.
 > Карточка = репозиторий. Колонка = стадия. Источник правды — `TASKS.md`
 > (приоритеты), `OPTIONS.md` (кандидаты), `STARS-ARCHIVE.md` (архив).
 
@@ -109,7 +109,7 @@
 | [`zai-org/GLM-Image`](https://github.com/zai-org/GLM-Image) | 1.1k | Прочее | Авторегрессионная генерация изображений — архитектурно интересно |
 | [`XiaomiMiMo/MiMo-V2-Flash`](https://github.com/XiaomiMiMo/MiMo-V2-Flash) | 1.4k | Прочее | Дешёвая reasoning-модель под агентные циклы |
 | [`Tencent-Hunyuan/Hy3`](https://github.com/Tencent-Hunyuan/Hy3) | 671 | Прочее | Экономика инференса 295B MoE |
-| [`rohit267/net-merge`](https://github.com/rohit267/net-merge) | 2k | Прочее | Агрегация каналов (Wi-Fi + LTE). К трём задачам не относится — на полке |
+| [`net-merge/net-merge`](https://github.com/net-merge/net-merge) | 2.6k | Прочее | Агрегация каналов (Wi-Fi + LTE). К трём задачам не относится — на полке |
 | [`BEPb/image_to_prompt`](https://github.com/BEPb/image_to_prompt) | 49 | Прочее | Картинка → промпт (2023, учебный) |
 | [`BEPb/Image_Colorization`](https://github.com/BEPb/Image_Colorization) | 53 | Прочее | Раскрашивание ч/б (2023, учебный) |
 | [`delbeke/vectorizer`](https://github.com/delbeke/vectorizer) | 4 | Прочее | Растр → SVG, простой пример |
