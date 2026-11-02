@@ -3,7 +3,7 @@
 Что это: каталог чужих репозиториев, которым я поставил ⭐, с описанием на русском —
 что это на самом деле, чем полезно и что из него можно забрать в свои проекты.
 
-- Всего в звёздах: **104** (сверено через `gh api user/starred`, 2026-10-29)
+- Всего в звёздах: **109** (сверено через `gh api user/starred`, 2026-11-02)
 - Свои репозитории здесь не дублируются полностью — только те, что я лайкнул (раздел «Свои»).
 - Каталог **моих** репозиториев — в [README.md](./README.md).
 - Подробный разбор девятки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
@@ -67,15 +67,16 @@
 | [`mazze93/stratum`](https://github.com/mazze93/stratum) | 2 | HTML | «Эпистемический леджер решений»: append-only лог с гейтами доверия | 🟡 Малоизвестно, но концепция совпадает с crm: решения с доказательствами, а не с уверенностью |
 | [`pawelmalak/flame`](https://github.com/pawelmalak/flame) | 6.6k | TS | Self-hosted стартовая страница с закладками | 🟡 Простой референс «домашний портал»: можно поднять как внутренний портал AXIIOM |
 
-## 4. Generative UI и фронтенд (3)
+## 4. Generative UI и фронтенд (4)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
 | [`thesysdev/openui`](https://github.com/thesysdev/openui) | 13k | TS | Открытый стандарт generative UI: компактный язык разметки, который модель стримит и рантайм рисует | 🟢 Ключевая идея: UI как токен-экономный DSL (до −67% токенов против JSON) + стриминг в React/Vue/Svelte/Angular |
 | [`thedaviddias/Front-End-Checklist`](https://github.com/thedaviddias/Front-End-Checklist) | 75k | MDX | Чек-лист современного веба (обновлён под AI-агентов) | 🟡 Готовый приёмочный список для лендингов AXIIOM — встроить в ревью |
 | [`TonyL1u/nano-ai`](https://github.com/TonyL1u/nano-ai) | 172 | TS | Кросс-платформенный AI-чат-клиент | ⚪ Компактный пример чат-UI и мультипровайдерности |
+| [`nexu-io/open-design`](https://github.com/nexu-io/open-design) | 105k | TS | Локальный воркспейс дизайн-агента: прототипы, дашборды, презентации, motion и видео по брифу и своей дизайн-системе, с общим ревью | 🟢 Схема «бриф → дизайн-система → артефакт → правки агента» для AXIIOM и прототипов: скиллы, шаблоны и плагины лежат открыто и переносятся в свои проекты. Смотреть, как ревью встроено в сам проект, а не в чат |
 
-## 5. macOS, Swift и локальные утилиты (7)
+## 5. macOS, Swift и локальные утилиты (9)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -86,8 +87,10 @@
 | [`ARahim3/DigUp`](https://github.com/ARahim3/DigUp) | 5.3k | Swift | Поиск по содержимому файлов на Mac локально | 🟡 Upstream моего `DigUp`: как устроен on-device поиск и эмбеддинги |
 | [`gluonfield/enchanted`](https://github.com/gluonfield/enchanted) | 6k | Swift | iOS/macOS-клиент к приватным self-hosted LLM (Ollama) | 🟡 Нативный клиент к локальным моделям — UI-референс |
 | [`PurpleDoubleD/locally-uncensored`](https://github.com/PurpleDoubleD/locally-uncensored) | 2.4k | TS | Локальная AI-студия: чат, картинки, видео, кодовый агент | 🟡 Как собрать «всё в одном» на локальных моделях |
+| [`ddalcu/mlx-serve`](https://github.com/ddalcu/mlx-serve) | 2.3k | Zig | Нативный сервер инференса для Apple Silicon: один бинарь + Swift-приложение, API OpenAI/Anthropic/Ollama на одном порту, без Python | 🟢 Рабочая замена Ollama на Mac: `mlx-serve launch claude` наводит Claude Code на локальную модель, приложение даёт меню-бар, чат и менеджер моделей. Референс «локальная модель как сервис внутри продукта» для Dajet-линейки |
+| [`justinwetch/HIGAgentSkills`](https://github.com/justinwetch/HIGAgentSkills) | 731 | Python | Скилл-справочник по Apple HIG: 157 выжимок из гайдлайнов iOS/iPadOS/macOS/tvOS/visionOS/watchOS, срез OS 27 и iPhone Duo | 🟡 Приёмка интерфейсов Dajet и питомца по гайдлайнам Apple без чтения сайта: агент сначала цитирует норму, потом правит. Забирать формат `SKILL.md` + `references/` и enforce-режим (два ревьюера, порог 90/100) |
 
-## 6. Модели и генерация медиа (12)
+## 6. Модели и генерация медиа (13)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -97,6 +100,7 @@
 | [`XiaomiMiMo/MiMo-V2-Flash`](https://github.com/XiaomiMiMo/MiMo-V2-Flash) | 1.4k | — | Компактная reasoning/agent-модель | ⚪ Дешёвая модель под агентные циклы |
 | [`Tencent-Hunyuan/Hy3`](https://github.com/Tencent-Hunyuan/Hy3) | 671 | Python | 295B MoE (21B активных), ставка на стоимость инференса | ⚪ Смотреть на экономику, не на размер |
 | [`koda-dernet/Side-Step`](https://github.com/koda-dernet/Side-Step) | 159 | Python | Скрипты обучения/файнтюна для ACE-Step 1.5 (генерация музыки) с CLI и TUI | 🟡 Под музыкальные проекты (`dajet`, `joer`): как делать свои модели, а не только API |
+| [`nexu-io/html-video`](https://github.com/nexu-io/html-video) | 4.8k | HTML | HTML/CSS → настоящий MP4 локально: 21 шаблон, подключаемые движки рендера, агент собирает ролик из ссылки, репозитория или промпта | 🟢 Видео для AXIIOM и презентаций без After Effects и оплаты за рендер: кадр — это HTML, финал — ffmpeg. Заодно образец «шаблон + агент + локальный рендер» |
 
 ### Речь и голос (TTS)
 
@@ -140,7 +144,7 @@
 | [`vava-nessa/free-coding-models`](https://github.com/vava-nessa/free-coding-models) | 2.8k | HTML | 170+ бесплатных кодовых моделей с бенчмарками и установкой в CLI | 🟢 Практичный список «чем кодить бесплатно» |
 | [`signerless/llm-checker`](https://github.com/signerless/llm-checker) | 3k | JS | CLI: сканирует железо и говорит, какие модели потянет | 🟡 Не гадать, а померить перед запуском локальной модели |
 
-## 9. Разработка и утилиты (6)
+## 9. Разработка и утилиты (7)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -150,6 +154,7 @@
 | [`laravel/laravel`](https://github.com/laravel/laravel) | 85k | Blade | PHP-фреймворк | ⚪ Заготовка, держу для PHP-проектов (`basedata`, `lovii-tech`) |
 | [`ashleve/lightning-hydra-template`](https://github.com/ashleve/lightning-hydra-template) | 5.4k | Python | Шаблон ML-экспериментов (PyTorch Lightning + Hydra) | 🟡 Если понадобится обучение моделей — структура конфигов сразу правильная |
 | [`obsproject/obs-studio`](https://github.com/obsproject/obs-studio) | 78k | C | OBS Studio | ⚪ Справочник по захвату экрана/стримингу |
+| [`neurocyte/flow`](https://github.com/neurocyte/flow) | 2.5k | Zig | TUI-редактор кода на Zig: tree-sitter на 70+ языков, LSP, мультикурсор, режимы Vim/Emacs/Helix | ⚪ Сам редактор не нужен, но инженерия полезна: ≤6 мс на кадр, гибридный rope/piece-table, тысячи курсоров. Смотреть, если понадобится свой быстрый TUI на больших файлах |
 
 ## 10. Свои и смежные организации (в звёздах у меня) (19)
 
@@ -176,7 +181,7 @@
 | [`dajetbro/dajetbro`](https://github.com/dajetbro/dajetbro) | 1 | — | Профиль Dajet |
 
 Ещё одна своя звезда — `bestdeejay-design/alien-cosmic` (P1) — живёт только в [TASKS.md](./TASKS.md),
-трек E: это рабочая игра, а не карточка каталога. Поэтому 101 строка здесь + он = 102 звезды.
+трек E: это рабочая игра, а не карточка каталога. Поэтому 108 строк в каталоге + он = 109 звёзд.
 
 ## 11. На разбор / непонятное (3)
 

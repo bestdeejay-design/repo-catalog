@@ -15,7 +15,7 @@
 Приоритеты: **P1** — брать в работу сейчас · **P2** — референс, когда дойдут руки ·
 **P3** — полка (знать, что есть).
 
-Полные описания всех 102 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
+Полные описания всех 109 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
 
 **Доска каталога:** [BOARD.md](./BOARD.md) — те же репозитории, но по стадиям.
 
@@ -116,6 +116,8 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`ARahim3/DigUp`](https://github.com/ARahim3/DigUp) | 5.3k | **P1** | On-device поиск по содержимому файлов — upstream моего `DigUp` |
 | [`gluonfield/enchanted`](https://github.com/gluonfield/enchanted) | 6k | P2 | Нативный клиент к локальным моделям: UI-референс для «AI внутри приложения» |
 | [`PurpleDoubleD/locally-uncensored`](https://github.com/PurpleDoubleD/locally-uncensored) | 2.4k | P2 | Локальная AI-студия: как собрать чат + генерацию в одном приложении |
+| [`ddalcu/mlx-serve`](https://github.com/ddalcu/mlx-serve) | 2.3k | P2 | Готовый локальный сервер моделей на MLX: навести Claude Code/Codex на `localhost:11234`, смотреть меню-бар, чат и выгрузку моделей из SSD — под «AI внутри приложения» в Dajet |
+| [`justinwetch/HIGAgentSkills`](https://github.com/justinwetch/HIGAgentSkills) | 731 | P2 | Приёмка интерфейсов по Apple HIG: 157 выжимок, цитата нормы перед выводом, enforce-режим с порогом 90/100 — встроить в ревью Dajet-линейки |
 | [`clash-verge-rev/clash-verge-rev`](https://github.com/clash-verge-rev/clash-verge-rev) | 153k | P2 | Tauri-панель + системный трей + профили: референс, если понадобится кроссплатформенность |
 | [`t8y2/dbx`](https://github.com/t8y2/dbx) | 27k | P2 | «Маленький нативный клиент» на Rust: 25 МБ против гигантов |
 | [`veloxbase/veloxdb`](https://github.com/veloxbase/veloxdb) | 828 | P2 | Та же ниша, что dbx, но Rust + Tauri 2: 13 СУБД, дерево подключений, SQL-редактор, грид. Референс десктопа к данным без облака и телеметрии |
@@ -196,6 +198,9 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`2noise/ChatTTS`](https://github.com/2noise/ChatTTS) | 40k | P3 | Просодия как параметр (смех, паузы) — идея; только англ. и кит. |
 | [`myshell-ai/OpenVoice`](https://github.com/myshell-ai/OpenVoice) | 38k | P3 | Zero-shot клонирование тембра + управление стилем; шесть языков, русского нет |
 | [`SWivid/F5-TTS`](https://github.com/SWivid/F5-TTS) | 15k | P3 | Flow matching вместо авторегрессии + Sway Sampling — архитектурный референс |
+| [`nexu-io/html-video`](https://github.com/nexu-io/html-video) | 4.8k | P2 | HTML→MP4 локально: ролики для AXIIOM и презентаций без After Effects и оплаты за рендер |
+| [`nexu-io/open-design`](https://github.com/nexu-io/open-design) | 105k | P2 | Дизайн-воркспейс агента: бриф → дизайн-система → прототип → ревью. Забирать скиллы и шаблоны, смотреть, как ревью живёт в проекте |
+| [`neurocyte/flow`](https://github.com/neurocyte/flow) | 2.5k | P3 | TUI-редактор на Zig: rope/piece-table, ≤6 мс на кадр, LSP — если понадобится свой быстрый TUI на больших файлах |
 
 **Снять звезду / не тратить время:**
 
