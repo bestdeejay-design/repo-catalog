@@ -1,6 +1,6 @@
 # Канбан каталога
 
-> Собрано автоматически: 2026-11-02 16:01. Руками не править — перезапишется.
+> Собрано автоматически: 2026-11-02 20:23. Руками не править — перезапишется.
 > Карточка = репозиторий. Колонка = стадия. Источник правды — `TASKS.md`
 > (приоритеты), `OPTIONS.md` (кандидаты), `STARS-ARCHIVE.md` (архив).
 
@@ -40,7 +40,7 @@
 | [`bestdeejay-design/alien-cosmic-dist`](https://github.com/bestdeejay-design/alien-cosmic-dist) | 1 | Игры | Приватный дом разработки: исходники, история, ресерчи, симы |
 
 
-## 📚 Референс (P2) — 43
+## 📚 Референс (P2) — 47
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -68,6 +68,8 @@
 | [`mazze93/stratum`](https://github.com/mazze93/stratum) | 2 | Центр агентов + LOVII CRM | Append-only леджер решений с гейтами доверия — концепция «доказательство вместо увереннос… |
 | [`leepokai/Codync`](https://github.com/leepokai/Codync) | 901 | Центр агентов | Агенты как боты в мессенджере: Claude Code, Codex, Gemini CLI, Cursor и 40+ со своей подп… |
 | [`gluonfield/enchanted`](https://github.com/gluonfield/enchanted) | 6k | macOS | Нативный клиент к локальным моделям: UI-референс для «AI внутри приложения» |
+| [`ddalcu/mlx-serve`](https://github.com/ddalcu/mlx-serve) | 2.3k | macOS | Готовый локальный сервер моделей на MLX: навести Claude Code/Codex на `localhost:11234`, … |
+| [`justinwetch/HIGAgentSkills`](https://github.com/justinwetch/HIGAgentSkills) | 731 | macOS | Приёмка интерфейсов по Apple HIG: 157 выжимок, цитата нормы перед выводом, enforce-режим … |
 | [`clash-verge-rev/clash-verge-rev`](https://github.com/clash-verge-rev/clash-verge-rev) | 153k | macOS | Tauri-панель + системный трей + профили: референс, если понадобится кроссплатформенность |
 | [`t8y2/dbx`](https://github.com/t8y2/dbx) | 27k | macOS | «Маленький нативный клиент» на Rust: 25 МБ против гигантов |
 | [`veloxbase/veloxdb`](https://github.com/veloxbase/veloxdb) | 828 | macOS | Та же ниша, что dbx, но Rust + Tauri 2: 13 СУБД, дерево подключений, SQL-редактор, грид. … |
@@ -86,10 +88,12 @@
 | [`hexgrad/kokoro`](https://github.com/hexgrad/kokoro) | 9.7k | Прочее | 82M TTS на CPU, веса Apache, `pip install` — самый дешёвый офлайн-голос в приложении |
 | [`resemble-ai/chatterbox`](https://github.com/resemble-ai/chatterbox) | 27k | Прочее | Nano 110M: 3× реального времени на 8 ядрах CPU, теги `[laugh]`/`[cough]`. Голос агента бе… |
 | [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech) | 33k | Прочее | Клон голоса (S1/S2) + Docker: свой TTS-сервер для медиа вместо API с биллингом |
+| [`nexu-io/html-video`](https://github.com/nexu-io/html-video) | 4.8k | Прочее | HTML→MP4 локально: ролики для AXIIOM и презентаций без After Effects и оплаты за рендер |
+| [`nexu-io/open-design`](https://github.com/nexu-io/open-design) | 105k | Прочее | Дизайн-воркспейс агента: бриф → дизайн-система → прототип → ревью. Забирать скиллы и шабл… |
 | [`bestdeejay-design/terran-rts`](https://github.com/bestdeejay-design/terran-rts) | 0 | Игры | Отдельный полигон стиля StarCraft на Canvas — не часть alien-cosmic |
 
 
-## 🗂 На полке (P3) — 33
+## 🗂 На полке (P3) — 34
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -124,6 +128,7 @@
 | [`2noise/ChatTTS`](https://github.com/2noise/ChatTTS) | 40k | Прочее | Просодия как параметр (смех, паузы) — идея; только англ. и кит. |
 | [`myshell-ai/OpenVoice`](https://github.com/myshell-ai/OpenVoice) | 38k | Прочее | Zero-shot клонирование тембра + управление стилем; шесть языков, русского нет |
 | [`SWivid/F5-TTS`](https://github.com/SWivid/F5-TTS) | 15k | Прочее | Flow matching вместо авторегрессии + Sway Sampling — архитектурный референс |
+| [`neurocyte/flow`](https://github.com/neurocyte/flow) | 2.5k | Прочее | TUI-редактор на Zig: rope/piece-table, ≤6 мс на кадр, LSP — если понадобится свой быстрый… |
 | [`bestdeejay-design/minigames`](https://github.com/bestdeejay-design/minigames) | 0 | Игры | Мини-игры для проверки механик на малом объёме |
 | [`ihhub/fheroes2`](https://github.com/ihhub/fheroes2) | 3.5k | Игры | Пошаговый движок целиком: детерминированный цикл, ИИ на карте, сохранения. GPL-2.0 — толь… |
 
@@ -170,4 +175,4 @@ _пусто_
 
 ---
 
-Всего в каталоге: **102** · кандидатов: **17** · в архиве: **0**
+Всего в каталоге: **107** · кандидатов: **17** · в архиве: **0**
