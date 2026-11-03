@@ -360,6 +360,19 @@ def esc(text: str) -> str:
     return (text or "").replace("|", "\\|").replace("\n", " ").strip()
 
 
+def plural(n: int, forms: tuple[str, str, str]) -> str:
+    """Русское склонение: plural(5, ('коммит','коммита','коммитов'))."""
+    n = abs(int(n)) % 100
+    if 11 <= n <= 14:
+        return forms[2]
+    n %= 10
+    if n == 1:
+        return forms[0]
+    if 2 <= n <= 4:
+        return forms[1]
+    return forms[2]
+
+
 def cut(text: str, n: int = 95) -> str:
     text = esc(text)
     return text if len(text) <= n else text[: n - 1] + "…"
@@ -410,8 +423,10 @@ def render_md(ctx: dict) -> str:
     L.append(f"- **Выполнено сегодня:** {len(done)}")
     L.append(f"- **В работе сейчас:** {len(wip)}")
     if repos.get("scanned"):
-        L.append(f"- **Активность в репозиториях:** {repos['commit_total']} коммитов в "
-                 f"{len([r for r in act if r['commits']])} репозиториях, "
+        L.append(f"- **Активность в репозиториях:** {repos['commit_total']} "
+                 f"{plural(repos['commit_total'], ('коммит', 'коммита', 'коммитов'))} в "
+                 f"{len([r for r in act if r['commits']])} "
+                 f"{plural(len([r for r in act if r['commits']]), ('репозитории', 'репозиториях', 'репозиториях'))}, "
                  f"новых issue {repos['issue_new']}, закрыто issue {repos['issue_closed']}, "
                  f"PR открыто {repos['pr_open']}, влито {repos['pr_merged']}")
         silent = repos["total"] - repos["archived"] - len(act)
@@ -421,17 +436,20 @@ def render_md(ctx: dict) -> str:
         L.append("- **Активность в репозиториях:** не проверялась (`--no-repos`)")
     attention = ctx["attention"]
     if attention:
-        L.append(f"- **Требует внимания:** {len(attention)} пункт(ов)")
+        L.append(f"- **Требует внимания:** {len(attention)} "
+                 f"{plural(len(attention), ('пункт', 'пункта', 'пунктов'))}")
     L.append("")
 
     # 2. доски
     sec("Доски: состояние на конец дня")
-    L.append("| Доска | Всего | Не начато | В работе | Готово | +сегодня | закрыто сегодня |")
-    L.append("|---|---:|---:|---:|---:|---:|---:|")
+    L.append("| Доска | Всего | Без статуса | Не начато | В работе | Готово | +сегодня | закрыто сегодня |")
+    L.append("|---|---:|---:|---:|---:|---:|---:|---:|")
     for p in ctx["boards"]:
         L.append(f"| [{esc(p['title'])}]({p['url']}) `{p['owner']}/{p['number']}` "
-                 f"| {p['total']} | {p['todo']} | {p['wip']} | {p['done']} "
+                 f"| {p['total']} | {p.get('unset', 0)} | {p['todo']} | {p['wip']} | {p['done']} "
                  f"| {p['added']} | {p['closed']} |")
+    L.append("")
+    L.append("Колонки «Без статуса / Не начато / В работе / Готово» в сумме дают «Всего».")
     L.append("")
 
     def task_table(rows: list[dict], created_col: bool = False) -> None:
@@ -566,8 +584,8 @@ def render_md(ctx: dict) -> str:
     L.append("- «Выполненные» — issue/PR, закрытые сегодня, плюс карточки, переведённые в "
              "готовые сегодня.")
     L.append("- Коммиты считаются по ветке по умолчанию каждого репозитория, максимум 100 на репозиторий.")
-    L.append("- Задачи с доски, у которых статус не распознан (пустой или нестандартный), "
-             "попадают в «не начато» — это видно в таблице раздела 2.")
+    L.append("- Задачи с карточки без статуса считаются отдельно — колонка «Без статуса»; "
+             "нестандартные статусы попадают в «Не начато» и видны в разделе 3–5.")
     L.append("")
     return "\n".join(L)
 
@@ -592,7 +610,8 @@ def build(day: str, with_repos: bool, with_local: bool, owners: list[str]) -> di
             "owner": p["owner"], "number": int(p["number"]),
             "title": p.get("title") or "", "url": p.get("url") or "",
             "total": len(flat),
-            "todo": sum(1 for t in flat if t["bucket"] == "todo"),
+            "todo": sum(1 for t in flat if t["bucket"] == "todo" and t["status"]),
+            "unset": sum(1 for t in flat if not t["status"]),
             "wip": sum(1 for t in flat if t["bucket"] == "wip"),
             "done": sum(1 for t in flat if t["bucket"] == "done"),
             "added": sum(1 for t in flat
