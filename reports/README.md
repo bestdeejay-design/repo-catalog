@@ -78,10 +78,10 @@ GitHub не отдаёт историю статусов карточки. Дл�
 `ops/run-daily.sh` собирает отчёт с локальными долгами и коммитит результат в `repo-catalog`.
 
 ```bash
-cp repo-catalog/ops/com.bestdeejay.daily-report.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/com.bestdeejay.daily-report.plist
+cp repo-catalog/ops/com.local.daily-report.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.local.daily-report.plist
 # проверить: launchctl list | grep daily-report
-# выключить: launchctl unload ~/Library/LaunchAgents/com.bestdeejay.daily-report.plist
+# выключить: launchctl unload ~/Library/LaunchAgents/com.local.daily-report.plist
 ```
 
 Запуск ежедневно в 09:30 MSK. Лог — `~/.local/share/daily-report/run.log`.

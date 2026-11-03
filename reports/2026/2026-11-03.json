@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T20:57:28.276136+03:00",
+ "generated_at": "2026-11-03T21:28:41.919453+03:00",
  "window": {
   "start": "2026-11-03T00:00:00+03:00",
   "end": "2026-11-04T00:00:00+03:00"
@@ -22,12 +22,12 @@
   "added": 17,
   "done": 5,
   "in_progress": 3,
-  "commits": 134,
+  "commits": 137,
   "repos_active": 12,
-  "issues_new": 24,
-  "issues_closed": 14,
-  "pr_open": 26,
-  "pr_merged": 25,
+  "issues_new": 25,
+  "issues_closed": 16,
+  "pr_open": 27,
+  "pr_merged": 26,
   "attention": 1
  },
  "boards": [
@@ -1362,7 +1362,7 @@
   {
    "name": "bestdeejay-design/infra",
    "commits": 10,
-   "issue_new": 4,
+   "issue_new": 5,
    "issue_closed": 1,
    "pr_open": 0,
    "pr_merged": 0,
@@ -1632,13 +1632,71 @@
    ]
   },
   {
+   "name": "rucorp/mock-services",
+   "commits": 5,
+   "issue_new": 3,
+   "issue_closed": 3,
+   "pr_open": 2,
+   "pr_merged": 2,
+   "commit_list": [
+    {
+     "sha": "92e8644",
+     "message": "Merge pull request #166 from rucorp/fix/165-payout-min-amount",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T18:24:25Z",
+     "url": "https://github.com/rucorp/mock-services/commit/92e86447209f4f32e74d71b8e157af73bf492ef8",
+     "repo": "rucorp/mock-services"
+    },
+    {
+     "sha": "b283278",
+     "message": "tbank-mock: минимум суммы выплаты 100 коп. для Init (#165)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T18:18:31Z",
+     "url": "https://github.com/rucorp/mock-services/commit/b283278303ade34f7edd65cc051bdeb5b06a0ae8",
+     "repo": "rucorp/mock-services"
+    },
+    {
+     "sha": "75336b1",
+     "message": "Merge pull request #163 from rucorp/arena/162-tbank-multisplit-selftest",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:12:04Z",
+     "url": "https://github.com/rucorp/mock-services/commit/75336b12972ce7bdb479392d91f763f9c18fae44",
+     "repo": "rucorp/mock-services"
+    },
+    {
+     "sha": "20742db",
+     "message": "chore(docs): реестр таблиц docs/tables.md после правки README tbank-mock (#162)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:02:19Z",
+     "url": "https://github.com/rucorp/mock-services/commit/20742db285946a49c7bf69523ffb5239def60466",
+     "repo": "rucorp/mock-services"
+    },
+    {
+     "sha": "3f38858",
+     "message": "test(tbank): покрытие сделочного контура Мультирасчётов в selftest (#162)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:02:15Z",
+     "url": "https://github.com/rucorp/mock-services/commit/3f38858766d98d8f0f6cd4ba8175794bca677e10",
+     "repo": "rucorp/mock-services"
+    }
+   ]
+  },
+  {
    "name": "bestdeejay-design/repo-catalog",
-   "commits": 4,
+   "commits": 5,
    "issue_new": 0,
    "issue_closed": 0,
    "pr_open": 0,
    "pr_merged": 0,
    "commit_list": [
+    {
+     "sha": "d5c037d",
+     "message": "reports: 2026-11-03 — 17 добавлено, 5 выполнено, 3 в работе, 134 коммита",
+     "author": "zwork",
+     "date": "2026-11-03T17:58:26Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/d5c037d2ec7ffc157402584875db13a63e16c446",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
     {
      "sha": "e69075c",
      "message": "fix(reports): склонения, колонка «без статуса», точные закрытия",
@@ -1670,40 +1728,6 @@
      "date": "2026-11-03T14:21:38Z",
      "url": "https://github.com/bestdeejay-design/repo-catalog/commit/52bb153d39328ca7e3188789c0509bbfd4ec4526",
      "repo": "bestdeejay-design/repo-catalog"
-    }
-   ]
-  },
-  {
-   "name": "rucorp/mock-services",
-   "commits": 3,
-   "issue_new": 3,
-   "issue_closed": 1,
-   "pr_open": 1,
-   "pr_merged": 1,
-   "commit_list": [
-    {
-     "sha": "75336b1",
-     "message": "Merge pull request #163 from rucorp/arena/162-tbank-multisplit-selftest",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T15:12:04Z",
-     "url": "https://github.com/rucorp/mock-services/commit/75336b12972ce7bdb479392d91f763f9c18fae44",
-     "repo": "rucorp/mock-services"
-    },
-    {
-     "sha": "20742db",
-     "message": "chore(docs): реестр таблиц docs/tables.md после правки README tbank-mock (#162)",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T15:02:19Z",
-     "url": "https://github.com/rucorp/mock-services/commit/20742db285946a49c7bf69523ffb5239def60466",
-     "repo": "rucorp/mock-services"
-    },
-    {
-     "sha": "3f38858",
-     "message": "test(tbank): покрытие сделочного контура Мультирасчётов в selftest (#162)",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T15:02:15Z",
-     "url": "https://github.com/rucorp/mock-services/commit/3f38858766d98d8f0f6cd4ba8175794bca677e10",
-     "repo": "rucorp/mock-services"
     }
    ]
   },
@@ -1844,6 +1868,12 @@
    "number": 4,
    "title": "Ротация su-паролей fonotext-стендов (пароли засвечивались в expect-логах)",
    "url": "https://github.com/bestdeejay-design/infra/issues/4"
+  },
+  {
+   "repo": "bestdeejay-design/infra",
+   "number": 5,
+   "title": "GHCR rucorp/mock-services: retention-политика — чистка не должна ломать пины потребителей",
+   "url": "https://github.com/bestdeejay-design/infra/issues/5"
   },
   {
    "repo": "lovii-tech/lovii-core",
@@ -2078,6 +2108,13 @@
   },
   {
    "name": "paffo",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "repo-catalog",
    "ahead": 0,
    "behind": 0,
    "dirty": 1,
