@@ -38,7 +38,17 @@ jobs:
           REPORT_DATE: ${{ steps.day.outputs.date }}
         run: python3 daily_report.py --date "$REPORT_DATE"
 
+      - name: Пустой день? тогда не публикуем
+        id: quiet
+        env:
+          REPORT_DATE: ${{ steps.day.outputs.date }}
+        run: |
+          Q=$(python3 -c 'import json,sys; s=json.load(open(sys.argv[1]))["summary"]; k=["added","done","commits","issues_new","issues_closed","pr_open","pr_merged"]; print("quiet=" + ("true" if all(s.get(x,0)==0 for x in k) else "false"))' "reports/${REPORT_DATE%%-*}/$REPORT_DATE.json")
+          echo "Итог проверки: $Q"
+          echo "$Q" >> "$GITHUB_OUTPUT"
+
       - name: Закоммитить и запушить
+        if: steps.quiet.outputs.quiet != 'true'
         env:
           REPORT_DATE: ${{ steps.day.outputs.date }}
         run: |
@@ -51,3 +61,7 @@ jobs:
           fi
           git commit -m "reports: $REPORT_DATE (Actions)"
           git push || { git pull --rebase --quiet && git push; }
+
+      - name: Пустой день — пропуск публикации
+        if: steps.quiet.outputs.quiet == 'true'
+        run: echo "За $REPORT_DATE изменений нет (0 добавлено, 0 закрыто, 0 коммитов, 0 issue/PR) — файл за этот день не публикуется"
