@@ -1,0 +1,2079 @@
+{
+ "date": "2026-11-03",
+ "generated_at": "2026-11-03T20:55:56.958776+03:00",
+ "window": {
+  "start": "2026-11-03T00:00:00+03:00",
+  "end": "2026-11-04T00:00:00+03:00"
+ },
+ "coverage": {
+  "owners": [
+   "bestdeejay-design",
+   "lovii-tech",
+   "axiiom-ru",
+   "lovii-ru",
+   "rucorp"
+  ],
+  "repos_total": 146,
+  "repos_archived": 4,
+  "projects": 6,
+  "tasks_total": 224
+ },
+ "summary": {
+  "added": 17,
+  "done": 5,
+  "in_progress": 3,
+  "commits": 132,
+  "repos_active": 12,
+  "issues_new": 24,
+  "issues_closed": 14,
+  "pr_open": 26,
+  "pr_merged": 25,
+  "attention": 1
+ },
+ "boards": [
+  {
+   "owner": "bestdeejay-design",
+   "number": 1,
+   "title": "Fonotext — центр задач",
+   "url": "https://github.com/users/bestdeejay-design/projects/1",
+   "total": 116,
+   "todo": 47,
+   "wip": 3,
+   "done": 66,
+   "added": 5,
+   "closed": 5
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 3,
+   "title": "Alien Cosmic — задачи",
+   "url": "https://github.com/users/bestdeejay-design/projects/3",
+   "total": 49,
+   "todo": 31,
+   "wip": 3,
+   "done": 15,
+   "added": 11,
+   "closed": 0
+  },
+  {
+   "owner": "lovii-tech",
+   "number": 1,
+   "title": "LOVII Audit — Канбан",
+   "url": "https://github.com/orgs/lovii-tech/projects/1",
+   "total": 31,
+   "todo": 11,
+   "wip": 0,
+   "done": 20,
+   "added": 1,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 4,
+   "title": "Dajet UI — единая нативная база (macOS 27)",
+   "url": "https://github.com/users/bestdeejay-design/projects/4",
+   "total": 26,
+   "todo": 24,
+   "wip": 0,
+   "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 5,
+   "title": "Полигон воркфлоу",
+   "url": "https://github.com/users/bestdeejay-design/projects/5",
+   "total": 2,
+   "todo": 0,
+   "wip": 0,
+   "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 6,
+   "title": "Агенты — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/6",
+   "total": 0,
+   "todo": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  }
+ ],
+ "tasks": {
+  "added": [
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "Панель: P2/P3 фиксы по итогам браузерной верификации 02.11",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/192",
+    "number": 192,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-02T22:19:53Z",
+    "item_updated": "2026-11-02T22:26:49Z",
+    "created_at": "2026-11-02T22:19:51Z",
+    "closed_at": "2026-11-02T22:26:46Z",
+    "merged_at": "2026-11-02T22:26:46Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "P1: одна запись АТС = одна карточка (дедуп cdr_uniqueid)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/193",
+    "number": 193,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-02T22:27:25Z",
+    "item_updated": "2026-11-02T22:46:22Z",
+    "created_at": "2026-11-02T22:27:24Z",
+    "closed_at": "2026-11-02T22:46:19Z",
+    "merged_at": "2026-11-02T22:46:19Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "panel: бейдж «вне периода» = выборка outside=1 (роль-гейт + дедуп в одном хелпере)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/194",
+    "number": 194,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-02T23:05:48Z",
+    "item_updated": "2026-11-02T23:09:09Z",
+    "created_at": "2026-11-02T23:05:46Z",
+    "closed_at": "2026-11-02T23:09:05Z",
+    "merged_at": "2026-11-02T23:09:05Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "security(#195): локальный доверенный экземпляр панели без входа (TRUST_LOCAL)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/195",
+    "number": 195,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-03T06:37:36Z",
+    "item_updated": "2026-11-03T06:37:52Z",
+    "created_at": "2026-11-03T06:37:35Z",
+    "closed_at": "2026-11-03T06:37:50Z",
+    "merged_at": "2026-11-03T06:37:49Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "security(#195-2): TRUST_LOCAL в _panel_render (маршруты панели без входа на локальном экземпляре)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/196",
+    "number": 196,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-03T06:54:26Z",
+    "item_updated": "2026-11-03T06:54:31Z",
+    "created_at": "2026-11-03T06:54:25Z",
+    "closed_at": "2026-11-03T06:54:28Z",
+    "merged_at": "2026-11-03T06:54:28Z"
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "alarm-v2 SPEC §3.3 (параллельная сессия): легализовать WIP — коммиты, миграция отчётов, уникальный стамп, поставка по канону",
+    "url": "https://github.com/bestdeejay-design/ace/issues/19",
+    "number": 19,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T06:58:17Z",
+    "item_updated": "2026-11-03T09:04:43Z",
+    "created_at": "2026-11-03T06:58:06Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Дом-шаттл: невидим в полёте (только круг выделения) + управление шаттлом как юнитом (тап → точка посадки)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/18",
+    "number": 18,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T06:58:20Z",
+    "item_updated": "2026-11-03T07:02:07Z",
+    "created_at": "2026-11-02T20:10:54Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "alarm-v2 валидатор отвергает сейвы со старыми отчётами (фаз WAVE) — вход «База не загружена»",
+    "url": "https://github.com/bestdeejay-design/ace/issues/15",
+    "number": 15,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T06:58:23Z",
+    "item_updated": "2026-11-03T07:02:17Z",
+    "created_at": "2026-10-30T20:14:22Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Изыскания: полная прогрессия и экономика — часы до полного прохождения, рейды до постройки всего (паблишер-пакет)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/16",
+    "number": 16,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:06Z",
+    "item_updated": "2026-11-03T07:02:09Z",
+    "created_at": "2026-11-01T09:45:15Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Экономика вылазок: аудит баланса + ресерч аналогов + базы-проекты + награда за победу",
+    "url": "https://github.com/bestdeejay-design/ace/issues/11",
+    "number": 11,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:09Z",
+    "item_updated": "2026-11-03T07:02:11Z",
+    "created_at": "2026-10-28T17:44:05Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + броня + добыча",
+    "url": "https://github.com/bestdeejay-design/ace/issues/14",
+    "number": 14,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:12Z",
+    "item_updated": "2026-11-03T07:02:13Z",
+    "created_at": "2026-10-30T06:59:07Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Гелиос В3 «Обрастание» принят, КЦ кхарида — новая база",
+    "url": "https://github.com/bestdeejay-design/ace/issues/12",
+    "number": 12,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:15Z",
+    "item_updated": "2026-11-03T07:02:15Z",
+    "created_at": "2026-10-29T18:36:20Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Один профиль в двух браузерах: последний вход — основной, предыдущая сессия — «зритель на паузе» (конфликт записи)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/6",
+    "number": 6,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:20Z",
+    "item_updated": "2026-11-03T07:02:19Z",
+    "created_at": "2026-10-28T07:35:18Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Конфигуратор админки «Параметры» (Арена): 13 параметров × 8 групп, предпросмотр кривой, локальный apply/импорт-экспорт",
+    "url": "https://github.com/bestdeejay-design/ace/issues/20",
+    "number": 20,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:48:54Z",
+    "item_updated": "2026-11-03T08:06:46Z",
+    "created_at": "2026-11-03T07:48:41Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "lovii-tech/1",
+    "project_title": "LOVII Audit — Канбан",
+    "project_url": "https://github.com/orgs/lovii-tech/projects/1",
+    "type": "Issue",
+    "title": "Мультирасчёты фаза 2, волна А: deal-выплаты + закрытие сделок (письмо банка 03.11)",
+    "url": "https://github.com/lovii-tech/lovii-core/issues/34",
+    "number": 34,
+    "repo": "lovii-tech/lovii-core",
+    "status": "Backlog",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T11:00:15Z",
+    "item_updated": "2026-11-03T16:46:34Z",
+    "created_at": "2026-11-03T11:00:02Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "alarm-banner: полноширинный индикатор фазы атаки — полоса прогресса + волны точками ●●○○○ + подпись «волна N/5» (UI3 §3.6)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/21",
+    "number": 21,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T11:01:14Z",
+    "item_updated": "2026-11-03T15:36:25Z",
+    "created_at": "2026-11-03T11:01:11Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Тревога: возобновление прерванной атаки + честный гейт вылета (resumeOrphanAlarms, errAlarmActive с волной, errRecovery)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/22",
+    "number": 22,
+    "repo": "bestdeejay-design/ace",
+    "status": "",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-03T15:24:33Z",
+    "item_updated": "2026-11-03T15:36:26Z",
+    "created_at": "2026-11-03T15:24:17Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ],
+  "done": [
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "Панель: P2/P3 фиксы по итогам браузерной верификации 02.11",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/192",
+    "number": 192,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-02T22:19:53Z",
+    "item_updated": "2026-11-02T22:26:49Z",
+    "created_at": "2026-11-02T22:19:51Z",
+    "closed_at": "2026-11-02T22:26:46Z",
+    "merged_at": "2026-11-02T22:26:46Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "P1: одна запись АТС = одна карточка (дедуп cdr_uniqueid)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/193",
+    "number": 193,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-02T22:27:25Z",
+    "item_updated": "2026-11-02T22:46:22Z",
+    "created_at": "2026-11-02T22:27:24Z",
+    "closed_at": "2026-11-02T22:46:19Z",
+    "merged_at": "2026-11-02T22:46:19Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "panel: бейдж «вне периода» = выборка outside=1 (роль-гейт + дедуп в одном хелпере)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/194",
+    "number": 194,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-02T23:05:48Z",
+    "item_updated": "2026-11-02T23:09:09Z",
+    "created_at": "2026-11-02T23:05:46Z",
+    "closed_at": "2026-11-02T23:09:05Z",
+    "merged_at": "2026-11-02T23:09:05Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "security(#195): локальный доверенный экземпляр панели без входа (TRUST_LOCAL)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/195",
+    "number": 195,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-03T06:37:36Z",
+    "item_updated": "2026-11-03T06:37:52Z",
+    "created_at": "2026-11-03T06:37:35Z",
+    "closed_at": "2026-11-03T06:37:50Z",
+    "merged_at": "2026-11-03T06:37:49Z"
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "PullRequest",
+    "title": "security(#195-2): TRUST_LOCAL в _panel_render (маршруты панели без входа на локальном экземпляре)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/pull/196",
+    "number": 196,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Done",
+    "bucket": "done",
+    "state": "MERGED",
+    "item_created": "2026-11-03T06:54:26Z",
+    "item_updated": "2026-11-03T06:54:31Z",
+    "created_at": "2026-11-03T06:54:25Z",
+    "closed_at": "2026-11-03T06:54:28Z",
+    "merged_at": "2026-11-03T06:54:28Z"
+   }
+  ],
+  "wip": [
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "Issue",
+    "title": "wave1: эталонная сверка → калибровка чек-листов + механизм аттестации ролей",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/issues/55",
+    "number": 55,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "In Progress",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-10-27T06:34:40Z",
+    "item_updated": "2026-10-27T15:19:20Z",
+    "created_at": "2026-10-25T13:37:18Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "Issue",
+    "title": "Дорожная карта: центр задач проекта",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/issues/11",
+    "number": 11,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "In Progress",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-10-23T00:24:58Z",
+    "item_updated": "2026-10-27T15:19:24Z",
+    "created_at": "2026-10-21T18:32:58Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "Issue",
+    "title": "Открытый конкурс UI панели: бриф готов, параметризовать panel_demo по масштабу, разослать аудиторам",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/issues/75",
+    "number": 75,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "In Progress",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-10-27T06:34:34Z",
+    "item_updated": "2026-10-27T16:12:58Z",
+    "created_at": "2026-10-27T06:33:49Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ]
+ },
+ "repos_active": [
+  {
+   "name": "bestdeejay-design/agents",
+   "commits": 49,
+   "issue_new": 10,
+   "issue_closed": 10,
+   "pr_open": 19,
+   "pr_merged": 19,
+   "commit_list": [
+    {
+     "sha": "f60565d",
+     "message": "Merge pull request #35 from bestdeejay-design/coord/final-status-hygiene",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:17:22Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/f60565d84ba1d49e7a67f95136193889f9c25294",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "993fc28",
+     "message": "STATUS: итоги 03.11 — репозиторий готов к работе агентов; MAIL: версия без устаревшей привязки",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:17:14Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/993fc28fc8c50aea095d36e58ba2db4511e145c2",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "a0c6deb",
+     "message": "Merge pull request #34 from bestdeejay-design/coord/debt-after-33",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:13:49Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/a0c6deb797c058f1ea92097f2ef5bb1bc1979b94",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "a80c127",
+     "message": "DEBT: миноры ревью PR #23–#33 в реестр — D-007..D-010",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:13:40Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/a80c127018f0bcd3be53af8218a22106b40042cb",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "0888b55",
+     "message": "Merge pull request #33 from bestdeejay-design/work/30-claim-after-reclaimed",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:13:03Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/0888b551f1cf22e72b168c98f5bc504f188bf772",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "0f071a5",
+     "message": "Merge pull request #32 from bestdeejay-design/work/29-tests-behavioral",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:12:59Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/0f071a51dc83364f388b69e24d7d206e3f214987",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "47f186c",
+     "message": "Merge pull request #31 from bestdeejay-design/work/28-canon-owner-decisions",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:12:55Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/47f186c4b4d48afb625d7b90418601cb7673aad1",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "7d63235",
+     "message": "wait-signal: правка шапки v2.2.5 о гонке на RECLAIMED-нутой задаче — в файл, а не только в сообщение коммита (#30)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:09:43Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/7d63235d1d869f39c2d610adbc58ebd61f2ab752",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "9f212c9",
+     "message": "wait-signal: честная формулировка гонки на RECLAIMED-нутой задаче в шапке v2.2.5 + DEBT D-006 (#30)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:02:44Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/9f212c98f7c0fbdbd49783cabf7758e330257bdf",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "4dd73ce",
+     "message": "tests/README: фактическое время прогона ~45–50 секунд (минор ревью) (#29)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:01:10Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/4dd73cee1404028e503ca96dfef626703cef40a4",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "0e690f8",
+     "message": "wait-signal: claim из ready при чужом claim после RECLAIMED (#30)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:49:07Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/0e690f865ab059888e338652e774ca43cf7b8a8d",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "09cc7b6",
+     "message": "Тесты: поведенческое покрытие wait-signal вместо побайтовой сверки (#29)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:38:33Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/09cc7b6d62701d3639740009c518daccc60c0ede",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "821a94d",
+     "message": "Синхронизация холодного старта docs/AGENTS.md с PROTOCOL §4 и статусы D-001..D-005 в resolved (#28)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:01:01Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/821a94d0cf120d5dc7c938918111d61663006f7d",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "6fadc2b",
+     "message": "Канон: четыре решения владельца 03.11 — claim-исключение, сохранение перед восстановлением, head в issue при ретрансляции, labels как единственный источник статуса (#28)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:18:52Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/6fadc2b11a133e437b17d265e456d23a5ea309f1",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "06a7165",
+     "message": "Merge pull request #27 from bestdeejay-design/work/22-checks-pagination",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:14:12Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/06a7165940f805a8bf8e9f90255b54019f79a95a",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "c055f66",
+     "message": "Merge pull request #26 from bestdeejay-design/work/21-stale-to-stderr",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:14:07Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/c055f66369eb1eb03bb13806fe0a4cc818e49af8",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "f88bedc",
+     "message": "Merge pull request #25 from bestdeejay-design/work/20-dead-stop-code",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:14:02Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/f88bedca52172865deec95ca1cfd618dc18f39f6",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "5a69292",
+     "message": "Merge pull request #24 from bestdeejay-design/work/19-marker-boundary",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:13:58Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/5a692926ab9465e0db20e1df4dd0de6d45b26c52",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "62b031a",
+     "message": "Merge pull request #23 from bestdeejay-design/work/18-reclaimed-desc",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T13:13:54Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/62b031a490664bec066263627ffa086ae8b06bf8",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "1ee155d",
+     "message": "WAIT-SIGNAL v2.2.4: пагинация check-runs (page=N, ETag-кэш checks-pN) — total/done по всем страницам, ранний останов на неполной странице, сигнал только при done==total (#22)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:59:10Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/1ee155dec3d0b57659232890b2e906a6ff8e2c8a",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "f716201",
+     "message": "WAIT-SIGNAL v2.2.3: диагностические строки CI (CI N/M completed, CI stale) переведены в stderr с подчинением --quiet — причина таймаута больше не глотается (#21)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:56:50Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/f716201e0f94da7e73f330cf745bec61daa3d5e2",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "0675149",
+     "message": "WAIT-SIGNAL v2.2.2: удалён мёртвый ранний останов пагинации комментариев по last_ts<SINCE — since серверный и инклюзивен, критерий конца — неполная страница (#20)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:56:14Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/06751495686f96f51a913078a359e9407855eb9c",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "2165c34",
+     "message": "WAIT-SIGNAL v2.2.1: граница маркера в match_any строже — дефисная склейка (DONE-ish, NEEDS-HUMAN-ISH) не матчится, пунктуация-разделитель (DONE., DONE,see) матчится (#19)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:55:35Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/2165c34f866ec74ab6b5b2ed27f9dfc6f01a8dd5",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "0d997fd",
+     "message": "WAIT-SIGNAL: do_claim читает comments с sort=created&direction=desc — свежий RECLAIMED и арбитраж claim видны при >100 комментариях (#18)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:53:27Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/0d997fdfb4d05decb8db1717852fc786caf1f723",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "dab9f18",
+     "message": "Merge pull request #17 from bestdeejay-design/coord/debt-registry-16",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:21:41Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/dab9f18a8a5a5812a5602518f3b0a519724eab06",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "fddf3cc",
+     "message": "DEBT: 5 миноров ревью PR #16 (wait-signal) в реестр — D-001..D-005",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:21:33Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/fddf3ccd19d664a3761eae052f3f67f67784d667",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "d0a453f",
+     "message": "Merge pull request #16 from bestdeejay-design/work/15-wait-signal-audit",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:20:45Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/d0a453f035d45c78cfb7f1c7dc9ba02060f7a2d5",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "09eaaaa",
+     "message": "WAIT-SIGNAL v2.2.0: аудит внешнего исполнения — 4 дефекта из аудита исправлены, 1 уточнён",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T12:12:45Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/09eaaaa2066f6d839f6c1cfd6dcb4af1fe772fb2",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "4431e1a",
+     "message": "Merge pull request #14 from bestdeejay-design/arena/50099024-agents",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T11:41:40Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/4431e1a7a7ac283cc413d3b575c9e895437fd1d4",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "4714b5b",
+     "message": "docs: reconcile agent hub with approved workflow",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T11:37:42Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/4714b5ba105f252632df738d35898e9f2d11f6ed",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "fedec3b",
+     "message": "BLUEPRINT §9.1: находка прогона 03.11 — Roadmap-вид через API создаётся без видимых полей; лишние опции Status удаляются вручную",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:34:21Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/fedec3b8702f71ab89c10294158858b5f7c5520e",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "e63ac04",
+     "message": "Канон утверждён владельцем 03.11: комплект вариант C — действующий воркфлоу команды (STATUS + docs/README)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:30:42Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/e63ac048361a0525ad5eea42e27524417e409a37",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "e7e74b0",
+     "message": "TEST-REPORT-V3: сухой прогон цикла C вживую (issue #12) — цикл подтверждён, 5 честных находок",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:27:52Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/e7e74b0da7fdfa1438a606c42f9d1e70c9f08923",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "2fbcb3d",
+     "message": "Merge pull request #13 from bestdeejay-design/work/12-mock-pilot",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:27:11Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/2fbcb3d743f92a5669a70372346dc017047f258f",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "4f7f33d",
+     "message": "docs(training): add MOCK-PILOT sandbox card (#12)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:25:19Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/4f7f33d9168da060ffd8996b7aa6bb108ea7a2bb",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "bcb4d4b",
+     "message": "Merge pull request #11 from bestdeejay-design/coord/kit-review-fixes",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:21:25Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/bcb4d4bf5a91860a7d6106956aa65fd44481dcf5",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "10e7db8",
+     "message": "Комплект issue #1: фиксы по второму ревью (2 блокера + мажоры/миноры)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:20:33Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/10e7db84961b2390a7a7dc522ed297a12ac59289",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "d491d1d",
+     "message": "Merge pull request #10 from bestdeejay-design/coord/idle-context-hygiene",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:36:36Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/d491d1dd9e6168cf6c1426ef8aef3f5cbf55db23",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "638e1ce",
+     "message": "OPS §6: гигиена контекста — сессия молчит >30 мин = пинок на сжатие контекста + HANDOFF-чекпоинт (дефолт для всех сессий, решение владельца 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:35:56Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/638e1ce803385f69a9456f2c72a1cd80e1cc5d35",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "a627257",
+     "message": "Merge pull request #8 from bestdeejay-design/coord/verified-output-audit-cycle",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:32:10Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/a6272577c46f1281d15f8424589f49ccaac8a4dc",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "aaced81",
+     "message": "BOARD: движение задач — только координатор; исполнитель только сдаёт работу и отчитывается (уточнение владельца 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:15:49Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/aaced81deb95a53dc72f0c65fe0fb37b77788603",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "2a2c775",
+     "message": "PROTOCOL §7 верифицированный вывод + казус→правило + вопрос≠переделка; WORKFLOW §6.1 обязательный цикл аудита→ресёрч→решение→кодинг (решение владельца 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:14:00Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/2a2c7755b518a9a0b0681d54f61712023ae6252c",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "b9da3ac",
+     "message": "Merge pull request #9 from bestdeejay-design/coord/data-migration-reglament",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:29:38Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/b9da3acf5aae4edeefb058e3f0633421f5528cb5",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "3c2176b",
+     "message": "PROTOCOL §7: миграции данных игроков — канал А (в коде загрузки) и канал Б (data-fix координатором с бэкапом/скриптом/сверкой инвариантов); правило версий схем и отката",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:20:20Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/3c2176beaee3f6dfb6a07027ff53a99f3ba3c896",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "acd1602",
+     "message": "Merge pull request #7 from bestdeejay-design/coord/deploy-hygiene-lessons",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:42:53Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/acd16022f676c24ca50e00340048f64e56734a09",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "fa48b39",
+     "message": "README: правило слоёв — общий слой без проектных реалий, конкретика в репо проекта",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:20:40Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/fa48b39bba7eb9e2fa7eebea19ea9c419a766010",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "c87a31d",
+     "message": "Канон без проектных имён: роли — только функции, назначение — словом владельца/координатора (правило слоёв владельца 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:19:55Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/c87a31d4cc957e11ff1bb3a557675fc1816cdc28",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "e16c08a",
+     "message": "BOARD: видимость соседних сессий — поля Сессия/Этап обязательны, сессия без карточки не существует",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:16:55Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/e16c08a6d8153d506c7572558a175bf0742464f5",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "b913e91",
+     "message": "PROTOCOL §6: гигиена поставок — уникальный маркер, пост-деплой верификация хешей, миграция валидаторов, A/B-атрибуция регресса, мёртвые ветки, деплой по карточке (уроки ace 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:16:39Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/b913e91079bff6d2581ad15e076419445ad25010",
+     "repo": "bestdeejay-design/agents"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/fonotext-server",
+   "commits": 26,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 5,
+   "pr_merged": 5,
+   "commit_list": [
+    {
+     "sha": "617babb",
+     "message": "REGULATIONS §13.9: канон утверждён владельцем 03.11; борд «Агенты — контроль» (#6) настроен, fonotext-server подключён",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:34:32Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/617babbff4984d42dfc512e9b1443e562a853e78",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "e48ff30",
+     "message": "REGULATIONS §13.8: статус комплекта воркфлоу issue #1 (research до шага 4) + принято: DEBT-реестр, церемония по размеру, запрет автоправила closed→Done",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:05:05Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/e48ff30cfaea0da2ccb641c3cbdfd7b1dbdf221e",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "5fa3ff4",
+     "message": "DEBT.md: реестр технического долга по формату общего канона agents/ (комплект issue #1, вариант C)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:04:36Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/5fa3ff4b4017b266006abe19574cc6575dd1ee87",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "8810f83",
+     "message": "REGULATIONS §13.7: гигиена контекста — 30 минут тишины = сжатие контекста + HANDOFF (дефолт всех сессий, канон agents/ OPS §6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:37:09Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/8810f834d7ae71f2bc7b3ecd5b836cf4b0e338dc",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "4f35ae4",
+     "message": "REGULATIONS §13.6: только координатор двигает задачи; исполнитель только сдаёт работу и отчитывается (уточнение владельца 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:15:22Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/4f35ae46d588fc68802cd2d31338dbc368e242f3",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "be7cc93",
+     "message": "REGULATIONS §13: шина координации, верифицированный вывод, обязательный цикл аудита→ресёрч→решение→кодинг (канон agents/, решение владельца 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:11:50Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/be7cc934876d97b0ce673f2f421fc7915029c724",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "046d63d",
+     "message": "Merge pull request #196 from bestdeejay-design/wpool/trust-local-render",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T06:54:27Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/046d63d8372f4e4e6de4b344cb6bc8f2e46bbd24",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "94c76ab",
+     "message": "security(#195-2): TRUST_LOCAL в _panel_render — маршрут /dashboard и все рендеры панели не требуют входа на доверенном локальном экземпляре; _panel_auth закрыт ранее",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T06:54:02Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/94c76ab45a2a8a0002dda2d141b370c01c1002dc",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "b9fcad1",
+     "message": "Merge pull request #195 from bestdeejay-design/wpool/trust-local",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T06:37:49Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/b9fcad17e399c972ca6c40aa7bc7530c47f71031",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "5125ecb",
+     "message": "security(#195): FONOTEXT_PANEL_TRUST_LOCAL=1 — доверенный локальный экземпляр панели без входа (владелец 03.11); только для процесса на 127.0.0.1 (туннель), наружу не публиковать; тесты default-off",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T06:37:19Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/5125ecbaa368e99594177bb56b0d901871a003ee",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "6cb8aab",
+     "message": "Merge pull request #194 from bestdeejay-design/wpool/badge-outside-align",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T23:09:05Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/6cb8aabd6ea06fbf8c265ecd97058fd32887771a",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "49dbb5d",
+     "message": "panel: бейдж «вне периода» — та же математика, что у выборки (роль-гейт #165 + дедуп P1)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T23:05:28Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/49dbb5d0357b3f4de5b94f95d474ec8ca06629e1",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "bca7606",
+     "message": "Merge pull request #193 from bestdeejay-design/wpool/p1-dedup-uniqueid",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:46:18Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/bca7606df6fbe23b72106f059e5a40b2fa1ed320",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "2940556",
+     "message": "P1: перебаза на main (#192) + wiring дедупа в outside-ветки",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:42:44Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/2940556f0d7aa73926bec59b9ca772a6ac0f9424",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "e768e7b",
+     "message": "docs: решение владельца 03.11 — одна запись АТС = одна карточка (P1)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:26:58Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/e768e7bd09acac31238b7a988fa42cf6ab1f6975",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "df6330a",
+     "message": "P1: ingest — refusal повторного ключа записи в JobStore.admit",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:26:58Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/df6330a99425cdd861ae3a00a152ed4fe9c69b04",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "cd2a98a",
+     "message": "P1: снапшот-гейт одной карточки на cdr_uniqueid + duplicate_of в карточке",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:26:58Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/cd2a98af286aa95e7cc43574de7ddbc19a116b0b",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "a1d781d",
+     "message": "P1: расследование дублей cdr_uniqueid — факты, масштаб, причина",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:26:57Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/a1d781d7fd5b1732017661586e151d517b3fcb9e",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "e9d7d19",
+     "message": "Merge pull request #192 from bestdeejay-design/wpool/p2p3-ui-fixes",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:26:46Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/e9d7d19c4af1e06d65c79ed35f9f9ba667b8177b",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "cc378d7",
+     "message": "panel: страница панели 400 вместо raw JSON при мусоре в фильтрах/курсоре",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:19:02Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/cc378d7afda7eff60c0a108d1f14e49057fae5cb",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "5569a7a",
+     "message": "panel: выборка «вне периода» — бейдж обзора ведёт к своему списку",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:16:37Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/5569a7acce4d5a4d4ee4a500d174a3ca411475e7",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "a33731b",
+     "message": "panel: карточка — источник даты из day_source и поле «тональность»",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:16:28Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/a33731b82e24503c8b7828995e7b2df3930eac5b",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "30e927d",
+     "message": "panel: сортировка «Сначала новые/старые» по started_at",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:16:21Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/30e927dfb2113966be623d37df81f512853c747f",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "f00d4f7",
+     "message": "panel: чип «Этап (индекс)» для stage=0..7 — без булева приведения",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:16:13Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/f00d4f79f0f220a17d02889df1531c5338712d96",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "d80f425",
+     "message": "panel: дедупликация опций селекта «Тип» — единый источник списка",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:16:04Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/d80f425ad427e5acd520546a4ac23a032d8ebdd4",
+     "repo": "bestdeejay-design/fonotext-server"
+    },
+    {
+     "sha": "be6b6e1",
+     "message": "panel: фильтр направления «Внешний» (direction=external) в v4",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:15:25Z",
+     "url": "https://github.com/bestdeejay-design/fonotext-server/commit/be6b6e1438253d83195f70ceaf9f2301b1cfa4c4",
+     "repo": "bestdeejay-design/fonotext-server"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/ace",
+   "commits": 20,
+   "issue_new": 4,
+   "issue_closed": 1,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "150a76d",
+     "message": "MAIL: ace#21+22 на проде (11030050) — На приёмку владельца",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:35:54Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/150a76d6f38889cbfca0442a52471e0a2eabe48f",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "eb1c2a8",
+     "message": "ace#21 правки по ревью: removeChild-усечение точек (блокер), cooldown в IDLE, i18n-косметика",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:29:37Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/eb1c2a837c31a92ddcbeae3e57ef26049b10803e",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "57ad9ca",
+     "message": "ace#21+ace#22: alarm-banner (UI3 §3.6) + resume вырожденных событий; стамп 11030040 → 11030050",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:11:10Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/57ad9cabddc5528f6c5607521cc3f58e6ba7d49e",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "149660a",
+     "message": "MAIL: COMMANDER2+миграция на проде (11030040), статус — На приёмку владельца",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:04:39Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/149660a8d4132a14144dac3e3688e6dbb96f2cfb",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "9c907ed",
+     "message": "ace#19 правки: уникальный стамп 11030030 → 11030040 по всему game/r (201 вхождение: все импорты js, index.html, lab.html, stand-cc-probe.html, raid-boot.js, save-client.js); буква версии AI не тронута — устранение смешения модулей в кэше браузеров между продом и поставкой",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:49:12Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/9c907ed2fa3cb7f976a4720176656df4e2966459",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "318e6e0",
+     "message": "ace#19 правки: миграция schema-2 сейвов по каналу А (MIGRATIONS кривая XP + формат отчётов)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:48:58Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/318e6e04fbb2ac748462fed0e5133af5f7f1a30e",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "fabcd02",
+     "message": "MIGRATIONS.md: реестр миграций сейвов по канону agents/PROTOCOL §7 — версии схем/форматов, каналы А/Б, тест-кейсы на реальных сейвах (best/best88), правила data-fix",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:21:08Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/fabcd029bd15b17616e8fb45be1f7f55ed553ca6",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "a947b44",
+     "message": "DEBT.md: реестр долга полигона по канону agents/ (D-001..D-005 из ревью ace#17/#18 и инцидента 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:17:20Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/a947b44ddc3cb6b3563609b336a7c1da0f18e040",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "015f426",
+     "message": "Merge origin/main (auth-escapes AI) в COMMANDER2: конфликты = шапки импортов, канон поставки 1 (rollback удалён); дубль-стамп 11030030 — оставлен единый",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T23:01:45Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/015f426152746a48f7297316c9cf01c1294388fb",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "78e5ab4",
+     "message": "COMMANDER2 поставка 1: XP-кривая 8740 (+миграция кривой без потери уровня), каналы XP (тревога bounty+2/килл, вылазки 40+6T и +3/килл, учебная 15/24ч), анти-спам 50% на XP/payout, payout B×2 и 0 при поражении, кристалл эрга за каждого убитого (окно 90с, training исключён), канон потерь (rollback удалён, Новая база 2-step confirm, recovery-матрица с lostHouseLevel), фикс ревью P2: тост recovery.gift {house}; стамп 11030030; симы C9-C13 + alarm-симы обновлены",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T23:00:47Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/78e5ab4a838e83e01571aac21e1ccce3b7f51936",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "9188296",
+     "message": "MAIL: слияние auth-escapes (11030030, AI); красный Э7/alarm = чужой WIP, атрибуция A/B",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:39:12Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/9188296f23e21cf50e02df602901246a1c0f0edf",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "8bc1676",
+     "message": "Merge Arena: auth-escapes 42bd516 (мастер входа: постоянный подвал ник/гость, отмена загрузки, возврат к нику, Escape на всех шагах, runPull не спиннит, errNickServer RU/EN) + MAIL; конфликты = стампы → main, input.js → main (import HOUSE ace#18); стамп 11030030, версия AI",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T22:34:36Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/8bc167650af275672daaf89e5d935976220637ba",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "bddddd2",
+     "message": "docs+sim(balance): проверка предложений моделью; v1 отозван, K1/K4 сняты",
+     "author": "Arena",
+     "date": "2026-11-02T22:27:14Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/bddddd241860f099773089e454b35c0c8104ddfe",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "4d3f95f",
+     "message": "docs(MAIL): отчёт о выходе из мастера входа",
+     "author": "Arena",
+     "date": "2026-11-02T22:05:31Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/4d3f95f10d15f63b8eebc8e101ab340589abf37d",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "42bd516",
+     "message": "fix(auth): из мастера входа всегда есть выход — ник, гость, отмена",
+     "author": "Arena",
+     "date": "2026-11-02T22:05:23Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/42bd5160a8721a396b20892172489427950913ba",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "1c671ce",
+     "message": "MAIL: слияние Арены (fix ui + баланс-доки), 11030020",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T21:25:28Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/1c671ceb36c99a2263e1a9fdd8e24e25334f00b1",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "2841855",
+     "message": "Merge Arena: fix ui (кнопки масштаба из-под хедера, точка сбора только у производящих зданий + warn-тост, hydrate старых сейвов) + доки (карта баланса K1-K6, решение по minerals); конфликты = стампы → main, MAIL union; стамп 11030020",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T21:22:38Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/28418551cfe9821706cb643074ad2e5e13071079",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "08549aa",
+     "message": "MAIL: ace#18 к приёмке (11030010, AI)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T21:10:31Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/08549aa43f5b0e1813ef510812aa0baa678334fe",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "b152512",
+     "message": "ace#18 merge-post: стамп 11030010 + версия AI (правило V), полный регресс на результате зелёный",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T21:10:11Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/b1525120c89e286696dcd8e0cd340d81b93881a1",
+     "repo": "bestdeejay-design/ace"
+    },
+    {
+     "sha": "14c3b82",
+     "message": "ace#18 правки ревью (2 блок): 1) issueHouseMove гасит протухший st.houseMove — после KeyM-тапа через solo-ветку режим-курсор больше не перехватывает последующие приказы отрядам; 2) airborne-маркер цели вынесен из drawMovePaths в drawFlightMarkers и вызывается ПОСЛЕ fog drawImage (рядом с drawRaidZone) — пунктир к точке касания больше не гаснет под туманом",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T21:02:47Z",
+     "url": "https://github.com/bestdeejay-design/ace/commit/14c3b8286abae6706f0b21a4c915c0d83aae4e91",
+     "repo": "bestdeejay-design/ace"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/infra",
+   "commits": 10,
+   "issue_new": 4,
+   "issue_closed": 1,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "f3c2c6a",
+     "message": "Долги D-I10/D-I13 связаны с issues infra#3/#4; отчёт сессии 03.11 — infra#2 (закрыт)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T17:54:11Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/f3c2c6aae552137f68e2274e13c9e1aaeb8ff717",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "5fcc0bf",
+     "message": "fonotext B: LAN-only по решению владельца — доступ только через A (ProxyJump), 27128 не восстанавливать (D-I12 закрыта); часы B — крон tb-http-sync по ssh от A; су-грабли expect задокументированы",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T17:52:28Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/5fcc0bfab88594830411dd9227a5e6d5a40c42a3",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "309f173",
+     "message": "fonotext-стенды: сессия 03.11 — runner A починен, юниты enabled (ребутобезопасность), llama-server на B убит (GPU чист); порт 27128 бордера не отвечает (D-I12); D-I8/D-I9 закрыты",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:50:20Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/309f1737e6116e1d9f5214c516f717ea3068c204",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "13f8bb1",
+     "message": "CI lovii-tech: CHUWI-раннер снят из org (сборочная станция), основной раннер gostiny-ci-fonotext на t-ai (checks+deploy проверены живьём); NTP-грабля tai-http-sync; каталог S3 и статусы синхронизированы",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:45:29Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/13f8bb1633f86007dd9c6a90e1422ca36afa6949",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "973ee39",
+     "message": "mock-e2e стенд на CHUWI поднят по заявке infra#1: tbank-mock 0.9.1 (пин) + lovii-core multisplit + пустая БД, порт 8090",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:29:32Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/973ee3913ec15e191103767ccd1ac27b5b8dc6b7",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "2f59f97",
+     "message": "Устав: границы роли по решению владельца — только инфраструктура, проекты не мои, комментарии только в рамках проекта infra",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:20:35Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/2f59f97519e560689a564d2780e550cb23a24cfe",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "7c2ae28",
+     "message": "Fonotext: полная ревизия стендов A/B/local-poc по данным 02.11 — состояния сервисов, отклонения, новые долги D-I8..D-I11",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:17:10Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/7c2ae28e95da8c865ecbd9ad23ea186cccc295c6",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "935ef38",
+     "message": "Шина: ядро labels варианта C и шаблоны issues из канона agents",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:13:24Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/935ef38d4fa9d8ff56d6f366cb594b21373dd1b9",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "e623807",
+     "message": "Кастомизация под роль координатора инфраструктуры: сервис-каталог, вход сессии, статус, долги",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:12:25Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/e6238077f4877e4f9000251822e2ee24eba40ff8",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "0f65de7",
+     "message": "Реестр инфраструктуры: 5 серверов, фоновые задания, облака и бэкапы",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:10:34Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/0f65de78fa8ecf0a7dee7e9e8b0000e1cb8c46c8",
+     "repo": "bestdeejay-design/infra"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/alien-cosmic",
+   "commits": 7,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "d5a496f",
+     "message": "AGENTS §10 по канону agents/ f60565d: движение статусов — только координатор, labels→поля по BLUEPRINT, гейты перед кодингом (WORKFLOW §6.1), approve на точный SHA, пост-деплой верификация; копия канона = workflow/CANON_VERSION.md",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:39:10Z",
+     "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/d5a496f4aca17682a7c1865a5de0f44576a2b0df",
+     "repo": "bestdeejay-design/alien-cosmic"
+    },
+    {
+     "sha": "a59bf96",
+     "message": "Синк канона agents/ f60565d (комплект C): регламенты AGENT_RULES/COORDINATOR_RULES, KNOWLEDGE_BASE, BLUEPRINT, шаблоны, wait-signal v2.2.5 + CANON_VERSION (ADOPTION §2)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T14:38:37Z",
+     "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/a59bf96f77d62eae76fd43f220b2c9de237c6272",
+     "repo": "bestdeejay-design/alien-cosmic"
+    },
+    {
+     "sha": "77a1152",
+     "message": "Синк канона agents/ (PR#9): PROTOCOL §7 — регламент миграций данных игроков (каналы А/Б)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T08:29:50Z",
+     "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/77a1152ce91441096cd500f71a23731edca88eb2",
+     "repo": "bestdeejay-design/alien-cosmic"
+    },
+    {
+     "sha": "1f21a27",
+     "message": "Синк копии общего канона agents/ (PR #7): гигиена поставок §6, видимость соседних сессий, правило слоёв, роли без имён",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:43:43Z",
+     "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/1f21a27faeeaaed15932ee0cee02482e171c46d1",
+     "repo": "bestdeejay-design/alien-cosmic"
+    },
+    {
+     "sha": "eb11b21",
+     "message": "Протокол §10 (владелец 03.11): все задачи — только через GitHub Project, статусы соседних сессий и коммуникация через борд; без карточки нет деплоя (урок инцидента 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T07:02:45Z",
+     "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/eb11b2146663b1f91daec73998886b2bc64be557",
+     "repo": "bestdeejay-design/alien-cosmic"
+    },
+    {
+     "sha": "9ec12c6",
+     "message": "статус (19): поставка 1 «Командир v2 fixes прогрессии» на проде (ace 015f426, стамп 11030030), ждёт приёмки; спеки COMMANDER2/UI3/SAVE_DB финализированы с ревью и решениями владельца",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T23:04:25Z",
+     "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/9ec12c680826ab7e2ca590212a06e61ff494f4ce",
+     "repo": "bestdeejay-design/alien-cosmic"
+    },
+    {
+     "sha": "617b123",
+     "message": "sim_evac36: G9b — версию сборки сверять с config.GAME_VERSION, не с литералом (ломалось на каждом бампе)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-02T21:10:08Z",
+     "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/617b12364243840c43975895d1409ab771f7527e",
+     "repo": "bestdeejay-design/alien-cosmic"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/lovii_docs",
+   "commits": 6,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "e941a51",
+     "message": "docs(canon,status): CHUWI runner снят; app-прогон на fonotext ✅",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:08:01Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/e941a515aa543de3545e11ab45eab7fe1ebc0efd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "a213c17",
+     "message": "docs(status): 03.11 — CI переехал на fonotext-stand (core#33 done)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:22:50Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/a213c178a73c6bcf93b6d6535cda0cca1ec5d31c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "1118454",
+     "message": "docs(canon): CI-стенд fonotext-stand — новый основной раннер (03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:21:57Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/111845487d0eaf966f74ad13c1385a9401877b71",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "ed7a2ea",
+     "message": "docs(status): 03.11 вечер — CI-стенд fonotext-stand, блокер root (core#33)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T10:36:25Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/ed7a2ea3d2adecf6aa04945c41badb294553a6ab",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "1c78a2d",
+     "message": "docs(status): 03.11 — вплетение общего воркфлоу (волны 0-2)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:38:10Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/1c78a2d4fedc891f1037c5003e0e255689b66886",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "b0b391e",
+     "message": "docs(canon): TEAM_WORKFLOW — общий воркфлоу команды (указатель) + поправка ARENA-TRIO (D-02/D-04/D-09 от 03.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T09:29:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/b0b391eee6ee8ec0ae9fd5996d542b94158cfc69",
+     "repo": "bestdeejay-design/lovii_docs"
+    }
+   ]
+  },
+  {
+   "name": "lovii-tech/lovii-docs-internal",
+   "commits": 6,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "37d30a3",
+     "message": "sync: внутренний контур 2026-11-03T16:08Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T16:08:44Z",
+     "url": "https://github.com/lovii-tech/lovii-docs-internal/commit/37d30a372b954c1971fbe10c9bedff24da6defdf",
+     "repo": "lovii-tech/lovii-docs-internal"
+    },
+    {
+     "sha": "e289947",
+     "message": "sync: внутренний контур 2026-11-03T15:23Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T15:23:36Z",
+     "url": "https://github.com/lovii-tech/lovii-docs-internal/commit/e289947320e243c4a19b14cfa4404ff4c9f35002",
+     "repo": "lovii-tech/lovii-docs-internal"
+    },
+    {
+     "sha": "21b1d66",
+     "message": "sync: внутренний контур 2026-11-03T15:22Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T15:22:33Z",
+     "url": "https://github.com/lovii-tech/lovii-docs-internal/commit/21b1d668f4c41e038abc44b98e480ea843e18c98",
+     "repo": "lovii-tech/lovii-docs-internal"
+    },
+    {
+     "sha": "360d9d7",
+     "message": "sync: внутренний контур 2026-11-03T10:36Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T10:36:57Z",
+     "url": "https://github.com/lovii-tech/lovii-docs-internal/commit/360d9d750a53e9050897b86f479d64ec10e07f6c",
+     "repo": "lovii-tech/lovii-docs-internal"
+    },
+    {
+     "sha": "ade6cc9",
+     "message": "sync: внутренний контур 2026-11-03T09:38Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T09:38:38Z",
+     "url": "https://github.com/lovii-tech/lovii-docs-internal/commit/ade6cc9e98f7c20abf1ad2754a6b3353c89c8e57",
+     "repo": "lovii-tech/lovii-docs-internal"
+    },
+    {
+     "sha": "de22494",
+     "message": "sync: внутренний контур 2026-11-03T09:29Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T09:29:25Z",
+     "url": "https://github.com/lovii-tech/lovii-docs-internal/commit/de22494184fb06b6f9f65eb71a2704ed9f67f223",
+     "repo": "lovii-tech/lovii-docs-internal"
+    }
+   ]
+  },
+  {
+   "name": "rucorp/mock-services",
+   "commits": 3,
+   "issue_new": 3,
+   "issue_closed": 1,
+   "pr_open": 1,
+   "pr_merged": 1,
+   "commit_list": [
+    {
+     "sha": "75336b1",
+     "message": "Merge pull request #163 from rucorp/arena/162-tbank-multisplit-selftest",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:12:04Z",
+     "url": "https://github.com/rucorp/mock-services/commit/75336b12972ce7bdb479392d91f763f9c18fae44",
+     "repo": "rucorp/mock-services"
+    },
+    {
+     "sha": "20742db",
+     "message": "chore(docs): реестр таблиц docs/tables.md после правки README tbank-mock (#162)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:02:19Z",
+     "url": "https://github.com/rucorp/mock-services/commit/20742db285946a49c7bf69523ffb5239def60466",
+     "repo": "rucorp/mock-services"
+    },
+    {
+     "sha": "3f38858",
+     "message": "test(tbank): покрытие сделочного контура Мультирасчётов в selftest (#162)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T15:02:15Z",
+     "url": "https://github.com/rucorp/mock-services/commit/3f38858766d98d8f0f6cd4ba8175794bca677e10",
+     "repo": "rucorp/mock-services"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/agent-hub",
+   "commits": 3,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "780a917",
+     "message": "chore(board): обновление 2026-11-03T11:05Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T11:05:40Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/780a917e49d470653321e4f9cf70f56a80b6da27",
+     "repo": "bestdeejay-design/agent-hub"
+    },
+    {
+     "sha": "2831c50",
+     "message": "chore(board): обновление 2026-11-03T03:14Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T03:14:40Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/2831c504a7b9f0d573becdc99a6cf091d8037bc6",
+     "repo": "bestdeejay-design/agent-hub"
+    },
+    {
+     "sha": "cd8ef90",
+     "message": "chore(board): обновление 2026-11-02T21:58Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-02T21:58:00Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/cd8ef90e4456229046e6c217961462a2d6621b4d",
+     "repo": "bestdeejay-design/agent-hub"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/repo-catalog",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "eff4c49",
+     "message": "feat(reports): ежедневный отчёт по всем репозиториям и доскам",
+     "author": "zwork",
+     "date": "2026-11-03T17:55:46Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/eff4c499af5bf43ddcf476ce02c2c5285e48af12",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "52bb153",
+     "message": "chore(board): пересборка 2026-11-03T14:21Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T14:21:38Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/52bb153d39328ca7e3188789c0509bbfd4ec4526",
+     "repo": "bestdeejay-design/repo-catalog"
+    }
+   ]
+  },
+  {
+   "name": "lovii-tech/lovii-core",
+   "commits": 0,
+   "issue_new": 3,
+   "issue_closed": 1,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": []
+  },
+  {
+   "name": "lovii-tech/lovii-app",
+   "commits": 0,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 1,
+   "pr_merged": 0,
+   "commit_list": []
+  }
+ ],
+ "issues_outside_boards": [
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 12,
+   "title": "MOCK: учебная карточка песочницы (пилот цикла C)",
+   "url": "https://github.com/bestdeejay-design/agents/issues/12"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 15,
+   "title": "Аудит и фикс scripts/wait-signal: 5 дефектов из поставки PR #14",
+   "url": "https://github.com/bestdeejay-design/agents/issues/15"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 18,
+   "title": "D-001: RECLAIMED-lookup в do_claim видит только первую страницу комментариев",
+   "url": "https://github.com/bestdeejay-design/agents/issues/18"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 19,
+   "title": "D-002: match_any допускает дефисное продолжение после маркера",
+   "url": "https://github.com/bestdeejay-design/agents/issues/19"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 20,
+   "title": "D-003: мёртвый код раннего останова пагинации по last_ts<SINCE",
+   "url": "https://github.com/bestdeejay-design/agents/issues/20"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 21,
+   "title": "D-004: «CI stale» печатается в stdout и глотается — пользователь не видит причину таймаута",
+   "url": "https://github.com/bestdeejay-design/agents/issues/21"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 22,
+   "title": "D-005: check-runs без пагинации — при >100 checks CI-сигнал не срабатывает",
+   "url": "https://github.com/bestdeejay-design/agents/issues/22"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 28,
+   "title": "Канон: 4 решения владельца (делегированы координатору 03.11) — claim-исключение, холодный старт, MAIL-ретрансляция, вид Projects",
+   "url": "https://github.com/bestdeejay-design/agents/issues/28"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 29,
+   "title": "D-006: отделить историческую byte-match проверку от поведенческих тестов; mock-сценарии в репо; CI",
+   "url": "https://github.com/bestdeejay-design/agents/issues/29"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 30,
+   "title": "D-007: wait-signal BUSY при status:ready + старый чужой CLAIM после RECLAIMED",
+   "url": "https://github.com/bestdeejay-design/agents/issues/30"
+  },
+  {
+   "repo": "bestdeejay-design/infra",
+   "number": 1,
+   "title": "S9 стенд: mock-services tbank-mock + lovii-core для e2e-приёмки #162",
+   "url": "https://github.com/bestdeejay-design/infra/issues/1"
+  },
+  {
+   "repo": "bestdeejay-design/infra",
+   "number": 2,
+   "title": "Fonotext: сессия 03.11 — починка стендов A/B (координатор, отчёт)",
+   "url": "https://github.com/bestdeejay-design/infra/issues/2"
+  },
+  {
+   "repo": "bestdeejay-design/infra",
+   "number": 3,
+   "title": "Fonotext: NFS-источник звонков 10.10.10.74 заполнен на 99% (D-I10)",
+   "url": "https://github.com/bestdeejay-design/infra/issues/3"
+  },
+  {
+   "repo": "bestdeejay-design/infra",
+   "number": 4,
+   "title": "Ротация su-паролей fonotext-стендов (пароли засвечивались в expect-логах)",
+   "url": "https://github.com/bestdeejay-design/infra/issues/4"
+  },
+  {
+   "repo": "lovii-tech/lovii-core",
+   "number": 33,
+   "title": "[CI-инфра] Подключить fonotext-stand (t-ai) как self-hosted раннер lovii-tech",
+   "url": "https://github.com/lovii-tech/lovii-core/issues/33"
+  },
+  {
+   "repo": "lovii-tech/lovii-core",
+   "number": 35,
+   "title": "Мультирасчёты фаза 2, волна Б: клиент acqapi sm-register (регистрация точек) + tbank_shop_code",
+   "url": "https://github.com/lovii-tech/lovii-core/issues/35"
+  },
+  {
+   "repo": "rucorp/mock-services",
+   "number": 162,
+   "title": "tbank-mock: верификация сделочного контура Мультирасчётов против протокола банка + стык с core (фаза 2)",
+   "url": "https://github.com/rucorp/mock-services/issues/162"
+  },
+  {
+   "repo": "rucorp/mock-services",
+   "number": 164,
+   "title": "tbank-mock: выравнивание кодов ошибок выплат к протоколу 9xx (935/936/938/926)",
+   "url": "https://github.com/rucorp/mock-services/issues/164"
+  },
+  {
+   "repo": "rucorp/mock-services",
+   "number": 165,
+   "title": "tbank-mock: min Amount 100 коп. карточного канала выплат не проверяется",
+   "url": "https://github.com/rucorp/mock-services/issues/165"
+  }
+ ],
+ "attention": [
+  "**Агенты — контроль** — доска пуста (`bestdeejay-design/6`)"
+ ],
+ "local_debt": [
+  {
+   "name": "lovii_presentation",
+   "ahead": 219,
+   "behind": 38,
+   "dirty": 5,
+   "remote": true
+  },
+  {
+   "name": "fonotext-server-wpool-reviewer",
+   "ahead": 18,
+   "behind": 64,
+   "dirty": 0,
+   "remote": true
+  },
+  {
+   "name": "minigames",
+   "ahead": 2,
+   "behind": 0,
+   "dirty": 3,
+   "remote": true
+  },
+  {
+   "name": "mobiap",
+   "ahead": 1,
+   "behind": 0,
+   "dirty": 60,
+   "remote": true
+  },
+  {
+   "name": "docs",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 42,
+   "remote": true
+  },
+  {
+   "name": "oc-architecture",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 23,
+   "remote": true
+  },
+  {
+   "name": "fonotext",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 21,
+   "remote": true
+  },
+  {
+   "name": "alien-cosmic",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 16,
+   "remote": true
+  },
+  {
+   "name": "atom",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 12,
+   "remote": false
+  },
+  {
+   "name": "fonotext-server",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 10,
+   "remote": true
+  },
+  {
+   "name": "lovii_demo",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 7,
+   "remote": true
+  },
+  {
+   "name": "test",
+   "ahead": 0,
+   "behind": 9,
+   "dirty": 7,
+   "remote": true
+  },
+  {
+   "name": "mobiap-v2",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 6,
+   "remote": true
+  },
+  {
+   "name": "companies",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 4,
+   "remote": true
+  },
+  {
+   "name": "ishotgirls",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 4,
+   "remote": true
+  },
+  {
+   "name": "arental",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 3,
+   "remote": false
+  },
+  {
+   "name": "ksu",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 3,
+   "remote": true
+  },
+  {
+   "name": "references",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 3,
+   "remote": true
+  },
+  {
+   "name": "axiiom_github",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 2,
+   "remote": true
+  },
+  {
+   "name": "mobiap-repo",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 2,
+   "remote": true
+  },
+  {
+   "name": "opencode-setup",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 2,
+   "remote": true
+  },
+  {
+   "name": "Technolozka",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "aichat",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "app",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "buhtest",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "dj1",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "lovii",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "lovii-crm",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "paffo",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "semyazdrav.ru",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 1,
+   "remote": true
+  },
+  {
+   "name": "fonotext-server-w1",
+   "ahead": 0,
+   "behind": 0,
+   "dirty": 0,
+   "remote": false
+  }
+ ]
+}
