@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T20:55:56.958776+03:00",
+ "generated_at": "2026-11-03T20:57:28.276136+03:00",
  "window": {
   "start": "2026-11-03T00:00:00+03:00",
   "end": "2026-11-04T00:00:00+03:00"
@@ -22,7 +22,7 @@
   "added": 17,
   "done": 5,
   "in_progress": 3,
-  "commits": 132,
+  "commits": 134,
   "repos_active": 12,
   "issues_new": 24,
   "issues_closed": 14,
@@ -38,6 +38,7 @@
    "url": "https://github.com/users/bestdeejay-design/projects/1",
    "total": 116,
    "todo": 47,
+   "unset": 0,
    "wip": 3,
    "done": 66,
    "added": 5,
@@ -49,7 +50,8 @@
    "title": "Alien Cosmic — задачи",
    "url": "https://github.com/users/bestdeejay-design/projects/3",
    "total": 49,
-   "todo": 31,
+   "todo": 18,
+   "unset": 13,
    "wip": 3,
    "done": 15,
    "added": 11,
@@ -62,6 +64,7 @@
    "url": "https://github.com/orgs/lovii-tech/projects/1",
    "total": 31,
    "todo": 11,
+   "unset": 0,
    "wip": 0,
    "done": 20,
    "added": 1,
@@ -74,6 +77,7 @@
    "url": "https://github.com/users/bestdeejay-design/projects/4",
    "total": 26,
    "todo": 24,
+   "unset": 0,
    "wip": 0,
    "done": 2,
    "added": 0,
@@ -86,6 +90,7 @@
    "url": "https://github.com/users/bestdeejay-design/projects/5",
    "total": 2,
    "todo": 0,
+   "unset": 0,
    "wip": 0,
    "done": 2,
    "added": 0,
@@ -98,6 +103,7 @@
    "url": "https://github.com/users/bestdeejay-design/projects/6",
    "total": 0,
    "todo": 0,
+   "unset": 0,
    "wip": 0,
    "done": 0,
    "added": 0,
@@ -1626,6 +1632,48 @@
    ]
   },
   {
+   "name": "bestdeejay-design/repo-catalog",
+   "commits": 4,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "e69075c",
+     "message": "fix(reports): склонения, колонка «без статуса», точные закрытия",
+     "author": "zwork",
+     "date": "2026-11-03T17:57:22Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/e69075c9d001ce890e3de387c65a5be04e4c15e1",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "5e94de6",
+     "message": "reports: 2026-11-03 — 17 добавлено, 5 выполнено, 3 в работе, 132 коммита",
+     "author": "zwork",
+     "date": "2026-11-03T17:56:51Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/5e94de69ea529b1a2f0a840b2fe04a4a4ad44524",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "eff4c49",
+     "message": "feat(reports): ежедневный отчёт по всем репозиториям и доскам",
+     "author": "zwork",
+     "date": "2026-11-03T17:55:46Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/eff4c499af5bf43ddcf476ce02c2c5285e48af12",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "52bb153",
+     "message": "chore(board): пересборка 2026-11-03T14:21Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T14:21:38Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/52bb153d39328ca7e3188789c0509bbfd4ec4526",
+     "repo": "bestdeejay-design/repo-catalog"
+    }
+   ]
+  },
+  {
    "name": "rucorp/mock-services",
    "commits": 3,
    "issue_new": 3,
@@ -1690,32 +1738,6 @@
      "date": "2026-11-02T21:58:00Z",
      "url": "https://github.com/bestdeejay-design/agent-hub/commit/cd8ef90e4456229046e6c217961462a2d6621b4d",
      "repo": "bestdeejay-design/agent-hub"
-    }
-   ]
-  },
-  {
-   "name": "bestdeejay-design/repo-catalog",
-   "commits": 2,
-   "issue_new": 0,
-   "issue_closed": 0,
-   "pr_open": 0,
-   "pr_merged": 0,
-   "commit_list": [
-    {
-     "sha": "eff4c49",
-     "message": "feat(reports): ежедневный отчёт по всем репозиториям и доскам",
-     "author": "zwork",
-     "date": "2026-11-03T17:55:46Z",
-     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/eff4c499af5bf43ddcf476ce02c2c5285e48af12",
-     "repo": "bestdeejay-design/repo-catalog"
-    },
-    {
-     "sha": "52bb153",
-     "message": "chore(board): пересборка 2026-11-03T14:21Z",
-     "author": "github-actions[bot]",
-     "date": "2026-11-03T14:21:38Z",
-     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/52bb153d39328ca7e3188789c0509bbfd4ec4526",
-     "repo": "bestdeejay-design/repo-catalog"
     }
    ]
   },
