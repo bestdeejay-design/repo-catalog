@@ -1,0 +1,53 @@
+name: daily-report
+
+on:
+  schedule:
+    - cron: '15 3 * * *' # 03:15 UTC = 06:15 MSK — отчёт за вчера
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Дата отчёта ГГГГ-ММ-ДД (пусто = вчера по Москве)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Какой день собираем
+        id: day
+        env:
+          IN_DATE: ${{ github.event.inputs.date }}
+        run: |
+          if [ -n "$IN_DATE" ]; then D="$IN_DATE"; else D="$(TZ=Europe/Moscow date -d yesterday +%F)"; fi
+          echo "Собираем отчёт за $D (MSK)"
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+
+      - name: Собрать отчёт
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          REPORT_DATE: ${{ steps.day.outputs.date }}
+        run: python3 daily_report.py --date "$REPORT_DATE"
+
+      - name: Закоммитить и запушить
+        env:
+          REPORT_DATE: ${{ steps.day.outputs.date }}
+        run: |
+          git config user.name "daily-report-bot"
+          git config user.email "bestdeejay-design@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "изменений в reports/ нет"
+            exit 0
+          fi
+          git commit -m "reports: $REPORT_DATE (Actions)"
+          git push || { git pull --rebase --quiet && git push; }

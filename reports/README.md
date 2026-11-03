@@ -73,9 +73,32 @@ GitHub не отдаёт историю статусов карточки. Дл�
 
 ## Расписание
 
-### Вариант A — launchd на ноутбуке (рекомендуется)
+### GitHub Actions (основной способ)
 
-`ops/run-daily.sh` собирает отчёт с локальными долгами и коммитит результат в `repo-catalog`.
+Воркфлоу [`daily-report`](../.github/workflows/daily-report.yml) собирает отчёт
+в облаке **каждый день в 06:15 MSK за вчера** — новый файл
+`reports/ГГГГ/ГГГГ-ММ-ДД.md` появляется сам, ноутбук не нужен.
+
+Минус: нет раздела «Локальные долги» (на раннере нет `~/Projects`).
+
+Разовая настройка — секрет `GH_PAT`: классический PAT со scope `repo` + `project`
+(дефолтный токен Actions к проектам user-аккаунта доступа не имеет):
+
+```bash
+gh secret set GH_PAT    # вставить токен со страницы «Generate new token (classic)»
+```
+
+Запустить за конкретный день вручную:
+
+```bash
+gh workflow run daily-report -f date=2026-11-02   # пусто = вчера по Москве
+gh run watch                                      # следить за прогоном
+```
+
+### Резерв — launchd на ноутбуке
+
+`ops/run-daily.sh` собирает отчёт с локальными долгами (раздел 8) и коммитит
+результат. Имеет смысл, если нужен раздел 8 или GitHub недоступен.
 
 ```bash
 cp repo-catalog/ops/com.local.daily-report.plist ~/Library/LaunchAgents/
@@ -84,16 +107,9 @@ launchctl load ~/Library/LaunchAgents/com.local.daily-report.plist
 # выключить: launchctl unload ~/Library/LaunchAgents/com.local.daily-report.plist
 ```
 
-Запуск ежедневно в 09:30 MSK. Лог — `~/.local/share/daily-report/run.log`.
-Если ноутбук спал в 09:30, launchd выполнит задачу при пробуждении.
+Запуск ежедневно в 09:30 MSK **за сегодня**. Лог — `~/.local/share/daily-report/run.log`.
 
-### Вариант B — GitHub Actions
-
-Плюс: работает без ноутбука. Минус: нет раздела «Локальные долги», и нужен
-personal access token со scope `project` в секретах — токен Actions к проектам
-user-аккаунта доступа не имеет.
-
-### Вариант C — вручную
+### Вручную
 
 Команда из раздела «Как собрать». Ничего не настраивается.
 
