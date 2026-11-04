@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T21:28:41.919453+03:00",
+ "generated_at": "2026-11-04T13:48:50.774559+03:00",
  "window": {
   "start": "2026-11-03T00:00:00+03:00",
   "end": "2026-11-04T00:00:00+03:00"
@@ -13,22 +13,22 @@
    "lovii-ru",
    "rucorp"
   ],
-  "repos_total": 146,
+  "repos_total": 147,
   "repos_archived": 4,
-  "projects": 6,
+  "projects": 7,
   "tasks_total": 224
  },
  "summary": {
   "added": 17,
   "done": 5,
   "in_progress": 3,
-  "commits": 137,
-  "repos_active": 12,
+  "commits": 196,
+  "repos_active": 14,
   "issues_new": 25,
-  "issues_closed": 16,
-  "pr_open": 27,
+  "issues_closed": 17,
+  "pr_open": 28,
   "pr_merged": 26,
-  "attention": 1
+  "attention": 2
  },
  "boards": [
   {
@@ -63,10 +63,10 @@
    "title": "LOVII Audit — Канбан",
    "url": "https://github.com/orgs/lovii-tech/projects/1",
    "total": 31,
-   "todo": 11,
+   "todo": 10,
    "unset": 0,
    "wip": 0,
-   "done": 20,
+   "done": 21,
    "added": 1,
    "closed": 0
   },
@@ -93,6 +93,19 @@
    "unset": 0,
    "wip": 0,
    "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 7,
+   "title": "tgbots Контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/7",
+   "total": 0,
+   "todo": 0,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
    "added": 0,
    "closed": 0
   },
@@ -373,13 +386,13 @@
     "url": "https://github.com/lovii-tech/lovii-core/issues/34",
     "number": 34,
     "repo": "lovii-tech/lovii-core",
-    "status": "Backlog",
-    "bucket": "todo",
-    "state": "OPEN",
+    "status": "Done",
+    "bucket": "done",
+    "state": "CLOSED",
     "item_created": "2026-11-03T11:00:15Z",
-    "item_updated": "2026-11-03T16:46:34Z",
+    "item_updated": "2026-11-03T22:16:27Z",
     "created_at": "2026-11-03T11:00:02Z",
-    "closed_at": null,
+    "closed_at": "2026-11-03T22:16:26Z",
     "merged_at": null
    },
    {
@@ -972,6 +985,498 @@
    ]
   },
   {
+   "name": "bestdeejay-design/infra",
+   "commits": 32,
+   "issue_new": 5,
+   "issue_closed": 2,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "0c6fa39",
+     "message": "max-bot: честный fallback (без выдуманных команд/статусов) + восстановлен run() для полного агента; корень отвалов OAuth — одна учётка Z.ai на двух машинах (mac сбивает токен t-ai каждые ~30-60 мин), flock не помог; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T07:16:24Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/0c6fa39f27cdde80931cd0ff0e57b70977020f91",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "09a644e",
+     "message": "check.sh: полное покрытие — CHUWI через GH-раннер gostiny-build-rucorp (без PAT/новых токенов), HTTP-чек api.lovii.ru, TCP-чек fonotext A:27127; infra#10",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T06:46:52Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/09a644e3f08b43fd19a3c654e4a0f08fcbdcfe8b",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "cdfb6d4",
+     "message": "max-bot: полноценный агент как в шине (shell/git/GH-API/канон INFRA) вместо болталки на API; при слетевшем OAuth — автоматический fallback на текст-API с пометкой; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T06:41:22Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/cdfb6d4348ceefc6b2c0129df55e31193d76f3c4",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "a9ae711",
+     "message": "sentinel: владелец уходит в MAX — tg-бот выключен (disabled), уведомления MAX-only (NOTIFY_TG=0), задачи из max-чата через agent-bridge API (без OAuth, INFRA-канон в промпте); шина to:sentinel (issue-poller) остаётся на zcode с flock-сериализацией; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T05:58:45Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/a9ae711a0c9d0d6ed75287b0cdf2a83a481edd00",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "a175381",
+     "message": "sentinel: MAX-транспорт — max-bot.py (long-polling platform-api2.max.ru, owner-привязка первым сообщением, /status//ping/задачи), MAX-дубли уведомлений шины в notify_owner; юнит tai-max-bot.service (ждёт MAX_BOT_TOKEN); infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:54:23Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/a175381eadf78fed5b7c0fe46c3b109ae587d60b",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "d54b78d",
+     "message": "issue-poller: контекст-подготовка в task-промпте (git pull, STATUS-INFRA.md, канон) + чистка служебных строк CLI из отчётов в issue; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:52:38Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/d54b78de289d87016326827cf6528bb49f603af2",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "268046f",
+     "message": "agent-bridge: бэкенд Z.ai API по ключу (BRIDGE_MODEL, по умолчанию glm-4.5-flash), fallback на headless ZCode при отсутствии ключа; обработка HTTPError; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:27:30Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/268046f1bff685e2c9524b14e06fa85250ed2212",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "c80455b",
+     "message": "t-ai-sentinel: agent-bridge — HTTP-мост headless ZCode для контейнеров (172.17.0.1:8778, systemd tai-agent-bridge, токен в env); обслуживает чат-персонажа taiexp; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:10:37Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/c80455b36d27a17aff5f029b88e70e6d7cb04ed8",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "80254dc",
+     "message": "Обход очереди to:infra: #1/#7 закрыты, #10 создан; #6 — squid не существует, контейнерный egress к TG работает, 409 внешний потребитель; #3 контроль df; STATUS и gostiny-prod-01.md исправлены",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:57:44Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/80254dc467c47ad3c266da6fcb74052fa5fa9d0f",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "abaaa78",
+     "message": "tg-бот sentinel: откат режима чата — бот только для инфраструктуры (роли/чат-персонажи — в отдельных ботах); оставлено логирование входящих; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:51:42Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/abaaa7871e3b51f672fd3ccd4a3255e6e478fe60",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "3b095ef",
+     "message": "tg-бот sentinel: режим чата с персонажем (Ая — /фури вкл, /exit выкл), история диалога в chat-history.json (последние 12 реплик); infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:45:46Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/3b095ef90bc9ff8415413cd79eed56f167ee0046",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "5216ec3",
+     "message": "docs: sentinel-bus — регламент делегации сабам",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:32:40Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/5216ec3b378312b00b6064b338440597f1336f10",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "caabca7",
+     "message": "t-ai-sentinel: регламент делегации саб-агентам закреплён в task-промпте (сабы исполняют, главный принимает и лично проверяет ключевые утверждения); infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:32:30Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/caabca7f662fe29ad4761accddc3db661c36b13b",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "2894f0e",
+     "message": "docs: sentinel-bus — уведомления владельцу (принята/сдана/ошибка)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:31:22Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/2894f0e301442b804c5bbebb3d91d281e987e219",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "e6e5ec8",
+     "message": "t-ai-sentinel: уведомления владельцу в Telegram (📥 принята / ✅ сдана с краткой сутью / ⚠️ ошибка) + каноны INFRA в task-промпт поллера; e2e infra#9; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:31:10Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/e6e5ec879930969bb0cd411a0983332bef6a0900",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "b2cfd15",
+     "message": "t-ai-sentinel: шина задач агент→агент — issues с лейблом to:sentinel → поллер */5 на t-ai → headless ZCode → отчёт комментарием (e2e пройден на infra#8); docs/sentinel-bus.md; infra#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:28:31Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/b2cfd1552cfedbd755b92c7ef5b6a56b1dcaa0bc",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "d5e9a5d",
+     "message": "t-ai-sentinel: агент-часовой на t-ai — tg-бот @tai_sentinel_bot как шлюз к headless ZCode (systemd tai-sentinel-bot), крон-мониторинг */15 с алертами в Telegram; инфра#7",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:23:02Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/d5e9a5d2a56001a61aa05c48fb89ffac83c0ca0b",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "9f14b4d",
+     "message": "CHUWI: график питания переведён на автономный режим — systemd-таймер chuwi-night-pause на самой машине (02:30 suspend S3 → 06:30 RTC-подъём, проверено живьём); мак из цикла исключён, cron-автоматизация удалена; механизмы отмены/принудительных действий задокументированы",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T21:27:11Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/9f14b4d8baf550d1bc2c4efb0019d07037b54a21",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "d2426ac",
+     "message": "CHUWI: стенд mock-e2e отозван (приёмка #162 завершена, down -v, письмо в infra#1); введён график питания — ночная пауза 02:30-06:30 (WoL-подъём утром); автоматизация гашения создана",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T21:18:47Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/d2426acb1f21db0f8085c1e5a9b84bdd7c9b5b0c",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "abc7438",
+     "message": "CHUWI: WoL включен и проверен живьём (04.11) — shutdown→magic packet→подъём ~1 мин, контейнеры автостартом; закреплён systemd-юнитом wol-enp1s0; MAC enp1s0 84:47:09:20:32:0e",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T21:16:16Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/abc74386ad860b32172ae1c8940f2152ed7696e0",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "953c745",
+     "message": "fonotext: пароли ротированы 03.11 (D-I13 закрыта, infra#4); D-I10 — админ уведомлён владельцем (infra#3)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T19:39:12Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/953c745cfbd06669554ea6764b5a9a607a3bd65d",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "982424a",
+     "message": "infra#5 (вариант В): retention-процедура GHCR rucorp/mock-services — docs/ghcr-retention.md, CI-гейт ghcr-pin-check.yml (шаблон для потребителей), еженедельный ghcr-audit.yml",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T19:33:38Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/982424a330492f6f715fb78270807d625116c8e4",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "f3c2c6a",
+     "message": "Долги D-I10/D-I13 связаны с issues infra#3/#4; отчёт сессии 03.11 — infra#2 (закрыт)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T17:54:11Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/f3c2c6aae552137f68e2274e13c9e1aaeb8ff717",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "5fcc0bf",
+     "message": "fonotext B: LAN-only по решению владельца — доступ только через A (ProxyJump), 27128 не восстанавливать (D-I12 закрыта); часы B — крон tb-http-sync по ssh от A; су-грабли expect задокументированы",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T17:52:28Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/5fcc0bfab88594830411dd9227a5e6d5a40c42a3",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "309f173",
+     "message": "fonotext-стенды: сессия 03.11 — runner A починен, юниты enabled (ребутобезопасность), llama-server на B убит (GPU чист); порт 27128 бордера не отвечает (D-I12); D-I8/D-I9 закрыты",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:50:20Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/309f1737e6116e1d9f5214c516f717ea3068c204",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "13f8bb1",
+     "message": "CI lovii-tech: CHUWI-раннер снят из org (сборочная станция), основной раннер gostiny-ci-fonotext на t-ai (checks+deploy проверены живьём); NTP-грабля tai-http-sync; каталог S3 и статусы синхронизированы",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:45:29Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/13f8bb1633f86007dd9c6a90e1422ca36afa6949",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "973ee39",
+     "message": "mock-e2e стенд на CHUWI поднят по заявке infra#1: tbank-mock 0.9.1 (пин) + lovii-core multisplit + пустая БД, порт 8090",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:29:32Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/973ee3913ec15e191103767ccd1ac27b5b8dc6b7",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "2f59f97",
+     "message": "Устав: границы роли по решению владельца — только инфраструктура, проекты не мои, комментарии только в рамках проекта infra",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:20:35Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/2f59f97519e560689a564d2780e550cb23a24cfe",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "7c2ae28",
+     "message": "Fonotext: полная ревизия стендов A/B/local-poc по данным 02.11 — состояния сервисов, отклонения, новые долги D-I8..D-I11",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:17:10Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/7c2ae28e95da8c865ecbd9ad23ea186cccc295c6",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "935ef38",
+     "message": "Шина: ядро labels варианта C и шаблоны issues из канона agents",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:13:24Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/935ef38d4fa9d8ff56d6f366cb594b21373dd1b9",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "e623807",
+     "message": "Кастомизация под роль координатора инфраструктуры: сервис-каталог, вход сессии, статус, долги",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:12:25Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/e6238077f4877e4f9000251822e2ee24eba40ff8",
+     "repo": "bestdeejay-design/infra"
+    },
+    {
+     "sha": "0f65de7",
+     "message": "Реестр инфраструктуры: 5 серверов, фоновые задания, облака и бэкапы",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T16:10:34Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/0f65de78fa8ecf0a7dee7e9e8b0000e1cb8c46c8",
+     "repo": "bestdeejay-design/infra"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/tgbots",
+   "commits": 27,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "0043fac",
+     "message": "taiexp: широкие триггеры фото-режима (фотк/фото/картинк/нарис/селфи/себя) + умный выбор selfie/scene/free по self-словам; фикс «пришли свою»/«сделай фотку у окна»",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:39:16Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/0043fac9b3f683019ef369589ee82e9bc2e0664c",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "1b42d4f",
+     "message": "taiexp: логирование режимов генерации (selfie/scene/free) для отладки",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:36:52Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/1b42d4fb6662aba6c4fb2c6fa1fd93f4f9cbec0c",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "84d5848",
+     "message": "taiexp: фикс отправки фото — Bot.loop нет в aiogram 3.31, asyncio.get_running_loop(); падало до answer_photo",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:28:07Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/84d5848021496dbae00d87697a03681ba93aebcc",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "be5b00f",
+     "message": "taiexp: кэш картинок — файл в volume по ключу mode+нормализованный запрос; повторные селфи/сцены/картинки отдаются без генерации; sidecar с промптом",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:21:26Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/be5b00f9b7cb9e013aedab12815ef07c7c245aed",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "d5be359",
+     "message": "taiexp: каноническая жизнь Аи (квартира с окном, книги, чай, парк по утрам, бежевый свитер) — связные ответы «где ты/чем занята», согласованы с фото-режимами",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:19:27Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/d5be359ee481f6056c4abb2cf77b5418c9f2bff1",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "848b53d",
+     "message": "taiexp: Ая в сценах — «ты у окна/в парке» = ядро внешности (AYA_CORE) + сцена от текст-модели, seed случайный; селфи остаётся фиксированным; 3 режима генерации",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:17:32Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/848b53d4b063c7810b7b994c29ed96ed1dd35b0b",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "3c995ee",
+     "message": "taiexp: «пришли фотку/селфи» = каноническое селфи Аи (фикс. промпт+seed 7331 = один и тот же облик); триггеры расширены; обычные «нарисуй» — как раньше",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:14:48Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/3c995ee5d57dbcfc82521ce7029e59613734e58c",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "eb11846",
+     "message": "runbook завода ботов: docs/ONBOARDING.md (8 шагов, по циклу taiexp); BOTS.md — инвентарь t-ai",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:10:18Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/eb118461688dc4e4e69cbc5b9c775de52666c364",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "7fcc510",
+     "message": "taiexp: картинки без SkipHandler (в aiogram 3.31 нет) — ветка генерации внутри chat-обработчика; image_gen.py = handle_image_request",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:08:14Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/7fcc510aa019bb829422e65f74092e4124e8e474",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "2e97878",
+     "message": "taiexp: генерация картинок — триггер «нарисуй/сгенерируй» -> Flux через Pollinations (без ключа), промпт улучшает Ая (мост), фото в Telegram; SkipHandler для не-картинок; persona: рисуем!",
+     "author": "bestdeejay-design",
+     "date": "2026-11-04T00:06:07Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/2e97878eeafa89235012f6155838f30077f50ff6",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "e8b0062",
+     "message": "kb/: база знаний Bot API от арены (Bot API 10.3) — встроена без трения с корнем",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:55:43Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/e8b0062522d1425ee15e40be6364f9a516e69561",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "71e4791",
+     "message": "taiexp: форматирование — markdown->Telegram HTML (жирный/курсив/код/списки/заголовки) с фолбэком на plain; применено в чате и проактиве",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:44:29Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/71e47910facfc3075dc7d6773f8632478dcb74b4",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "7766e80",
+     "message": "taiexp: бот для proactive берётся из startup-контекста, фоллбэк — свой Bot инстанс с тем же токеном",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:33:48Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/7766e8060bd859bc3003a82b7045731a8367560b",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "06f611c",
+     "message": "taiexp: фикс startup-хука (aiogram зовёт без аргументов), bot из dp.bot",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:32:20Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/06f611c3c4d3d93790ba0ce56960c7f99d1a6995",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "804fbb4",
+     "message": "taiexp: проактивный режим Аи — пишет первой один раз после CHAT_NUDGE_HOURS (24ч) молчания человека, ждёт ответа (nudged-флаг); state расширен last_user_ts/nudged",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:30:43Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/804fbb48964e8f43c0378c903cffcc7c80aad25e",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "c6686d5",
+     "message": "taiexp: промпт Аи без обещаний веб-поиска (мост переключён на API-ключ glm-4.5-flash, поиск недоступен); anti-hallucination для ссылок/фактов",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:26:41Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/c6686d5c749030ab3a5088576c72d6d6771827bf",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "e9de949",
+     "message": "taiexp: Ая ищет в интернете (факты + прямые ссылки на картинки), протокол IMAGE:<url> — бот отправляет фото; таймаут чата 170с",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:15:41Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/e9de9496997bb4d79d746f7bfb99bd3d3c4d1160",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "5e93e7d",
+     "message": "ruff format: bots/taiexp/handlers/chat.py (чинит CI после 82d8875)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:14:33Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/5e93e7d814e5f0c1366f9f66c8e72462f1b843f2",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "1d39de4",
+     "message": "Доки под факт после деплоя t-ai: DEPLOY (env в корне клона + ghcr-login), BOTS (taiexp живой, персона «Ая»), SECRETS (журнал выдачи), DEBT (D-003 ghcr-логин, D-004 env template)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:14:04Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/1d39de487754b3ca9c987d22c6996538bd96da96",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "82d8875",
+     "message": "taiexp: чат-персонаж «Ая» вместо эха — persona-промпт, история 12 реплик per-chat (JSON, volume), мозг через agent-bridge на хосте (172.17.0.1:8778); без служебных сообщений в чате; /reset добавлен",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:08:43Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/82d8875a070ec2e8354e233e286b830d53e17c14",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "a8bdc08",
+     "message": "STATUS: taiexp задеплоен на t-ai sentinel'ом (infra#11 исполнен); долг — ghcr-логин на t-ai",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T23:01:53Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/a8bdc083b4a077f0b03c9d245092618f2a4ad181",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "05f7665",
+     "message": "compose.prod: taiexp на прод-оверлее (GHCR-образ, ENV=prod, restart always); infra#11",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:59:55Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/05f76652d7684d1d73b32616a3ae64af66427752",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "132bcb7",
+     "message": "STATUS: инфра дала стенд t-ai; деплой taiexp поставлен на шину sentinel (infra#11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:49:32Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/132bcb76238171e49e256c87c690c6604add11c4",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "2f2d2e6",
+     "message": "STATUS: заявка на стенд отправлена в infra (#6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:21:40Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/2f2d2e6c444bf19a65b71e30026619a1d2af4b51",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "775b4a6",
+     "message": "Первый бот taiexp (@taiexp_bot) + починка скелетера и per-бот env",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T22:16:58Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/775b4a66a4412f2176d4e17a29ed9b1214edbe2f",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "30c128d",
+     "message": "База ТГ-ботов: tgbotlib, шаблон бота, docker, CI, процессный канон",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T21:56:31Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/30c128d98827f7b5fbd827acc8b64defd30ec01c",
+     "repo": "bestdeejay-design/tgbots"
+    },
+    {
+     "sha": "aed0d79",
+     "message": "Initial commit",
+     "author": "arena-ai-coding-agent[bot]",
+     "date": "2026-11-03T21:54:00Z",
+     "url": "https://github.com/bestdeejay-design/tgbots/commit/aed0d7993ad3a0f46bed643f62c18d5aa672ec12",
+     "repo": "bestdeejay-design/tgbots"
+    }
+   ]
+  },
+  {
    "name": "bestdeejay-design/fonotext-server",
    "commits": 26,
    "issue_new": 0,
@@ -1360,92 +1865,92 @@
    ]
   },
   {
-   "name": "bestdeejay-design/infra",
+   "name": "bestdeejay-design/repo-catalog",
    "commits": 10,
-   "issue_new": 5,
-   "issue_closed": 1,
+   "issue_new": 0,
+   "issue_closed": 0,
    "pr_open": 0,
    "pr_merged": 0,
    "commit_list": [
     {
-     "sha": "f3c2c6a",
-     "message": "Долги D-I10/D-I13 связаны с issues infra#3/#4; отчёт сессии 03.11 — infra#2 (закрыт)",
+     "sha": "24fdea9",
+     "message": "reports: 2026-11-01 (Actions)",
      "author": "bestdeejay-design",
-     "date": "2026-11-03T17:54:11Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/f3c2c6aae552137f68e2274e13c9e1aaeb8ff717",
-     "repo": "bestdeejay-design/infra"
+     "date": "2026-11-03T18:45:42Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/24fdea9085be292b4ea911f78ab5f6c3caa6fa43",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "5fcc0bf",
-     "message": "fonotext B: LAN-only по решению владельца — доступ только через A (ProxyJump), 27128 не восстанавливать (D-I12 закрыта); часы B — крон tb-http-sync по ssh от A; су-грабли expect задокументированы",
+     "sha": "c3b0b1c",
+     "message": "ci: пустой день не публикуется",
      "author": "bestdeejay-design",
-     "date": "2026-11-03T17:52:28Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/5fcc0bfab88594830411dd9227a5e6d5a40c42a3",
-     "repo": "bestdeejay-design/infra"
+     "date": "2026-11-03T18:44:45Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/c3b0b1c62c73858472e3feb430fa27a59e814ee1",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "309f173",
-     "message": "fonotext-стенды: сессия 03.11 — runner A починен, юниты enabled (ребутобезопасность), llama-server на B убит (GPU чист); порт 27128 бордера не отвечает (D-I12); D-I8/D-I9 закрыты",
+     "sha": "f2cddba",
+     "message": "reports: 2026-11-02 (Actions)",
      "author": "bestdeejay-design",
-     "date": "2026-11-03T16:50:20Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/309f1737e6116e1d9f5214c516f717ea3068c204",
-     "repo": "bestdeejay-design/infra"
+     "date": "2026-11-03T18:36:29Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/f2cddba5a3c40314b617b05d25964d939f6a258f",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "13f8bb1",
-     "message": "CI lovii-tech: CHUWI-раннер снят из org (сборочная станция), основной раннер gostiny-ci-fonotext на t-ai (checks+deploy проверены живьём); NTP-грабля tai-http-sync; каталог S3 и статусы синхронизированы",
+     "sha": "0879bf3",
+     "message": "ci: ежедневный отчёт через GitHub Actions за вчера; launchd — в резерв",
      "author": "bestdeejay-design",
-     "date": "2026-11-03T16:45:29Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/13f8bb1633f86007dd9c6a90e1422ca36afa6949",
-     "repo": "bestdeejay-design/infra"
+     "date": "2026-11-03T18:34:27Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/0879bf38eae1ee98729e80f617c52607304b535d",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "973ee39",
-     "message": "mock-e2e стенд на CHUWI поднят по заявке infra#1: tbank-mock 0.9.1 (пин) + lovii-core multisplit + пустая БД, порт 8090",
+     "sha": "6827cf5",
+     "message": "reports: 2026-11-03",
      "author": "bestdeejay-design",
-     "date": "2026-11-03T16:29:32Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/973ee3913ec15e191103767ccd1ac27b5b8dc6b7",
-     "repo": "bestdeejay-design/infra"
+     "date": "2026-11-03T18:29:36Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/6827cf56c90e2d5d8437d6f48403f07b5effb134",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "2f59f97",
-     "message": "Устав: границы роли по решению владельца — только инфраструктура, проекты не мои, комментарии только в рамках проекта infra",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T16:20:35Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/2f59f97519e560689a564d2780e550cb23a24cfe",
-     "repo": "bestdeejay-design/infra"
+     "sha": "d5c037d",
+     "message": "reports: 2026-11-03 — 17 добавлено, 5 выполнено, 3 в работе, 134 коммита",
+     "author": "zwork",
+     "date": "2026-11-03T17:58:26Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/d5c037d2ec7ffc157402584875db13a63e16c446",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "7c2ae28",
-     "message": "Fonotext: полная ревизия стендов A/B/local-poc по данным 02.11 — состояния сервисов, отклонения, новые долги D-I8..D-I11",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T16:17:10Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/7c2ae28e95da8c865ecbd9ad23ea186cccc295c6",
-     "repo": "bestdeejay-design/infra"
+     "sha": "e69075c",
+     "message": "fix(reports): склонения, колонка «без статуса», точные закрытия",
+     "author": "zwork",
+     "date": "2026-11-03T17:57:22Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/e69075c9d001ce890e3de387c65a5be04e4c15e1",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "935ef38",
-     "message": "Шина: ядро labels варианта C и шаблоны issues из канона agents",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T16:13:24Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/935ef38d4fa9d8ff56d6f366cb594b21373dd1b9",
-     "repo": "bestdeejay-design/infra"
+     "sha": "5e94de6",
+     "message": "reports: 2026-11-03 — 17 добавлено, 5 выполнено, 3 в работе, 132 коммита",
+     "author": "zwork",
+     "date": "2026-11-03T17:56:51Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/5e94de69ea529b1a2f0a840b2fe04a4a4ad44524",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "e623807",
-     "message": "Кастомизация под роль координатора инфраструктуры: сервис-каталог, вход сессии, статус, долги",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T16:12:25Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/e6238077f4877e4f9000251822e2ee24eba40ff8",
-     "repo": "bestdeejay-design/infra"
+     "sha": "eff4c49",
+     "message": "feat(reports): ежедневный отчёт по всем репозиториям и доскам",
+     "author": "zwork",
+     "date": "2026-11-03T17:55:46Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/eff4c499af5bf43ddcf476ce02c2c5285e48af12",
+     "repo": "bestdeejay-design/repo-catalog"
     },
     {
-     "sha": "0f65de7",
-     "message": "Реестр инфраструктуры: 5 серверов, фоновые задания, облака и бэкапы",
-     "author": "bestdeejay-design",
-     "date": "2026-11-03T16:10:34Z",
-     "url": "https://github.com/bestdeejay-design/infra/commit/0f65de78fa8ecf0a7dee7e9e8b0000e1cb8c46c8",
-     "repo": "bestdeejay-design/infra"
+     "sha": "52bb153",
+     "message": "chore(board): пересборка 2026-11-03T14:21Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T14:21:38Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/52bb153d39328ca7e3188789c0509bbfd4ec4526",
+     "repo": "bestdeejay-design/repo-catalog"
     }
    ]
   },
@@ -1512,6 +2017,64 @@
      "date": "2026-11-02T21:10:08Z",
      "url": "https://github.com/bestdeejay-design/alien-cosmic/commit/617b12364243840c43975895d1409ab771f7527e",
      "repo": "bestdeejay-design/alien-cosmic"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/agent-hub",
+   "commits": 6,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "90aa944",
+     "message": "chore(board): обновление 2026-11-04T03:24Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-04T03:24:53Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/90aa9446c1245a48eae8a67f15fbe1389c53042c",
+     "repo": "bestdeejay-design/agent-hub"
+    },
+    {
+     "sha": "5a00e2b",
+     "message": "chore(board): обновление 2026-11-03T23:33Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T23:33:53Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/5a00e2b917260ca38488d49c0f9e7f305963425c",
+     "repo": "bestdeejay-design/agent-hub"
+    },
+    {
+     "sha": "85826a4",
+     "message": "chore(board): обновление 2026-11-03T18:29Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T18:29:27Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/85826a497f6738c2bd5337ee79056e7240578dcc",
+     "repo": "bestdeejay-design/agent-hub"
+    },
+    {
+     "sha": "780a917",
+     "message": "chore(board): обновление 2026-11-03T11:05Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T11:05:40Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/780a917e49d470653321e4f9cf70f56a80b6da27",
+     "repo": "bestdeejay-design/agent-hub"
+    },
+    {
+     "sha": "2831c50",
+     "message": "chore(board): обновление 2026-11-03T03:14Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-03T03:14:40Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/2831c504a7b9f0d573becdc99a6cf091d8037bc6",
+     "repo": "bestdeejay-design/agent-hub"
+    },
+    {
+     "sha": "cd8ef90",
+     "message": "chore(board): обновление 2026-11-02T21:58Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-02T21:58:00Z",
+     "url": "https://github.com/bestdeejay-design/agent-hub/commit/cd8ef90e4456229046e6c217961462a2d6621b4d",
+     "repo": "bestdeejay-design/agent-hub"
     }
    ]
   },
@@ -1682,86 +2245,28 @@
    ]
   },
   {
-   "name": "bestdeejay-design/repo-catalog",
-   "commits": 5,
+   "name": "bestdeejay-design/test",
+   "commits": 2,
    "issue_new": 0,
    "issue_closed": 0,
    "pr_open": 0,
    "pr_merged": 0,
    "commit_list": [
     {
-     "sha": "d5c037d",
-     "message": "reports: 2026-11-03 — 17 добавлено, 5 выполнено, 3 в работе, 134 коммита",
-     "author": "zwork",
-     "date": "2026-11-03T17:58:26Z",
-     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/d5c037d2ec7ffc157402584875db13a63e16c446",
-     "repo": "bestdeejay-design/repo-catalog"
+     "sha": "103ed39",
+     "message": "docs(offer): закрытый контур помечен явно, описания — в общем каталоге",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T20:28:20Z",
+     "url": "https://github.com/bestdeejay-design/test/commit/103ed39dfffa2a99f1e6027c343cffc7c39dde44",
+     "repo": "bestdeejay-design/test"
     },
     {
-     "sha": "e69075c",
-     "message": "fix(reports): склонения, колонка «без статуса», точные закрытия",
-     "author": "zwork",
-     "date": "2026-11-03T17:57:22Z",
-     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/e69075c9d001ce890e3de387c65a5be04e4c15e1",
-     "repo": "bestdeejay-design/repo-catalog"
-    },
-    {
-     "sha": "5e94de6",
-     "message": "reports: 2026-11-03 — 17 добавлено, 5 выполнено, 3 в работе, 132 коммита",
-     "author": "zwork",
-     "date": "2026-11-03T17:56:51Z",
-     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/5e94de69ea529b1a2f0a840b2fe04a4a4ad44524",
-     "repo": "bestdeejay-design/repo-catalog"
-    },
-    {
-     "sha": "eff4c49",
-     "message": "feat(reports): ежедневный отчёт по всем репозиториям и доскам",
-     "author": "zwork",
-     "date": "2026-11-03T17:55:46Z",
-     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/eff4c499af5bf43ddcf476ce02c2c5285e48af12",
-     "repo": "bestdeejay-design/repo-catalog"
-    },
-    {
-     "sha": "52bb153",
-     "message": "chore(board): пересборка 2026-11-03T14:21Z",
-     "author": "github-actions[bot]",
-     "date": "2026-11-03T14:21:38Z",
-     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/52bb153d39328ca7e3188789c0509bbfd4ec4526",
-     "repo": "bestdeejay-design/repo-catalog"
-    }
-   ]
-  },
-  {
-   "name": "bestdeejay-design/agent-hub",
-   "commits": 3,
-   "issue_new": 0,
-   "issue_closed": 0,
-   "pr_open": 0,
-   "pr_merged": 0,
-   "commit_list": [
-    {
-     "sha": "780a917",
-     "message": "chore(board): обновление 2026-11-03T11:05Z",
-     "author": "github-actions[bot]",
-     "date": "2026-11-03T11:05:40Z",
-     "url": "https://github.com/bestdeejay-design/agent-hub/commit/780a917e49d470653321e4f9cf70f56a80b6da27",
-     "repo": "bestdeejay-design/agent-hub"
-    },
-    {
-     "sha": "2831c50",
-     "message": "chore(board): обновление 2026-11-03T03:14Z",
-     "author": "github-actions[bot]",
-     "date": "2026-11-03T03:14:40Z",
-     "url": "https://github.com/bestdeejay-design/agent-hub/commit/2831c504a7b9f0d573becdc99a6cf091d8037bc6",
-     "repo": "bestdeejay-design/agent-hub"
-    },
-    {
-     "sha": "cd8ef90",
-     "message": "chore(board): обновление 2026-11-02T21:58Z",
-     "author": "github-actions[bot]",
-     "date": "2026-11-02T21:58:00Z",
-     "url": "https://github.com/bestdeejay-design/agent-hub/commit/cd8ef90e4456229046e6c217961462a2d6621b4d",
-     "repo": "bestdeejay-design/agent-hub"
+     "sha": "2fcbd19",
+     "message": "docs(offer): предложение CDTO для игровой студии — полная и короткая версии",
+     "author": "bestdeejay-design",
+     "date": "2026-11-03T20:24:31Z",
+     "url": "https://github.com/bestdeejay-design/test/commit/2fcbd19b98de7dd25f1a729d5d2963482bd67315",
+     "repo": "bestdeejay-design/test"
     }
    ]
   },
@@ -1770,7 +2275,7 @@
    "commits": 0,
    "issue_new": 3,
    "issue_closed": 1,
-   "pr_open": 0,
+   "pr_open": 1,
    "pr_merged": 0,
    "commit_list": []
   },
@@ -1907,232 +2412,8 @@
   }
  ],
  "attention": [
+  "**tgbots Контроль** — доска пуста (`bestdeejay-design/7`)",
   "**Агенты — контроль** — доска пуста (`bestdeejay-design/6`)"
  ],
- "local_debt": [
-  {
-   "name": "lovii_presentation",
-   "ahead": 219,
-   "behind": 38,
-   "dirty": 5,
-   "remote": true
-  },
-  {
-   "name": "fonotext-server-wpool-reviewer",
-   "ahead": 18,
-   "behind": 64,
-   "dirty": 0,
-   "remote": true
-  },
-  {
-   "name": "minigames",
-   "ahead": 2,
-   "behind": 0,
-   "dirty": 3,
-   "remote": true
-  },
-  {
-   "name": "mobiap",
-   "ahead": 1,
-   "behind": 0,
-   "dirty": 60,
-   "remote": true
-  },
-  {
-   "name": "docs",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 42,
-   "remote": true
-  },
-  {
-   "name": "oc-architecture",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 23,
-   "remote": true
-  },
-  {
-   "name": "fonotext",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 21,
-   "remote": true
-  },
-  {
-   "name": "alien-cosmic",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 16,
-   "remote": true
-  },
-  {
-   "name": "atom",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 12,
-   "remote": false
-  },
-  {
-   "name": "fonotext-server",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 10,
-   "remote": true
-  },
-  {
-   "name": "lovii_demo",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 7,
-   "remote": true
-  },
-  {
-   "name": "test",
-   "ahead": 0,
-   "behind": 9,
-   "dirty": 7,
-   "remote": true
-  },
-  {
-   "name": "mobiap-v2",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 6,
-   "remote": true
-  },
-  {
-   "name": "companies",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 4,
-   "remote": true
-  },
-  {
-   "name": "ishotgirls",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 4,
-   "remote": true
-  },
-  {
-   "name": "arental",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 3,
-   "remote": false
-  },
-  {
-   "name": "ksu",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 3,
-   "remote": true
-  },
-  {
-   "name": "references",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 3,
-   "remote": true
-  },
-  {
-   "name": "axiiom_github",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 2,
-   "remote": true
-  },
-  {
-   "name": "mobiap-repo",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 2,
-   "remote": true
-  },
-  {
-   "name": "opencode-setup",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 2,
-   "remote": true
-  },
-  {
-   "name": "Technolozka",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "aichat",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "app",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "buhtest",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "dj1",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "lovii",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "lovii-crm",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "paffo",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "repo-catalog",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "semyazdrav.ru",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 1,
-   "remote": true
-  },
-  {
-   "name": "fonotext-server-w1",
-   "ahead": 0,
-   "behind": 0,
-   "dirty": 0,
-   "remote": false
-  }
- ]
+ "local_debt": null
 }
