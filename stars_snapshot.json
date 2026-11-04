@@ -23,16 +23,16 @@
   "full_name": "2noise/ChatTTS",
   "language": "Python",
   "pushed_at": "2026-04-10",
-  "stars": 39974,
+  "stars": 39977,
   "url": "https://github.com/2noise/ChatTTS"
  },
  "alirezarezvani/claude-skills": {
   "archived": false,
-  "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+  "description": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
   "full_name": "alirezarezvani/claude-skills",
   "language": "Python",
-  "pushed_at": "2026-11-02",
-  "stars": 29172,
+  "pushed_at": "2026-11-03",
+  "stars": 29286,
   "url": "https://github.com/alirezarezvani/claude-skills"
  },
  "alishahryar1/free-claude-code": {
@@ -40,8 +40,8 @@
   "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
   "full_name": "Alishahryar1/free-claude-code",
   "language": "Python",
-  "pushed_at": "2026-10-31",
-  "stars": 65914,
+  "pushed_at": "2026-11-04",
+  "stars": 66372,
   "url": "https://github.com/Alishahryar1/free-claude-code"
  },
  "andretripol/openghost": {
@@ -50,7 +50,7 @@
   "full_name": "ANDRETRIPOL/OpenGhost",
   "language": "JavaScript",
   "pushed_at": "2026-10-30",
-  "stars": 283,
+  "stars": 286,
   "url": "https://github.com/ANDRETRIPOL/OpenGhost"
  },
  "arahim3/digup": {
@@ -59,8 +59,17 @@
   "full_name": "ARahim3/DigUp",
   "language": "Swift",
   "pushed_at": "2026-10-26",
-  "stars": 6131,
+  "stars": 6231,
   "url": "https://github.com/ARahim3/DigUp"
+ },
+ "arindam200/awesome-ai-apps": {
+  "archived": false,
+  "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
+  "full_name": "Arindam200/awesome-ai-apps",
+  "language": "Python",
+  "pushed_at": "2026-10-30",
+  "stars": 16709,
+  "url": "https://github.com/Arindam200/awesome-ai-apps"
  },
  "arnabbagxd/brand-building-skills": {
   "archived": false,
@@ -68,7 +77,7 @@
   "full_name": "arnabbagxd/Brand-building-skills",
   "language": "Shell",
   "pushed_at": "2026-06-13",
-  "stars": 829,
+  "stars": 834,
   "url": "https://github.com/arnabbagxd/Brand-building-skills"
  },
  "arthurpanhku/docsentinel": {
@@ -77,7 +86,7 @@
   "full_name": "arthurpanhku/DocSentinel",
   "language": "Python",
   "pushed_at": "2026-10-28",
-  "stars": 89,
+  "stars": 90,
   "url": "https://github.com/arthurpanhku/DocSentinel"
  },
  "asafofer/perch": {
@@ -95,7 +104,7 @@
   "full_name": "ashleve/lightning-hydra-template",
   "language": "Python",
   "pushed_at": "2026-06-11",
-  "stars": 5380,
+  "stars": 5382,
   "url": "https://github.com/ashleve/lightning-hydra-template"
  },
  "axiiom-ru/axiiom-ru": {
@@ -148,7 +157,7 @@
   "description": "A classic real-time strategy in your browser: human colonists vs the alien Kharid hive on distant planets. 15-mission campaign, 3 factions, base building, fog of war, AI opponent. Pure JavaScript — no build, no dependencies, just open and play.",
   "full_name": "bestdeejay-design/alien-cosmic",
   "language": "JavaScript",
-  "pushed_at": "2026-11-02",
+  "pushed_at": "2026-11-03",
   "stars": 6,
   "url": "https://github.com/bestdeejay-design/alien-cosmic"
  },
@@ -256,8 +265,8 @@
   "description": "Get 10X more out of Claude Code, Codex or any coding agent",
   "full_name": "BloopAI/vibe-kanban",
   "language": "Rust",
-  "pushed_at": "2026-10-29",
-  "stars": 28568,
+  "pushed_at": "2026-11-04",
+  "stars": 28591,
   "url": "https://github.com/BloopAI/vibe-kanban"
  },
  "caddyserver/caddy": {
@@ -265,8 +274,8 @@
   "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
   "full_name": "caddyserver/caddy",
   "language": "Go",
-  "pushed_at": "2026-11-02",
-  "stars": 78660,
+  "pushed_at": "2026-11-04",
+  "stars": 78762,
   "url": "https://github.com/caddyserver/caddy"
  },
  "caramaschihg/awesome-ai-agents-2026": {
@@ -275,7 +284,7 @@
   "full_name": "caramaschiHG/awesome-ai-agents-2026",
   "language": "—",
   "pushed_at": "2026-06-10",
-  "stars": 2063,
+  "stars": 2066,
   "url": "https://github.com/caramaschiHG/awesome-ai-agents-2026"
  },
  "clash-verge-rev/clash-verge-rev": {
@@ -283,8 +292,8 @@
   "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
   "full_name": "clash-verge-rev/clash-verge-rev",
   "language": "Rust",
-  "pushed_at": "2026-11-02",
-  "stars": 155802,
+  "pushed_at": "2026-11-04",
+  "stars": 156321,
   "url": "https://github.com/clash-verge-rev/clash-verge-rev"
  },
  "code-yeongyu/oh-my-openagent": {
@@ -292,8 +301,8 @@
   "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
   "full_name": "code-yeongyu/oh-my-openagent",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 70626,
+  "pushed_at": "2026-11-04",
+  "stars": 70699,
   "url": "https://github.com/code-yeongyu/oh-my-openagent"
  },
  "croffasia/itsaplan": {
@@ -301,8 +310,8 @@
   "description": "⭐️⭐️⭐️ Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
   "full_name": "croffasia/itsaplan",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 2139,
+  "pushed_at": "2026-11-04",
+  "stars": 2170,
   "url": "https://github.com/croffasia/itsaplan"
  },
  "dajetbro/dajetbro": {
@@ -319,8 +328,8 @@
   "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
   "full_name": "danielmiessler/Fabric",
   "language": "Go",
-  "pushed_at": "2026-11-02",
-  "stars": 44533,
+  "pushed_at": "2026-11-03",
+  "stars": 44546,
   "url": "https://github.com/danielmiessler/Fabric"
  },
  "ddalcu/mlx-serve": {
@@ -328,8 +337,8 @@
   "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
   "full_name": "ddalcu/mlx-serve",
   "language": "Zig",
-  "pushed_at": "2026-11-02",
-  "stars": 2322,
+  "pushed_at": "2026-11-04",
+  "stars": 2366,
   "url": "https://github.com/ddalcu/mlx-serve"
  },
  "deepseek-ai/deepseek-harness": {
@@ -337,8 +346,8 @@
   "description": "DeepSeek Harness: Everything is a Plugin.",
   "full_name": "deepseek-ai/deepseek-harness",
   "language": "TypeScript",
-  "pushed_at": "2026-10-30",
-  "stars": 269492,
+  "pushed_at": "2026-11-04",
+  "stars": 272313,
   "url": "https://github.com/deepseek-ai/deepseek-harness"
  },
  "delbeke/vectorizer": {
@@ -355,8 +364,8 @@
   "description": "A small, fast WebKit browser for macOS, by Office Commun.",
   "full_name": "driceroland/Search",
   "language": "Swift",
-  "pushed_at": "2026-11-02",
-  "stars": 2804,
+  "pushed_at": "2026-11-04",
+  "stars": 2815,
   "url": "https://github.com/driceroland/Search"
  },
  "fishaudio/fish-speech": {
@@ -365,7 +374,7 @@
   "full_name": "fishaudio/fish-speech",
   "language": "Python",
   "pushed_at": "2026-11-02",
-  "stars": 33546,
+  "stars": 33581,
   "url": "https://github.com/fishaudio/fish-speech"
  },
  "gluonfield/enchanted": {
@@ -374,7 +383,7 @@
   "full_name": "gluonfield/enchanted",
   "language": "Swift",
   "pushed_at": "2026-07-07",
-  "stars": 6017,
+  "stars": 6016,
   "url": "https://github.com/gluonfield/enchanted"
  },
  "hexgrad/kokoro": {
@@ -383,16 +392,25 @@
   "full_name": "hexgrad/kokoro",
   "language": "JavaScript",
   "pushed_at": "2025-08-06",
-  "stars": 9873,
+  "stars": 9913,
   "url": "https://github.com/hexgrad/kokoro"
+ },
+ "heydamir/unslop": {
+  "archived": false,
+  "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+  "full_name": "heydamir/unslop",
+  "language": "JavaScript",
+  "pushed_at": "2026-11-01",
+  "stars": 8342,
+  "url": "https://github.com/heydamir/unslop"
  },
  "ihhub/fheroes2": {
   "archived": false,
   "description": "fheroes2 is a recreation of Heroes of Might and Magic II game engine",
   "full_name": "ihhub/fheroes2",
   "language": "C++",
-  "pushed_at": "2026-11-02",
-  "stars": 3707,
+  "pushed_at": "2026-11-04",
+  "stars": 3710,
   "url": "https://github.com/ihhub/fheroes2"
  },
  "jaywcjlove/awesome-swift-macos-apps": {
@@ -400,8 +418,8 @@
   "description": "A curated collection of open-source macOS applications built with Swift",
   "full_name": "jaywcjlove/awesome-swift-macos-apps",
   "language": "Swift",
-  "pushed_at": "2026-11-02",
-  "stars": 1787,
+  "pushed_at": "2026-11-04",
+  "stars": 1788,
   "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps"
  },
  "jeffallan/claude-skills": {
@@ -410,7 +428,7 @@
   "full_name": "Jeffallan/claude-skills",
   "language": "JavaScript",
   "pushed_at": "2026-10-30",
-  "stars": 12181,
+  "stars": 12216,
   "url": "https://github.com/Jeffallan/claude-skills"
  },
  "jgouviergmail/lia-assistant": {
@@ -418,7 +436,7 @@
   "description": "Smart multi-agent conversational assistant with LangGraph orchestration, Human-in-the-Loop, enterprise-grade observability, and full i18n support (6 languages)",
   "full_name": "jgouviergmail/LIA-Assistant",
   "language": "Python",
-  "pushed_at": "2026-11-02",
+  "pushed_at": "2026-11-04",
   "stars": 79,
   "url": "https://github.com/jgouviergmail/LIA-Assistant"
  },
@@ -428,7 +446,7 @@
   "full_name": "justinwetch/HIGAgentSkills",
   "language": "Python",
   "pushed_at": "2026-10-17",
-  "stars": 731,
+  "stars": 798,
   "url": "https://github.com/justinwetch/HIGAgentSkills"
  },
  "koda-dernet/side-step": {
@@ -454,8 +472,8 @@
   "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
   "full_name": "langgenius/dify",
   "language": "Python",
-  "pushed_at": "2026-11-02",
-  "stars": 160251,
+  "pushed_at": "2026-11-04",
+  "stars": 160405,
   "url": "https://github.com/langgenius/dify"
  },
  "larashero3-dotcom/lieflat-charts": {
@@ -463,8 +481,8 @@
   "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
   "full_name": "larashero3-dotcom/lieflat-charts",
   "language": "HTML",
-  "pushed_at": "2026-11-02",
-  "stars": 6626,
+  "pushed_at": "2026-11-03",
+  "stars": 6695,
   "url": "https://github.com/larashero3-dotcom/lieflat-charts"
  },
  "laravel/laravel": {
@@ -473,7 +491,7 @@
   "full_name": "laravel/laravel",
   "language": "Blade",
   "pushed_at": "2026-10-30",
-  "stars": 85220,
+  "stars": 85216,
   "url": "https://github.com/laravel/laravel"
  },
  "leepokai/codync": {
@@ -481,8 +499,8 @@
   "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
   "full_name": "leepokai/Codync",
   "language": "Rust",
-  "pushed_at": "2026-11-02",
-  "stars": 1722,
+  "pushed_at": "2026-11-04",
+  "stars": 1867,
   "url": "https://github.com/leepokai/Codync"
  },
  "lidge-jun/opencodex": {
@@ -490,8 +508,8 @@
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
   "full_name": "lidge-jun/opencodex",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 18167,
+  "pushed_at": "2026-11-04",
+  "stars": 18206,
   "url": "https://github.com/lidge-jun/opencodex"
  },
  "lovii-tech/lovii-admin": {
@@ -499,7 +517,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-admin",
   "language": "PHP",
-  "pushed_at": "2026-10-24",
+  "pushed_at": "2026-11-03",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-admin"
  },
@@ -508,7 +526,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-app",
   "language": "Vue",
-  "pushed_at": "2026-10-27",
+  "pushed_at": "2026-11-03",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-app"
  },
@@ -517,7 +535,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-b2b",
   "language": "PHP",
-  "pushed_at": "2026-10-24",
+  "pushed_at": "2026-11-03",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-b2b"
  },
@@ -526,7 +544,7 @@
   "description": "",
   "full_name": "lovii-tech/lovii-core",
   "language": "PHP",
-  "pushed_at": "2026-10-24",
+  "pushed_at": "2026-11-03",
   "stars": 1,
   "url": "https://github.com/lovii-tech/lovii-core"
  },
@@ -535,7 +553,7 @@
   "description": "Epistemic decision ledger: append-only event log with evidence-gated trust, deterministic Tessera projection, and a human control room. TypeScript + Cloudflare Workers.",
   "full_name": "mazze93/stratum",
   "language": "HTML",
-  "pushed_at": "2026-10-31",
+  "pushed_at": "2026-11-02",
   "stars": 2,
   "url": "https://github.com/mazze93/stratum"
  },
@@ -545,7 +563,7 @@
   "full_name": "microsoft/ai-agents-for-beginners",
   "language": "Jupyter Notebook",
   "pushed_at": "2026-11-02",
-  "stars": 78710,
+  "stars": 78908,
   "url": "https://github.com/microsoft/ai-agents-for-beginners"
  },
  "mnfst/awesome-free-llm-apis": {
@@ -553,8 +571,8 @@
   "description": "List of Permanent Free LLM API  (API Keys)",
   "full_name": "mnfst/awesome-free-llm-apis",
   "language": "JavaScript",
-  "pushed_at": "2026-11-02",
-  "stars": 11993,
+  "pushed_at": "2026-11-04",
+  "stars": 12182,
   "url": "https://github.com/mnfst/awesome-free-llm-apis"
  },
  "modernrelay/omnigraph": {
@@ -562,8 +580,8 @@
   "description": "Object-storage native graph database with branching and typed ontology",
   "full_name": "ModernRelay/omnigraph",
   "language": "Rust",
-  "pushed_at": "2026-11-02",
-  "stars": 1886,
+  "pushed_at": "2026-11-04",
+  "stars": 1896,
   "url": "https://github.com/ModernRelay/omnigraph"
  },
  "msitarzewski/agency-agents": {
@@ -572,7 +590,7 @@
   "full_name": "msitarzewski/agency-agents",
   "language": "Shell",
   "pushed_at": "2026-10-25",
-  "stars": 166102,
+  "stars": 166491,
   "url": "https://github.com/msitarzewski/agency-agents"
  },
  "myshell-ai/openvoice": {
@@ -581,7 +599,7 @@
   "full_name": "myshell-ai/OpenVoice",
   "language": "Python",
   "pushed_at": "2025-04-19",
-  "stars": 38126,
+  "stars": 38136,
   "url": "https://github.com/myshell-ai/OpenVoice"
  },
  "net-merge/net-merge": {
@@ -589,8 +607,8 @@
   "description": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
   "full_name": "net-merge/net-merge",
   "language": "Go",
-  "pushed_at": "2026-10-29",
-  "stars": 2814,
+  "pushed_at": "2026-11-02",
+  "stars": 2871,
   "url": "https://github.com/net-merge/net-merge"
  },
  "neurocyte/flow": {
@@ -598,8 +616,8 @@
   "description": "Flow Control: a programmer's text editor",
   "full_name": "neurocyte/flow",
   "language": "Zig",
-  "pushed_at": "2026-11-01",
-  "stars": 2523,
+  "pushed_at": "2026-11-04",
+  "stars": 2525,
   "url": "https://github.com/neurocyte/flow"
  },
  "nexu-io/html-video": {
@@ -608,7 +626,7 @@
   "full_name": "nexu-io/html-video",
   "language": "HTML",
   "pushed_at": "2026-06-21",
-  "stars": 4800,
+  "stars": 4806,
   "url": "https://github.com/nexu-io/html-video"
  },
  "nexu-io/open-design": {
@@ -616,8 +634,8 @@
   "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
   "full_name": "nexu-io/open-design",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 105527,
+  "pushed_at": "2026-11-04",
+  "stars": 105907,
   "url": "https://github.com/nexu-io/open-design"
  },
  "nick-vels/skills": {
@@ -626,7 +644,7 @@
   "full_name": "nick-vels/skills",
   "language": "HTML",
   "pushed_at": "2026-10-28",
-  "stars": 584,
+  "stars": 590,
   "url": "https://github.com/nick-vels/skills"
  },
  "nirdiamant/agents-towards-production": {
@@ -635,7 +653,7 @@
   "full_name": "NirDiamant/agents-towards-production",
   "language": "Jupyter Notebook",
   "pushed_at": "2026-11-02",
-  "stars": 21812,
+  "stars": 21822,
   "url": "https://github.com/NirDiamant/agents-towards-production"
  },
  "nirdiamant/rag_techniques": {
@@ -644,7 +662,7 @@
   "full_name": "NirDiamant/RAG_Techniques",
   "language": "Jupyter Notebook",
   "pushed_at": "2026-11-02",
-  "stars": 30198,
+  "stars": 30225,
   "url": "https://github.com/NirDiamant/RAG_Techniques"
  },
  "nutlope/hallmark": {
@@ -652,8 +670,8 @@
   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
   "full_name": "Nutlope/hallmark",
   "language": "CSS",
-  "pushed_at": "2026-10-29",
-  "stars": 45852,
+  "pushed_at": "2026-11-04",
+  "stars": 47688,
   "url": "https://github.com/Nutlope/hallmark"
  },
  "oauth2-proxy/oauth2-proxy": {
@@ -661,8 +679,8 @@
   "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
   "full_name": "oauth2-proxy/oauth2-proxy",
   "language": "Go",
-  "pushed_at": "2026-11-01",
-  "stars": 15313,
+  "pushed_at": "2026-11-04",
+  "stars": 15322,
   "url": "https://github.com/oauth2-proxy/oauth2-proxy"
  },
  "obsproject/obs-studio": {
@@ -670,8 +688,8 @@
   "description": "OBS Studio - Free and open source software for live streaming and screen recording",
   "full_name": "obsproject/obs-studio",
   "language": "C",
-  "pushed_at": "2026-11-02",
-  "stars": 78841,
+  "pushed_at": "2026-11-03",
+  "stars": 78959,
   "url": "https://github.com/obsproject/obs-studio"
  },
  "openbmb/minicpm-v": {
@@ -680,7 +698,7 @@
   "full_name": "OpenBMB/MiniCPM-V",
   "language": "Python",
   "pushed_at": "2026-10-30",
-  "stars": 27051,
+  "stars": 27066,
   "url": "https://github.com/OpenBMB/MiniCPM-V"
  },
  "pascalorg/editor": {
@@ -688,8 +706,8 @@
   "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
   "full_name": "pascalorg/editor",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 25282,
+  "pushed_at": "2026-11-04",
+  "stars": 25325,
   "url": "https://github.com/pascalorg/editor"
  },
  "patchy631/ai-engineering-hub": {
@@ -698,7 +716,7 @@
   "full_name": "patchy631/ai-engineering-hub",
   "language": "Jupyter Notebook",
   "pushed_at": "2026-11-01",
-  "stars": 40927,
+  "stars": 41110,
   "url": "https://github.com/patchy631/ai-engineering-hub"
  },
  "pawelmalak/flame": {
@@ -707,7 +725,7 @@
   "full_name": "pawelmalak/flame",
   "language": "TypeScript",
   "pushed_at": "2026-06-25",
-  "stars": 6663,
+  "stars": 6665,
   "url": "https://github.com/pawelmalak/flame"
  },
  "presenton/presenton": {
@@ -715,8 +733,8 @@
   "description": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
   "full_name": "presenton/presenton",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 11629,
+  "pushed_at": "2026-11-04",
+  "stars": 11702,
   "url": "https://github.com/presenton/presenton"
  },
  "punkpeye/awesome-mcp-servers": {
@@ -725,7 +743,7 @@
   "full_name": "punkpeye/awesome-mcp-servers",
   "language": "—",
   "pushed_at": "2026-11-02",
-  "stars": 97200,
+  "stars": 97291,
   "url": "https://github.com/punkpeye/awesome-mcp-servers"
  },
  "purpledoubled/locally-uncensored": {
@@ -733,8 +751,8 @@
   "description": "The all-in-one local AI studio for your desktop: chat, image and video generation and a coding agent in one free, open source app. Windows and Linux. No Docker, no terminal, no cloud required.",
   "full_name": "PurpleDoubleD/locally-uncensored",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 3184,
+  "pushed_at": "2026-11-03",
+  "stars": 3258,
   "url": "https://github.com/PurpleDoubleD/locally-uncensored"
  },
  "qwenlm/qwen-image": {
@@ -743,7 +761,7 @@
   "full_name": "QwenLM/Qwen-Image",
   "language": "Python",
   "pushed_at": "2026-02-10",
-  "stars": 8450,
+  "stars": 8459,
   "url": "https://github.com/QwenLM/Qwen-Image"
  },
  "razzant/claudexor": {
@@ -751,8 +769,8 @@
   "description": "Multi-harness control plane for Claude Code, Codex, Cursor, and OpenCode: quota-aware rotation across multiple Claude/Codex subscriptions, shared thread context, and cross-model review.",
   "full_name": "razzant/claudexor",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 521,
+  "pushed_at": "2026-11-04",
+  "stars": 523,
   "url": "https://github.com/razzant/claudexor"
  },
  "reconurge/flowsint": {
@@ -761,7 +779,7 @@
   "full_name": "reconurge/flowsint",
   "language": "TypeScript",
   "pushed_at": "2026-10-18",
-  "stars": 10035,
+  "stars": 10051,
   "url": "https://github.com/reconurge/flowsint"
  },
  "resemble-ai/chatterbox": {
@@ -770,7 +788,7 @@
   "full_name": "resemble-ai/chatterbox",
   "language": "Python",
   "pushed_at": "2026-07-21",
-  "stars": 27513,
+  "stars": 27557,
   "url": "https://github.com/resemble-ai/chatterbox"
  },
  "rucorp/accounts": {
@@ -796,7 +814,7 @@
   "description": "Mock bank acquiring & fiscal (OFD) services to test payment integrations against official provider protocols — T-Bank, YooKassa, ATOL, Alfa-Bank, Sber, VTB, OFD Ferma, Perviy OFD, Kontur.OFD, Taxcom. Zero-dependency Node, OpenAPI 3.1, multi-tenant sandboxes.",
   "full_name": "rucorp/mock-services",
   "language": "JavaScript",
-  "pushed_at": "2026-10-22",
+  "pushed_at": "2026-11-03",
   "stars": 6,
   "url": "https://github.com/rucorp/mock-services"
  },
@@ -806,7 +824,7 @@
   "full_name": "ShaikhWarsi/free-ai-tools",
   "language": "TypeScript",
   "pushed_at": "2026-10-11",
-  "stars": 1071,
+  "stars": 1077,
   "url": "https://github.com/ShaikhWarsi/free-ai-tools"
  },
  "shubhamsaboo/awesome-llm-apps": {
@@ -815,7 +833,7 @@
   "full_name": "Shubhamsaboo/awesome-llm-apps",
   "language": "Python",
   "pushed_at": "2026-10-22",
-  "stars": 143753,
+  "stars": 143886,
   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
  },
  "signerless/llm-checker": {
@@ -824,7 +842,7 @@
   "full_name": "signerless/llm-checker",
   "language": "JavaScript",
   "pushed_at": "2026-11-02",
-  "stars": 3049,
+  "stars": 3050,
   "url": "https://github.com/signerless/llm-checker"
  },
  "slavakurilyak/awesome-ai-agents": {
@@ -833,7 +851,7 @@
   "full_name": "slavakurilyak/awesome-ai-agents",
   "language": "Go",
   "pushed_at": "2026-10-04",
-  "stars": 2851,
+  "stars": 2878,
   "url": "https://github.com/slavakurilyak/awesome-ai-agents"
  },
  "swivid/f5-tts": {
@@ -841,8 +859,8 @@
   "description": "Official code for \"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching\"",
   "full_name": "SWivid/F5-TTS",
   "language": "Python",
-  "pushed_at": "2026-10-23",
-  "stars": 15503,
+  "pushed_at": "2026-11-03",
+  "stars": 15510,
   "url": "https://github.com/SWivid/F5-TTS"
  },
  "t8y2/dbx": {
@@ -850,8 +868,8 @@
   "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
   "full_name": "t8y2/dbx",
   "language": "Rust",
-  "pushed_at": "2026-11-02",
-  "stars": 28664,
+  "pushed_at": "2026-11-04",
+  "stars": 29064,
   "url": "https://github.com/t8y2/dbx"
  },
  "tencent-hunyuan/hy3": {
@@ -869,7 +887,7 @@
   "full_name": "thedaviddias/Front-End-Checklist",
   "language": "MDX",
   "pushed_at": "2026-10-31",
-  "stars": 74633,
+  "stars": 74644,
   "url": "https://github.com/thedaviddias/Front-End-Checklist"
  },
  "thesysdev/openui": {
@@ -877,8 +895,8 @@
   "description": "The Open Standard for Generative UI",
   "full_name": "thesysdev/openui",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 14682,
+  "pushed_at": "2026-11-04",
+  "stars": 14754,
   "url": "https://github.com/thesysdev/openui"
  },
  "tonyl1u/nano-ai": {
@@ -887,7 +905,7 @@
   "full_name": "TonyL1u/nano-ai",
   "language": "TypeScript",
   "pushed_at": "2026-04-29",
-  "stars": 179,
+  "stars": 180,
   "url": "https://github.com/TonyL1u/nano-ai"
  },
  "trycompai/crm": {
@@ -896,7 +914,7 @@
   "full_name": "trycompai/crm",
   "language": "TypeScript",
   "pushed_at": "2026-11-01",
-  "stars": 11805,
+  "stars": 11842,
   "url": "https://github.com/trycompai/crm"
  },
  "tw93/mole": {
@@ -904,8 +922,8 @@
   "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
   "full_name": "tw93/Mole",
   "language": "Shell",
-  "pushed_at": "2026-11-02",
-  "stars": 73641,
+  "pushed_at": "2026-11-04",
+  "stars": 73867,
   "url": "https://github.com/tw93/Mole"
  },
  "vava-nessa/free-coding-models": {
@@ -913,7 +931,7 @@
   "description": "Find, benchmark and install in CLI 170+ FREE coding LLM models across 15+ providers in real time",
   "full_name": "vava-nessa/free-coding-models",
   "language": "HTML",
-  "pushed_at": "2026-11-02",
+  "pushed_at": "2026-11-03",
   "stars": 2868,
   "url": "https://github.com/vava-nessa/free-coding-models"
  },
@@ -923,7 +941,7 @@
   "full_name": "veloxbase/veloxdb",
   "language": "TypeScript",
   "pushed_at": "2026-10-27",
-  "stars": 881,
+  "stars": 894,
   "url": "https://github.com/veloxbase/veloxdb"
  },
  "vercel-labs/agent-browser": {
@@ -931,8 +949,8 @@
   "description": "Browser automation CLI for AI agents",
   "full_name": "vercel-labs/agent-browser",
   "language": "Rust",
-  "pushed_at": "2026-11-01",
-  "stars": 45262,
+  "pushed_at": "2026-11-04",
+  "stars": 45505,
   "url": "https://github.com/vercel-labs/agent-browser"
  },
  "xiaomimimo/mimo-code": {
@@ -940,8 +958,8 @@
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "full_name": "XiaomiMiMo/MiMo-Code",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 13742,
+  "pushed_at": "2026-11-04",
+  "stars": 13747,
   "url": "https://github.com/XiaomiMiMo/MiMo-Code"
  },
  "xiaomimimo/mimo-v2-flash": {
@@ -958,8 +976,8 @@
   "description": "AI Image Prompts — 10,000+ curated prompts for any model. Works with Nano Banana Pro, Nano Banana 2, Seedream 5.0, GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and more.",
   "full_name": "YouMind-OpenLab/ai-image-prompts-skill",
   "language": "TypeScript",
-  "pushed_at": "2026-11-02",
-  "stars": 1357,
+  "pushed_at": "2026-11-04",
+  "stars": 1362,
   "url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill"
  },
  "zai-org/glm-image": {
@@ -968,7 +986,7 @@
   "full_name": "zai-org/GLM-Image",
   "language": "Python",
   "pushed_at": "2026-03-20",
-  "stars": 1075,
+  "stars": 1078,
   "url": "https://github.com/zai-org/GLM-Image"
  },
  "zai-org/glm-skills": {
@@ -977,7 +995,7 @@
   "full_name": "zai-org/GLM-skills",
   "language": "Python",
   "pushed_at": "2026-04-15",
-  "stars": 473,
+  "stars": 474,
   "url": "https://github.com/zai-org/GLM-skills"
  }
 }

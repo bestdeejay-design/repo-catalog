@@ -15,7 +15,7 @@
 Приоритеты: **P1** — брать в работу сейчас · **P2** — референс, когда дойдут руки ·
 **P3** — полка (знать, что есть).
 
-Полные описания всех 109 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
+Полные описания всех 111 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
 
 **Доска каталога:** [BOARD.md](./BOARD.md) — те же репозитории, но по стадиям.
 
@@ -73,6 +73,7 @@ CLI, браузер. Модели — любые, с ротацией и учё�
 | [`microsoft/ai-agents-for-beginners`](https://github.com/microsoft/ai-agents-for-beginners) | 78k | P2 | Систематическая база по агентам |
 | [`patchy631/ai-engineering-hub`](https://github.com/patchy631/ai-engineering-hub) | 38k | P2 | Разборы реальных архитектур LLM-приложений |
 | [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) | 142k | P2 | 100+ готовых приложений: брать целиком и адаптировать |
+| [`Arindam200/awesome-ai-apps`](https://github.com/Arindam200/awesome-ai-apps) | 16.7k | P2 | 138 приложений и агентов по папкам (RAG, голос, MCP, файнтюн), каждый со своим `.env.example`: запускать рецепт, а не собирать окружение |
 | [`arnabbagxd/Brand-building-skills`](https://github.com/arnabbagxd/Brand-building-skills) | 770 | P2 | Навыки по бренду: стратегия, нейминг, tone of voice — под AXIIOM |
 | [`zai-org/GLM-skills`](https://github.com/zai-org/GLM-skills) | 476 | P3 | Официальный формат скиллов как эталон |
 | [`YouMind-OpenLab/ai-image-prompts-skill`](https://github.com/YouMind-OpenLab/ai-image-prompts-skill) | 1315 | P3 | 10 000 промптов, упакованных в скилл |
@@ -201,6 +202,7 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`nexu-io/html-video`](https://github.com/nexu-io/html-video) | 4.8k | P2 | HTML→MP4 локально: ролики для AXIIOM и презентаций без After Effects и оплаты за рендер |
 | [`nexu-io/open-design`](https://github.com/nexu-io/open-design) | 105k | P2 | Дизайн-воркспейс агента: бриф → дизайн-система → прототип → ревью. Забирать скиллы и шаблоны, смотреть, как ревью живёт в проекте |
 | [`neurocyte/flow`](https://github.com/neurocyte/flow) | 2.5k | P3 | TUI-редактор на Zig: rope/piece-table, ≤6 мс на кадр, LSP — если понадобится свой быстрый TUI на больших файлах |
+| [`heydamir/unslop`](https://github.com/heydamir/unslop) | 8.3k | P2 | Скилл-редизайн «AI-слопа»: аудит → направление из продукта → проходы по слоям. В приёмку лендингов AXIIOM и прототипов, работает и по ссылке на живой сайт |
 
 **Снять звезду / не тратить время:**
 
@@ -310,7 +312,7 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 - `python3 sync_stars.py` — сверяет каталог с реальными звёздами, показывает новые и снятые.
 - `python3 sync_stars.py --apply` — применяет: снятые звёзды переносит в `STARS-ARCHIVE.md`
   (с датой, звёздами, языком и описанием) и убирает их строки из рабочих файлов.
-- Автопроверка каждые 48 часов: cron-задача сама запускает сверку, дописывает новые звёзды
+- Автопроверка раз в неделю (понедельник, 10:00 MSK): cron-задача сама запускает сверку, дописывает новые звёзды
   с описанием и треком, отправляет снятые в архив, коммитит и присылает отчёт.
 - Новая звезда вручную: сначала сюда (трек + P + «что взять»), потом в `STARS.md` (категория + описание).
 - Раз в квартал: пересмотреть P1 — если за квартал не пригодилось, опустить в P2/P3.

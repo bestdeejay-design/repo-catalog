@@ -3,7 +3,7 @@
 Что это: каталог чужих репозиториев, которым я поставил ⭐, с описанием на русском —
 что это на самом деле, чем полезно и что из него можно забрать в свои проекты.
 
-- Всего в звёздах: **109** (сверено через `gh api user/starred`, 2026-11-02)
+- Всего в звёздах: **111** (сверено через `gh api user/starred`, 2026-11-04)
 - Свои репозитории здесь не дублируются полностью — только те, что я лайкнул (раздел «Свои»).
 - Каталог **моих** репозиториев — в [README.md](./README.md).
 - Подробный разбор девятки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
@@ -37,7 +37,7 @@
 | [`ANDRETRIPOL/OpenGhost`](https://github.com/ANDRETRIPOL/OpenGhost) | 266 | JS | Десктопный AI-агент для Win/macOS/Linux с собственным движком | 🟡 Как устроен «агент на компьютере»: свой engine, инструменты ОС, локальные разрешения |
 | [`jgouviergmail/LIA-Assistant`](https://github.com/jgouviergmail/LIA-Assistant) | 75 | Python | Мульти-агентный ассистент на LangGraph с Human-in-the-Loop | 🟡 Готовая схема «человек подтверждает шаг» в LangGraph-графе |
 
-## 2. Промпты, скиллы, паттерны (11)
+## 2. Промпты, скиллы, паттерны (12)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -51,8 +51,8 @@
 | [`larashero3-dotcom/lieflat-charts`](https://github.com/larashero3-dotcom/lieflat-charts) | 6.3k | HTML | Навык, который превращает данные в интерактивные HTML-графики | 🟢 Идея «скилл вместо библиотеки»: результат — готовый HTML, а не зависимость в проекте |
 | [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) | 97k | — | Каталог MCP-серверов | 🟢 Главный справочник по MCP: искать готовый сервер раньше, чем писать свой |
 | [`bestdeejay-design/agent-skills`](https://github.com/bestdeejay-design/agent-skills) | 5 | Python | Мой набор из 59 скиллов | ⚪ Своё — точка сборки личных скиллов |
-
 | [`Nutlope/hallmark`](https://github.com/Nutlope/hallmark) | 41k | CSS | Анти-«AI-slop» скилл для дизайна: правила, как не выглядеть шаблонно | 🟡 Забрать приёмы в свои дизайн-скиллы и в проверку вёрстки перед сдачей |
+| [`heydamir/unslop`](https://github.com/heydamir/unslop) | 8.3k | JS | Скилл для Claude Code и Codex: находит в интерфейсе признаки «вайбкода» (фиолетовые градиенты, свечения, эмодзи-подписи, крикливые заголовки, неровные отступы) и переделывает экран проходами, как дизайнер на ревью | 🟢 Прямо в приёмку лендингов AXIIOM и прототипов: сначала аудит и направление из продукта, потом правки слоями — отступы, цвет, иконки, текст, типографика, сетка, детали, движение. Работает в React/Vue/Svelte/Tailwind и по одной ссылке на живой сайт |
 
 ## 3. Готовые продукты, у которых учатся архитектуре (8)
 
@@ -128,7 +128,7 @@
 | [`rucorp/mock-services`](https://github.com/rucorp/mock-services) | 6 | JS | Моки банковского эквайринга и ОФД для тестов платёжных интеграций | 🟢 Прямо в финтех-проекты: тестировать оплату без реальных провайдеров |
 | [`bestdeejay-design/raster-to-svg`](https://github.com/bestdeejay-design/raster-to-svg) | 1 | Python | Мой PNG→SVG конвертер | ⚪ Своё |
 
-## 8. Обучение, подборки и бесплатные API (11)
+## 8. Обучение, подборки и бесплатные API (12)
 
 | Репозиторий | ★ | Стек | Что это | Чем полезен |
 |---|---|---|---|---|
@@ -137,6 +137,7 @@
 | [`microsoft/ai-agents-for-beginners`](https://github.com/microsoft/ai-agents-for-beginners) | 78k | Jupyter | 18 уроков по агентам от Microsoft | 🟡 Систематическая база + мультиязычность |
 | [`patchy631/ai-engineering-hub`](https://github.com/patchy631/ai-engineering-hub) | 38k | Jupyter | Глубокие туториалы по LLM/RAG/агентам | 🟡 Разборы реальных архитектур |
 | [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) | 142k | Python | 100+ готовых LLM-приложений и агентов | 🟢 Кладовая рецептов: брать приложение целиком и адаптировать |
+| [`Arindam200/awesome-ai-apps`](https://github.com/Arindam200/awesome-ai-apps) | 16.7k | Python | 138 запускаемых LLM-приложений и агентов: текстовые агенты, голосовые ассистенты, RAG, MCP-инструменты, файнтюн-пайплайны; каждый проект — своя папка с README, зависимостями и `.env.example` | 🟢 Брать папку целиком и запускать: от стартера на 5 минут до многоагентной системы. Ровный источник рецептов для центра агентов — без сборки окружения с нуля |
 | [`slavakurilyak/awesome-ai-agents`](https://github.com/slavakurilyak/awesome-ai-agents) | 2.5k | Go | 300+ агентных ресурсов | 🟡 Навигация по экосистеме |
 | [`caramaschiHG/awesome-ai-agents-2026`](https://github.com/caramaschiHG/awesome-ai-agents-2026) | 2k | — | 300+ агентов/фреймворков, срез 2026 | 🟡 Быстрый обзор «что вообще есть» |
 | [`mnfst/awesome-free-llm-apis`](https://github.com/mnfst/awesome-free-llm-apis) | 11k | JS | Постоянно бесплатные LLM API | 🟢 Для прототипов без бюджета |
@@ -181,7 +182,7 @@
 | [`dajetbro/dajetbro`](https://github.com/dajetbro/dajetbro) | 1 | — | Профиль Dajet |
 
 Ещё одна своя звезда — `bestdeejay-design/alien-cosmic` (P1) — живёт только в [TASKS.md](./TASKS.md),
-трек E: это рабочая игра, а не карточка каталога. Поэтому 108 строк в каталоге + он = 109 звёзд.
+трек E: это рабочая игра, а не карточка каталога. Поэтому 110 строк в каталоге + он = 111 звёзд.
 
 ## 11. На разбор / непонятное (3)
 

@@ -1,6 +1,6 @@
 # Канбан каталога
 
-> Собрано автоматически: 2026-11-04 14:38. Руками не править — перезапишется.
+> Собрано автоматически: 2026-11-04 20:15. Руками не править — перезапишется.
 > Карточка = репозиторий. Колонка = стадия. Источник правды — `TASKS.md`
 > (приоритеты), `OPTIONS.md` (кандидаты), `STARS-ARCHIVE.md` (архив).
 
@@ -40,7 +40,7 @@
 | [`bestdeejay-design/alien-cosmic-dist`](https://github.com/bestdeejay-design/alien-cosmic-dist) | 1 | Игры | Приватный дом разработки: исходники, история, ресерчи, симы |
 
 
-## 📚 Референс (P2) — 47
+## 📚 Референс (P2) — 49
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -62,6 +62,7 @@
 | [`microsoft/ai-agents-for-beginners`](https://github.com/microsoft/ai-agents-for-beginners) | 78k | Центр агентов | Систематическая база по агентам |
 | [`patchy631/ai-engineering-hub`](https://github.com/patchy631/ai-engineering-hub) | 38k | Центр агентов | Разборы реальных архитектур LLM-приложений |
 | [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) | 142k | Центр агентов | 100+ готовых приложений: брать целиком и адаптировать |
+| [`Arindam200/awesome-ai-apps`](https://github.com/Arindam200/awesome-ai-apps) | 16.7k | Центр агентов | 138 приложений и агентов по папкам (RAG, голос, MCP, файнтюн), каждый со своим `.env.exam… |
 | [`arnabbagxd/Brand-building-skills`](https://github.com/arnabbagxd/Brand-building-skills) | 770 | Центр агентов | Навыки по бренду: стратегия, нейминг, tone of voice — под AXIIOM |
 | [`bestdeejay-design/awesome-ai-handbook`](https://github.com/bestdeejay-design/awesome-ai-handbook) | 48 | Центр агентов | Свой справочник: от локальной модели до своих агентов |
 | [`bestdeejay-design/chronos`](https://github.com/bestdeejay-design/chronos) | 1 | Центр агентов | 5 агентов для документации — готовый пример мульти-агентной схемы |
@@ -90,6 +91,7 @@
 | [`fishaudio/fish-speech`](https://github.com/fishaudio/fish-speech) | 33k | Прочее | Клон голоса (S1/S2) + Docker: свой TTS-сервер для медиа вместо API с биллингом |
 | [`nexu-io/html-video`](https://github.com/nexu-io/html-video) | 4.8k | Прочее | HTML→MP4 локально: ролики для AXIIOM и презентаций без After Effects и оплаты за рендер |
 | [`nexu-io/open-design`](https://github.com/nexu-io/open-design) | 105k | Прочее | Дизайн-воркспейс агента: бриф → дизайн-система → прототип → ревью. Забирать скиллы и шабл… |
+| [`heydamir/unslop`](https://github.com/heydamir/unslop) | 8.3k | Прочее | Скилл-редизайн «AI-слопа»: аудит → направление из продукта → проходы по слоям. В приёмку … |
 | [`bestdeejay-design/terran-rts`](https://github.com/bestdeejay-design/terran-rts) | 0 | Игры | Отдельный полигон стиля StarCraft на Canvas — не часть alien-cosmic |
 
 
@@ -175,4 +177,4 @@ _пусто_
 
 ---
 
-Всего в каталоге: **107** · кандидатов: **17** · в архиве: **0**
+Всего в каталоге: **109** · кандидатов: **17** · в архиве: **0**
