@@ -197,6 +197,7 @@ def build_md(repos):
     lines.append("Легенда: 🔓 публичный · 🔒 приватный · 📦 архив (read-only) · 🌐 ссылка на сайт · локальная папка в `~/Projects`")
     lines.append("")
     lines.append("См. также: **[STARS.md](./STARS.md)** — каталог внешних репозиториев из моих ⭐ · "
+                 "**[RATING.md](./RATING.md)** — рейтинг полученных звёзд (мои репозитории) · "
                  "**[STARS-REVIEW.md](./STARS-REVIEW.md)** — разбор ключевых · "
                  "**[TASKS.md](./TASKS.md)** — звёзды под три текущие задачи · "
                  "**[IDEAS.md](./IDEAS.md)** — идеи и полезные исходники · **[OPTIONS.md](./OPTIONS.md)** — идеи с топ-3 вариантами · "
