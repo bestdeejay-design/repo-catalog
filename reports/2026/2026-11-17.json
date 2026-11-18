@@ -1,0 +1,1011 @@
+{
+ "date": "2026-11-17",
+ "generated_at": "2026-11-18T14:31:57.177684+03:00",
+ "window": {
+  "start": "2026-11-17T00:00:00+03:00",
+  "end": "2026-11-18T00:00:00+03:00"
+ },
+ "coverage": {
+  "owners": [
+   "bestdeejay-design",
+   "lovii-tech",
+   "axiiom-ru",
+   "lovii-ru",
+   "rucorp"
+  ],
+  "repos_total": 159,
+  "repos_archived": 5,
+  "projects": 12,
+  "tasks_total": 201
+ },
+ "summary": {
+  "added": 0,
+  "done": 0,
+  "in_progress": 5,
+  "commits": 76,
+  "repos_active": 9,
+  "issues_new": 3,
+  "issues_closed": 0,
+  "pr_open": 29,
+  "pr_merged": 24,
+  "attention": 1
+ },
+ "boards": [
+  {
+   "owner": "bestdeejay-design",
+   "number": 1,
+   "title": "Fonotext — центр задач",
+   "url": "https://github.com/users/bestdeejay-design/projects/1",
+   "total": 64,
+   "todo": 17,
+   "unset": 0,
+   "wip": 1,
+   "done": 46,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 3,
+   "title": "Alien Cosmic — задачи",
+   "url": "https://github.com/users/bestdeejay-design/projects/3",
+   "total": 27,
+   "todo": 17,
+   "unset": 5,
+   "wip": 5,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 4,
+   "title": "Dajet UI — единая нативная база (macOS 27)",
+   "url": "https://github.com/users/bestdeejay-design/projects/4",
+   "total": 26,
+   "todo": 24,
+   "unset": 0,
+   "wip": 0,
+   "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 12,
+   "title": "BRIIX — доска координатора",
+   "url": "https://github.com/users/bestdeejay-design/projects/12",
+   "total": 22,
+   "todo": 17,
+   "unset": 0,
+   "wip": 0,
+   "done": 5,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 8,
+   "title": "APPS",
+   "url": "https://github.com/users/bestdeejay-design/projects/8",
+   "total": 16,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 10,
+   "title": "AI-платформа",
+   "url": "https://github.com/users/bestdeejay-design/projects/10",
+   "total": 15,
+   "todo": 15,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 11,
+   "title": "INFRA — журнал изменений",
+   "url": "https://github.com/users/bestdeejay-design/projects/11",
+   "total": 11,
+   "todo": 10,
+   "unset": 0,
+   "wip": 0,
+   "done": 1,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "lovii-tech",
+   "number": 1,
+   "title": "LOVII Audit — Канбан",
+   "url": "https://github.com/orgs/lovii-tech/projects/1",
+   "total": 11,
+   "todo": 11,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 7,
+   "title": "tgbots Контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/7",
+   "total": 5,
+   "todo": 0,
+   "unset": 2,
+   "wip": 0,
+   "done": 3,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 9,
+   "title": "Прожарка — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/9",
+   "total": 3,
+   "todo": 3,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 6,
+   "title": "Агенты — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/6",
+   "total": 1,
+   "todo": 1,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 5,
+   "title": "Полигон воркфлоу",
+   "url": "https://github.com/users/bestdeejay-design/projects/5",
+   "total": 0,
+   "todo": 0,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  }
+ ],
+ "tasks": {
+  "added": [],
+  "done": [],
+  "wip": [
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + броня + добыча",
+    "url": "https://github.com/bestdeejay-design/ace/issues/14",
+    "number": 14,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:12Z",
+    "item_updated": "2026-11-09T23:30:30Z",
+    "created_at": "2026-10-30T06:59:07Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Гелиос В3 «Обрастание» принят, КЦ кхарида — новая база",
+    "url": "https://github.com/bestdeejay-design/ace/issues/12",
+    "number": 12,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:15Z",
+    "item_updated": "2026-11-09T23:30:31Z",
+    "created_at": "2026-10-29T18:36:20Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "UI-аудит по матрице вьюпортов (вкл. фолды) + FIX: двойной таймер тревоги, обрезка objective в хедере",
+    "url": "https://github.com/bestdeejay-design/ace/issues/29",
+    "number": 29,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-05T17:05:56Z",
+    "item_updated": "2026-11-09T23:30:39Z",
+    "created_at": "2026-11-05T17:05:40Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Интеграция pixelfx «беру всё»: эффекты слоем, фазы Ф0–Ф3, сборка на стенде (прод — после приёмки)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/52",
+    "number": 52,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-09T18:51:41Z",
+    "item_updated": "2026-11-09T23:30:53Z",
+    "created_at": "2026-11-09T18:51:38Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "PixelFX Ф1+Ф2+Ф3: все 31 эффект матрицы в игре (одна поставка, слово владельца 10.11)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/54",
+    "number": 54,
+    "repo": "bestdeejay-design/ace",
+    "status": "На проверке",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-10T11:26:28Z",
+    "item_updated": "2026-11-10T20:02:27Z",
+    "created_at": "2026-11-10T11:26:19Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ]
+ },
+ "repos_active": [
+  {
+   "name": "bestdeejay-design/apps",
+   "commits": 50,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "451092f",
+     "message": "docs(observations): GUI acceptance attempt on synthetic fixtures for THUMB-01/MUSIC-02",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T01:32:27Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/451092ff8c552fe0216c906cedd8701c0d927a53",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "5b67ed0",
+     "message": "fix(library): MUSIC-02 queue/pause, multi-window catalog sync, dedupe relink map, source status refresh",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T01:23:09Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/5b67ed08f7bb358e13e433a29df3c87c666e2792",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "1c691d6",
+     "message": "docs(blocks): add external agent task for full code and indexing audit",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T01:16:55Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/1c691d6d0902b538c155b970a82a955f3a1ccc3a",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "05c7e43",
+     "message": "feat(library): THUMB-01 native thumbnails routing, cache and A1 task-key fix",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T00:57:24Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/05c7e439a00cb1e33659ebba0a521033fab8b006",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "a68b068",
+     "message": "merge: sync arena with remote docs (d69f0f0) and keep sidebar-jerk UI baseline fix",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T00:43:09Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/a68b068e3e25f2ef5018383a11f97817ae10ab93",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "183c8ca",
+     "message": "fix(library): remove split view min frame to stop sidebar-open jerk",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T00:40:26Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/183c8ca2f82a54f253ae4b53ec2ecbc78530c669",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "d69f0f0",
+     "message": "docs(reviewer): INSPECTOR-01-PATCHES — патчи F-024–F-027 восстановлены на кончике ветки (урезаны при обновлениях отчёта d5b02d2/0117054); реестр: журнал — слияние main→dfd17f3 сверено, верификация второй сессии (66/66, GUI частично), ожидания обновлены",
+     "author": "Z User",
+     "date": "2026-11-17T23:59:23Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/d69f0f04c2072bf7e216415cf0c1ff55b306bc00",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "0117054",
+     "message": "docs(reviewer): INSPECTOR-01 — GUI-приёмка на синтетике (частично): инспектор/toolbar/⌥⌘I подтверждены; контентные сценарии не завершены; инцидент pre-seed/relink remediated, fixtures OK",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:49:29Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/0117054ba9f6927fbb234df6ec2f1dbde79b60bb",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "3b4270b",
+     "message": "docs(reviewer): CANON-ALIGNMENT — регламент agents изучен (пин 841794a совпадает); ответ владельцу про main: слив принятого — полномочие координатора, не ревьюера; факты: main=init, build отстает на 4 коммита, письма/борд отстают, вторая сессия d5b02d2 закрыла build/test INSPECTOR-01 (66/66, GUI pending, казус атрибуции общего аккаунта); порядок слияния main→dfd17f3 и черновики писем",
+     "author": "Z User",
+     "date": "2026-11-17T23:36:49Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/3b4270b2acc31766d831b4d6e1ca4ab0ee909195",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "d5b02d2",
+     "message": "docs(reviewer): INSPECTOR-01 — macOS верификация: build/test/build-app PASS (66/66), GUI pending, отчёт обновлён",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:35:22Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/d5b02d2d648df558b10c91519b0d9313b53fba44",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "855542a",
+     "message": "docs(reviewer): INSPECTOR-01 — независимое статическое ревью ffe0289 — static only (GUI pending): находки F-024..F-027 (P3) с патчами текстом, F-023 impact на инспектор; якоря реестра перепинены на 68205b1",
+     "author": "Z User",
+     "date": "2026-11-17T23:19:45Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/855542a73f2d6c8c25ab5ce60021f07336cf2c70",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "68205b1",
+     "message": "docs: task external Inspector-01 review and acceptance",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:07:03Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/68205b10379fd92857ffaefe42f93df6700aa6f4",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "ffe0289",
+     "message": "feat(library): add native file inspector UI",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:05:16Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/ffe0289e55d8b24b9c063cb5b36d7d3eea8a86db",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "dfd17f3",
+     "message": "docs(reviewer): MUSIC-02 ресёрч — диагноз и патч текстом по F-005/F-004/F-006/F-018/F-023: resume:false, дедуп очереди, общий гейт+оповещение окон, dedupeWithMap, recomputeSourceStatuses",
+     "author": "Z User",
+     "date": "2026-11-17T13:55:34Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/dfd17f3065217041f5d1637122ba150205f6de4c",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "73a8595",
+     "message": "docs(reviewer): THUMB-01 ресёрч — диагноз (F-019..F-023) и патч текстом: ImageIO/AVAsset/теги+QL fallback, квадрат+пиксельный декод, кэш с контентным ключом/лимитами/отрицательным/дедупом",
+     "author": "Z User",
+     "date": "2026-11-17T13:21:50Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/73a85959e3a44c6d2137a5baed92c0aa9d4a321a",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "8e15836",
+     "message": "Merge remote-tracking branch 'origin/arena/047b4b6e-apps' into build/library-native-shell",
+     "author": "zwork",
+     "date": "2026-11-17T10:30:58Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/8e158363227e15554b6964c9d87399cb965a8c8b",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "cec5a38",
+     "message": "docs(agent): THUMB-01 — задача внешнему агенту: нативные превью (диагноз + патч)",
+     "author": "zwork",
+     "date": "2026-11-17T10:30:33Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/cec5a380d7a7daf00313beccde46ba042fccb901",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "6d886dd",
+     "message": "docs(reviewer): рет-ест PLAYER-05 cb343a9 — approve, таймер 0,5с удалён, F-012 fixed (остаток — чистый stall); фикс 2dec082 — инвариант PLAYER-03 цел; якоря реестра на дерево 2dec082",
+     "author": "Z User",
+     "date": "2026-11-17T10:28:12Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/6d886dd2492c578cfbd3a4f667a959319aa2b61e",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "48a10a5",
+     "message": "docs(block): INSPECTOR-01 — бриф нативного инспектора файла (решение владельца 17.11)",
+     "author": "zwork",
+     "date": "2026-11-17T10:26:59Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/48a10a59a23317d855c94c37c3864d5e39146e6e",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "2dec082",
+     "message": "fix(library): просмотрщик аудио — без самодельной кнопки, как было в Quick Look",
+     "author": "zwork",
+     "date": "2026-11-17T10:04:09Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/2dec082351bbed4dc6c712ef4a3a6c0356cf22f7",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "2d08662",
+     "message": "docs(canon): интерфейс — только по слову владельца; направление — максимально нативно",
+     "author": "zwork",
+     "date": "2026-11-17T09:52:16Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/2d08662d1700c0083ad3107562d9c0e50448300f",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "94f7d0c",
+     "message": "docs(block): PLAYER-06 — бриф gapless-очереди (AVQueuePlayer с окном материализации)",
+     "author": "zwork",
+     "date": "2026-11-17T09:20:56Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/94f7d0cbdc755af43efefc872adb7ee187d1a807",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "8599fdc",
+     "message": "docs: PLAYER-05 сдан; MUSIC-01R и PLAYER-04 приняты Гейтом 2; F-018 в MUSIC-02",
+     "author": "zwork",
+     "date": "2026-11-17T09:18:06Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/8599fdc4e3de6690a1d6c8c1838a364dcb8b81b3",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "cb343a9",
+     "message": "feat(library): PLAYER-05 — прогресс через periodic observer, без таймера",
+     "author": "zwork",
+     "date": "2026-11-17T09:18:06Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/cb343a978be97e03aa8c3c23510f2df60bfa4641",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "f1bb491",
+     "message": "docs(reviewer): рет-ест MUSIC-01R 6ed0954 — approve, F-001..F-003 fixed (+F-016, новая F-018); PLAYER-04 approve подтверждён на 6ed0954",
+     "author": "Z User",
+     "date": "2026-11-17T08:55:46Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/f1bb4914365620d9f1e89fd58dd0be60794493ef",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "4929340",
+     "message": "fix(library): штамп «грязно» только по library/, чужая грязь сабмодулей не считается",
+     "author": "zwork",
+     "date": "2026-11-17T08:53:43Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/4929340e1101936875117522dd3ea60ce6dd8de2",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "5485e4b",
+     "message": "chore(library): штамп сборки — CFBundleVersion = sha, build-info.txt с веткой/датой/хостом",
+     "author": "zwork",
+     "date": "2026-11-17T08:52:33Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/5485e4bf2eba83e37f3be102ee2bc98a55eb65c0",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "fba6317",
+     "message": "docs(reviewer): §7 — что уже есть в репозитории, где канон и почему сабмодули не нужны",
+     "author": "zwork",
+     "date": "2026-11-17T08:47:30Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/fba63176c64c0c5d86470add702eb4fc1c026d0a",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "f52d5cc",
+     "message": "docs: MUSIC-01R сдан — борд, ARCHITECTURE, письмо поставки",
+     "author": "zwork",
+     "date": "2026-11-17T08:35:16Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/f52d5ccd9e6352c20199f7fff1ff20b6a5fa3a3b",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "6ed0954",
+     "message": "fix(library): MUSIC-01R — три P1 аудита (дедуп, плейлисты при relink, ghost-строки)",
+     "author": "zwork",
+     "date": "2026-11-17T08:35:09Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/6ed09548d02adefa578082bf33a4a60512ef9e23",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "90d0848",
+     "message": "docs(reviewer): ресерчи R3–R6 — задача D",
+     "author": "Z User",
+     "date": "2026-11-17T07:47:23Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/90d084826b1882e21d482b817330aeb69cd33361",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "bc50b42",
+     "message": "docs(reviewer): ресерчи R1 (scene lifecycle) и R2 (Now Playing macOS) — задача D, приоритетные",
+     "author": "Z User",
+     "date": "2026-11-17T07:47:23Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/bc50b421d59fc36f49ba0d1b9777e84a67ffe078",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "53785d9",
+     "message": "docs(reviewer): реестр находок F-001…F-017 (P1×3, P2×4, P3×10) — задача C",
+     "author": "Z User",
+     "date": "2026-11-17T07:42:55Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/53785d947f373365ec13473a2bea916c185f4772",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "33ff9a0",
+     "message": "docs(reviewer): гейт 2 — PLAYER-04 approve 894ed6f — задача B",
+     "author": "Z User",
+     "date": "2026-11-17T07:42:55Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/33ff9a0fbde0a8e4375c1e127412a90290307778",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "3362ae0",
+     "message": "docs(reviewer): доставка ревью MUSIC-01 (rejected, P1×3) и PLAYER-02/03 (approve по заявке) — задача A",
+     "author": "Z User",
+     "date": "2026-11-17T07:42:55Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/3362ae087aa4ac8926db57c68c5654fef5a6572a",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "b477519",
+     "message": "docs(reviewer): пакет внешнему статическому ревьюеру (Гейт 2)",
+     "author": "zwork",
+     "date": "2026-11-17T07:30:11Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/b47751991f2b0c4ba6aa0f530ae0eb92ca504733",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "81a231a",
+     "message": "docs(canon): гейт 2 переносим — арена или внешний статический ревьюер без Mac",
+     "author": "zwork",
+     "date": "2026-11-17T07:28:30Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/81a231a2f9b055f66af989d4612cd20c9e8bfd10",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "2b4d07c",
+     "message": "docs(board): план до релиза — порядок фаз, гейты и условия готовности",
+     "author": "zwork",
+     "date": "2026-11-17T07:26:52Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/2b4d07cdc77e37ba4bcbb129499fb34fdae3a3d2",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "e5fe680",
+     "message": "docs(board): MUSIC-01 не принято (P1×3) + карточки 01R/02; PLAYER-04 и 05 на борде",
+     "author": "zwork",
+     "date": "2026-11-16T23:29:08Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/e5fe6805597b9f3f0b8d7ea83810cdbf3ffc5635",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "894ed6f",
+     "message": "feat(library): PLAYER-04 — Now Playing, playbackState и remote-команды",
+     "author": "zwork",
+     "date": "2026-11-16T23:29:00Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/894ed6f054222367ad6aef2039b977a84a8471db",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "dd91dbb",
+     "message": "docs(player): сверка с ареной — основа согласована, AVQueuePlayer остаётся с критериями проверки",
+     "author": "zwork",
+     "date": "2026-11-16T22:57:55Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/dd91dbb58a947ad71f3bcb606f0d630072d50f19",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "8e439ef",
+     "message": "docs(mail): письмо поставки PLAYER-03",
+     "author": "zwork",
+     "date": "2026-11-16T22:40:31Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/8e439efbe5812b71fcbb930cde9b8ee4e453812d",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "9a24e8e",
+     "message": "feat(library): PLAYER-03 — один владелец звука (аудио вне QL, видео ↔ очередь)",
+     "author": "zwork",
+     "date": "2026-11-16T22:40:25Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/9a24e8eaa2356e94b25c6bb37cf7b9ce1ac4315d",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "9bb457a",
+     "message": "docs(mail): письмо поставки PLAYER-02",
+     "author": "zwork",
+     "date": "2026-11-16T22:19:59Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/9bb457a45b3f15aaf6d7d5a8b3261d30ff16a39d",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "2d705b4",
+     "message": "feat(library): PLAYER-02 — плеер живёт на уровне приложения, не окна",
+     "author": "zwork",
+     "date": "2026-11-16T22:19:55Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/2d705b4c53d3271da0cf34096a96f2c3a0a94e5d",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "716239f",
+     "message": "docs(arena): пакет арене — статус, вопросы по коду, ресерчи R1–R6 + письма поставки",
+     "author": "zwork",
+     "date": "2026-11-16T22:12:21Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/716239f3c2f54b3c1c6bd4ee735d9a23036a1940",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "4708015",
+     "message": "docs(player): архитектурное решение по playback-слою (сверка двух ресёрчей) + карточки",
+     "author": "zwork",
+     "date": "2026-11-16T22:11:53Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/4708015f60c7b0c278c07bfa57e1b6c8988c21d2",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "ad33e8f",
+     "message": "docs(canon): pinned canon snapshot + project overlay (gate-1 fixes)",
+     "author": "zwork",
+     "date": "2026-11-16T22:11:49Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/ad33e8fba6770b56737a85c08ba3954fdc652fd2",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "02df783",
+     "message": "docs(research): player-architecture research brief for arena + diagnosis fix",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T21:27:19Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/02df78360c00346ac3065045aa20a5fe9cfba32c",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "19bd1c9",
+     "message": "docs(apps): onboard into agents/ canon — AGENTS.md entry card, PROJECT.md board, MAIL.md delivery letters",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T21:18:15Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/19bd1c980f0b22d58f1a0ab6822aea6e6a65a731",
+     "repo": "bestdeejay-design/apps"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/briix-studio",
+   "commits": 9,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 3,
+   "pr_merged": 2,
+   "commit_list": [
+    {
+     "sha": "841d426",
+     "message": "Merge pull request #34 from bestdeejay-design/fix/23-tails",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T00:35:00Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/841d4265cff3636a83d32ed291107dd86df5cf3d",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "0b65f21",
+     "message": "review(#23-tails): независимое ревью PR #34 — PASS, находки Н-1..Н-3 (P4, не блокеры)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T00:28:31Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/0b65f216aa5b5cb2564d21b5daa59c6c8b747496",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "ed826f5",
+     "message": "test(#23-tails): регресс на backups:[null] и changed-семантику open",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:57:57Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/ed826f5c9f0ae1a494ecb336ac2dca1064aa3836",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "1cb7cbf",
+     "message": "chore(#23-tails): отпечаток сборки после правки session-store.js и studio.js",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:57:57Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/1cb7cbf27fdd76654d1ed66d77ab93b4529b3ce2",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "d5ce303",
+     "message": "fix(#23-tails): guard в refreshBackups — мусорные элементы backups не роняют рендер",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:57:57Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/d5ce303dbeacdf6dad92924958042a221f6499a6",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "b3041cf",
+     "message": "fix(#23-tails): sanitizeSession чистит мусор в backups и переписывает только битые профили",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:57:57Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/b3041cf774655246f33edf54ca44ca846312f770",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "23ab595",
+     "message": "Merge pull request #32 from bestdeejay-design/docs/ci-reports",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:17:38Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/23ab5955a115d978820bd944deee699445d36371",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "058ba55",
+     "message": "docs(#30): ресёрч целевого дизайна CI (10 практик, 3 варианта)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:16:49Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/058ba55df4ecef0e4930b64aa8ee483cf564491a",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "d216dbb",
+     "message": "docs(#30): аудит CI-конвейера (карта триггеров, P1-P3)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:16:49Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/d216dbbdaba2f38f49ec8683ad70077374e5babc",
+     "repo": "bestdeejay-design/briix-studio"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/lovii_docs",
+   "commits": 6,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 1,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "5d9c8a6",
+     "message": "canon: разворачивание стендов — дев-стенд t-ai как эталон (состав, процедуры, грабли)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T20:40:32Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5d9c8a65bf3031f036057e4ed58b4086b548c33c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "2e3d549",
+     "message": "as-is: карта репозиториев в контуре внешнего агента (8.0)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T20:18:13Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/2e3d5492b38a5cdfc5ddb4a9d1b2eb1b87621bad",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "26fcae2",
+     "message": "as-is: задача актуализации документации (дельта 18.10–17.11, контур внешнего агента)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T20:16:50Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/26fcae29f47bae39f152560c8a57b9f30ead8f76",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "715111d",
+     "message": "docs(artifacts): RES-020 — ресёрч компоновки широких экранов (master-detail/empty/контейнеры, чек-лист 8 пунктов; сниппет компоновки для SCREEN_MAP)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T17:36:03Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/715111d86310d01e9b9af77607d8acd707babdbd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5776201",
+     "message": "docs(ci): второй self-hosted раннер gostiny-ci-fonotext-2 (id 45) на t-ai",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T13:14:41Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5776201f09d358dc4ca7f96aaca08366f1a685e4",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "b023c30",
+     "message": "docs(artifacts): RES-019 — ресёрч «релиз 4 репо на прод ≤60 с и мгновенный откат» (пруфы сервера, дорожная карта Ф0–Ф4)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:25:45Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/b023c308b21d1362670385d59f46629aa3737110",
+     "repo": "bestdeejay-design/lovii_docs"
+    }
+   ]
+  },
+  {
+   "name": "lovii-tech/lovii-app",
+   "commits": 2,
+   "issue_new": 1,
+   "issue_closed": 0,
+   "pr_open": 13,
+   "pr_merged": 12,
+   "commit_list": [
+    {
+     "sha": "683e64b",
+     "message": "Merge pull request #116 from lovii-tech/ci/dispatch-sha",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:47:05Z",
+     "url": "https://github.com/lovii-tech/lovii-app/commit/683e64b4ff15e2da9ad3ad90e9fb87afeabe74b7",
+     "repo": "lovii-tech/lovii-app"
+    },
+    {
+     "sha": "1578c78",
+     "message": "ci: workflow_dispatch принимает input sha — быстрый прод-деплой/откат (Ф0)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:38:00Z",
+     "url": "https://github.com/lovii-tech/lovii-app/commit/1578c780beefa3c21599748644a9f013b4b5475f",
+     "repo": "lovii-tech/lovii-app"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/repo-catalog",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "52cc524",
+     "message": "chore(board): пересборка 2026-11-17T16:04Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-17T16:04:46Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/52cc5248b4b533052dc29b493259b2be843b9bad",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "33481cd",
+     "message": "reports: 2026-11-16 (Actions)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T11:44:41Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/33481cda56114bd1db98a5932392078672e48a53",
+     "repo": "bestdeejay-design/repo-catalog"
+    }
+   ]
+  },
+  {
+   "name": "lovii-tech/lovii-admin",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 3,
+   "pr_merged": 3,
+   "commit_list": [
+    {
+     "sha": "1268ddb",
+     "message": "Merge pull request #9 from lovii-tech/ci/dispatch-sha",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:43:16Z",
+     "url": "https://github.com/lovii-tech/lovii-admin/commit/1268ddb97560fc242ef555bdbf86d6202403e94d",
+     "repo": "lovii-tech/lovii-admin"
+    },
+    {
+     "sha": "1e28a59",
+     "message": "ci: workflow_dispatch принимает input sha — быстрый прод-деплой/откат (Ф0)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:38:04Z",
+     "url": "https://github.com/lovii-tech/lovii-admin/commit/1e28a5919f874d17e58a5d66d3ae98ecb3de0bd2",
+     "repo": "lovii-tech/lovii-admin"
+    }
+   ]
+  },
+  {
+   "name": "lovii-tech/lovii-b2b",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 3,
+   "pr_merged": 3,
+   "commit_list": [
+    {
+     "sha": "2859f77",
+     "message": "Merge pull request #24 from lovii-tech/ci/dispatch-sha",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:47:10Z",
+     "url": "https://github.com/lovii-tech/lovii-b2b/commit/2859f772f482fcfd9acd4310273d7e5c7cdd882f",
+     "repo": "lovii-tech/lovii-b2b"
+    },
+    {
+     "sha": "003bf60",
+     "message": "ci: workflow_dispatch принимает input sha — быстрый прод-деплой/откат (Ф0)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:38:02Z",
+     "url": "https://github.com/lovii-tech/lovii-b2b/commit/003bf60de387f1525f4bc84670da2206ec3f8fcc",
+     "repo": "lovii-tech/lovii-b2b"
+    }
+   ]
+  },
+  {
+   "name": "lovii-tech/lovii-core",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 3,
+   "pr_merged": 3,
+   "commit_list": [
+    {
+     "sha": "7185eb1",
+     "message": "Merge pull request #44 from lovii-tech/ci/dispatch-sha",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:47:00Z",
+     "url": "https://github.com/lovii-tech/lovii-core/commit/7185eb1de737108ea9f0d8dde4e7de124516c103",
+     "repo": "lovii-tech/lovii-core"
+    },
+    {
+     "sha": "babd01d",
+     "message": "ci: workflow_dispatch принимает input sha — быстрый прод-деплой/откат (Ф0)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-16T23:37:58Z",
+     "url": "https://github.com/lovii-tech/lovii-core/commit/babd01dda78c6efe78653937b2ab520cac90171f",
+     "repo": "lovii-tech/lovii-core"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/infra",
+   "commits": 1,
+   "issue_new": 2,
+   "issue_closed": 0,
+   "pr_open": 3,
+   "pr_merged": 1,
+   "commit_list": [
+    {
+     "sha": "62466ae",
+     "message": "feat(caddy): /vpn-ws на git.briix.ru — VLESS-WS вход xray (#116)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T13:39:13Z",
+     "url": "https://github.com/bestdeejay-design/infra/commit/62466ae6633a81360af766c556cbd7672565cd6d",
+     "repo": "bestdeejay-design/infra"
+    }
+   ]
+  }
+ ],
+ "issues_outside_boards": [
+  {
+   "repo": "bestdeejay-design/infra",
+   "number": 117,
+   "title": "VPN-выход на iPhone через стенд A (VLESS-WS через Caddy)",
+   "url": "https://github.com/bestdeejay-design/infra/issues/117"
+  },
+  {
+   "repo": "bestdeejay-design/infra",
+   "number": 119,
+   "title": "Dev-стенд LOVII на fonotext A (t-ai): ~/dev-stand развернут 17.11",
+   "url": "https://github.com/bestdeejay-design/infra/issues/119"
+  },
+  {
+   "repo": "lovii-tech/lovii-app",
+   "number": 125,
+   "title": "APP-P-015 История заказов: поэкранный цикл коллегии (аудит→ресёрч→вердикты→исполнение→волна 2)",
+   "url": "https://github.com/lovii-tech/lovii-app/issues/125"
+  }
+ ],
+ "attention": [
+  "**Полигон воркфлоу** — доска пуста (`bestdeejay-design/5`)"
+ ],
+ "local_debt": null
+}
