@@ -1,0 +1,747 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-19T14:30:12.144138+03:00",
+ "window": {
+  "start": "2026-11-18T00:00:00+03:00",
+  "end": "2026-11-19T00:00:00+03:00"
+ },
+ "coverage": {
+  "owners": [
+   "bestdeejay-design",
+   "lovii-tech",
+   "axiiom-ru",
+   "lovii-ru",
+   "rucorp"
+  ],
+  "repos_total": 159,
+  "repos_archived": 5,
+  "projects": 12,
+  "tasks_total": 201
+ },
+ "summary": {
+  "added": 0,
+  "done": 0,
+  "in_progress": 5,
+  "commits": 53,
+  "repos_active": 3,
+  "issues_new": 0,
+  "issues_closed": 0,
+  "pr_open": 1,
+  "pr_merged": 0,
+  "attention": 1
+ },
+ "boards": [
+  {
+   "owner": "bestdeejay-design",
+   "number": 1,
+   "title": "Fonotext — центр задач",
+   "url": "https://github.com/users/bestdeejay-design/projects/1",
+   "total": 64,
+   "todo": 17,
+   "unset": 0,
+   "wip": 1,
+   "done": 46,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 3,
+   "title": "Alien Cosmic — задачи",
+   "url": "https://github.com/users/bestdeejay-design/projects/3",
+   "total": 27,
+   "todo": 17,
+   "unset": 5,
+   "wip": 5,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 4,
+   "title": "Dajet UI — единая нативная база (macOS 27)",
+   "url": "https://github.com/users/bestdeejay-design/projects/4",
+   "total": 26,
+   "todo": 24,
+   "unset": 0,
+   "wip": 0,
+   "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 12,
+   "title": "BRIIX — доска координатора",
+   "url": "https://github.com/users/bestdeejay-design/projects/12",
+   "total": 22,
+   "todo": 17,
+   "unset": 0,
+   "wip": 0,
+   "done": 5,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 8,
+   "title": "APPS",
+   "url": "https://github.com/users/bestdeejay-design/projects/8",
+   "total": 16,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 10,
+   "title": "AI-платформа",
+   "url": "https://github.com/users/bestdeejay-design/projects/10",
+   "total": 15,
+   "todo": 15,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 11,
+   "title": "INFRA — журнал изменений",
+   "url": "https://github.com/users/bestdeejay-design/projects/11",
+   "total": 11,
+   "todo": 10,
+   "unset": 0,
+   "wip": 0,
+   "done": 1,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "lovii-tech",
+   "number": 1,
+   "title": "LOVII Audit — Канбан",
+   "url": "https://github.com/orgs/lovii-tech/projects/1",
+   "total": 11,
+   "todo": 11,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 7,
+   "title": "tgbots Контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/7",
+   "total": 5,
+   "todo": 0,
+   "unset": 2,
+   "wip": 0,
+   "done": 3,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 9,
+   "title": "Прожарка — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/9",
+   "total": 3,
+   "todo": 3,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 6,
+   "title": "Агенты — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/6",
+   "total": 1,
+   "todo": 1,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 5,
+   "title": "Полигон воркфлоу",
+   "url": "https://github.com/users/bestdeejay-design/projects/5",
+   "total": 0,
+   "todo": 0,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  }
+ ],
+ "tasks": {
+  "added": [],
+  "done": [],
+  "wip": [
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + броня + добыча",
+    "url": "https://github.com/bestdeejay-design/ace/issues/14",
+    "number": 14,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:12Z",
+    "item_updated": "2026-11-09T23:30:30Z",
+    "created_at": "2026-10-30T06:59:07Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Гелиос В3 «Обрастание» принят, КЦ кхарида — новая база",
+    "url": "https://github.com/bestdeejay-design/ace/issues/12",
+    "number": 12,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:15Z",
+    "item_updated": "2026-11-09T23:30:31Z",
+    "created_at": "2026-10-29T18:36:20Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "UI-аудит по матрице вьюпортов (вкл. фолды) + FIX: двойной таймер тревоги, обрезка objective в хедере",
+    "url": "https://github.com/bestdeejay-design/ace/issues/29",
+    "number": 29,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-05T17:05:56Z",
+    "item_updated": "2026-11-09T23:30:39Z",
+    "created_at": "2026-11-05T17:05:40Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Интеграция pixelfx «беру всё»: эффекты слоем, фазы Ф0–Ф3, сборка на стенде (прод — после приёмки)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/52",
+    "number": 52,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-09T18:51:41Z",
+    "item_updated": "2026-11-09T23:30:53Z",
+    "created_at": "2026-11-09T18:51:38Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "PixelFX Ф1+Ф2+Ф3: все 31 эффект матрицы в игре (одна поставка, слово владельца 10.11)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/54",
+    "number": 54,
+    "repo": "bestdeejay-design/ace",
+    "status": "На проверке",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-10T11:26:28Z",
+    "item_updated": "2026-11-10T20:02:27Z",
+    "created_at": "2026-11-10T11:26:19Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ]
+ },
+ "repos_active": [
+  {
+   "name": "bestdeejay-design/apps",
+   "commits": 51,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "c09e6fd",
+     "message": "Merge branch 'build/library-native-shell'",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T23:26:23Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/c09e6fdc0e3e56109be7e3da4cf9832a67847c5e",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "d565e45",
+     "message": "docs(architecture): address F-AUD-008 drift (THUMB-01/MUSIC-02/PERF-01/PLAYER-07)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T23:26:08Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/d565e45dd566c20135c2437891d45fb2de82e42f",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "335a2b8",
+     "message": "Merge branch 'build/library-native-shell'",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T22:44:59Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/335a2b8a080762f3d522249682ce472c1b1c5117",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "51cb6b3",
+     "message": "docs(registry): update F-028/F-029/F-031 after PLAYER-07 P3 follow-up",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T22:41:28Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/51cb6b3950904c7a5a470af4a7359f3e13b989e4",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "bef36fc",
+     "message": "fix(player): address F-028 comment and F-029 lookahead prefix (P3)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T22:40:40Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/bef36fce9d7def1a2b0aa6821cf727a11e8851d8",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "5b41389",
+     "message": "Merge branch 'build/library-native-shell'",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T22:09:15Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/5b4138978a02c07162966aac57011295626f18fd",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "6ca775f",
+     "message": "docs(blocks): add PLAYER-07 Gate 2 reviewer handoff",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T22:09:11Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/6ca775f07b9e1787cf5c5d38c3b6b8f861fab9a3",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "9d28868",
+     "message": "Merge branch 'build/library-native-shell'",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T22:07:48Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/9d28868dd17412b0287d92a89da95e8511f6f003",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "6e8c787",
+     "message": "feat(player): PLAYER-07 queue scope stack/teardown and wake re-resolve (Gate 1)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T22:07:40Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/6e8c787fb90eeea871793ecb03a2308509a84288",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "2b9c800",
+     "message": "Merge branch 'build/library-native-shell'",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T20:48:12Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/2b9c8001f8c1d913c0b2fcf7d9d6744567d8bcfa",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "c48be3b",
+     "message": "docs(reviewer): REVIEW-PLAYER-06 1478c12 — Gate 2 approve: закрытие P1-1/P1-2 Gate 1 подтверждено независимо (не-текущие мутации — rebuild:false без замены/сика текущего; prev в начале без loop — перезапуск с 0 через restartCurrentFromBeginning); инварианты окна ≤3 на 10k / KVO+DidPlayToEndTime-страховка / loop wrap без дубля / конец без loop / scopes / один владелец — сверены статически; P0/P1-гонок нет (MainActor-изоляция, KVO-таски читают финальное состояние, observers сняты в deinit); новые F-028 (док-комментарий purge противоречит заявленному поведению), F-029 (churn lookahead на каждом авто-advance — префикс-патч), F-030 (single-track loop вырождается в стоп — заявленный MAIL долг), F-031 (refreshScopes O(R×Q) на main — патч-строка); якоря MusicView перепинены на 1478c12; caveats: сборка/тесты/GUI не запускались; реестр: строки + журнал",
+     "author": "Z User",
+     "date": "2026-11-18T20:29:26Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/c48be3bb74f5c13a05444b3fd941a536323f9bf2",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "23df4b3",
+     "message": "Merge branch 'build/library-native-shell' into arena/047b4b6e-apps",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T20:09:52Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/23df4b3873beb9375538bb6c3d76b2c853f58b2a",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "ba7dd8f",
+     "message": "Merge branch 'build/library-native-shell'",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T20:09:43Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/ba7dd8fa8a4c2311f59c3f2361343b8727d2be68",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "471a469",
+     "message": "docs(blocks): add PLAYER-06 Gate 2 reviewer handoff",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T20:09:29Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/471a4694109a6aa946d80edd8d1c3c3ca4846ec5",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "c1c3279",
+     "message": "merge: docs owner GUI acceptance (synthetic)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T20:05:18Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/c1c32790527da41ad9351db00c77e3c03719fb66",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "3fa05d7",
+     "message": "merge: docs owner GUI acceptance (synthetic)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T20:05:16Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/3fa05d79244ed0d005017dfb8686ed3b243f8dda",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "8c1c2d1",
+     "message": "docs: record owner GUI acceptance on synthetic fixtures (PLAYER-05/06, THUMB-01, MUSIC-02, INSPECTOR-01)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T20:05:08Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/8c1c2d10c79991fec07578a4d4d51063921818d5",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "ff23d57",
+     "message": "merge: board update PLAYER-06 delivered",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:54:17Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/ff23d5763166168e24de6d97ea45d1532ffd66a5",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "d27535d",
+     "message": "merge: board update PLAYER-06 delivered",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:54:10Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/d27535d7278bed97b0f5060df3f511c57b46c45d",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "5117004",
+     "message": "docs(board): mark PLAYER-06 delivered (1478c12), Gate 2 requested",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:54:03Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/5117004e78c7a4ef49c35c5217486745435097c7",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "10df88b",
+     "message": "merge: PLAYER-06 gapless queue (1478c12)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:53:26Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/10df88b2b4ca9a5d5999715874ebe3f108dddd6f",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "d7e71fa",
+     "message": "merge: PLAYER-06 gapless queue (1478c12)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:53:12Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/d7e71fa61d0f4492f99d830265f82f98ca18e0a8",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "1478c12",
+     "message": "feat(library): PLAYER-06 gapless AVQueuePlayer window, loop, Gate 1 P1 fixes",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:52:16Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/1478c128ed0135f94cb917e60c647862f9b2830a",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "c85ee81",
+     "message": "merge: sync board update from build",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:30:50Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/c85ee81c714a56bf3f377c5fc85b7c3f3c7640ed",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "4c8f335",
+     "message": "merge: sync board update (PLAYER-05 done, PLAYER-06 ready)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:30:49Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/4c8f33573fd3841b4c3bff3beab13f8a317babfa",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "c8e0a9a",
+     "message": "docs(board): mark PLAYER-05 Gate 2 done, THUMB-01/MUSIC-02 delivered, unblock PLAYER-06",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:30:49Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/c8e0a9a271cc5dee3e8faa68459f0230c4481ee8",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "7c4f83d",
+     "message": "merge: sync reviewer Gate 2 docs into main",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:29:45Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/7c4f83db7023e6ff95763a7734befc7eda1f2021",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "b5a52b4",
+     "message": "merge: sync reviewer Gate 2 docs from arena (78589e2)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T18:29:45Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/b5a52b4ae91367ca7b61eb35726c612b11dc74e8",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "78589e2",
+     "message": "docs(reviewer): PLAYER-05 Гейт 2 замкнут — approve cb343a9 окончательный (PLAYER-05-GATE2-CLOSE-20261118.md): стабильность вердикта на a44c984 (MusicView не менялся с 5b67ed0, цепочка PERF-01 его не трогала; механизмы перепроверены якорями, Timer отсутствует); долг: F-011 open (якорь перепинен :255–262), F-012-остаток (KVO-предложение), живые drag/stall — чек-лист владельца; GUI-приёмка THUMB-01/MUSIC-02/INSPECTOR-01 — ручной прогон на Mac, статическому агенту недоступна по роли; реестр: строка журнала о замыкании",
+     "author": "reviewer",
+     "date": "2026-11-18T18:04:39Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/78589e2cd322bb76851a4979d3f412014c7f4601",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "2636ce0",
+     "message": "docs(reviewer): реестр — рет-ест PERF-01 на a44c984 (дата 2026-11-18): F-AUD-002/003/004 → fixed (cfdd29c), F-AUD-007 → 007.1 fixed + остаток open (уточнён: транзиентная устаревшость окна, relink-окно дельты, done→failed); триаж F-AUD-001/005/006/008/009 — актуальны, якоря перепинены на a44c984; новые F-AUD-010 (P3 open) и F-AUD-011 (P3 accepted-debt); журнал: запись рет-еста 2026-11-18 (диапазон cfdd29c..a44c984, ветки синхронизированы — сверено)",
+     "author": "reviewer",
+     "date": "2026-11-18T18:03:45Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/2636ce067fb4bf540f1300493609f696cd6131fb",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "4dadfcc",
+     "message": "docs(reviewer): REVIEW-PERF-SCAN a44c984 — Gate 2 цепочка cfdd29c..a44c984: approve; PERF-01 F-AUD-002/003/004/007.1 fixed статически (механизмы сверены, тесты в диапазоне не менялись); anti-hang 25f6cbf+a44c984: протокол семафора/partial-семантика/инварианты целы; гонок не найдено; новые F-AUD-010 (P3 hidden→dot-префикс) и F-AUD-011 (P3 accepted-debt: утечка helper-потока при 10-с таймауте); caveats: сборка/тесты/GUI не запускались (нет macOS), замеров нет",
+     "author": "reviewer",
+     "date": "2026-11-18T18:03:41Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/4dadfcc676475082e08046fe6ab7f81edb9e0dc0",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "a44c984",
+     "message": "fix(library): harden directory enumeration against blocking syscalls",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T14:23:41Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/a44c984d1b850d561792a4b15a0a06fd90bd46b5",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "25f6cbf",
+     "message": "fix(library): avoid content-type sniffing hang during enumeration",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T13:55:44Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/25f6cbf73daf1a9d5c49717776cc05948442185c",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "6e483e4",
+     "message": "fix(library): make refresh stats copy action reliable with button",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T13:41:31Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/6e483e496b0b16d6609fda7fbec0804b3824dc2c",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "be392d9",
+     "message": "feat(library): copy refresh status banner to clipboard on click",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T13:38:42Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/be392d9fd52fa08b23695bd8d458440e949817af",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "dcff041",
+     "message": "docs(mail): record PERF-01 delivery (cfdd29c, F-AUD-002/003/004/007.1)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T12:42:47Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/dcff041696d7b0e28ca2f75c40b674d7c1dfaf51",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "cfdd29c",
+     "message": "perf(library): quick indexing fixes F-AUD-002/003/004/007.1",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T12:42:13Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/cfdd29cdf25dc3684d492e08f08152bfa49b6694",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "abe3041",
+     "message": "docs(reviewer): CODE/INDEXING-AUDIT — задача A+B аудита по 5b67ed0: F-AUD-001..009 (P2×3, патчи текстом), карта пайплайна индексации, 7 гипотез регрессии с уровнями уверенности, план замеров; рет-есты: F-004/005/006/018/023 и F-019..022 → fixed; реестр дополнен и перепинен на 5b67ed0",
+     "author": "Z User",
+     "date": "2026-11-18T01:35:02Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/abe3041677245df26b66581f4bfb5fe3932760ad",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "451092f",
+     "message": "docs(observations): GUI acceptance attempt on synthetic fixtures for THUMB-01/MUSIC-02",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T01:32:27Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/451092ff8c552fe0216c906cedd8701c0d927a53",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "5b67ed0",
+     "message": "fix(library): MUSIC-02 queue/pause, multi-window catalog sync, dedupe relink map, source status refresh",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T01:23:09Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/5b67ed08f7bb358e13e433a29df3c87c666e2792",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "1c691d6",
+     "message": "docs(blocks): add external agent task for full code and indexing audit",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T01:16:55Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/1c691d6d0902b538c155b970a82a955f3a1ccc3a",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "05c7e43",
+     "message": "feat(library): THUMB-01 native thumbnails routing, cache and A1 task-key fix",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T00:57:24Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/05c7e439a00cb1e33659ebba0a521033fab8b006",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "a68b068",
+     "message": "merge: sync arena with remote docs (d69f0f0) and keep sidebar-jerk UI baseline fix",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T00:43:09Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/a68b068e3e25f2ef5018383a11f97817ae10ab93",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "183c8ca",
+     "message": "fix(library): remove split view min frame to stop sidebar-open jerk",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T00:40:26Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/183c8ca2f82a54f253ae4b53ec2ecbc78530c669",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "d69f0f0",
+     "message": "docs(reviewer): INSPECTOR-01-PATCHES — патчи F-024–F-027 восстановлены на кончике ветки (урезаны при обновлениях отчёта d5b02d2/0117054); реестр: журнал — слияние main→dfd17f3 сверено, верификация второй сессии (66/66, GUI частично), ожидания обновлены",
+     "author": "Z User",
+     "date": "2026-11-17T23:59:23Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/d69f0f04c2072bf7e216415cf0c1ff55b306bc00",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "0117054",
+     "message": "docs(reviewer): INSPECTOR-01 — GUI-приёмка на синтетике (частично): инспектор/toolbar/⌥⌘I подтверждены; контентные сценарии не завершены; инцидент pre-seed/relink remediated, fixtures OK",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:49:29Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/0117054ba9f6927fbb234df6ec2f1dbde79b60bb",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "3b4270b",
+     "message": "docs(reviewer): CANON-ALIGNMENT — регламент agents изучен (пин 841794a совпадает); ответ владельцу про main: слив принятого — полномочие координатора, не ревьюера; факты: main=init, build отстает на 4 коммита, письма/борд отстают, вторая сессия d5b02d2 закрыла build/test INSPECTOR-01 (66/66, GUI pending, казус атрибуции общего аккаунта); порядок слияния main→dfd17f3 и черновики писем",
+     "author": "Z User",
+     "date": "2026-11-17T23:36:49Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/3b4270b2acc31766d831b4d6e1ca4ab0ee909195",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "d5b02d2",
+     "message": "docs(reviewer): INSPECTOR-01 — macOS верификация: build/test/build-app PASS (66/66), GUI pending, отчёт обновлён",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:35:22Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/d5b02d2d648df558b10c91519b0d9313b53fba44",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "855542a",
+     "message": "docs(reviewer): INSPECTOR-01 — независимое статическое ревью ffe0289 — static only (GUI pending): находки F-024..F-027 (P3) с патчами текстом, F-023 impact на инспектор; якоря реестра перепинены на 68205b1",
+     "author": "Z User",
+     "date": "2026-11-17T23:19:45Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/855542a73f2d6c8c25ab5ce60021f07336cf2c70",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "68205b1",
+     "message": "docs: task external Inspector-01 review and acceptance",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:07:03Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/68205b10379fd92857ffaefe42f93df6700aa6f4",
+     "repo": "bestdeejay-design/apps"
+    },
+    {
+     "sha": "ffe0289",
+     "message": "feat(library): add native file inspector UI",
+     "author": "bestdeejay-design",
+     "date": "2026-11-17T23:05:16Z",
+     "url": "https://github.com/bestdeejay-design/apps/commit/ffe0289e55d8b24b9c063cb5b36d7d3eea8a86db",
+     "repo": "bestdeejay-design/apps"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/repo-catalog",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "f2d98bb",
+     "message": "chore(board): пересборка 2026-11-18T15:43Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-18T15:43:43Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/f2d98bb2775060c8a965b643558e76c5a0701c19",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "c37642e",
+     "message": "reports: 2026-11-17 (Actions)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-18T11:32:33Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/c37642e44cff6974b0d4fde7635a376a80843824",
+     "repo": "bestdeejay-design/repo-catalog"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/infra",
+   "commits": 0,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 1,
+   "pr_merged": 0,
+   "commit_list": []
+  }
+ ],
+ "issues_outside_boards": [],
+ "attention": [
+  "**Полигон воркфлоу** — доска пуста (`bestdeejay-design/5`)"
+ ],
+ "local_debt": null
+}
