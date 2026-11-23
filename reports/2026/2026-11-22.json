@@ -1,0 +1,1042 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-23T15:22:20.360477+03:00",
+ "window": {
+  "start": "2026-11-22T00:00:00+03:00",
+  "end": "2026-11-23T00:00:00+03:00"
+ },
+ "coverage": {
+  "owners": [
+   "bestdeejay-design",
+   "lovii-tech",
+   "axiiom-ru",
+   "lovii-ru",
+   "rucorp"
+  ],
+  "repos_total": 159,
+  "repos_archived": 5,
+  "projects": 12,
+  "tasks_total": 203
+ },
+ "summary": {
+  "added": 0,
+  "done": 1,
+  "in_progress": 5,
+  "commits": 82,
+  "repos_active": 6,
+  "issues_new": 2,
+  "issues_closed": 1,
+  "pr_open": 11,
+  "pr_merged": 11,
+  "attention": 1
+ },
+ "boards": [
+  {
+   "owner": "bestdeejay-design",
+   "number": 1,
+   "title": "Fonotext — центр задач",
+   "url": "https://github.com/users/bestdeejay-design/projects/1",
+   "total": 66,
+   "todo": 17,
+   "unset": 0,
+   "wip": 1,
+   "done": 48,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 3,
+   "title": "Alien Cosmic — задачи",
+   "url": "https://github.com/users/bestdeejay-design/projects/3",
+   "total": 27,
+   "todo": 17,
+   "unset": 5,
+   "wip": 5,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 4,
+   "title": "Dajet UI — единая нативная база (macOS 27)",
+   "url": "https://github.com/users/bestdeejay-design/projects/4",
+   "total": 26,
+   "todo": 24,
+   "unset": 0,
+   "wip": 0,
+   "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 12,
+   "title": "BRIIX — доска координатора",
+   "url": "https://github.com/users/bestdeejay-design/projects/12",
+   "total": 22,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 6,
+   "added": 0,
+   "closed": 1
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 8,
+   "title": "APPS",
+   "url": "https://github.com/users/bestdeejay-design/projects/8",
+   "total": 16,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 10,
+   "title": "AI-платформа",
+   "url": "https://github.com/users/bestdeejay-design/projects/10",
+   "total": 15,
+   "todo": 15,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 11,
+   "title": "INFRA — журнал изменений",
+   "url": "https://github.com/users/bestdeejay-design/projects/11",
+   "total": 11,
+   "todo": 10,
+   "unset": 0,
+   "wip": 0,
+   "done": 1,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "lovii-tech",
+   "number": 1,
+   "title": "LOVII Audit — Канбан",
+   "url": "https://github.com/orgs/lovii-tech/projects/1",
+   "total": 11,
+   "todo": 11,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 7,
+   "title": "tgbots Контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/7",
+   "total": 5,
+   "todo": 0,
+   "unset": 2,
+   "wip": 0,
+   "done": 3,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 9,
+   "title": "Прожарка — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/9",
+   "total": 3,
+   "todo": 3,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 6,
+   "title": "Агенты — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/6",
+   "total": 1,
+   "todo": 1,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 5,
+   "title": "Полигон воркфлоу",
+   "url": "https://github.com/users/bestdeejay-design/projects/5",
+   "total": 0,
+   "todo": 0,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  }
+ ],
+ "tasks": {
+  "added": [],
+  "done": [
+   {
+    "project": "bestdeejay-design/12",
+    "project_title": "BRIIX — доска координатора",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/12",
+    "type": "Issue",
+    "title": "Мобильный iOS-гейт: авто-зум на inputs (<16px) + контент выходит за экран при длинных словах/масштабировании",
+    "url": "https://github.com/bestdeejay-design/briix-studio/issues/18",
+    "number": 18,
+    "repo": "bestdeejay-design/briix-studio",
+    "status": "Done",
+    "bucket": "done",
+    "state": "CLOSED",
+    "item_created": "2026-11-15T08:14:29Z",
+    "item_updated": "2026-11-22T20:30:13Z",
+    "created_at": "2026-11-15T08:14:25Z",
+    "closed_at": "2026-11-22T20:30:11Z",
+    "merged_at": null
+   }
+  ],
+  "wip": [
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + броня + добыча",
+    "url": "https://github.com/bestdeejay-design/ace/issues/14",
+    "number": 14,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:12Z",
+    "item_updated": "2026-11-09T23:30:30Z",
+    "created_at": "2026-10-30T06:59:07Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Гелиос В3 «Обрастание» принят, КЦ кхарида — новая база",
+    "url": "https://github.com/bestdeejay-design/ace/issues/12",
+    "number": 12,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:15Z",
+    "item_updated": "2026-11-09T23:30:31Z",
+    "created_at": "2026-10-29T18:36:20Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "UI-аудит по матрице вьюпортов (вкл. фолды) + FIX: двойной таймер тревоги, обрезка objective в хедере",
+    "url": "https://github.com/bestdeejay-design/ace/issues/29",
+    "number": 29,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-05T17:05:56Z",
+    "item_updated": "2026-11-09T23:30:39Z",
+    "created_at": "2026-11-05T17:05:40Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Интеграция pixelfx «беру всё»: эффекты слоем, фазы Ф0–Ф3, сборка на стенде (прод — после приёмки)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/52",
+    "number": 52,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-09T18:51:41Z",
+    "item_updated": "2026-11-09T23:30:53Z",
+    "created_at": "2026-11-09T18:51:38Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "PixelFX Ф1+Ф2+Ф3: все 31 эффект матрицы в игре (одна поставка, слово владельца 10.11)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/54",
+    "number": 54,
+    "repo": "bestdeejay-design/ace",
+    "status": "На проверке",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-10T11:26:28Z",
+    "item_updated": "2026-11-10T20:02:27Z",
+    "created_at": "2026-11-10T11:26:19Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ]
+ },
+ "repos_active": [
+  {
+   "name": "bestdeejay-design/briix-studio",
+   "commits": 64,
+   "issue_new": 0,
+   "issue_closed": 1,
+   "pr_open": 8,
+   "pr_merged": 8,
+   "commit_list": [
+    {
+     "sha": "ac7a1b2",
+     "message": "Merge pull request #56 from bestdeejay-design/work/30-stand-selfheal",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T22:16:57Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/ac7a1b20652c9bb9ea7977c72f8d52f8e4b616a6",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "be39635",
+     "message": "docs(#30): аудит инцидента деплой-контура 22-23.11 — раннер briix-ci удалён из реестра, queued-деплой актуального main ждёт раннера; права-матрица агента (403 без actions/workflow-скоупов), runbook восстановления, готовый stand-sync для применения владельцем",
+     "author": "Z User",
+     "date": "2026-11-22T22:15:06Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/be3963578e5a29ae333d56760047dec4e6f8963a",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "923f577",
+     "message": "docs(#35): расширенный тест-набор 5-6 песен владельца из dj1-архива (BREATH IS VOW, Contradiction, Resolve + ранние)",
+     "author": "arena",
+     "date": "2026-11-22T21:42:22Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/923f5775b23f7cd8532372c20c32d20243a427aa",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "ff362bc",
+     "message": "docs(#35): пошаговый план тестирования моделей — ШАГ1 YuE2 (идёт) → ШАГ2 MiniMax v096 → ШАГ3 HeartMuLa → ШАГ4 DiffRhythm → ШАГ5 Muse → ШАГ6 LeVo2 → ШАГ7 сводка",
+     "author": "arena",
+     "date": "2026-11-22T21:37:42Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/ff362bccac37ee3a55c958b4a338c0bf2e73d4ba",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "931fa42",
+     "message": "docs(#35): план расширен фазой F — DiffRhythm2/Muse/JAM-0.5/MagentaRT2/SoulX-Singer/LeVo2 (полное соответствие каталогу топ-5+)",
+     "author": "arena",
+     "date": "2026-11-22T21:36:11Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/931fa42ade6a1907b341fde5b67d9df1c5f069ef",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "919adc3",
+     "message": "docs(#35): МАСТЕР-ПЛАН тестов — все фазы A-E с чекбоксами; A4 owner-batch запущен (okna RUN 00:30)",
+     "author": "arena",
+     "date": "2026-11-22T21:31:05Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/919adc3692021ea9a8374be6d7cd891a9185b315",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "b88f375",
+     "message": "docs(#35): финал теста плёнки — v0.9.6 рантайм не лечит; артефакт в GGUF-квантовании/VAE; честный ретест = BF16 на P40",
+     "author": "arena",
+     "date": "2026-11-22T21:21:50Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/b88f375150c4dbbcc3dd40cee2e875d3bb7a97d3",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "37b788b",
+     "message": "Merge pull request #55 from bestdeejay-design/work/45-style-coding",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T21:20:18Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/37b788b67d8230f780ff8c9b164ac9f0912fdaf8",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "aa22b92",
+     "message": "feat(#45): 116 стилевых семейств из dj1-ресёрча закодированы в мозг — паритет 26→142",
+     "author": "Z User",
+     "date": "2026-11-22T21:12:44Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/aa22b92a82546b410f074817c153abefeb3107e3",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "fad2c34",
+     "message": "Merge pull request #54 from bestdeejay-design/work/45-style-families-dj1",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T20:36:37Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/fad2c344f8c4ad9a3dd31e5c60ff6e415a0db25c",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "f2b2ebc",
+     "message": "Merge pull request #53 from bestdeejay-design/work/18-ios-gate",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T20:30:09Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/f2b2ebc0211e3ab877ed52bc33b1be00a58f8f76",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "bd77466",
+     "message": "fix(#18): iOS mobile gate — computed 16px на всех полях ввода, бургер-меню и дропдауны не рвут вёрстку на 320px",
+     "author": "arena",
+     "date": "2026-11-22T20:23:13Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/bd77466e9e1d9c7fa729c90586a223af49a1bc54",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "edff4f1",
+     "message": "research(#45): README сводка + index.json (116 семейств, паритет 26→142)",
+     "author": "arena",
+     "date": "2026-11-22T20:16:37Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/edff4f162767a28d0a281bbafd089d9b9f2317c7",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "a30a2b2",
+     "message": "research(#45): батч I — 12 семейств классика и сцена",
+     "author": "arena",
+     "date": "2026-11-22T20:16:37Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/a30a2b222771c421ed658f38cce773be232bfa3e",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "e9e11ff",
+     "message": "research(#45): батч H — 13 семейств поп и эпохи",
+     "author": "arena",
+     "date": "2026-11-22T20:16:37Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/e9e11ffe5c0c94be0e497c6d6ca5013e7f2bea8c",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "877299e",
+     "message": "research(#45): батч G — 9 семейств металл и кроссоверы",
+     "author": "arena",
+     "date": "2026-11-22T20:16:30Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/877299ebd2a5cd153b12f6e89564d1cc27df163c",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "8388e7a",
+     "message": "research(#45): батч F — 15 семейств рок-ветка",
+     "author": "arena",
+     "date": "2026-11-22T20:16:29Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/8388e7a895e2121e243c1b6e6f3a2fade58b4835",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "44fdadc",
+     "message": "research(#45): батч E — 13 семейств соул/джаз-наследие",
+     "author": "arena",
+     "date": "2026-11-22T20:16:29Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/44fdadc366539cfc822351f84ca0da0f8aee3736",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "804d9ca",
+     "message": "research(#45): батч D — 13 семейств мир/этника и фолк-корни",
+     "author": "arena",
+     "date": "2026-11-22T20:16:23Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/804d9ca1109841c28b47446409cdc28ce02f4f5b",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "1cfc990",
+     "message": "research(#45): батч C — 14 семейств урбан и латино",
+     "author": "arena",
+     "date": "2026-11-22T20:16:23Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/1cfc990cae144b5cfb0b219a3be21084af2b61e5",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "796c631",
+     "message": "research(#45): батч B — 11 семейств электроника-текстура",
+     "author": "arena",
+     "date": "2026-11-22T20:16:23Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/796c63130fd9c7f60b351adda768a8a674247570",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "af172ba",
+     "message": "research(#45): батч A — 14 электронных танцевальных семейств",
+     "author": "arena",
+     "date": "2026-11-22T20:16:18Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/af172ba4f54b50bfcda7470a2ba14ed6716a1d98",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "85994d4",
+     "message": "research(#45): батч 0 — trance/industrial (dj1-архив, крупнейшие без профиля)",
+     "author": "arena",
+     "date": "2026-11-22T20:16:18Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/85994d49b637c6a9a3ee124a6fcbb6d5840dd298",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "ef3a9d1",
+     "message": "docs(#35): протокол корректного повторного прогона — чек-лист каждой генерации, матрица 4 песни × модели, статусы",
+     "author": "arena",
+     "date": "2026-11-22T19:06:25Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/ef3a9d12bd4fc212f32553eae6a6c986fd3144fe",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "f960f9f",
+     "message": "docs(#35): КАРТА ВСЕХ ТЕСТОВ — модели×карты×вердикты, хронология опытов, артефакты, факты; ace-вариации легендарной лирики доставлены",
+     "author": "arena",
+     "date": "2026-11-22T19:03:05Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/f960f9ff1d05de370215304b32c17a372f7a577e",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "30a11d6",
+     "message": "docs(#35): фактические итоги ночи — YuE2 требует 11-14GB (только P40), 3050 = демо ace + короткие MiniMax; P40 критичен для пилота",
+     "author": "arena",
+     "date": "2026-11-22T18:55:33Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/30a11d68af7e8a0504d53ccc3df8bc4d7241d56f",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "2dee6d5",
+     "message": "docs(#35): clean-test вердикт — плёнка НЕ от промта; системный артефакт MiniMax GGUF-цепочки (квант/VAE/ресемпл); отложить до BF16-P40, приоритет → YuE2/HeartMuLa",
+     "author": "arena",
+     "date": "2026-11-22T18:48:42Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/2dee6d5abdc8792380404029d1366a4dd993dff9",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "e83fbce",
+     "message": "Merge pull request #52 from bestdeejay-design/work/36-front-429-honesty",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T18:12:34Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/e83fbce020474a66a7600cdd80562f9ba39fd9b5",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "4c37808",
+     "message": "fix(#36): честная карточка при фронтовом 429 — «Сервер перегружен» вместо ложной «Очередь заполнена»",
+     "author": "Z User",
+     "date": "2026-11-22T18:05:57Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/4c378089a92a25787a39faf80f0ee2a209609020",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "891bedc",
+     "message": "docs(#35): план тестов моделей на сегодня — 6 фаз: MiniMax (дожимаем) → YuE2 → HeartMuLa (прод-кандидат) → DiffRhythm → LeVo → сводка; правила процесса",
+     "author": "arena",
+     "date": "2026-11-22T17:48:46Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/891bedcfe1855869cb60abbab7ae4964a093800c",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "1ead147",
+     "message": "docs(#35): ПОЛНЫЙ каталог self-host моделей песен — audio.cpp единый рантайм (уже собран!), HeartMuLa-oss-3B Apache 2.0 Suno-класс (главная находка), YuE2 GGUF+LoRA-экосистема, топ-5 к установке",
+     "author": "arena",
+     "date": "2026-11-22T17:46:14Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/1ead147e065dbc69693f7acceff4f9539a631999",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "b954e33",
+     "message": "Merge pull request #51 from bestdeejay-design/work/51-sim-30-requests",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T08:49:55Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/b954e33898869bd1314410e12e247c06301bb814",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "53a3c2c",
+     "message": "docs(#35): ландшафт моделей генерации треков — live-скан HF: full-song с вокалом фактически 3 open (MiniMax/ACE/LeVo), остальное закрытые API или без вокала; SoulX-Singer как SVC-модуль",
+     "author": "arena",
+     "date": "2026-11-22T01:04:03Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/53a3c2cf80fb073675735c1bdb54e66e81d67f1b",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "8d97761",
+     "message": "fix(#51): фиксы по симуляции — Н1 семейство из перевода, Н2 три новых семейства, Н3 пересборка title",
+     "author": "Z User",
+     "date": "2026-11-22T00:52:23Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/8d97761b5339516faef3e0d8864eb6ab824b3eb3",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "aa62e8d",
+     "message": "feat(#51): симуляция 30 запросов через реальную студию — 30/30 инвариантов, находки Н1-Н5",
+     "author": "briix-agent",
+     "date": "2026-11-22T00:14:38Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/aa62e8d2e220e03a8d3e8470bbd948b4e2718549",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "0cb3877",
+     "message": "ci(#48): check-lyrics-brain в CI — lyrics-brain v2 продакшн-модуль (патч из письма task-48, агент не мог пушнуть без workflow-скоупа)",
+     "author": "arena",
+     "date": "2026-11-21T23:55:54Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/0cb387729497f11a107741a88e8ec3455d631dc1",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "137bed4",
+     "message": "docs(#35): ресерч GPU-аренды — ace-step уже на Replicate/fal (/bin/zsh.007-0.022/трек); break-even: API <500 тр/мес, RunPod serverless 500-5000, свои карты >5000; RF-маршруты Timeweb/Selectel",
+     "author": "arena",
+     "date": "2026-11-21T23:53:26Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/137bed4a4616f4bba009aad2ebad84675dd05a66",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "ec56ddb",
+     "message": "docs(#35): углублённый ресерч — MiniMax Music 3 найдена (open weights, Suno-класс, коммерция разрешена <M, GGUF 8GB/P40); LeVo v2 некоммерч.; FUZZ open weights нет",
+     "author": "arena",
+     "date": "2026-11-21T23:50:15Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/ec56ddb6ccdcc104922bba3c14fba5d44ec672aa",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "38a59bd",
+     "message": "docs(#35): ресерч моделей — FUZZ-2.0 опознан как Riffusion/Producer.ai; пути: LoRA на архиве (стиль) vs Mureka/FUZZ-2.0 API (качество); топ-3 шага",
+     "author": "arena",
+     "date": "2026-11-21T23:43:34Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/38a59bd406499d8964c016d4e1baeb0d1b87d359",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "349e70d",
+     "message": "docs(#35): Оригинал Космос на ace-step — не воспроизвёл оригинал; смена/добавление модели = главный вопрос качества",
+     "author": "arena",
+     "date": "2026-11-21T23:41:19Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/349e70daec4b6a1cc8ba27898fc8d2fc846b39eb",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "4c83440",
+     "message": "docs(#35): находка №12 — брекеты на языке лирики (RU) поются как текст; правило: брекеты всегда EN (подтверждено слухом)",
+     "author": "arena",
+     "date": "2026-11-21T23:37:48Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/4c834401bd889d969873d1c14c8e52d9178dfea6",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "e3810f2",
+     "message": "docs(#35): Граница №2 — 300с держится (RU вокал ок); астериксы поются (вычищать в [SFX]); caption=инструментал подтверждён; швы секций — кандидат-граница №3",
+     "author": "arena",
+     "date": "2026-11-21T23:34:21Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/e3810f26e3395a691ee295a1fa8c464b71a93aaf",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "4965239",
+     "message": "Merge pull request #50 from bestdeejay-design/work/48-lyrics-melodics",
+     "author": "bestdeejay-design",
+     "date": "2026-11-21T23:29:57Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/4965239a74e3313758548221577745eaf4906d24",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "8ac9e6e",
+     "message": "feat(#48): проработка лирики — мелодичность, консистентность, эстетика",
+     "author": "glm-agent",
+     "date": "2026-11-21T23:28:50Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/8ac9e6e837f733bf9af0d9c8954f97453e9f12b7",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "1ff18bf",
+     "message": "docs(#35): Граница №1 — длительность короче естественной длины лирики => вокал плывёт (D1 90с вердикт владельца)",
+     "author": "arena",
+     "date": "2026-11-21T23:29:19Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/1ff18bf34675c1917eb04ef81a32aa768d6c8767",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "e8ec118",
+     "message": "docs(#35): коррекция владельца — не «потолок модели», а ГРАНИЦА деградации; задача серии: картировать условия плывущего вокала/звука",
+     "author": "arena",
+     "date": "2026-11-21T23:16:51Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/e8ec11807d397a047cd363dd83d27bb563f669ac",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "4f91a17",
+     "message": "docs(#35): ФИНАЛ серии — все три последних трека неудачны; вывод: потолок ace-step текстовых обогащений, направление = смена/добавление модели (архив владельца сделан на FUZZ-2.0)",
+     "author": "arena",
+     "date": "2026-11-21T23:15:03Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/4f91a177e5e6d8a28d55a0a3eef80ba13e3f37b0",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "17e9bff",
+     "message": "chore(#47): asset-versions --fix — отпечатки под новый music-brain.js (упущено в 27695f2)",
+     "author": "arena",
+     "date": "2026-11-21T23:13:14Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/17e9bffdac0e977edc0681df4fedd6899399fa8b",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "8b5455a",
+     "message": "Merge pull request #49 from bestdeejay-design/work/47-lyrics-brackets",
+     "author": "bestdeejay-design",
+     "date": "2026-11-21T23:12:49Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/8b5455ae5e0e8d0d21dd234a3dbcdd31b250dd57",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "27695f2",
+     "message": "feat(#47): конструктив лирики — стилевые брекеты динамики по справке lyrics-effect-brackets",
+     "author": "Z User",
+     "date": "2026-11-21T23:05:32Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/27695f245fb950b8dd543e3f0a64c58883da55c9",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "8bd8df7",
+     "message": "docs(#35): находка №11 — гендер через брекеты лирики разрушает генерацию (растянутый вокал); пол вокала неподконтролен, брекеты только эффекты",
+     "author": "arena",
+     "date": "2026-11-21T22:56:32Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/8bd8df7a84ccc656e053440895691942aaecf03a",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "2770428",
+     "message": "docs(#35): DM сигнатуры — web-ресерч: 22 caption-токена + 15 брекетов + blueprint структуры (адаптировано под замки регистра)",
+     "author": "arena",
+     "date": "2026-11-21T22:25:51Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/2770428d04d992a53e0242e44ef68b201cc2abe8",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "b01e4e2",
+     "message": "docs(#35): механики — Machine v2 вердикт: куплеты хороши, припевы «гуляют» — дрейф именно на переходе к припеву; фикс-тест v3b в очереди",
+     "author": "arena",
+     "date": "2026-11-21T22:22:21Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/b01e4e2689373dc95ecb42b6e2f48d3cc0cab487",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "625adff",
+     "message": "docs(#35): механики — «Тысячи окон» серия: брекеты держат эффекты, но НЕ чинят сетку такта (RU+fast = десинк, лимит ace-step 5Hz); интро лечится брекетом",
+     "author": "arena",
+     "date": "2026-11-21T22:20:41Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/625adff332f0f44e0f5185faf2a6a6ce1be9d4c9",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "4c0ed64",
+     "message": "Merge pull request #48 from bestdeejay-design/work/46-vocal-profiles",
+     "author": "bestdeejay-design",
+     "date": "2026-11-21T22:20:12Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/4c0ed6472680eaeba344836ecf0198dda0865a46",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "917467c",
+     "message": "feat(#46): BRAIN UPGRADE по чек-листу спецификации — запреты регистра, правило 0, брекеты динамики, бан имён в лирике/title",
+     "author": "Z User",
+     "date": "2026-11-21T22:19:39Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/917467c726cfa24c030f7723b9303b5d8a9a729a",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "9cca8ff",
+     "message": "docs(#35): prompt-mechanics — вердикт владельца «Космос v2 крутая»: замки регистра+growl работают на всей песне, рецепт-победитель зафиксирован",
+     "author": "arena",
+     "date": "2026-11-21T22:14:00Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/9cca8ff2d2c792f0f07990a6524d16e5b621dd84",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "33a384d",
+     "message": "feat(#46): голос характеристиками по семи осям — VOCAL PROFILE VOCABULARY (справка координатора 22.11)",
+     "author": "Z User",
+     "date": "2026-11-21T21:58:29Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/33a384dd0a96d7db4c3c4de10db108273873b33e",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "3b1a8f9",
+     "message": "docs(#35): vocal vocabulary — жёсткое правило владельца: тонкие мужские голоса запрещены, мужские профили = chest/full",
+     "author": "arena",
+     "date": "2026-11-21T21:55:06Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/3b1a8f99282b74169f179c148d533578f3f2bf2f",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "c1a0f17",
+     "message": "docs(#35): spec §6 correction — форматы это измеренный факт (LRA идентичен, mux не нормализует), точка роста = мастер, не контейнер",
+     "author": "arena",
+     "date": "2026-11-21T21:51:11Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/c1a0f174f5e95965b1aa8feb8b9a8b9e1142a342",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "d3f2719",
+     "message": "docs(#35): BRAIN UPGRADE SPEC — сводка выводов ночных тестов генерации для доработки мозгов внешним агентом (5 находок + чек-лист приёмки)",
+     "author": "arena",
+     "date": "2026-11-21T21:45:58Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/d3f2719fb78be201d0dca98c407018bf085f641b",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "25aaa1f",
+     "message": "docs(#35): LYRICS EFFECT BRACKETS — правила брекет-вставок динамики секций для мозговой волны (5 категорий, анти-монотонность чек-лист, интеграция в buildCaption)",
+     "author": "arena",
+     "date": "2026-11-21T21:28:40Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/25aaa1fed7efb845eca984c5cfe5e5a1813d97e6",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "49e3dd2",
+     "message": "docs(#40): треки слепого A/B-гейта (трек-2 = слоевой caption, голос владельца 21.11) — артефакт закрытого критерия",
+     "author": "arena",
+     "date": "2026-11-21T21:21:05Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/49e3dd2bebf5d2509d6c3c3d87ecf2b66a2b7b92",
+     "repo": "bestdeejay-design/briix-studio"
+    },
+    {
+     "sha": "999da59",
+     "message": "Merge pull request #47 from bestdeejay-design/fix/draft-precision",
+     "author": "bestdeejay-design",
+     "date": "2026-11-21T21:13:09Z",
+     "url": "https://github.com/bestdeejay-design/briix-studio/commit/999da59ccc8e1245e65e63f13e8323c69534c0d7",
+     "repo": "bestdeejay-design/briix-studio"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/agents",
+   "commits": 7,
+   "issue_new": 2,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "01a20bc",
+     "message": "Merge pull request #174 from bestdeejay-design/work/172-agent-identity",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T21:45:28Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/01a20bca62d1d59a8c32313959c5466dc39feaf2",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "c761d00",
+     "message": "Merge pull request #173 from bestdeejay-design/work/171-legitimize-lessons",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T21:45:24Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/c761d009d8680e9f6870f4654c24df96d6b2eddc",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "7abc548",
+     "message": "fix(preflight): owner noreply identities + explicit skip warning for identity gate (#172)",
+     "author": "agent-executor",
+     "date": "2026-11-22T21:13:23Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/7abc54833212217004a9f2d06b34639f63bdb5fc",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "5d93be8",
+     "message": "feat(preflight): agent git-identity gate agent/<role> (#172)",
+     "author": "agent-executor",
+     "date": "2026-11-22T20:50:57Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/5d93be81a772ad2470291f9127684158098dc684",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "19c8883",
+     "message": "chore(#171, ревью): синхронизация зеркал .claude/.agents после правок skills (пропуск оригинальных коммитов 17.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T20:10:33Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/19c88837df8389cd4411dff8995bc4d6197f84e3",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "c655b43",
+     "message": "docs(#171, ревью): §12 обобщён — LOVII-специфика (canon-файл, Pint/Rector, staging) вынесена в пример-первоисточник",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T20:06:41Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/c655b432856bd6889d36981669cc447c24c46cb5",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "f0ab49d",
+     "message": "docs(rules): §12 предрелизный чек-лист координатора — канон ДО пуша, карточка борда, серийность, полный локальный гейт с линтом, merge-пост, if:success() в deploy (инцидент 22.11 трёх одновременных пушей)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T20:00:29Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/f0ab49d8045f01c96e1013892ef4c0970a50574c",
+     "repo": "bestdeejay-design/agents"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/lovii-site",
+   "commits": 5,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 3,
+   "pr_merged": 3,
+   "commit_list": [
+    {
+     "sha": "349f20b",
+     "message": "ci(prod): публикация без PAT — sync-from-stage в прод-репо (#7)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T21:19:29Z",
+     "url": "https://github.com/bestdeejay-design/lovii-site/commit/349f20be51978ef0352998460583a5a79f8f90bd",
+     "repo": "bestdeejay-design/lovii-site"
+    },
+    {
+     "sha": "3be7af7",
+     "message": "fix(roadmap): журнал — «Готово» вместо «Вышло»/«Открыто», статусы в языке каталога (#6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T21:00:22Z",
+     "url": "https://github.com/bestdeejay-design/lovii-site/commit/3be7af7153e574b0c2f9dc987150fd6947158b70",
+     "repo": "bestdeejay-design/lovii-site"
+    },
+    {
+     "sha": "f8a4524",
+     "message": "fix(roadmap): цветовые пилюли-фильтры и читаемые бейджи статусов (#5)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T20:27:02Z",
+     "url": "https://github.com/bestdeejay-design/lovii-site/commit/f8a45245892a1ac67d5a9c92bc0cb4314b976c3c",
+     "repo": "bestdeejay-design/lovii-site"
+    },
+    {
+     "sha": "bb0807b",
+     "message": "feat(roadmap): каталог 65 фич с фильтрами «все / готово / в плане» (#4)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T19:01:35Z",
+     "url": "https://github.com/bestdeejay-design/lovii-site/commit/bb0807b6be77aca41ec389b46ee6840a66724248",
+     "repo": "bestdeejay-design/lovii-site"
+    },
+    {
+     "sha": "61f27e6",
+     "message": "docs(roadmap): актуализация на ноябрь 2026 — статусы, хроника, журнал (#3)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T18:30:33Z",
+     "url": "https://github.com/bestdeejay-design/lovii-site/commit/61f27e629e59352bb9627395423beb5f4f744f7e",
+     "repo": "bestdeejay-design/lovii-site"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/lovii",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "22d01aa",
+     "message": "ci(prod): публикация без PAT — sync-from-stage на GITHUB_TOKEN",
+     "author": "zwork",
+     "date": "2026-11-22T21:17:52Z",
+     "url": "https://github.com/bestdeejay-design/lovii/commit/22d01aa44f165a33661f7c7a8274791d04e8932b",
+     "repo": "bestdeejay-design/lovii"
+    },
+    {
+     "sha": "79ffa81",
+     "message": "chore(prod): sync from lovii-site@5309cb7fcd85",
+     "author": "zwork",
+     "date": "2026-11-22T21:11:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii/commit/79ffa81ed021ad0b207912dd32289c2479b57dc0",
+     "repo": "bestdeejay-design/lovii"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/repo-catalog",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "71a3d32",
+     "message": "chore(board): пересборка 2026-11-22T14:38Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-22T14:38:19Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/71a3d32ec5eeefb9a3b384a0420ebb938e818ef4",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "1cb89b5",
+     "message": "reports: 2026-11-21 (Actions)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-22T11:12:01Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/1cb89b5daee2d00fc070eb5687651eb4eb8ad985",
+     "repo": "bestdeejay-design/repo-catalog"
+    }
+   ]
+  },
+  {
+   "name": "rucorp/accounts",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "f877215",
+     "message": "semyazdrav.ru продлён заказчиком: paid-till 16.11.2027 (WHOIS), снята срочность; briix.ru из мёртвых переведён в живые",
+     "author": "bestdeejay-design",
+     "date": "2026-11-23T06:01:32Z",
+     "url": "https://github.com/rucorp/accounts/commit/f8772151d46985d17ae62396d322cff36eb88584",
+     "repo": "rucorp/accounts"
+    },
+    {
+     "sha": "8bde452",
+     "message": "Автопроверка доменов 23.11.2026 00:00",
+     "author": "bestdeejay-design",
+     "date": "2026-11-23T06:00:43Z",
+     "url": "https://github.com/rucorp/accounts/commit/8bde45248896ceb2a7c497e8f5e768f5b16c1e65",
+     "repo": "rucorp/accounts"
+    }
+   ]
+  }
+ ],
+ "issues_outside_boards": [
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 171,
+   "title": "work: узаконить уроки 16.11/22.11 — 3 локальных коммита на main (allowlist add, приёмка UI, §12 чек-лист)",
+   "url": "https://github.com/bestdeejay-design/agents/issues/171"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 172,
+   "title": "feat(preflight): агентская git-identity agent/<роль> — коммит под владельческой identity из агентской сессии = error",
+   "url": "https://github.com/bestdeejay-design/agents/issues/172"
+  }
+ ],
+ "attention": [
+  "**Полигон воркфлоу** — доска пуста (`bestdeejay-design/5`)"
+ ],
+ "local_debt": null
+}
