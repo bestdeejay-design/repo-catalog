@@ -1,6 +1,6 @@
 # Канбан каталога
 
-> Собрано автоматически: 2026-11-24 17:50. Руками не править — перезапишется.
+> Собрано автоматически: 2026-11-24 21:13. Руками не править — перезапишется.
 > Карточка = репозиторий. Колонка = стадия. Источник правды — `TASKS.md`
 > (приоритеты), `OPTIONS.md` (кандидаты), `STARS-ARCHIVE.md` (архив).
 
@@ -8,7 +8,7 @@
 `P2` — референс, `P3` — полка. Ставишь звезду новому репозиторию — его подхватит
 плановая сверка и положит в нужную колонку.
 
-## 🚀 Беру в работу (P1) — 26
+## 🚀 Беру в работу (P1) — 27
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -24,6 +24,7 @@
 | [`vercel-labs/agent-browser`](https://github.com/vercel-labs/agent-browser) | 44k | Центр агентов | Браузерный инструмент агента: snapshot → действие → проверка. Замена Playwright-скриптов |
 | [`signerless/llm-checker`](https://github.com/signerless/llm-checker) | 3k | Центр агентов | CLI сканирует железо и говорит, какие модели потянет. Не гадать — померить |
 | [`NirDiamant/agents-towards-production`](https://github.com/NirDiamant/agents-towards-production) | 22k | Центр агентов | Курс до прода: память, observability, guardrails — ровно то, чего не хватает центру |
+| [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) | 235k | Центр агентов | Один короткий файл правил вместо простыни: каждая строка — конкретная ошибка LLM в коде. … |
 | [`asafofer/perch`](https://github.com/asafofer/perch) | 21 | macOS | Нотч-UI, статусы агентов, approve/deny, возврат в сессию. Swift 6 + Tests — читаемый обра… |
 | [`tw93/Mole`](https://github.com/tw93/Mole) | 72k | macOS | UX безопасной деструктивной утилиты: dry-run, предпросмотр, лог. Плюс open-core модель |
 | [`jaywcjlove/awesome-swift-macos-apps`](https://github.com/jaywcjlove/awesome-swift-macos-apps) | 1.8k | macOS | Карта рынка и доноры кода для Dajet-семейства |
@@ -40,7 +41,7 @@
 | [`bestdeejay-design/alien-cosmic-dist`](https://github.com/bestdeejay-design/alien-cosmic-dist) | 1 | Игры | Приватный дом разработки: исходники, история, ресерчи, симы |
 
 
-## 📚 Референс (P2) — 49
+## 📚 Референс (P2) — 55
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -68,6 +69,8 @@
 | [`bestdeejay-design/chronos`](https://github.com/bestdeejay-design/chronos) | 1 | Центр агентов | 5 агентов для документации — готовый пример мульти-агентной схемы |
 | [`mazze93/stratum`](https://github.com/mazze93/stratum) | 2 | Центр агентов + LOVII CRM | Append-only леджер решений с гейтами доверия — концепция «доказательство вместо увереннос… |
 | [`leepokai/Codync`](https://github.com/leepokai/Codync) | 901 | Центр агентов | Агенты как боты в мессенджере: Claude Code, Codex, Gemini CLI, Cursor и 40+ со своей подп… |
+| [`Graphify-Labs/graphify`](https://github.com/Graphify-Labs/graphify) | 153k | Центр агентов | Граф знаний по коду и докам, у каждого ребра объяснение — проверяемая память агента без в… |
+| [`affaan-m/ECC`](https://github.com/affaan-m/ECC) | 310k | Центр агентов | Слои поведения агента (навыки / инстинкты / память / политика) как переносимые артефакты |
 | [`gluonfield/enchanted`](https://github.com/gluonfield/enchanted) | 6k | macOS | Нативный клиент к локальным моделям: UI-референс для «AI внутри приложения» |
 | [`ddalcu/mlx-serve`](https://github.com/ddalcu/mlx-serve) | 2.3k | macOS | Готовый локальный сервер моделей на MLX: навести Claude Code/Codex на `localhost:11234`, … |
 | [`justinwetch/HIGAgentSkills`](https://github.com/justinwetch/HIGAgentSkills) | 731 | macOS | Приёмка интерфейсов по Apple HIG: 157 выжимок, цитата нормы перед выводом, enforce-режим … |
@@ -92,10 +95,14 @@
 | [`nexu-io/html-video`](https://github.com/nexu-io/html-video) | 4.8k | Прочее | HTML→MP4 локально: ролики для AXIIOM и презентаций без After Effects и оплаты за рендер |
 | [`nexu-io/open-design`](https://github.com/nexu-io/open-design) | 105k | Прочее | Дизайн-воркспейс агента: бриф → дизайн-система → прототип → ревью. Забирать скиллы и шабл… |
 | [`heydamir/unslop`](https://github.com/heydamir/unslop) | 8.3k | Прочее | Скилл-редизайн «AI-слопа»: аудит → направление из продукта → проходы по слоям. В приёмку … |
+| [`kepano/defuddle`](https://github.com/kepano/defuddle) | 10k | Прочее | Ссылка → чистый Markdown для RAG и заметок; CLI встраивается в сбор материала |
+| [`kepano/kepano-obsidian`](https://github.com/kepano/kepano-obsidian) | 6.3k | Прочее | Живой образец структуры базы знаний, которая не разваливается (теги, MOC, связи) |
+| [`immich-app/immich`](https://github.com/immich-app/immich) | 120k | Прочее | Свой фотоархив вместо облака + образцовая архитектура «мобильный клиент + сервер + фонова… |
+| [`patch-gg/pixelfx`](https://github.com/patch-gg/pixelfx) | 9k | Прочее | 244 canvas-эффекта + скилл собрать свой — взрывы и вспышки для `alien-cosmic` (трек E) |
 | [`bestdeejay-design/terran-rts`](https://github.com/bestdeejay-design/terran-rts) | 0 | Игры | Отдельный полигон стиля StarCraft на Canvas — не часть alien-cosmic |
 
 
-## 🗂 На полке (P3) — 34
+## 🗂 На полке (P3) — 50
 
 | Репозиторий | ★ | Трек | Что взять |
 |---|---|---|---|
@@ -106,8 +113,11 @@
 | [`slavakurilyak/awesome-ai-agents`](https://github.com/slavakurilyak/awesome-ai-agents) | 2.5k | Центр агентов | Навигация по агентной экосистеме |
 | [`caramaschiHG/awesome-ai-agents-2026`](https://github.com/caramaschiHG/awesome-ai-agents-2026) | 2k | Центр агентов | Срез 2026: что вообще существует |
 | [`ShaikhWarsi/free-ai-tools`](https://github.com/ShaikhWarsi/free-ai-tools) | 1k | Центр агентов | Бесплатные инструменты для экспериментов |
+| [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) | 80k | Центр агентов | Каталог готовых скиллов: искать перед тем, как писать свой |
+| [`obsidianmd/obsidian-skills`](https://github.com/obsidianmd/obsidian-skills) | 54k | Центр агентов | Как вендор описывает свои форматы для агента — образец скилла к собственному формату |
 | [`obsproject/obs-studio`](https://github.com/obsproject/obs-studio) | 78k | macOS | Захват экрана/стриминг: справочник, если понадобится запись |
 | [`dajetbro/dajetbro`](https://github.com/dajetbro/dajetbro) | 1 | macOS | Свой профиль бренда Dajet |
+| [`iina/iina`](https://github.com/iina/iina) | 47k | macOS | Нативный плеер поверх mpv: интеграция медиаядра, меню, настройки — референс для `dajet` |
 | [`pawelmalak/flame`](https://github.com/pawelmalak/flame) | 6.6k | LOVII CRM | Внутренний портал со ссылками на сервисы |
 | [`bestdeejay-design/lovii-demo`](https://github.com/bestdeejay-design/lovii-demo) | 3 | LOVII CRM | Демо для клиентов |
 | [`axiiom-ru/lovii`](https://github.com/axiiom-ru/lovii) | 1 | LOVII CRM | Документы для публикации |
@@ -131,6 +141,19 @@
 | [`myshell-ai/OpenVoice`](https://github.com/myshell-ai/OpenVoice) | 38k | Прочее | Zero-shot клонирование тембра + управление стилем; шесть языков, русского нет |
 | [`SWivid/F5-TTS`](https://github.com/SWivid/F5-TTS) | 15k | Прочее | Flow matching вместо авторегрессии + Sway Sampling — архитектурный референс |
 | [`neurocyte/flow`](https://github.com/neurocyte/flow) | 2.5k | Прочее | TUI-редактор на Zig: rope/piece-table, ≤6 мс на кадр, LSP — если понадобится свой быстрый… |
+| [`photoprism/photoprism`](https://github.com/photoprism/photoprism) | 40k | Прочее | Один бинарь + Docker, сильный офлайн-поиск по смыслу — альтернатива `immich` |
+| [`LibrePhotos/librephotos`](https://github.com/LibrePhotos/librephotos) | 8.2k | Прочее | Django + ML: свой стек, если понадобятся собственные модели поверх фотоархива |
+| [`Lightricks/LTX-2`](https://github.com/Lightricks/LTX-2) | 10k | Прочее | Видео со звуком одной моделью: инференс и LoRA-тренинг |
+| [`lipku/LiveTalking`](https://github.com/lipku/LiveTalking) | 11k | Прочее | Потоковый говорящий аватар с липсинком — образец связки TTS + видео |
+| [`AR13X3/halation`](https://github.com/AR13X3/halation) | 91 | Прочее | Анимированные градиентные фоны на WebGL для лендингов |
+| [`obsidianmd/obsidian-clipper`](https://github.com/obsidianmd/obsidian-clipper) | 5.6k | Прочее | Путь «страница → чистый Markdown» из браузера: шаблоны и правила извлечения |
+| [`kepano/clipper-templates`](https://github.com/kepano/clipper-templates) | 1.6k | Прочее | Готовые шаблоны клиппера под сайты — не писать свои селекторы |
+| [`obsidianmd/jsoncanvas`](https://github.com/obsidianmd/jsoncanvas) | 3.9k | Прочее | Открытый формат канваса: схемы и доски, которые переживут смену инструмента |
+| [`obsidianmd/obsidian-importer`](https://github.com/obsidianmd/obsidian-importer) | 1.8k | Прочее | Импорт в Markdown из Apple Notes, Evernote, Notion и др. — для своза старого архива |
+| [`obsidianmd/obsidian-help`](https://github.com/obsidianmd/obsidian-help) | 2k | Прочее | Исходники справки: точные формулировки про Bases и свойства |
+| [`obsidianmd/obsidian-developer-docs`](https://github.com/obsidianmd/obsidian-developer-docs) | 577 | Прочее | Документация плагинов и тем — если понадобится автоматизация хранилища |
+| [`kepano/obsidian-minimal`](https://github.com/kepano/obsidian-minimal) | 5.7k | Прочее | Тема как дизайн-система на CSS-переменных с двумя режимами |
+| [`Talilard1/KoLib`](https://github.com/Talilard1/KoLib) | 6 | Прочее | Android-библиотека книг + менеджер Kobo: синхронизация с ридером |
 | [`bestdeejay-design/minigames`](https://github.com/bestdeejay-design/minigames) | 0 | Игры | Мини-игры для проверки механик на малом объёме |
 | [`ihhub/fheroes2`](https://github.com/ihhub/fheroes2) | 3.5k | Игры | Пошаговый движок целиком: детерминированный цикл, ИИ на карте, сохранения. GPL-2.0 — толь… |
 
@@ -177,4 +200,4 @@ _пусто_
 
 ---
 
-Всего в каталоге: **109** · кандидатов: **17** · в архиве: **0**
+Всего в каталоге: **132** · кандидатов: **17** · в архиве: **0**
