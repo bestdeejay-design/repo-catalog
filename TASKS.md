@@ -15,7 +15,7 @@
 Приоритеты: **P1** — брать в работу сейчас · **P2** — референс, когда дойдут руки ·
 **P3** — полка (знать, что есть).
 
-Полные описания всех 111 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
+Полные описания всех 134 — в [STARS.md](./STARS.md). Разбор восьмёрки — в [STARS-REVIEW.md](./STARS-REVIEW.md).
 
 **Доска каталога:** [BOARD.md](./BOARD.md) — те же репозитории, но по стадиям.
 
@@ -85,6 +85,11 @@ CLI, браузер. Модели — любые, с ротацией и учё�
 | [`bestdeejay-design/chronos`](https://github.com/bestdeejay-design/chronos) | 1 | P2 | 5 агентов для документации — готовый пример мульти-агентной схемы |
 | [`mazze93/stratum`](https://github.com/mazze93/stratum) | 2 | P2 | Эпистемический леджер решений: тот же приём, что в crm, но в чистом виде |
 | [`leepokai/Codync`](https://github.com/leepokai/Codync) | 901 | P2 | Агенты как боты в мессенджере: Claude Code, Codex, Gemini CLI, Cursor и 40+ со своей подпиской, писать с телефона. Хост на Rust, iOS на SwiftUI — референс мобильного доступа к центру |
+| [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) | 235k | **P1** | Один короткий файл правил вместо простыни: каждая строка — конкретная ошибка LLM в коде. Образец для нашего `AGENTS.md` |
+| [`Graphify-Labs/graphify`](https://github.com/Graphify-Labs/graphify) | 153k | P2 | Граф знаний по коду и докам, у каждого ребра объяснение — проверяемая память агента без векторной БД |
+| [`affaan-m/ECC`](https://github.com/affaan-m/ECC) | 310k | P2 | Слои поведения агента (навыки / инстинкты / память / политика) как переносимые артефакты |
+| [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) | 80k | P3 | Каталог готовых скиллов: искать перед тем, как писать свой |
+| [`obsidianmd/obsidian-skills`](https://github.com/obsidianmd/obsidian-skills) | 54k | P3 | Как вендор описывает свои форматы для агента — образец скилла к собственному формату |
 
 **Чего в звёздах нет, а для центра нужно:** брокер очередей с приоритетами, хранилище сессий
 агентов, слой секретов и политик. Это писать самому — донора нет.
@@ -125,6 +130,7 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`bestdeejay-design/sweet-no-sleep`](https://github.com/bestdeejay-design/sweet-no-sleep) | 7 | P2 | Свой menu bar pet — база для будущих утилит в трее |
 | [`obsproject/obs-studio`](https://github.com/obsproject/obs-studio) | 78k | P3 | Захват экрана/стриминг: справочник, если понадобится запись |
 | [`dajetbro/dajetbro`](https://github.com/dajetbro/dajetbro) | 1 | P3 | Свой профиль бренда Dajet |
+| [`iina/iina`](https://github.com/iina/iina) | 47k | P3 | Нативный плеер поверх mpv: интеграция медиаядра, меню, настройки — референс для `dajet` |
 
 ---
 
@@ -203,6 +209,23 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 | [`nexu-io/open-design`](https://github.com/nexu-io/open-design) | 105k | P2 | Дизайн-воркспейс агента: бриф → дизайн-система → прототип → ревью. Забирать скиллы и шаблоны, смотреть, как ревью живёт в проекте |
 | [`neurocyte/flow`](https://github.com/neurocyte/flow) | 2.5k | P3 | TUI-редактор на Zig: rope/piece-table, ≤6 мс на кадр, LSP — если понадобится свой быстрый TUI на больших файлах |
 | [`heydamir/unslop`](https://github.com/heydamir/unslop) | 8.3k | P2 | Скилл-редизайн «AI-слопа»: аудит → направление из продукта → проходы по слоям. В приёмку лендингов AXIIOM и прототипов, работает и по ссылке на живой сайт |
+| [`kepano/defuddle`](https://github.com/kepano/defuddle) | 10k | P2 | Ссылка → чистый Markdown для RAG и заметок; CLI встраивается в сбор материала |
+| [`kepano/kepano-obsidian`](https://github.com/kepano/kepano-obsidian) | 6.3k | P2 | Живой образец структуры базы знаний, которая не разваливается (теги, MOC, связи) |
+| [`immich-app/immich`](https://github.com/immich-app/immich) | 120k | P2 | Свой фотоархив вместо облака + образцовая архитектура «мобильный клиент + сервер + фоновая загрузка» |
+| [`patch-gg/pixelfx`](https://github.com/patch-gg/pixelfx) | 9k | P2 | 244 canvas-эффекта + скилл собрать свой — взрывы и вспышки для `alien-cosmic` (трек E) |
+| [`photoprism/photoprism`](https://github.com/photoprism/photoprism) | 40k | P3 | Один бинарь + Docker, сильный офлайн-поиск по смыслу — альтернатива `immich` |
+| [`LibrePhotos/librephotos`](https://github.com/LibrePhotos/librephotos) | 8.2k | P3 | Django + ML: свой стек, если понадобятся собственные модели поверх фотоархива |
+| [`Lightricks/LTX-2`](https://github.com/Lightricks/LTX-2) | 10k | P3 | Видео со звуком одной моделью: инференс и LoRA-тренинг |
+| [`lipku/LiveTalking`](https://github.com/lipku/LiveTalking) | 11k | P3 | Потоковый говорящий аватар с липсинком — образец связки TTS + видео |
+| [`AR13X3/halation`](https://github.com/AR13X3/halation) | 91 | P3 | Анимированные градиентные фоны на WebGL для лендингов |
+| [`obsidianmd/obsidian-clipper`](https://github.com/obsidianmd/obsidian-clipper) | 5.6k | P3 | Путь «страница → чистый Markdown» из браузера: шаблоны и правила извлечения |
+| [`kepano/clipper-templates`](https://github.com/kepano/clipper-templates) | 1.6k | P3 | Готовые шаблоны клиппера под сайты — не писать свои селекторы |
+| [`obsidianmd/jsoncanvas`](https://github.com/obsidianmd/jsoncanvas) | 3.9k | P3 | Открытый формат канваса: схемы и доски, которые переживут смену инструмента |
+| [`obsidianmd/obsidian-importer`](https://github.com/obsidianmd/obsidian-importer) | 1.8k | P3 | Импорт в Markdown из Apple Notes, Evernote, Notion и др. — для своза старого архива |
+| [`obsidianmd/obsidian-help`](https://github.com/obsidianmd/obsidian-help) | 2k | P3 | Исходники справки: точные формулировки про Bases и свойства |
+| [`obsidianmd/obsidian-developer-docs`](https://github.com/obsidianmd/obsidian-developer-docs) | 577 | P3 | Документация плагинов и тем — если понадобится автоматизация хранилища |
+| [`kepano/obsidian-minimal`](https://github.com/kepano/obsidian-minimal) | 5.7k | P3 | Тема как дизайн-система на CSS-переменных с двумя режимами |
+| [`Talilard1/KoLib`](https://github.com/Talilard1/KoLib) | 6 | P3 | Android-библиотека книг + менеджер Kobo: синхронизация с ридером |
 
 **Снять звезду / не тратить время:**
 
@@ -312,7 +335,7 @@ Swift/SwiftUI/AppKit, без Electron. Ключевое — ощущение с�
 - `python3 sync_stars.py` — сверяет каталог с реальными звёздами, показывает новые и снятые.
 - `python3 sync_stars.py --apply` — применяет: снятые звёзды переносит в `STARS-ARCHIVE.md`
   (с датой, звёздами, языком и описанием) и убирает их строки из рабочих файлов.
-- Автопроверка раз в неделю (понедельник, 10:00 MSK): cron-задача сама запускает сверку, дописывает новые звёзды
+- Автопроверка раз в неделю (понедельник, 10:00 MSK): задача планировщика сама запускает сверку, дописывает новые звёзды
   с описанием и треком, отправляет снятые в архив, коммитит и присылает отчёт.
 - Новая звезда вручную: сначала сюда (трек + P + «что взять»), потом в `STARS.md` (категория + описание).
 - Раз в квартал: пересмотреть P1 — если за квартал не пригодилось, опустить в P2/P3.
