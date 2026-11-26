@@ -1,0 +1,974 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-26T15:18:22.724493+03:00",
+ "window": {
+  "start": "2026-11-25T00:00:00+03:00",
+  "end": "2026-11-26T00:00:00+03:00"
+ },
+ "coverage": {
+  "owners": [
+   "bestdeejay-design",
+   "lovii-tech",
+   "axiiom-ru",
+   "lovii-ru",
+   "rucorp"
+  ],
+  "repos_total": 163,
+  "repos_archived": 5,
+  "projects": 12,
+  "tasks_total": 228
+ },
+ "summary": {
+  "added": 1,
+  "done": 0,
+  "in_progress": 5,
+  "commits": 71,
+  "repos_active": 7,
+  "issues_new": 4,
+  "issues_closed": 3,
+  "pr_open": 9,
+  "pr_merged": 11,
+  "attention": 6
+ },
+ "boards": [
+  {
+   "owner": "bestdeejay-design",
+   "number": 1,
+   "title": "Fonotext — центр задач",
+   "url": "https://github.com/users/bestdeejay-design/projects/1",
+   "total": 91,
+   "todo": 29,
+   "unset": 0,
+   "wip": 1,
+   "done": 61,
+   "added": 1,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 3,
+   "title": "Alien Cosmic — задачи",
+   "url": "https://github.com/users/bestdeejay-design/projects/3",
+   "total": 27,
+   "todo": 17,
+   "unset": 5,
+   "wip": 5,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 4,
+   "title": "Dajet UI — единая нативная база (macOS 27)",
+   "url": "https://github.com/users/bestdeejay-design/projects/4",
+   "total": 26,
+   "todo": 24,
+   "unset": 0,
+   "wip": 0,
+   "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 12,
+   "title": "BRIIX — доска координатора",
+   "url": "https://github.com/users/bestdeejay-design/projects/12",
+   "total": 22,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 6,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 8,
+   "title": "APPS",
+   "url": "https://github.com/users/bestdeejay-design/projects/8",
+   "total": 16,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 10,
+   "title": "AI-платформа",
+   "url": "https://github.com/users/bestdeejay-design/projects/10",
+   "total": 15,
+   "todo": 15,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 11,
+   "title": "INFRA — журнал изменений",
+   "url": "https://github.com/users/bestdeejay-design/projects/11",
+   "total": 11,
+   "todo": 10,
+   "unset": 0,
+   "wip": 0,
+   "done": 1,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "lovii-tech",
+   "number": 1,
+   "title": "LOVII Audit — Канбан",
+   "url": "https://github.com/orgs/lovii-tech/projects/1",
+   "total": 11,
+   "todo": 11,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 7,
+   "title": "tgbots Контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/7",
+   "total": 5,
+   "todo": 0,
+   "unset": 2,
+   "wip": 0,
+   "done": 3,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 9,
+   "title": "Прожарка — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/9",
+   "total": 3,
+   "todo": 3,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 6,
+   "title": "Агенты — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/6",
+   "total": 1,
+   "todo": 1,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 5,
+   "title": "Полигон воркфлоу",
+   "url": "https://github.com/users/bestdeejay-design/projects/5",
+   "total": 0,
+   "todo": 0,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  }
+ ],
+ "tasks": {
+  "added": [
+   {
+    "project": "bestdeejay-design/1",
+    "project_title": "Fonotext — центр задач",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/1",
+    "type": "Issue",
+    "title": "ASR-бенчмарк: GigaAM-v2 + T-one vs faster-whisper-turbo (контрольный проход, изолированный эксперимент)",
+    "url": "https://github.com/bestdeejay-design/fonotext-server/issues/318",
+    "number": 318,
+    "repo": "bestdeejay-design/fonotext-server",
+    "status": "Todo",
+    "bucket": "todo",
+    "state": "OPEN",
+    "item_created": "2026-11-25T20:53:45Z",
+    "item_updated": "2026-11-25T20:53:47Z",
+    "created_at": "2026-11-25T20:53:42Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ],
+  "done": [],
+  "wip": [
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + броня + добыча",
+    "url": "https://github.com/bestdeejay-design/ace/issues/14",
+    "number": 14,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:12Z",
+    "item_updated": "2026-11-09T23:30:30Z",
+    "created_at": "2026-10-30T06:59:07Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Гелиос В3 «Обрастание» принят, КЦ кхарида — новая база",
+    "url": "https://github.com/bestdeejay-design/ace/issues/12",
+    "number": 12,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:15Z",
+    "item_updated": "2026-11-09T23:30:31Z",
+    "created_at": "2026-10-29T18:36:20Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "UI-аудит по матрице вьюпортов (вкл. фолды) + FIX: двойной таймер тревоги, обрезка objective в хедере",
+    "url": "https://github.com/bestdeejay-design/ace/issues/29",
+    "number": 29,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-05T17:05:56Z",
+    "item_updated": "2026-11-09T23:30:39Z",
+    "created_at": "2026-11-05T17:05:40Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Интеграция pixelfx «беру всё»: эффекты слоем, фазы Ф0–Ф3, сборка на стенде (прод — после приёмки)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/52",
+    "number": 52,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-09T18:51:41Z",
+    "item_updated": "2026-11-09T23:30:53Z",
+    "created_at": "2026-11-09T18:51:38Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "PixelFX Ф1+Ф2+Ф3: все 31 эффект матрицы в игре (одна поставка, слово владельца 10.11)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/54",
+    "number": 54,
+    "repo": "bestdeejay-design/ace",
+    "status": "На проверке",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-10T11:26:28Z",
+    "item_updated": "2026-11-10T20:02:27Z",
+    "created_at": "2026-11-10T11:26:19Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ]
+ },
+ "repos_active": [
+  {
+   "name": "bestdeejay-design/lovii_docs",
+   "commits": 56,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 6,
+   "pr_merged": 8,
+   "commit_list": [
+    {
+     "sha": "eb1cd77",
+     "message": "docs(cabinets): C-05 задеплоен на staging (401 живьём); контур core у параллельной сессии",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T11:58:58Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/eb1cd77fc6c9c59479f00826ca7898448576940d",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3875683",
+     "message": "docs(cabinets): REGISTRY — заметка о CI-канцеллах staging и разблокировке (10f331b7)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T10:55:05Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/387568352d809f79fbc0f4aee9cae11b87d470af",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6f9c389",
+     "message": "docs(cabinets): карта C-06 — rector dry-run тоже по своим файлам (урок CI 45778264652)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T08:35:16Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6f9c389081a814795321db8d9237bbe98b4690b3",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "999fee9",
+     "message": "docs(cabinets): F-09 решён владельцем — роль courier выдаётся автоматически при apply; в скоуп C-06",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T08:06:04Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/999fee949cb6d6e9ef26cd5ebeb98828feb400d0",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "17f29db",
+     "message": "docs(cabinets): карта C-06 — pint-чек всех тронутых файлов (урок CI 45775348577)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T07:51:24Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/17f29db3c41fbb813cd6ceea0e252f950dcc2992",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "d562304",
+     "message": "docs(cabinets): Task Card W1-C06 — смена/heartbeat (жёсткий бюджет, pint-чек своих файлов)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T07:29:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/d5623048cdee0af89f161f095c6ad41963fea039",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "236b7c9",
+     "message": "docs(cabinets): W1-C05 принят — staging 7e4e34c6; F-15 уточнён (свой pint-дефект ветки)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T07:27:43Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/236b7c9da7dc953a424e8538af8d121539351a90",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "f119855",
+     "message": "docs(cabinets): W1-C05 — решения F-07..F-15, REGISTRY приёмка; стенд-DEBT F-15 (lint-патчи self-heal)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T07:13:19Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/f11985529daafc2cf53e2e801055eb990b541a17",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "d8eae69",
+     "message": "docs(cabinets): Task Card W1-C05 — guard /api/v1/courier + apply/me (волна 1 стартовала)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T06:31:53Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/d8eae69eb7cd4e090a4e90d389c02ce8d4d859c3",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "61f98fd",
+     "message": "docs(cabinets): HANDOFF — точка входа после сжатия контекста (волна 1 = C-05)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-26T06:28:36Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/61f98fd3785454b79baaa24edfbf573b7e91d17d",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "943603c",
+     "message": "docs(cabinets): harness §9 — FINDINGS.md (ретро волны 0, F-01..F-06 + процессные F-P1/F-P2); REGISTRY — ретро Sign-off G-0..G-2 и Task Card онбординга",
+     "author": "agent-coordinator",
+     "date": "2026-11-26T06:15:03Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/943603c8501c97fc42cbef070dc77e28f3bd826a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5d3c8ef",
+     "message": "docs: волна 0 курьерской программы закрыта (core C-01..C-04 staging 7209cdeb+3fae41db, онбординг кабинета 276ae49)",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T23:21:52Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5d3c8ef0a7f8637f4ddc034d2b3c2f67d52eb102",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "e3668f1",
+     "message": "docs: DEBT 6 предсуществующих падений core (A/B 26.11); REGISTRY — волна 0 C-01/C-02 принята (staging 7209cdeb)",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T22:22:49Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/e3668f1a45fa8f4c4299ea4de9389cb56c2b0452",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "96fdc5e",
+     "message": "docs(cabinets): REGISTRY — онбординг courier принят (staging 276ae49)",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T21:33:16Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/96fdc5e062bc906d2fd2499ce5c8fbbdd435c015",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "cf6d877",
+     "message": "docs(cabinets): зеркало Forgejo git.briix.ru для lovii-cabinets",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T21:19:59Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/cf6d877b9e164fc4ad9f5cd4d834d79d2ae6ce13",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "9e4b20e",
+     "message": "docs(cabinets): решение владельца D-CAB-01 — монорепо lovii-cabinets создано (скелет d576689, courier пилот); supersede C-04 HARNESS",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T21:09:10Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/9e4b20e64800a21a43324b82812645af74b74962",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "ca9c24f",
+     "message": "Merge pull request #14 from bestdeejay-design/workspace/skills-harness-v2",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T19:37:54Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/ca9c24ffef16585ce5e23865865eefd55db18640",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "2f71b46",
+     "message": "Merge pull request #13 from bestdeejay-design/arena/9cd3e533-lovii-docs",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T19:37:48Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/2f71b461ebc5fb7b557905bfae26049502863afa",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5633e84",
+     "message": "docs: справочный пакет канона для подготовки скилов (workspace/skills-reference, read-only снимки)",
+     "author": "agent-executor",
+     "date": "2026-11-25T19:24:50Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5633e843a182929c8b51c62af7095aebe795232e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "4805ffb",
+     "message": "fix(research): стерильность — «профиль» → «окружение/стек» (ревью координатора)",
+     "author": "agent-executor",
+     "date": "2026-11-25T19:33:54Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/4805ffb22dfe1be631845e3ac9a0a4432763a0da",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "854273c",
+     "message": "skills: 5 навыков сабов под роли harness'а (AGENT-HARNESS v4.2)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T19:31:04Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/854273cfc3b62eeef7a13c076dc749856b38c1d9",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "c6e995f",
+     "message": "docs(harness): указатель на канонический экземпляр в agents (гигиена lovii_docs)",
+     "author": "agent-executor",
+     "date": "2026-11-25T19:02:17Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/c6e995fd768f971f598903452db77f584c120ba9",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "95195a0",
+     "message": "docs: AGENT-HARNESS v4.2 — финальная консистентность",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:39:43Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/95195a082ac0053e17a241e4bb86ac7a12b2230f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "69a86ba",
+     "message": "docs: AGENT-HARNESS v4.1 — исправление опечаток",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:35:22Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/69a86bad453fa49ea5729b91d1b3c7840efd1b44",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "528d004",
+     "message": "docs: AGENT-HARNESS v4.0 — консистентный, сжатый, жесткий",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:34:53Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/528d004db070deb1f12fd3b6346d68632723c262",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "61e6452",
+     "message": "docs: AGENT-HARNESS v3.1 — сжатая версия без лишней информации",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:27:19Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/61e6452da409011deeb23306f40e5afdb00bc3ff",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "250809b",
+     "message": "docs: AGENT-HARNESS v3.0 — переименование, ссылка на регламент агентов, без привязок к проектам",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:21:29Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/250809b7707c5062078945305e39d61482960c84",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "fb06d82",
+     "message": "Merge PR #12: docs: HARNESS-FRAMEWORK-24.11 3.0 + REGISTRY + Task Card example (сохранение работы арены в main)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:18:15Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/fb06d820c21670c04b1da3b1c478d93640e63fae",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "1176c82",
+     "message": "Merge PR #11: canon: dev-stand LOVII на t-ai — строка в топологии §1",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:11:36Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/1176c820e8e17aecefb29728dfeb389cf53fa1fb",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "01442dc",
+     "message": "Merge PR #10: artifacts: RES-021 — инструменты релизного конвейера",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:10:03Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/01442dc38177f5ebec0217ffdcc7bd6b3ec5ad29",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "ceb58ca",
+     "message": "Merge PR #8: as-is: актуализация дельты 18.11–24.11 (внешний агент, продолжение §8)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:07:43Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/ceb58cab8602b84a6f6664a268a78729e78de75f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "7a33057",
+     "message": "Merge PR #7: as-is: актуализация дельты 18.10–17.11 (внешний агент, §8 TASK-ACTUALIZATION-2026-11-17)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:07:27Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/7a33057f05388a5dd6cbd6e9b01aacdc4399e35a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5fafc67",
+     "message": "docs: HARNESS-FRAMEWORK 3.0 — универсальная версия без привязок к проектам",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:06:17Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5fafc67babe5b23d52f5f66df307c1b5edb8a468",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "fa69ade",
+     "message": "docs: HARNESS-FRAMEWORK 2.2 — учет токенов и контроль переработки",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T18:02:52Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/fa69adec216bad8687bf6fb8b9e0147bfa192d08",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "0a1bc31",
+     "message": "docs: HARNESS-FRAMEWORK 2.1 — жесткий режим, без мягкости и лазеек",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T17:53:38Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/0a1bc317edba4ba0c61554782e63e5402b3cfab0",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "996cac7",
+     "message": "docs: HARNESS-FRAMEWORK 2.0 — готовая к использованию упряжь агентов",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T17:48:39Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/996cac787f8757d23b6274f653875d9ff0511a2f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5c74868",
+     "message": "docs: добавить HARNESS-FRAMEWORK-24.11.md — мета-уprяжь полного контура разработки от идеи до релиза",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T17:39:09Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5c748680dcdb52d7758db1bb045f20b6b1dc7d28",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6fb625f",
+     "message": "docs(courier): 00-INDEX — синхронизация в main: SSOT 2.4 / C-01..C-22, запись о четвёртом аудите 25.11",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T16:19:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6fb625f30a8cc0c12b406fb8dcec630eb0c9eac5",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "636d675",
+     "message": "docs(courier): BOOTSTRAP — синхронизация в main: отсылки под HARNESS 2.4 (C-01…C-22, приёмка §8 — 13 пунктов, юр-пункты §10, §11 шаг 4 без ⚠-плейсхолдера)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T16:16:04Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/636d6756e504125cbcaf2f73f607f11121dc95f5",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "944917c",
+     "message": "docs(courier): HARNESS 2.4 — полный файл §0–§13 в main (фикс обреза: отсутствовали §6–§13; C-22, внешние каноны §0, роль courier, S-32, S-14, SLA модерации; синхронизация с веткой arena/9cd3e533-lovii-docs после аудита)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:58:45Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/944917c445fdb23835afd90681c03035f0de448a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "52eafc5",
+     "message": "audit: 00-INDEX — SSOT 2.4 / C-01..C-22, запись о четвёртом аудите 25.11",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:34:03Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/52eafc5a8715f7d2eee03a49fc52ca9bbe4a93c1",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "dc90e0d",
+     "message": "audit: BOOTSTRAP — отсылки актуализированы под HARNESS 2.4 (C-01…C-22, приёмка 13 пунктов, §10 п.6/7, §11 шаг 4 без ⚠-плейсхолдера)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:32:45Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/dc90e0d1c0449b1f163c29524506c5f8ab1a762e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "176d66e",
+     "message": "audit: удалён временный файл-часть HARNESS (§6–§13 объединены в основной HARNESS 2.4, blob c375b598)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:25:41Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/176d66e51504a4fa7ea3b86682aa20909faebbce",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "7974ee5",
+     "message": "audit: HARNESS 2.4 — полный файл §0–§13 одним куском (устранение обрезки; объединение частей 1 и 2)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:23:40Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/7974ee531d0ee36847f8b0cd70ef157acf9cd4fc",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "2ff350e",
+     "message": "audit: HARNESS 2.4 — перезапись части 1 (§0–§5) перед добавлением §6–§13",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:20:22Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/2ff350e22fd1b9433ed7c3117eb90cacf24d3e18",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "23fb692",
+     "message": "audit: восстановление §6–§13 HARNESS — джобы, волны, приёмка (13 пунктов), метрики, юрист, владелец-руками, порядок агентов, связь документов (аудит 25.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:10:05Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/23fb69276a190cc6a4f44424fb74b60a2b469c09",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "bbe97d5",
+     "message": "audit: HARNESS 2.4 — литеральные \\n в §6–§13 переведены в обычные переводы строк, версия поднята до 2.4, C-20 зарезервирован, §12: force-push запрещён + правило синхронизации с main (аудит 25.11)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T15:01:53Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/bbe97d573ff5b5c3d8ee2aedd50925282b35ed31",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "ec31653",
+     "message": "docs: фикс всех пробелов и неопределённостей в пакете courier-program-24.11",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T23:16:27Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/ec31653fdc3042379e30d896873ad2358e6568fd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "a20ffb8",
+     "message": "Merge PR #9: docs(courier): полный пакет курьерской документации 24.11",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T22:46:57Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/a20ffb89aaf0bcc45e3247d9103faeccb7cc11b7",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "49fbd36",
+     "message": "docs(courier): HARNESS — исправление опечатки (лишняя кавычка в §5), остальное без изменений (2.3)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T22:13:56Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/49fbd36a450873fc769c6e0b95219c152fda6c9b",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "23f6e78",
+     "message": "docs(courier): ANALYSIS 2.2 — 25.11: определение «первая реальная выплата», канал СЗ СБП/телефон, налоги сам СЗ, отчётные документы по ролям (DECISIONS §6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T22:10:48Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/23f6e78134d580e33c558c81ea0c057169e5584e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "464ca78",
+     "message": "docs(courier): SCENARIOS — 25.11: HARNESS 2.3 в баннере, S-27 зафиксированы выплаты (СБП/телефон, налоги сам СЗ, документы по ролям) (DECISIONS §6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T22:08:43Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/464ca78b9f498f26ec3dae0a0f7a4bc5c0129d3f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "c0ec053",
+     "message": "docs(courier): BOOTSTRAP — 25.11: канал вывода СЗ СБП/телефон, налоги сам СЗ, конфиг payout_request_expire_days, документы по ролям (DECISIONS §6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T22:06:19Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/c0ec05394fffef692a9ba30045e748aa853fcefc",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6d9598d",
+     "message": "docs(courier): DECOMPOSITION — 25.11: Р-19 канал СБП/телефон, налоги сам СЗ, отчётный комплект по ролям, термин «первая выплата» определён (DECISIONS §6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T22:03:58Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6d9598d5e9b2c61d823e33592fa260df2e357f9e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "e65d477",
+     "message": "docs(courier): PLAN — разъяснение 25.11: СЗ-вывод СБП/телефон, налоги сам СЗ, отчётные документы по ролям, payout_request_expire_days; HARNESS 2.3 в шапке (DECISIONS §6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T21:14:12Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/e65d4775b34e6e19d1e9bc192817e2f203579737",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "1d218ed",
+     "message": "docs(courier): HARNESS 2.3 — C-17/§4/§6/§9/§10: вывод СЗ по СБП на телефон, налоги сам СЗ, отчётные документы по ролям, payout_request_expire_days (DECISIONS §6)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-24T21:06:17Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/1d218ede928ce63538fbac24414b5443930de67f",
+     "repo": "bestdeejay-design/lovii_docs"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/agents",
+   "commits": 7,
+   "issue_new": 3,
+   "issue_closed": 3,
+   "pr_open": 3,
+   "pr_merged": 3,
+   "commit_list": [
+    {
+     "sha": "96e1a6b",
+     "message": "Merge pull request #180 from bestdeejay-design/work/179-skill-enrichment",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T20:18:20Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/96e1a6bbc36a74dc11199b5d95df669dcbe60e96",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "816ecc4",
+     "message": "feat(#179): обогащение ядра по критерию владельца — handoff-поля в clean-execution, AC-чеклист в edge-case-testing (предложение №3 отклонено как дубль+конфликт backpressure)",
+     "author": "agent-executor",
+     "date": "2026-11-25T20:14:24Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/816ecc460c66187a8b575d79c12311c0fc53f453",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "59cea93",
+     "message": "Merge pull request #178 from bestdeejay-design/work/177-harness-skills",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T20:08:19Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/59cea9394e7fa397365bb29aa238758ed9e49554",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "9b1fbf4",
+     "message": "test(#177): каталог скилов 18→23; скилы арены — канонный фронтматтер и ≤90 строк (шаблоны в TEMPLATES.md)",
+     "author": "agent-executor",
+     "date": "2026-11-25T20:04:27Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/9b1fbf4205097727a8687b66790c28692e232939",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "3166d79",
+     "message": "feat(#177): канонизировать 5 фазовых скилов harness-контура + автоподбор в spawn-pack",
+     "author": "agent-executor",
+     "date": "2026-11-25T19:39:24Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/3166d790bee5d99761eae1823b367b6fe5f24ad2",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "cd77f3a",
+     "message": "Merge pull request #176 from bestdeejay-design/work/175-agent-harness",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T19:11:24Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/cd77f3ab1f1c1c90b8410af9ff5b48dd697c361f",
+     "repo": "bestdeejay-design/agents"
+    },
+    {
+     "sha": "63b41e4",
+     "message": "docs(#175): принять AGENT-HARNESS v4.2 как эталонный проектный контур (docs/harness/)",
+     "author": "agent-executor",
+     "date": "2026-11-25T19:07:36Z",
+     "url": "https://github.com/bestdeejay-design/agents/commit/63b41e42570cdaa0f0fff61b50ed45b36e39383e",
+     "repo": "bestdeejay-design/agents"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/repo-catalog",
+   "commits": 4,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "5cf7c1e",
+     "message": "chore(board): пересборка 2026-11-25T17:16Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-25T17:16:35Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/5cf7c1ee64ec543945d8760b30bce5e2bcc68bee",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "087ed3c",
+     "message": "reports: 2026-11-24 (Actions)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T12:44:37Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/087ed3c67439a2ce5dde75fd3eaa951391020868",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "54655b6",
+     "message": "chore(board): пересборка 2026-11-24T21:13Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-24T21:13:24Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/54655b6fe99ff5993efca7f109c74003f0f16e05",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "0065c09",
+     "message": "catalog: сверка звёзд 2026-11-25 — 23 новые звезды, реестр 160 репо, RATING 110★",
+     "author": "zwork",
+     "date": "2026-11-24T21:13:14Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/0065c0908822aad23034c79527e8c5c8bfb41aa8",
+     "repo": "bestdeejay-design/repo-catalog"
+    }
+   ]
+  },
+  {
+   "name": "lovii-tech/lovii-cabinets",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "0ff0533",
+     "message": "docs: зеркало Forgejo git.briix.ru (remote stand) в правила репо",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T21:19:52Z",
+     "url": "https://github.com/lovii-tech/lovii-cabinets/commit/0ff0533d6e6bf5b999769c2e880170bda164337e",
+     "repo": "lovii-tech/lovii-cabinets"
+    },
+    {
+     "sha": "d576689",
+     "message": "chore: инициализация монорепо ролевых кабинетов — apps/courier пилот, packages/shared, CI по канону (решение владельца 26.11)",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T21:07:47Z",
+     "url": "https://github.com/lovii-tech/lovii-cabinets/commit/d576689c3eb8d9097565cd3fe68debb5195980e1",
+     "repo": "lovii-tech/lovii-cabinets"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/bestdeejay-design",
+   "commits": 1,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "c6ffb1b",
+     "message": "chore: update profile badges",
+     "author": "bestdeejay-design",
+     "date": "2026-11-25T16:58:56Z",
+     "url": "https://github.com/bestdeejay-design/bestdeejay-design/commit/c6ffb1b97cd3dd855590723fef258cd8faa4748f",
+     "repo": "bestdeejay-design/bestdeejay-design"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/lovii-workflow",
+   "commits": 1,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "13a8272",
+     "message": "docs(#171): синк канона 96e1a6b — harness v4.2 (docs/harness), 5 фазовых скилов, обогащения clean-execution/edge-case-testing; TEAM-WORKFLOW §3a стыковка harness + D-CAB-01",
+     "author": "agent-coordinator",
+     "date": "2026-11-25T21:24:13Z",
+     "url": "https://github.com/bestdeejay-design/lovii-workflow/commit/13a8272d78f889707d76aef0c8667d5cc3407280",
+     "repo": "bestdeejay-design/lovii-workflow"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/fonotext-server",
+   "commits": 0,
+   "issue_new": 1,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": []
+  }
+ ],
+ "issues_outside_boards": [
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 175,
+   "title": "Принять AGENT-HARNESS v4.2 как эталонный проектный контур (docs/harness/)",
+   "url": "https://github.com/bestdeejay-design/agents/issues/175"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 177,
+   "title": "Канонизировать 5 скилов сабов harness-контура (product-analytics, research, architecture, devops-deploy, release-report)",
+   "url": "https://github.com/bestdeejay-design/agents/issues/177"
+  },
+  {
+   "repo": "bestdeejay-design/agents",
+   "number": 179,
+   "title": "Обогащение ядра по критерию владельца: handoff-поля (clean-execution), AC-чеклист (edge-case-testing)",
+   "url": "https://github.com/bestdeejay-design/agents/issues/179"
+  }
+ ],
+ "attention": [
+  "**Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + бро…** — в работе, но без движения 16 дн. (Alien Cosmic — задачи, [#14](https://github.com/bestdeejay-design/ace/issues/14))",
+  "**Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Ге…** — в работе, но без движения 16 дн. (Alien Cosmic — задачи, [#12](https://github.com/bestdeejay-design/ace/issues/12))",
+  "**UI-аудит по матрице вьюпортов (вкл. фолды) + FIX: двойной таймер трев…** — в работе, но без движения 16 дн. (Alien Cosmic — задачи, [#29](https://github.com/bestdeejay-design/ace/issues/29))",
+  "**Интеграция pixelfx «беру всё»: эффекты слоем, фазы Ф0–Ф3, сборка на с…** — в работе, но без движения 16 дн. (Alien Cosmic — задачи, [#52](https://github.com/bestdeejay-design/ace/issues/52))",
+  "**PixelFX Ф1+Ф2+Ф3: все 31 эффект матрицы в игре (одна поставка, слово …** — в работе, но без движения 15 дн. (Alien Cosmic — задачи, [#54](https://github.com/bestdeejay-design/ace/issues/54))",
+  "**Полигон воркфлоу** — доска пуста (`bestdeejay-design/5`)"
+ ],
+ "local_debt": null
+}
