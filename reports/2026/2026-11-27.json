@@ -1,0 +1,1135 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-28T14:38:06.158915+03:00",
+ "window": {
+  "start": "2026-11-27T00:00:00+03:00",
+  "end": "2026-11-28T00:00:00+03:00"
+ },
+ "coverage": {
+  "owners": [
+   "bestdeejay-design",
+   "lovii-tech",
+   "axiiom-ru",
+   "lovii-ru",
+   "rucorp"
+  ],
+  "repos_total": 163,
+  "repos_archived": 5,
+  "projects": 12,
+  "tasks_total": 228
+ },
+ "summary": {
+  "added": 0,
+  "done": 0,
+  "in_progress": 5,
+  "commits": 102,
+  "repos_active": 2,
+  "issues_new": 0,
+  "issues_closed": 0,
+  "pr_open": 0,
+  "pr_merged": 0,
+  "attention": 6
+ },
+ "boards": [
+  {
+   "owner": "bestdeejay-design",
+   "number": 1,
+   "title": "Fonotext — центр задач",
+   "url": "https://github.com/users/bestdeejay-design/projects/1",
+   "total": 91,
+   "todo": 29,
+   "unset": 0,
+   "wip": 1,
+   "done": 61,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 3,
+   "title": "Alien Cosmic — задачи",
+   "url": "https://github.com/users/bestdeejay-design/projects/3",
+   "total": 27,
+   "todo": 17,
+   "unset": 5,
+   "wip": 5,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 4,
+   "title": "Dajet UI — единая нативная база (macOS 27)",
+   "url": "https://github.com/users/bestdeejay-design/projects/4",
+   "total": 26,
+   "todo": 24,
+   "unset": 0,
+   "wip": 0,
+   "done": 2,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 12,
+   "title": "BRIIX — доска координатора",
+   "url": "https://github.com/users/bestdeejay-design/projects/12",
+   "total": 22,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 6,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 8,
+   "title": "APPS",
+   "url": "https://github.com/users/bestdeejay-design/projects/8",
+   "total": 16,
+   "todo": 16,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 10,
+   "title": "AI-платформа",
+   "url": "https://github.com/users/bestdeejay-design/projects/10",
+   "total": 15,
+   "todo": 15,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 11,
+   "title": "INFRA — журнал изменений",
+   "url": "https://github.com/users/bestdeejay-design/projects/11",
+   "total": 11,
+   "todo": 10,
+   "unset": 0,
+   "wip": 0,
+   "done": 1,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "lovii-tech",
+   "number": 1,
+   "title": "LOVII Audit — Канбан",
+   "url": "https://github.com/orgs/lovii-tech/projects/1",
+   "total": 11,
+   "todo": 11,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 7,
+   "title": "tgbots Контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/7",
+   "total": 5,
+   "todo": 0,
+   "unset": 2,
+   "wip": 0,
+   "done": 3,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 9,
+   "title": "Прожарка — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/9",
+   "total": 3,
+   "todo": 3,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 6,
+   "title": "Агенты — контроль",
+   "url": "https://github.com/users/bestdeejay-design/projects/6",
+   "total": 1,
+   "todo": 1,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  },
+  {
+   "owner": "bestdeejay-design",
+   "number": 5,
+   "title": "Полигон воркфлоу",
+   "url": "https://github.com/users/bestdeejay-design/projects/5",
+   "total": 0,
+   "todo": 0,
+   "unset": 0,
+   "wip": 0,
+   "done": 0,
+   "added": 0,
+   "closed": 0
+  }
+ ],
+ "tasks": {
+  "added": [],
+  "done": [],
+  "wip": [
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + броня + добыча",
+    "url": "https://github.com/bestdeejay-design/ace/issues/14",
+    "number": 14,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:12Z",
+    "item_updated": "2026-11-09T23:30:30Z",
+    "created_at": "2026-10-30T06:59:07Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Гелиос В3 «Обрастание» принят, КЦ кхарида — новая база",
+    "url": "https://github.com/bestdeejay-design/ace/issues/12",
+    "number": 12,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-03T07:00:15Z",
+    "item_updated": "2026-11-09T23:30:31Z",
+    "created_at": "2026-10-29T18:36:20Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "UI-аудит по матрице вьюпортов (вкл. фолды) + FIX: двойной таймер тревоги, обрезка objective в хедере",
+    "url": "https://github.com/bestdeejay-design/ace/issues/29",
+    "number": 29,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-05T17:05:56Z",
+    "item_updated": "2026-11-09T23:30:39Z",
+    "created_at": "2026-11-05T17:05:40Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "Интеграция pixelfx «беру всё»: эффекты слоем, фазы Ф0–Ф3, сборка на стенде (прод — после приёмки)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/52",
+    "number": 52,
+    "repo": "bestdeejay-design/ace",
+    "status": "В работе",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-09T18:51:41Z",
+    "item_updated": "2026-11-09T23:30:53Z",
+    "created_at": "2026-11-09T18:51:38Z",
+    "closed_at": null,
+    "merged_at": null
+   },
+   {
+    "project": "bestdeejay-design/3",
+    "project_title": "Alien Cosmic — задачи",
+    "project_url": "https://github.com/users/bestdeejay-design/projects/3",
+    "type": "Issue",
+    "title": "PixelFX Ф1+Ф2+Ф3: все 31 эффект матрицы в игре (одна поставка, слово владельца 10.11)",
+    "url": "https://github.com/bestdeejay-design/ace/issues/54",
+    "number": 54,
+    "repo": "bestdeejay-design/ace",
+    "status": "На проверке",
+    "bucket": "wip",
+    "state": "OPEN",
+    "item_created": "2026-11-10T11:26:28Z",
+    "item_updated": "2026-11-10T20:02:27Z",
+    "created_at": "2026-11-10T11:26:19Z",
+    "closed_at": null,
+    "merged_at": null
+   }
+  ]
+ },
+ "repos_active": [
+  {
+   "name": "bestdeejay-design/lovii_docs",
+   "commits": 100,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "cf46e3e",
+     "message": "docs(cabinets): F-44 — пуш «Есть заказ!» + звук оффера: канон доставки, ре-пуши, iOS-канон WebAudio, физика лок-скрина, VAPID-ротация, installability, кнопка «Курьер»",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T21:58:03Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/cf46e3e57e25d602a1a3718c4de1032141e0bcfd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "8efde65",
+     "message": "docs: Task Card C-09 — диспетчер офферов по псевдокоду F-38 (§1–§9, тест-план обязателен)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T18:26:26Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/8efde6588b582e7885fb861abb54b6551b38651c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "172bb1c",
+     "message": "docs: F-42 финал таймеров (курьер известен при оплате; 15 мин точка; отказ после забора → 2 мин/кандидат) + F-43 деньги этапа (без комиссии, надбавка только расстояние, формула — открытый вопрос)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T18:24:02Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/172bb1c8228ced70faad842a7253d2844313e31f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "39591d5",
+     "message": "docs: F-30 гео-правило — утверждённый канон в фильтре кандидатов псевдокода (координатор)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:44:24Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/39591d5cd5cc33698e277e9ea00d7ec3132516dd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "f0c6b16",
+     "message": "merge: псевдокод диспетчера F-38 + аудит алгоритма (Арена)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:44:15Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/f0c6b164f5b1ad673e12a534b950921dcfa41ad2",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "ed54b67",
+     "message": "docs: F-30 гео-правило — утверждённый канон в фильтре кандидатов (не [П])",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:43:53Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/ed54b67decb8cea69031cc1c456274119bb4b127",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "7cf7e2d",
+     "message": "docs: add commented dispatcher pseudocode for implementer",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:42:45Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/7cf7e2d9a25db6f8e89cb5a3851b02373da3aaca",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "2986872",
+     "message": "docs: propose and audit deterministic dispatch algorithm",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:37:30Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/2986872efd5b2725d356a05be7b09c972a775220",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "e94864a",
+     "message": "docs: draft end-to-end dispatcher logic",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:34:27Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/e94864ac36b779e1c04a016f0a9e3c82840d6516",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "427612d",
+     "message": "docs: consolidate courier program handoff",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:04:46Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/427612d0eb9b628090ad92ddb53bce5c2ec9a411",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3eb7410",
+     "message": "docs: reconcile cancellation with existing order lifecycle",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:01:56Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3eb7410c96516e322024a2475c86ef1a606e31e7",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "f4da6db",
+     "message": "docs: record customer choice when courier unavailable",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:00:25Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/f4da6dbed56aa805b2d37eb4aa20c9e04746c62e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "ac43782",
+     "message": "docs: capture courier search timeout and pickup option",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:58:33Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/ac437822ea98dc291a72ab902534e433ae693f3f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "165e7fb",
+     "message": "docs: offer fixed price sequentially to replacement couriers",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:56:09Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/165e7fbfc71b52d474fa72521fffbe677af004e9",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6fb6ed0",
+     "message": "docs: select courier and fixed price before checkout",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:54:55Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6fb6ed0edab598ba0995e579dabe4aec42747dee",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "02370d4",
+     "message": "docs: immediately recalculate after rating exclusion",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:40:19Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/02370d4fe1492d83b8760eb003b5bed15169a93b",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "307a330",
+     "message": "docs: retain excluded reviews in platform rating",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:43:48Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/307a3300819af1d003e034f9b3e06c68f9d2f338",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "a7fcef2",
+     "message": "docs: record courier rating dispute and bonus decisions",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:42:52Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/a7fcef2ded15c635db77481abd3583742d3fd7bd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "74320e3",
+     "message": "docs: confirm rating remains fixed between reviews",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:29:35Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/74320e3711d0f14bc8851b28fcbc69f126386e77",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "f5c192a",
+     "message": "docs: record rating rounding and update trigger",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:28:57Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/f5c192ae2360e5c1a91ed258bed4ef9bdbf15c85",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "87aba93",
+     "message": "docs: record rating display precision",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:27:48Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/87aba930681814e63469bcea0b8e19d79e40af52",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "9692ae7",
+     "message": "docs: agree weekly public rating weights",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:27:10Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/9692ae75e6d51ec9feec73b6fba211ec79efe96e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "705ff02",
+     "message": "docs: label lifetime rating fallback on storefront",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:26:30Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/705ff028d294c587e0c26cf60244da4dc98a4013",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "f74d23c",
+     "message": "docs: use lifetime rating when quarter has no ratings",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:25:57Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/f74d23cbd3d8d9a69f2e327138ee0e1877235f4a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "c8734cf",
+     "message": "docs: set dispatcher default for unrated couriers",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:24:38Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/c8734cf0b3d55a76d6351d3256b6199d58d8da97",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "7d9cfe4",
+     "message": "docs: specify public and platform rating access",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:23:43Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/7d9cfe46364e03b25bf1de31cd9ca3ecf1368ef6",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "011d595",
+     "message": "docs: agree lifetime platform rating with annual views",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:22:37Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/011d595c1f39dd627e18e28fcf45221ba577f41a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "046deb8",
+     "message": "docs: capture proposed dual courier rating",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:20:33Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/046deb8e11471a93dd48a45d4ddebe3d2382c009",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "c64c083",
+     "message": "docs: record rating weights and memory requirement",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:13:07Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/c64c083e5d4f518f75157db3b0aaf4a0ac9b79af",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "facc65a",
+     "message": "docs: record unified courier rating",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:11:44Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/facc65aed19b050bfcf73705b62a83ce4a9374e1",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "fc8987b",
+     "message": "docs: record representative code controls point access",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:09:21Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/fc8987b375295239a5c68141b7f9bd2bd794e7ed",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3a8575f",
+     "message": "docs: clarify escalation follows current representative",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:07:23Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3a8575f4111ba6a2d945cbc47320f295a64aca45",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "19efca3",
+     "message": "docs: assign escalation to store representative",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:05:49Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/19efca371460e25680d8e96cb1212e47d82a308e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "2052bc2",
+     "message": "docs: record representative escalation workspace",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:04:52Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/2052bc22bc6cc4a9fa4eed8826f9ea4c711127b8",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "18a8056",
+     "message": "docs: record representative review escalation",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:03:17Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/18a80564d2e6ed82d772b7324f6749cdf9a2b2b0",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "81c7027",
+     "message": "docs: clarify merchant-specific exclusion effects",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:59:34Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/81c702738dd9d5290b9e22ea107634f94857303c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "933dc0f",
+     "message": "docs: record queue reassignment on quiet exclusion",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:58:38Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/933dc0f473a92243a8300beb220c7e2503be17f4",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "b2f0c4a",
+     "message": "docs: record quiet exclusion after courier evaluation",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:56:20Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/b2f0c4a28457f3c9124179547dd2d1cdf5ea63df",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "d4d4160",
+     "message": "docs: confirm merchant-wide courier exclusion scope",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:54:10Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/d4d4160acfac3abd163f23fcdd7b5f09e85baea6",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "e10f70c",
+     "message": "docs: capture courier ratings and quiet exclusions",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:50:11Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/e10f70c74c8aa99295ea44fd801251dc0e6e8627",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "d17b18f",
+     "message": "docs: consolidate owner dispatch decisions",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:43:05Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/d17b18f71459e2f1290222e6c49c28a14d8b985a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "c3690f6",
+     "message": "docs: record merchant acceptance timeout rule",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:41:01Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/c3690f6ef305078671ceba11c2d0d53c80073a59",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "9ba8046",
+     "message": "docs: confirm merchant acceptance timer start",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:39:34Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/9ba80468b82dde1e6ef1de5cf61330b6ab9c8697",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "0cf1580",
+     "message": "docs: clarify merchant order acceptance timer",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:39:03Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/0cf158053db422709ab9bad5669a5664805026f2",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5933739",
+     "message": "docs: separate order acceptance and courier recovery timers",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:38:26Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/593373936d0b3bdc9cd1e3b0cfbdfa77ea096725",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "97ccb59",
+     "message": "docs: record customer escalation and representative role",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:35:15Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/97ccb595118c780ff261e2852c7f3055f589527b",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6aeb27e",
+     "message": "docs: clarify recovery target ends at delivery",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:32:33Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6aeb27e59f02e15293c3e6bd0841c84d887cf775",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "52f86dd",
+     "message": "docs: record escalation for courier refusal after pickup",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:31:14Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/52f86dd356fdfdca4ee0833c61b293261590d468",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "dd07350",
+     "message": "docs: research delivery incidents and reverse logistics",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:24:07Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/dd07350d30b3742bba68fcfbf81ed6375d33b06b",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "1471142",
+     "message": "docs: draft deterministic courier refusal handling",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:19:21Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/147114222bb37b5c0755215ea825f87ccae37b83",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "92a2b1e",
+     "message": "docs: record point controlled courier dispatch configuration",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:16:23Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/92a2b1ede67835b77f280d4902544e5f1d8581d0",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "ab23a5b",
+     "message": "docs: define courier dispatch load",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:07:25Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/ab23a5bb8d225e26c06aa9a1c637f8f6ef2c9640",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "63540e5",
+     "message": "docs: confirm dispatch load tie breaker",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:07:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/63540e5d80bc3f44474dc076f6c63a714f8c9423",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "e47c8ee",
+     "message": "docs: capture load based dispatch for point couriers",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:06:16Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/e47c8ee35ebee8e46366c1d650e47fe7f273c44c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "b940c63",
+     "message": "docs: capture internal and dedicated courier queues",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T07:02:38Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/b940c63b7a953c930b15caa478ec53c72bf25611",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "b62095d",
+     "message": "docs: record immediate assignment to busy dedicated courier",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:59:02Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/b62095dc262ebea850e40f7d65b3f6d9883a55e4",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "28eb062",
+     "message": "docs: record courier role and priority definitions",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:58:08Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/28eb062ee78d4139d9a86a1763aba45911aef963",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "2553944",
+     "message": "docs: define deterministic dispatch principle",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:52:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/2553944f2ca3e469966341075869cda04c3e123a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6327319",
+     "message": "docs: record automatic dispatch principle",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:50:38Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6327319a45dfdcf49ca0334298703fd9cca90a65",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3f2c104",
+     "message": "docs: consolidate F-40 and flag outdated courier plans",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:49:42Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3f2c1046d22cfa9a9f5aa1d1b3d1ed0f1f195c3e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "908868a",
+     "message": "docs: confirm Aksioma pilot period",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:48:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/908868a36b52f45a2d14ecf566d25e9fcc440a31",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5a9a50b",
+     "message": "docs: record Aksioma pilot before partner transition",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:47:21Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5a9a50bd2795cd7954d86b884d65684007eec0d8",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3497c91",
+     "message": "docs: clarify partner full operating model",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:46:28Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3497c91f466da2745f77f3f1eeb62631783f94fd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "bb7085e",
+     "message": "docs: capture IT accreditation and future partner model",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:44:44Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/bb7085ef827669623dfd7c11d1e9fdfb4dbe8289",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "2f078ab",
+     "message": "docs: evaluate simpler platform delivery launch model",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:40:00Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/2f078ab5e5ae9eed8a651b403d6aa81f33765778",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3a9ccca",
+     "message": "docs: assess known and unknown courier branches",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:35:58Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3a9ccca78e6255ce9d9296e9f2c366a32a19c1e7",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "403efa2",
+     "message": "docs: capture courier availability at checkout",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:32:47Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/403efa2831229e2fb799d38188a0f22d347433a7",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "80c8f97",
+     "message": "docs: assess LOVII as delivery supplier",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:30:48Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/80c8f9774ba665d0d0ef5f700a78ad00c2ca21df",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "9f66ee6",
+     "message": "docs: assess two receipt delivery hypothesis",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:29:35Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/9f66ee6ae37ec8191f5bf6dcba7f266129428e57",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6811c82",
+     "message": "docs: clarify delivery price fixed before dispatch",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:26:30Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6811c82613e91848cf716a5168cbb14681fde007",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "567aa6c",
+     "message": "docs: record delivery commission direction",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:25:16Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/567aa6c629098933cd94d7dd3d02e0c9ffe1f92c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3bf8bef",
+     "message": "docs: compare delivery options without presuming owner decision",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:17:54Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3bf8befaca6378acee8b3737a5549cb2154082a4",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "31bce66",
+     "message": "docs: record owner confirmed platform commission model",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:16:10Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/31bce6644dcb06ee16244cc6f89506ca0e616200",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3a78e60",
+     "message": "docs: assess platform revenue risks for delivery schemes",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:11:16Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3a78e601258f3c5aee7822370a4a9452accd17f5",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3389a6b",
+     "message": "docs: mark bank payout calendar as unconfirmed",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:09:41Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3389a6bc2ac4d5a730845cb8b87111d958e5d4ab",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3718185",
+     "message": "docs: record primary business account selection",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:05:21Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3718185103f46fa1d30fc51a25d2308c0394191d",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "86fa309",
+     "message": "docs: record primary LOVII BUSINESS routing",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T06:00:15Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/86fa3097579b29fe48bc0da0847e90fa13c242cd",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "1790d4c",
+     "message": "docs: clarify payouts for couriers registered as IP",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T05:57:22Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/1790d4c061220c0bf99d10c4a4c87f23f214bd89",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "34026ea",
+     "message": "docs: record courier account and reporting decisions",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T05:53:07Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/34026ea31a6cf6d0b2acc1d69eff114db749952c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "5ed50a8",
+     "message": "docs: record owner clarification on points and ruble accounts",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T05:50:08Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/5ed50a8b9889db26f0e99429accc226ff957528c",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "dfed782",
+     "message": "docs: clarify LOVII PAY and separate role reporting",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T05:44:53Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/dfed78241f4ffac3dba79279ca961570b7aad365",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "63d5b6d",
+     "message": "docs: analyze courier financial schemes and combined roles",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T05:39:57Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/63d5b6d87ad1e06758979e96cffdb39bc9830407",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6fef0ee",
+     "message": "docs: consolidate courier program handoff",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:04:46Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6fef0ee84d5ba206fc8695ed0b6651e431135f45",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "3c1e22d",
+     "message": "docs: reconcile cancellation with existing order lifecycle",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:01:56Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/3c1e22d8302b755f0abd84ff16ca2ac416969697",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "1ff8bde",
+     "message": "docs: record customer choice when courier unavailable",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T15:00:25Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/1ff8bde56b40389fa195c62172638ec46f47b889",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "d20fc33",
+     "message": "docs: capture courier search timeout and pickup option",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:58:33Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/d20fc33073072d4a90f423f5a495f855f436c40a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "bd7336e",
+     "message": "docs: offer fixed price sequentially to replacement couriers",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:56:09Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/bd7336edff6b020ac777258ebc2f4c69050462e9",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "be585f9",
+     "message": "docs: select courier and fixed price before checkout",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:54:55Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/be585f96f5b15eeb26ba0c25c15331168624b9b2",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "f4f2a7d",
+     "message": "docs(courier): TECH-SPEC C-18 v2 — модерация представителем (маршрутизация, API, статусы, тесты, декомпозиция)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:47:15Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/f4f2a7d791199bfb7625ea6ad81193644791f18e",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "450e4c5",
+     "message": "docs: immediately recalculate after rating exclusion",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T14:40:19Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/450e4c565934a7a5007c84267b4cde3e3373d1f2",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "d24ebd8",
+     "message": "docs: retain excluded reviews in platform rating",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:43:48Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/d24ebd821f1dddc8bbf2c0bb571f806567bb670f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6d9e41f",
+     "message": "docs: record courier rating dispute and bonus decisions",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:42:52Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6d9e41f4b9847c1a39f92ebf2739e1f9fbe9a86a",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "7e1f0c2",
+     "message": "docs: confirm rating remains fixed between reviews",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:29:35Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/7e1f0c2887ad131e8a5adc4a57ff130a9adf079d",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "38ff4b8",
+     "message": "docs: record rating rounding and update trigger",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:28:57Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/38ff4b8794fa446b189efb7eadc4ba4504471468",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "d3d42c2",
+     "message": "docs: record rating display precision",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:27:48Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/d3d42c2cf1e5116af78ed97a85e2e821e990eda7",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "28ce94f",
+     "message": "docs: agree weekly public rating weights",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:27:10Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/28ce94f4e959da3ab6991578219d790989bdf45f",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "20ab59a",
+     "message": "docs: label lifetime rating fallback on storefront",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:26:30Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/20ab59a965f27f6afdabd6ac0e2318a793c4527d",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "6d69a4b",
+     "message": "docs: use lifetime rating when quarter has no ratings",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:25:57Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/6d69a4b15a536e3effe3ef148870983e1572bfb1",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "f051e40",
+     "message": "docs: set dispatcher default for unrated couriers",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:24:38Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/f051e40fd10dea4c42d15efbb1023d75365c11c8",
+     "repo": "bestdeejay-design/lovii_docs"
+    },
+    {
+     "sha": "8aa5d0a",
+     "message": "docs: specify public and platform rating access",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T08:23:43Z",
+     "url": "https://github.com/bestdeejay-design/lovii_docs/commit/8aa5d0a8adbf9ac9cfc305c3a9ae6941b1d2dba4",
+     "repo": "bestdeejay-design/lovii_docs"
+    }
+   ]
+  },
+  {
+   "name": "bestdeejay-design/repo-catalog",
+   "commits": 2,
+   "issue_new": 0,
+   "issue_closed": 0,
+   "pr_open": 0,
+   "pr_merged": 0,
+   "commit_list": [
+    {
+     "sha": "f5a1570",
+     "message": "chore(board): пересборка 2026-11-27T16:43Z",
+     "author": "github-actions[bot]",
+     "date": "2026-11-27T16:43:16Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/f5a157073cbad43ca3d79616cc779e57a5110b7c",
+     "repo": "bestdeejay-design/repo-catalog"
+    },
+    {
+     "sha": "a59ae3e",
+     "message": "reports: 2026-11-26 (Actions)",
+     "author": "bestdeejay-design",
+     "date": "2026-11-27T12:07:13Z",
+     "url": "https://github.com/bestdeejay-design/repo-catalog/commit/a59ae3e48662747c13f88fc0935426d06c95f542",
+     "repo": "bestdeejay-design/repo-catalog"
+    }
+   ]
+  }
+ ],
+ "issues_outside_boards": [],
+ "attention": [
+  "**Дрон-техник (worker) переводится на ветку грейдов ТЕХНИКИ: урон + бро…** — в работе, но без движения 18 дн. (Alien Cosmic — задачи, [#14](https://github.com/bestdeejay-design/ace/issues/14))",
+  "**Рост строений (22-building-growth): уровни I–XX видны на арте — КЦ Ге…** — в работе, но без движения 18 дн. (Alien Cosmic — задачи, [#12](https://github.com/bestdeejay-design/ace/issues/12))",
+  "**UI-аудит по матрице вьюпортов (вкл. фолды) + FIX: двойной таймер трев…** — в работе, но без движения 18 дн. (Alien Cosmic — задачи, [#29](https://github.com/bestdeejay-design/ace/issues/29))",
+  "**Интеграция pixelfx «беру всё»: эффекты слоем, фазы Ф0–Ф3, сборка на с…** — в работе, но без движения 18 дн. (Alien Cosmic — задачи, [#52](https://github.com/bestdeejay-design/ace/issues/52))",
+  "**PixelFX Ф1+Ф2+Ф3: все 31 эффект матрицы в игре (одна поставка, слово …** — в работе, но без движения 17 дн. (Alien Cosmic — задачи, [#54](https://github.com/bestdeejay-design/ace/issues/54))",
+  "**Полигон воркфлоу** — доска пуста (`bestdeejay-design/5`)"
+ ],
+ "local_debt": null
+}
